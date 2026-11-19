@@ -1,0 +1,22 @@
+#canopy-graphics-recovery {
+  position: fixed;
+  left: calc(env(safe-area-inset-left, 0px) + 54px);
+  top: calc(env(safe-area-inset-top, 0px) + 7px);
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: min(78vw, 450px);
+  font: 600 13px system-ui, sans-serif;
+  color: #fff8dc;
+  text-shadow: 0 1px 3px #000, 0 0 4px #000;
+}
+#canopy-graphics-recovery[hidden], #canopy-graphics-recovery button[hidden] { display: none; }
+#canopy-graphics-recovery button {
+  min-height: 44px;
+  line-height: 1.2;
+  background: #263028ed;
+  color: #fff8dc;
+  border: 1px solid #ddd1ae;
+  touch-action: manipulation;
+}

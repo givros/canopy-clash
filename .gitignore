@@ -2,6 +2,8 @@
 /DerivedDataCache/
 /Intermediate/
 /Saved/
+/.ue-pages-*/
+/.WebRelease-pending-release.json
 /.vs/
 /Build/*/FileOpenOrder/
 /Builds/*

@@ -422,7 +422,11 @@ void UTempleCombatHUD::NativeOnInitialized()
     AddressBox->SetWidgetStyle(FieldStyle);
     AddressBox->SetVisibility(ESlateVisibility::Collapsed);
     Actions->AddChildToCanvas(AddressBox);
+#if PLATFORM_WASM
+    QuitButton=MakeAction(TEXT("RestartMatch"),TEXT("Restart game"),TempleUI::Muted);
+#else
     QuitButton=MakeAction(TEXT("QuitDesktop"),TEXT("Quit to desktop"),TempleUI::Muted);
+#endif
     BackButton=MakeAction(TEXT("MenuBack"),TEXT("Back"),TempleUI::Muted);
     RedButton->OnClicked.AddDynamic(this, &UTempleCombatHUD::JoinRed);
     BlueButton->OnClicked.AddDynamic(this, &UTempleCombatHUD::JoinBlue);

@@ -1,7 +1,13 @@
 // This policy is loaded before Unreal's compatibility check and error card.
 const canopyGraphics = {
   canvasRatio(canvas, ratio) {
-    if (new URL(location.href).searchParams.get('gpuRecovery') !== '1') return ratio;
+    const recovery = new URL(location.href).searchParams.get('gpuRecovery') === '1';
+    if (!recovery) {
+      const handheld = ['ios', 'android'].includes(window.ueCompat?.deviceClass());
+      if (!handheld || !(canvas.clientWidth > 0 && canvas.clientHeight > 0)) return ratio;
+      return Math.min(window.devicePixelRatio || 1, 1.5,
+        Math.sqrt((1280 * 720) / (canvas.clientWidth * canvas.clientHeight)));
+    }
     const pixels = 1280 * 720;
     const width = canvas.clientWidth;
     const height = canvas.clientHeight;
@@ -30,6 +36,15 @@ const canopyGraphics = {
     fitWindow();
     window.addEventListener('resize', fitWindow, true);
     return initialRatio;
+  },
+
+  textureSet(sets, features, handheld) {
+    const supported = set => set.features.every(feature => features.has(feature));
+    if (handheld) {
+      const native = sets.find(set => set.features.includes('texture-compression-astc') && supported(set));
+      if (native) return native;
+    }
+    return sets.find(supported) || null;
   },
 
   async forwardReason(choice, defaultTier, browser, probe) {

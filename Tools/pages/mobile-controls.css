@@ -1,0 +1,122 @@
+html.canopy-touch, html.canopy-touch body {
+  height: 100%;
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+html.canopy-touch canvas, #canopy-controls {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+#canopy-controls {
+  --stick-size: clamp(76px, 22vmin, 108px);
+  --fire-size: clamp(54px, 15vmin, 72px);
+  --stick-base: clamp(54px, 15vmin, 84px);
+  position: fixed;
+  inset: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  z-index: 3;
+  pointer-events: none;
+}
+#canopy-controls[hidden] { display: none; }
+#canopy-controls button {
+  box-sizing: border-box;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  width: var(--stick-size);
+  height: var(--stick-size);
+  bottom: var(--stick-base);
+  border: 1.5px solid rgba(255, 253, 232, .76);
+  border-radius: 50%;
+  color: #fff9e5;
+  background: radial-gradient(circle, #17242338 50%, #14202268 73%);
+  box-shadow: inset 0 0 0 2px #0b171976, 0 1px 3px #051211ab;
+  pointer-events: auto;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+}
+#canopy-controls .canopy-label {
+  position: absolute;
+  bottom: 7%;
+  font: 700 clamp(9px, 2.5vmin, 11px)/1 system-ui, sans-serif;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px #000, 0 0 3px #000;
+  pointer-events: none;
+}
+#canopy-move { left: clamp(16px, 6vw, 86px); }
+#canopy-look { right: clamp(70px, 13vw, 158px); }
+#canopy-controls #canopy-fire {
+  right: clamp(8px, 2.4vw, 40px);
+  bottom: calc(var(--stick-base) + var(--stick-size) * .50);
+  width: var(--fire-size);
+  height: var(--fire-size);
+  border-color: #efd49d;
+  background: radial-gradient(circle, #51422f66, #1a201fc2);
+}
+#canopy-controls .canopy-symbol {
+  box-sizing: border-box;
+  width: 42%;
+  height: 42%;
+  pointer-events: none;
+  position: relative;
+  border-radius: 50%;
+  border: 1.5px solid #f6edd6bc;
+  background: #8d92745c;
+  box-shadow: 0 1px 2px #0008;
+  transform: translate(var(--thumb-x, 0px), var(--thumb-y, 0px));
+}
+#canopy-look .canopy-symbol::after, #canopy-fire .canopy-symbol::after {
+  content: '';
+  position: absolute;
+  inset: 41%;
+  border-radius: 50%;
+  background: #fff8dd;
+}
+#canopy-fire .canopy-symbol {
+  margin-bottom: 8%;
+  width: 38%;
+  height: 38%;
+  border-color: #ffe9be;
+  background: transparent;
+}
+#canopy-fire .canopy-symbol::before {
+  content: '';
+  position: absolute;
+  inset: -25%;
+  background: linear-gradient(currentColor, currentColor) center top / 2px 24%,
+              linear-gradient(currentColor, currentColor) center bottom / 2px 24%,
+              linear-gradient(currentColor, currentColor) left center / 24% 2px,
+              linear-gradient(currentColor, currentColor) right center / 24% 2px;
+  background-repeat: no-repeat;
+}
+#canopy-controls .held .canopy-symbol { background-color: #e7c58180; }
+#canopy-controls #canopy-fire.held { border-color: #fff3d6; background: #8d61239c; }
+#canopy-controls #canopy-pause {
+  top: 3px;
+  left: 4px;
+  bottom: auto;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+#canopy-pause .canopy-symbol {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(#f9f1d9, #f9f1d9) 38% center / 3px 11px no-repeat,
+              linear-gradient(#f9f1d9, #f9f1d9) 62% center / 3px 11px no-repeat, #17212399;
+}
+@media (orientation: portrait) {
+  html.canopy-touch:not(.any-orientation) #rotate { display: none; }
+  html.canopy-touch:not(.any-orientation) body[data-cover="lifted"] #rotate { display: flex; }
+}

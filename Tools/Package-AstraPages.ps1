@@ -29,13 +29,17 @@ try {
 
     if (-not $ReuseCook) {
         $editor = Join-Path $EngineRoot "Engine/Binaries/Win64/UnrealEditor-Cmd.exe"
-        & python (Join-Path $PSScriptRoot "pages/cook.py") --editor $editor --project $project
-        if ($LASTEXITCODE -ne 0) { throw "Unreal Wasm cook failed ($LASTEXITCODE)." }
+        & python (Join-Path $PSScriptRoot "pages/cook.py") --editor $editor --project $project --target Wasm Wasm_ASTC
+        if ($LASTEXITCODE -ne 0) { throw "Unreal web cook failed ($LASTEXITCODE)." }
     }
-    & (Join-Path $batchFiles "RunUAT.bat") BuildCookRun "-project=$project" -platform=Wasm -clientconfig=Shipping `
-        -skipbuild -skipcook -stage -pak -iostore -compressed -package -archive "-stagingdirectory=$release/Staged" `
-        "-archivedirectory=$release/Archive" -map=/Game/AstraTemple/Maps/L_CanopyDeathmatch -cookcultures=en `
-        -nop4 -nocompileeditor -nodebuginfo -unattended -utf8output -WasmNoBrotli
+    $uat = Join-Path $batchFiles "RunUAT.bat"
+    $package = @("BuildCookRun", "-project=$project", "-platform=Wasm", "-clientconfig=Shipping",
+        "-skipbuild", "-skipcook", "-stage", "-pak", "-iostore", "-compressed", "-package", "-archive",
+        "-map=/Game/AstraTemple/Maps/L_CanopyDeathmatch", "-cookcultures=en", "-nop4", "-nocompileeditor",
+        "-nodebuginfo", "-unattended", "-utf8output", "-WasmNoBrotli")
+    & $uat @package -cookflavor=ASTC "-stagingdirectory=$release/MobileStage" "-archivedirectory=$release/MobileArchive"
+    if ($LASTEXITCODE -ne 0) { throw "Unreal Wasm ASTC packaging failed ($LASTEXITCODE)." }
+    & $uat @package "-stagingdirectory=$release/Staged" "-archivedirectory=$release/Archive" "-WasmAddTextureSet=$release/MobileArchive/Wasm_ASTC"
     if ($LASTEXITCODE -ne 0) { throw "Unreal Wasm packaging failed ($LASTEXITCODE)." }
 
     $stage = Join-Path $release "Archive/Wasm"

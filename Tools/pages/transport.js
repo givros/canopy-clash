@@ -1,6 +1,6 @@
 // GitHub Pages serves static files. Translate UE's reads into reads of the
 // content-addressed files in this release, including fetches inside Epic's SW.
-function installPagesTransport(files) {
+function installPagesTransport(files, reportDelivery) {
   const network = self.fetch.bind(self);
   const scope = self.registration.scope;
   const table = new Map(Object.entries(files).map(([path, item]) => [new URL(path, scope).href, item]));
@@ -43,12 +43,23 @@ function installPagesTransport(files) {
     if (previous) yield previous;
   }
 
-  async function* readSpan(file, span, signal) {
+  function requestSpan(file, span, signal) {
     const name = file.pieces[span.piece];
     const compressed = name.endsWith('.gzip.bin');
     const init = { signal };
     if (!compressed) init.headers = { Range: 'bytes=' + span.start + '-' + (span.end - 1) };
-    const response = await network(new URL(name, scope), init);
+    const timed = !compressed && reportDelivery && span.end - span.start >= 16384;
+    const startTime = timed ? performance.now() : 0;
+    return network(new URL(name, scope), init).then(response => ({
+      response, sample: timed && response.status === 206 ? {
+        startTime, responseStart: performance.now(), readMs: 0, bytes: span.end - span.start,
+      } : null,
+    }));
+  }
+
+  async function* readSpan(file, span, response, sample) {
+    const name = file.pieces[span.piece];
+    const compressed = name.endsWith('.gzip.bin');
     if ((response.status !== 200 && response.status !== 206) || !response.body) {
       throw new Error('Pages asset ' + name + ' returned HTTP ' + response.status);
     }
@@ -67,18 +78,27 @@ function installPagesTransport(files) {
     const reader = body.getReader();
     try {
       while (remaining > 0) {
+        const from = sample ? performance.now() : 0;
         const { value, done } = await reader.read();
+        if (sample) sample.readMs += performance.now() - from;
         if (done) throw new Error('Truncated Pages asset ' + name);
-        const from = Math.min(skip, value.byteLength);
-        skip -= from;
-        const count = Math.min(remaining, value.byteLength - from);
+        const offset = Math.min(skip, value.byteLength);
+        skip -= offset;
+        const count = Math.min(remaining, value.byteLength - offset);
         if (count) {
           remaining -= count;
-          yield value.subarray(from, from + count);
+          yield value.subarray(offset, offset + count);
         }
       }
     } finally {
       await reader.cancel().catch(() => {});
+      // Measure actual container delivery, excluding time the game wasn't
+      // pulling. This also works on iOS without the Network Information API.
+      if (sample && remaining === 0) reportDelivery({
+        startTime: sample.startTime, responseStart: sample.responseStart,
+        responseEnd: sample.responseStart + sample.readMs,
+        transferSize: sample.bytes, encodedBodySize: sample.bytes,
+      });
     }
   }
 
@@ -108,7 +128,28 @@ function installPagesTransport(files) {
     const abort = new AbortController();
     const signal = AbortSignal.any([request.signal, abort.signal]);
     const chunks = (async function* () {
-      for (const span of spans(file, start, end)) yield* readSpan(file, span, signal);
+      const ranges = spans(file, start, end);
+      // Two texture cooks share physical blocks. Start the next HTTP range
+      // while consuming this one so crossing pieces costs fewer round trips.
+      // Never queue an entire container or buffer two decoded chunks.
+      function begin() {
+        const { value: span, done } = ranges.next();
+        if (done) return null;
+        const pending = requestSpan(file, span, signal).catch(error => ({ error }));
+        return { span, pending };
+      }
+      let current = begin();
+      try {
+        while (current) {
+          const { response, sample, error } = await current.pending;
+          if (error) throw error;
+          const span = current.span;
+          current = begin();
+          yield* readSpan(file, span, response, sample);
+        }
+      } finally {
+        abort.abort();
+      }
     })();
     return new Response(new ReadableStream({
       async pull(controller) {

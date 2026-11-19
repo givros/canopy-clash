@@ -331,7 +331,7 @@ window.ueCompat = (() => {
       const forcedSet = new URLSearchParams(location.search).get('textures');
       if (textureSets.length) {
         const candidates = forcedSet ? textureSets.filter((s) => s.name === forcedSet) : textureSets;
-        chosenSet = candidates.find((s) => s.features.every((f) => adapter.features.has(f))) || null;
+        chosenSet = canopyGraphics.textureSet(candidates, adapter.features, handheld);
         // none fits: the first candidate's missing features say why (the BC set's message where the stage prefers BC)
         required = chosenSet ? chosenSet.features : candidates.length ? candidates[0].features : [];
         if (forcedSet && !candidates.length) message = `This page has no texture set "${forcedSet}" (?textures=): it has ${textureSets.map((s) => s.name).join(', ')}.`;

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "sets": [
+    {"name": "bc", "features": ["texture-compression-bc"], "only": ["gameAstraForest/Content/Paks/gameAstraForest-Wasm.pak", "gameAstraForest/Content/Paks/gameAstraForest-Wasm.ucas", "gameAstraForest/Content/Paks/gameAstraForest-Wasm.utoc"]},
+    {"name": "astc", "features": ["texture-compression-astc"], "folder": "ASTC", "files": ["gameAstraForest/Content/Paks/ASTC/gameAstraForest-Wasm_ASTC.pak", "gameAstraForest/Content/Paks/ASTC/gameAstraForest-Wasm_ASTC.ucas", "gameAstraForest/Content/Paks/ASTC/gameAstraForest-Wasm_ASTC.utoc"]}
+  ]
+}

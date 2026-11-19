@@ -20,6 +20,7 @@
      (name, display mode, orientation, colours, icons, filled from the Install settings) and the icons, and adds the manifest
      link (rel manifest) and the home-screen icon iOS takes from the page (rel apple-touch-icon) after this tag -->
 <meta name="apple-mobile-web-app-title" content="Canopy Clash">
+<link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="apple-touch-icon.png">
 <!-- UE switches every load gets (wasm-loader.js puts them after ?args=). Threads: Chrome stops at about 76 Workers, so the
      task graph creates its workers on demand and oversubscribes by a quarter (at least one standby worker per queue, so a
      worker task that waits on another task cannot deadlock its queue; at most 4 more threads, inside the pthread pool);
@@ -75,7 +76,7 @@
 <meta name="ue-min-cpus" content="4">
 <meta name="ue-min-memory-gb" content="8">
 <meta name="ue-texture-formats" content="texture-compression-bc">
-<meta name="ue-mobile" content="warn">
+<meta name="ue-mobile" content="allow">
 <!-- The lowest GPU limits the game's shaders need, below which the check stops with a message ("maxStorageBuffersPerShaderStage=12,
      maxSampledTexturesPerShaderStage=20"; empty: none). The engine's own (maxStorageBuffersPerShaderStage=10) apply whatever this says -->
 <meta name="ue-min-gpu-limits" content="">
@@ -112,7 +113,7 @@
 <meta name="ue-end-link" content="">
 <meta name="ue-end-link-text" content="">
 <!-- An intro shell: a script the project stages (Build/Wasm/Template) that registers with ue.shell; empty: none -->
-<meta name="ue-shell" content="texture-budget.js?build=18d81f8908a9c149">
+<meta name="ue-shell" content="texture-budget.js?build=dc16d506e2ead5f0">
 <!-- Error reports: an https endpoint that takes a JSON POST (empty: none) and when to send (ask|always) -->
 <meta name="ue-crash-url" content="">
 <meta name="ue-crash-consent" content="ask">
@@ -122,7 +123,13 @@
 // This policy is loaded before Unreal's compatibility check and error card.
 const canopyGraphics = {
   canvasRatio(canvas, ratio) {
-    if (new URL(location.href).searchParams.get('gpuRecovery') !== '1') return ratio;
+    const recovery = new URL(location.href).searchParams.get('gpuRecovery') === '1';
+    if (!recovery) {
+      const handheld = ['ios', 'android'].includes(window.ueCompat?.deviceClass());
+      if (!handheld || !(canvas.clientWidth > 0 && canvas.clientHeight > 0)) return ratio;
+      return Math.min(window.devicePixelRatio || 1, 1.5,
+        Math.sqrt((1280 * 720) / (canvas.clientWidth * canvas.clientHeight)));
+    }
     const pixels = 1280 * 720;
     const width = canvas.clientWidth;
     const height = canvas.clientHeight;
@@ -151,6 +158,15 @@ const canopyGraphics = {
     fitWindow();
     window.addEventListener('resize', fitWindow, true);
     return initialRatio;
+  },
+
+  textureSet(sets, features, handheld) {
+    const supported = set => set.features.every(feature => features.has(feature));
+    if (handheld) {
+      const native = sets.find(set => set.features.includes('texture-compression-astc') && supported(set));
+      if (native) return native;
+    }
+    return sets.find(supported) || null;
   },
 
   async forwardReason(choice, defaultTier, browser, probe) {
@@ -210,6 +226,72 @@ const canopyGraphics = {
 };
 
 canopyGraphics.normalizeLink();
+// Measure HTTP delivery of game assets in the service worker. Several parallel
+// downloads share the same time window. Ranges already in the game's cache
+// never reach this meter. Ignore tiny reads.
+function canopyDeliveryMeter(change) {
+  let constrained = false, slow = 0, fast = 0;
+  let start = Infinity, end = 0, bytes = 0, requests = 0, delayed = 0;
+  function reset() { start = Infinity; end = bytes = requests = delayed = 0; }
+  return entry => {
+    if (!(entry.transferSize > 0 && entry.encodedBodySize >= 16384 &&
+          entry.responseStart > 0 && entry.responseEnd >= entry.responseStart)) return;
+    if (requests && entry.startTime - end > 2500) reset();
+    start = Math.min(start, entry.startTime);
+    end = Math.max(end, entry.responseEnd);
+    bytes += entry.encodedBodySize;
+    requests++;
+    if (entry.responseStart - entry.startTime >= 450) delayed++;
+    const ms = end - start;
+    if (requests < 3 || bytes < 128 * 1024 || ms <= 0 || (ms < 1500 && bytes < 1024 * 1024)) return;
+    const mbps = bytes * 8 / (ms * 1000);
+    slow = mbps < 2.5 || (mbps < 6 && delayed * 2 >= requests) ? slow + 1 : 0;
+    fast = mbps >= 7 ? fast + 1 : 0;
+    reset();
+    const next = slow >= 2 || (constrained && fast < 2);
+    if (next !== constrained) { constrained = next; change(next); }
+  };
+}
+
+function installCanopyNetworkWorker() {
+  let measured = null;
+  const report = canopyDeliveryMeter(value => {
+    measured = value;
+    self.clients.matchAll().then(clients => {
+      for (const client of clients) client.postMessage({ type: 'canopy-network', constrained: value });
+    }).catch(() => {});
+  });
+  self.addEventListener('message', event => {
+    if (event.data?.type === 'canopy-network-query' && measured !== null)
+      event.source?.postMessage({ type: 'canopy-network', constrained: measured });
+  });
+  return report;
+}
+
+function installCanopyNetworkPage() {
+  const link = navigator.connection;
+  let measured = null;
+  let gameReady = false;
+  function apply() {
+    if (!gameReady) return;
+    const low = link?.saveData || (measured ?? ['slow-2g', '2g', '3g'].includes(link?.effectiveType));
+    window.Module?._CanopySetNetworkPressure?.(low ? 1 : 0);
+  }
+  navigator.serviceWorker?.addEventListener('message', event => {
+    if (event.data?.type !== 'canopy-network') return;
+    measured = !!event.data.constrained;
+    apply();
+  });
+  // The native module is installed after the page and the cache worker.
+  window.addEventListener('ue-first-frame', () => {
+    gameReady = true;
+    navigator.serviceWorker?.controller?.postMessage({ type: 'canopy-network-query' });
+    apply();
+  }, { once: true });
+  link?.addEventListener?.('change', () => { measured = null; apply(); });
+}
+
+installCanopyNetworkPage();
 // The display's refresh rate from 30 requestAnimationFrame intervals (median), read by wasm-loader.js as the frame cap; a
 // rate that is not measured in time leaves the game uncapped
 (() => {
@@ -266,6 +348,30 @@ body:has(#cover:not([hidden]):not(.lifting):not(.click)) canvas{visibility:hidde
 #loader{width:min(66cqh,74cqw,calc(100cqw - 32px));margin:min(3cqh,3.2cqw) auto 0}
 .bar{height:clamp(8px,1.8cqh,20px);background:#000a;border:2px solid #000;border-radius:99px;overflow:hidden}
 .bar>div{height:100%;width:0;background:var(--paint);transition:width .3s}
+#canopy-graphics-recovery {
+  position: fixed;
+  left: calc(env(safe-area-inset-left, 0px) + 54px);
+  top: calc(env(safe-area-inset-top, 0px) + 7px);
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  max-width: min(78vw, 450px);
+  font: 600 13px system-ui, sans-serif;
+  color: #fff8dc;
+  text-shadow: 0 1px 3px #000, 0 0 4px #000;
+}
+#canopy-graphics-recovery[hidden], #canopy-graphics-recovery button[hidden] { display: none; }
+#canopy-graphics-recovery button {
+  min-height: 44px;
+  line-height: 1.2;
+  background: #263028ed;
+  color: #fff8dc;
+  border: 1px solid #ddd1ae;
+  touch-action: manipulation;
+}
+
+#loading-retry{text-align:center;margin-top:8px} #loading-retry button{margin-left:6px}
 #progress-text{margin-top:6px;text-align:center;color:#e9e4da;font:600 14px system-ui,sans-serif;font-variant-numeric:tabular-nums}
 #notice{width:min(640px,calc(100cqw - 32px));box-sizing:border-box;margin:min(2.4cqh,2.6cqw) auto 0;padding:8px 12px;border-radius:8px;background:var(--pill);color:#ffe3a3;font-size:13px;text-align:center}
 #notice[hidden]{display:none}
@@ -355,6 +461,132 @@ td{padding:3px 6px;border-bottom:1px solid #262626;vertical-align:top}
 td:first-child{white-space:nowrap;color:var(--accent);width:1%}
 </style><meta name="ue-audio-thread" content="1">
 <meta name="ue-memory64" content="lowered">
+<meta name="ue-texture-sets" content="bc=texture-compression-bc;astc=texture-compression-astc">
+<style>
+html.canopy-touch, html.canopy-touch body {
+  height: 100%;
+  height: 100dvh;
+  width: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+}
+html.canopy-touch canvas, #canopy-controls {
+  touch-action: none;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+}
+#canopy-controls {
+  --stick-size: clamp(76px, 22vmin, 108px);
+  --fire-size: clamp(54px, 15vmin, 72px);
+  --stick-base: clamp(54px, 15vmin, 84px);
+  position: fixed;
+  inset: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+  z-index: 3;
+  pointer-events: none;
+}
+#canopy-controls[hidden] { display: none; }
+#canopy-controls button {
+  box-sizing: border-box;
+  position: absolute;
+  display: grid;
+  place-items: center;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  width: var(--stick-size);
+  height: var(--stick-size);
+  bottom: var(--stick-base);
+  border: 1.5px solid rgba(255, 253, 232, .76);
+  border-radius: 50%;
+  color: #fff9e5;
+  background: radial-gradient(circle, #17242338 50%, #14202268 73%);
+  box-shadow: inset 0 0 0 2px #0b171976, 0 1px 3px #051211ab;
+  pointer-events: auto;
+  touch-action: none;
+  -webkit-tap-highlight-color: transparent;
+  appearance: none;
+}
+#canopy-controls .canopy-label {
+  position: absolute;
+  bottom: 7%;
+  font: 700 clamp(9px, 2.5vmin, 11px)/1 system-ui, sans-serif;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 2px #000, 0 0 3px #000;
+  pointer-events: none;
+}
+#canopy-move { left: clamp(16px, 6vw, 86px); }
+#canopy-look { right: clamp(70px, 13vw, 158px); }
+#canopy-controls #canopy-fire {
+  right: clamp(8px, 2.4vw, 40px);
+  bottom: calc(var(--stick-base) + var(--stick-size) * .50);
+  width: var(--fire-size);
+  height: var(--fire-size);
+  border-color: #efd49d;
+  background: radial-gradient(circle, #51422f66, #1a201fc2);
+}
+#canopy-controls .canopy-symbol {
+  box-sizing: border-box;
+  width: 42%;
+  height: 42%;
+  pointer-events: none;
+  position: relative;
+  border-radius: 50%;
+  border: 1.5px solid #f6edd6bc;
+  background: #8d92745c;
+  box-shadow: 0 1px 2px #0008;
+  transform: translate(var(--thumb-x, 0px), var(--thumb-y, 0px));
+}
+#canopy-look .canopy-symbol::after, #canopy-fire .canopy-symbol::after {
+  content: '';
+  position: absolute;
+  inset: 41%;
+  border-radius: 50%;
+  background: #fff8dd;
+}
+#canopy-fire .canopy-symbol {
+  margin-bottom: 8%;
+  width: 38%;
+  height: 38%;
+  border-color: #ffe9be;
+  background: transparent;
+}
+#canopy-fire .canopy-symbol::before {
+  content: '';
+  position: absolute;
+  inset: -25%;
+  background: linear-gradient(currentColor, currentColor) center top / 2px 24%,
+              linear-gradient(currentColor, currentColor) center bottom / 2px 24%,
+              linear-gradient(currentColor, currentColor) left center / 24% 2px,
+              linear-gradient(currentColor, currentColor) right center / 24% 2px;
+  background-repeat: no-repeat;
+}
+#canopy-controls .held .canopy-symbol { background-color: #e7c58180; }
+#canopy-controls #canopy-fire.held { border-color: #fff3d6; background: #8d61239c; }
+#canopy-controls #canopy-pause {
+  top: 3px;
+  left: 4px;
+  bottom: auto;
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+#canopy-pause .canopy-symbol {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: linear-gradient(#f9f1d9, #f9f1d9) 38% center / 3px 11px no-repeat,
+              linear-gradient(#f9f1d9, #f9f1d9) 62% center / 3px 11px no-repeat, #17212399;
+}
+@media (orientation: portrait) {
+  html.canopy-touch:not(.any-orientation) #rotate { display: none; }
+  html.canopy-touch:not(.any-orientation) body[data-cover="lifted"] #rotate { display: flex; }
+}
+
+</style>
 </head>
 <body><canvas id="canvas" tabindex="0" aria-label="Canopy Clash"></canvas><div id="status"></div>
 <div id="toast" role="status" hidden><span id="toast-text"></span><button id="toast-close" type="button" aria-label="Dismiss">&times;</button></div>
@@ -364,7 +596,7 @@ td:first-child{white-space:nowrap;color:var(--accent);width:1%}
   <div id="shell"></div>
   <div id="art">
     <div class="title"><h1 id="cover-title">Canopy Clash</h1>
-      <div id="loader"><div class="bar" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressbar"><div id="bar"></div></div><div id="progress-text" role="status" aria-live="polite" data-i18n>Starting...</div></div>
+      <div id="loader"><div class="bar" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressbar"><div id="bar"></div></div><div id="progress-text" role="status" aria-live="polite" data-i18n>Starting...</div><div id="loading-retry" hidden><span data-i18n>Still waiting for the game.</span> <button type="button" data-i18n>Retry loading</button></div></div>
       <div id="notice" hidden></div></div></div>
   <ol id="steps" aria-label="Start-up steps"></ol>
   <div id="ended" class="card endcard" hidden><h1 id="ended-title" data-i18n>Thanks for playing</h1>
@@ -417,10 +649,204 @@ for (const level of ['log', 'warn', 'error']) {
 </script>
 <script src="wasm-profile.js"></script>
 <script src="wasm-harness.js"></script>
-<script src="wasm-compat.js?build=236231f357cf8d78"></script>
+<script src="wasm-compat.js?build=c3f3f106d23ed0e1"></script>
 <script src="wasm-prewarm.js"></script>
-<script src="wasm-play.js?build=c0d35db7af33ca2f"></script>
-<script src="wasm-loader.js?build=a39a7ddf705358f4"></script>
+<script>
+// Two analog sticks feed Unreal's WebAssembly gamepad sampler. The trigger uses
+// the same canvas mouse button as the rifle's native press/release binding.
+(() => {
+  const device = window.ueCompat?.deviceClass();
+  if (!['ios', 'android'].includes(device)) return;
+
+  const canvas = document.getElementById('canvas');
+  const cover = document.getElementById('cover');
+  const html = document.documentElement;
+  html.classList.add('canopy-touch');
+  document.querySelector('meta[name="ue-start"]').content = 'click';
+  const landscape = matchMedia('(orientation: landscape)');
+  const controls = document.createElement('div');
+  controls.id = 'canopy-controls';
+  controls.hidden = true;
+  controls.setAttribute('role', 'group');
+  controls.setAttribute('aria-label', 'Combat controls');
+  document.body.appendChild(controls);
+
+  function addControl(id, title, label) {
+    const control = document.createElement('button');
+    control.type = 'button';
+    control.id = 'canopy-' + id;
+    control.setAttribute('aria-label', title);
+    const symbol = document.createElement('span');
+    symbol.className = 'canopy-symbol';
+    const caption = document.createElement('span');
+    caption.className = 'canopy-label';
+    caption.textContent = label;
+    control.append(symbol, caption);
+    controls.appendChild(control);
+    return control;
+  }
+  const move = addControl('move', 'Movement joystick', 'Move');
+  const look = addControl('look', 'Aim joystick', 'Aim');
+  const fire = addControl('fire', 'Fire weapon; drag to aim while firing', 'Fire');
+  const pause = addControl('pause', 'Pause game', '');
+  const owners = new Map();
+  const positions = new Map();
+  const pad = { id: 'Canopy touch controls', connected: true, mapping: 'standard', axes: [0, 0, 0, 0], buttons: [] };
+  const pads = [pad];
+  let gameplay = true;
+
+  // The engine polls on its existing 8 ms timer, using the player's first
+  // gamepad. A plugged-in controller keeps all axes and buttons not in use.
+  window.canopyTouch = { gamepads() {
+    let physical;
+    try { physical = navigator.getGamepads?.(); } catch { /* Disabled by browser policy. */ }
+    const first = physical?.[0];
+    const movement = positions.get(move);
+    const aiming = positions.get(look) || positions.get(fire);
+    pad.axes[0] = movement ? movement.x : (first?.axes[0] || 0);
+    pad.axes[1] = movement ? movement.y : (first?.axes[1] || 0);
+    pad.axes[2] = aiming ? aiming.x : (first?.axes[2] || 0);
+    pad.axes[3] = aiming ? aiming.y : (first?.axes[3] || 0);
+    if (first) pad.buttons = first.buttons;
+    else if (pad.buttons.length) pad.buttons = [];
+    pads.length = Math.max(1, physical?.length || 0);
+    for (let i = 1; i < pads.length; i++) pads[i] = physical[i];
+    return pads;
+  } };
+
+  function trigger(pressed) {
+    const box = canvas.getBoundingClientRect();
+    canvas.dispatchEvent(new MouseEvent(pressed ? 'mousedown' : 'mouseup', {
+      view: window, bubbles: true, cancelable: true, button: 0, buttons: pressed ? 1 : 0,
+      clientX: box.left + box.width / 2, clientY: box.top + box.height / 2,
+    }));
+  }
+
+  function updateStick(control, event) {
+    const pos = positions.get(control);
+    const dx = (event.clientX - pos.centerX) / pos.radius;
+    const dy = (event.clientY - pos.centerY) / pos.radius;
+    const max = Math.max(1, Math.hypot(dx, dy));
+    pos.x = dx / max;
+    pos.y = dy / max;
+    if (control !== fire) {
+      control.style.setProperty('--thumb-x', (pos.x * pos.radius * .66) + 'px');
+      control.style.setProperty('--thumb-y', (pos.y * pos.radius * .66) + 'px');
+    }
+  }
+
+  function release(control) {
+    if (!positions.has(control)) return;
+    const id = positions.get(control).id;
+    positions.delete(control);
+    owners.delete(id);
+    control.classList.remove('held');
+    control.style.removeProperty('--thumb-x');
+    control.style.removeProperty('--thumb-y');
+    if (control === fire) trigger(false);
+    if (control.hasPointerCapture(id)) control.releasePointerCapture(id);
+  }
+  function releaseAll() {
+    for (const control of positions.keys()) release(control);
+  }
+  controls.addEventListener('pointerdown', event => {
+    const control = event.target.closest('button');
+    if (!control || controls.hidden || owners.has(event.pointerId) || positions.has(control)) return;
+    if (control === pause) return; // Handle the click, including a tap cancelled before release.
+    event.preventDefault();
+    const bounds = control.getBoundingClientRect();
+    const isTrigger = control === fire;
+    positions.set(control, {
+      id: event.pointerId, centerX: isTrigger ? event.clientX : bounds.left + bounds.width / 2,
+      centerY: isTrigger ? event.clientY : bounds.top + bounds.height / 2, radius: bounds.width * .40,
+      x: 0, y: 0,
+    });
+    owners.set(event.pointerId, control);
+    control.setPointerCapture(event.pointerId);
+    control.classList.add('held');
+    updateStick(control, event);
+    if (isTrigger) trigger(true);
+  });
+  controls.addEventListener('pointermove', event => {
+    const control = owners.get(event.pointerId);
+    if (control) { event.preventDefault(); updateStick(control, event); }
+  });
+  for (const name of ['pointerup', 'pointercancel', 'lostpointercapture']) {
+    controls.addEventListener(name, event => {
+      const control = owners.get(event.pointerId);
+      if (control) release(control);
+    });
+  }
+  pause.addEventListener('click', () => {
+    releaseAll();
+    for (const type of ['keydown', 'keyup']) {
+      canvas.dispatchEvent(new KeyboardEvent(type, {
+        bubbles: true, cancelable: true, key: 'Escape', code: 'Escape', keyCode: 27, which: 27,
+      }));
+    }
+  });
+
+  function showControls() {
+    controls.hidden = !cover.hidden || !gameplay || document.hidden || !landscape.matches;
+    if (controls.hidden) releaseAll();
+  }
+  // Unreal toggles "wanted" when it opens or closes an interactive Slate
+  // menu. Let taps reach the native UI in that state and leave pointer lock
+  // to mouse users. The engine retains its existing high-precision input mode.
+  function installPageHook() {
+    const module = window.Module;
+    if (!module || module.ueWebPage?.canopyTouch) return;
+    let wanted = !!module.ueWebPageWanted;
+    let capturedGameplay = wanted;
+    module.ueWebPage = {
+      canopyTouch: true, lock() {},
+      get wanted() { return wanted; },
+      set wanted(value) {
+        wanted = !!value;
+        // The initial value may be false until the first canvas input.
+        // A later release from gameplay opens an interactive Unreal menu.
+        if (wanted) capturedGameplay = true;
+        gameplay = !capturedGameplay || wanted;
+        showControls();
+      },
+    };
+  }
+
+  function enterFullscreen() {
+    const fullscreen = html.requestFullscreen || html.webkitRequestFullscreen;
+    async function lockOrientation() {
+      try { await screen.orientation?.lock?.('landscape'); } catch { /* The player can turn the phone. */ }
+    }
+    if (document.fullscreenElement || document.webkitFullscreenElement || navigator.standalone ||
+        matchMedia('(display-mode: standalone), (display-mode: fullscreen)').matches) {
+      lockOrientation();
+    } else if (fullscreen) {
+      try {
+        Promise.resolve(fullscreen.call(html, { navigationUI: 'hide' })).then(lockOrientation, () => {});
+      } catch { /* Keep using the full browser viewport. */ }
+    }
+  }
+  cover.addEventListener('click', event => {
+    if (!event.isTrusted || !cover.classList.contains('click') || event.target.closest('#error, #ended')) return;
+    installPageHook();
+    enterFullscreen();
+  }, true);
+  const rotate = document.getElementById('rotate');
+  rotate?.addEventListener('click', enterFullscreen);
+  new MutationObserver(() => { installPageHook(); showControls(); })
+    .observe(cover, { attributes: true, attributeFilter: ['hidden', 'class'] });
+  window.addEventListener('blur', releaseAll);
+  window.addEventListener('pagehide', releaseAll);
+  document.addEventListener('visibilitychange', showControls);
+  landscape.addEventListener('change', () => { releaseAll(); showControls(); });
+  screen.orientation?.addEventListener('change', releaseAll);
+  document.addEventListener('fullscreenchange', releaseAll);
+  document.addEventListener('webkitfullscreenchange', releaseAll);
+})();
+
+</script>
+<script src="wasm-play.js?build=70336230459b8484"></script>
+<script src="wasm-loader.js?build=8e2553bb7b0671bd"></script>
 <script>
 // The page's default hooks: pointer lock for mouse look, taken on a click in the canvas (and within the cover's click in
 // ue-start=click). A game that installs its own Module.ueWebPage ({lock(), wanted}) keeps it.

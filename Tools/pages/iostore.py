@@ -82,16 +82,18 @@ def verify_container(ucas_path, output_dir, layout):
                 remaining -= length
 
 
-def pack_container(ucas_path, output_dir):
+def pack_container(ucas_path, output_dir, shared_blocks=None, shared_pieces=None):
     """Write content-addressed pieces and return their logical-to-physical range map."""
     container = Path(ucas_path)
     output = Path(output_dir)
     (output / "blobs").mkdir(parents=True, exist_ok=True)
     size = container.stat().st_size
     starts = _block_starts(container, size)
-    pieces = []
+    # A second cook has different offsets, but often contains exactly the
+    # same meshes, animations and audio blocks. Keep one physical copy.
+    pieces = [] if shared_pieces is None else shared_pieces
     segments = []
-    stored = {}
+    stored = {} if shared_blocks is None else shared_blocks
     pending = bytearray()
     with container.open("rb") as source:
         for start, end in zip(starts, starts[1:]):
@@ -116,6 +118,10 @@ def pack_container(ucas_path, output_dir):
                 segments.append([logical, piece, offset])
     if pending:
         pieces.append(_store_piece(pending, output))
-    layout = {"size": size, "pieces": pieces, "segments": segments}
+    used = sorted({segment[1] for segment in segments})
+    remap = {shared: local for local, shared in enumerate(used)}
+    for segment in segments:
+        segment[1] = remap[segment[1]]
+    layout = {"size": size, "pieces": [pieces[i] for i in used], "segments": segments}
     verify_container(container, output, layout)
     return layout

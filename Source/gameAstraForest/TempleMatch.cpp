@@ -1,4 +1,7 @@
 #include "TempleMatch.h"
+#if PLATFORM_WASM
+#include <emscripten/em_asm.h>
+#endif
 #include "TempleDeploymentNavigation.h"
 #include "TempleFighter.h"
 #include "TempleBotController.h"
@@ -136,7 +139,12 @@ void ATemplePlayerController::OpenTeamsFromMenu()
 }
 void ATemplePlayerController::QuitGame()
 {
-    if(IsLocalController())UKismetSystemLibrary::QuitGame(this,this,EQuitPreference::Quit,false);
+    if (!IsLocalController()) return;
+#if PLATFORM_WASM
+    MAIN_THREAD_ASYNC_EM_ASM({ window.location.reload(); });
+#else
+    UKismetSystemLibrary::QuitGame(this,this,EQuitPreference::Quit,false);
+#endif
 }
 void ATemplePlayerController::SelectRed(){if(bHasInteractiveHUD) JoinTeam(0);}
 void ATemplePlayerController::SelectBlue(){if(bHasInteractiveHUD) JoinTeam(1);}

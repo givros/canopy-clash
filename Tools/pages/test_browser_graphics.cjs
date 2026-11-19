@@ -6,6 +6,18 @@ const vm = require('node:vm');
 
 const script = fs.readFileSync(path.join(__dirname, 'browser-graphics.js'), 'utf8');
 
+test('handhelds prefer supported ASTC even when the adapter also advertises BC', () => {
+  const bc = { name: 'bc', features: ['texture-compression-bc'] };
+  const astc = { name: 'astc', features: ['texture-compression-astc'] };
+  const { policy } = page();
+  const all = new Set([...bc.features, ...astc.features]);
+  assert.equal(policy.textureSet([bc, astc], all, true), astc);
+  assert.equal(policy.textureSet([bc, astc], all, false), bc);
+  assert.equal(policy.textureSet([bc, astc], new Set(bc.features), true), bc);
+  assert.equal(policy.textureSet([bc], all, true), bc);
+  assert.equal(policy.textureSet([bc, astc], new Set(), true), null);
+});
+
 function page(search = '') {
   const navigations = [];
   const listeners = {};

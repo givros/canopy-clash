@@ -1,5 +1,6 @@
 """Prepare an Unreal Wasm stage for a static host without custom headers."""
 import argparse
+import filecmp
 import gzip
 import hashlib
 import json
@@ -7,8 +8,11 @@ import os
 from pathlib import Path
 import shutil
 import tempfile
+import time
 
 from iostore import pack_container
+from loading_progress import patch_loading_progress
+from worker_update import pin_release_worker
 
 
 CHUNK_BYTES = 8 * 1024 * 1024
@@ -41,8 +45,11 @@ def prepare(stage, site):
     manifest = json.loads((stage / "wasm-cache.json").read_text(encoding="utf-8"))
     entries = {entry["url"]: entry for entry in manifest}
     virtual = {}
+    shared_blocks, shared_pieces = {}, []
     (site / "blobs").mkdir()
-    for source in sorted(stage.rglob("*")):
+    # Pack the desktop containers first to preserve existing content-addressed
+    # URLs when the handheld texture set is added.
+    for source in sorted(stage.rglob("*"), key=lambda p: ("ASTC" in p.parts, p)):
         if not source.is_file():
             continue
         path = source.relative_to(stage).as_posix()
@@ -56,7 +63,7 @@ def prepare(stage, site):
                 if hashlib.file_digest(file, "sha1").hexdigest() != entry["sha1"]:
                     raise ValueError(f"Stale Unreal cache manifest for {path}")
             if source.suffix == ".ucas":
-                item = pack_container(source, site)
+                item = pack_container(source, site, shared_blocks, shared_pieces)
             else:
                 item = pack_module(source, site)
             if item["size"] != entry["size"]:
@@ -80,17 +87,39 @@ def prepare(stage, site):
     index = site / "index.html"
     switch = '<meta name="ue-sw-isolation" content="1">'
     page = index.read_text(encoding="utf-8")
+    touch = Path(__file__).with_name("mobile-controls.js").read_text(encoding="utf-8")
+    touch_css = Path(__file__).with_name("mobile-controls.css").read_text(encoding="utf-8")
+    page = replace_once(page, '</head>', '<style>\n' + touch_css + '\n</style>\n</head>', index.name)
+    player_tag = '<script src="wasm-play.js">'
+    page = replace_once(page, player_tag, '<script>\n' + touch + '\n</script>\n' + player_tag, index.name)
+    # Unreal's JS sampler runs on the DOM side and feeds its existing atomic
+    # gamepad buffer. Only handhelds install the virtual controller.
+    # UAT names the Development module after the game and appends its
+    # configuration to the Shipping module. Follow the staged Wasm entry.
+    game_modules = [Path(name) for name in virtual if name.endswith(".wasm") and "Binaries" in Path(name).parts]
+    module, = game_modules
+    glue = site / module.with_suffix(".js")
+    original = "List=navigator.getGamepads?navigator.getGamepads():[]"
+    compiled = replace_once(glue.read_text(encoding="utf-8"), original,
+                            "List=window.canopyTouch?window.canopyTouch.gamepads():(" + original[5:] + ")", glue.name)
+    glue.write_text(compiled, encoding="utf-8", newline="\n")
+    glue_entry = entries[glue.relative_to(site).as_posix()]
+    glue_entry.update(size=glue.stat().st_size, sha1=hashlib.sha1(glue.read_bytes()).hexdigest())
     if switch not in page:
         page = replace_once(page, switch.replace('"1"', '"0"'), switch, index.name)
     advice = '<meta name="ue-browser-advice" content="">'
     if advice in page:
         page = replace_once(page, advice, advice.replace('content=""', 'content="none"'), index.name)
     graphics = Path(__file__).with_name("browser-graphics.js").read_text(encoding="utf-8")
+    network_quality = Path(__file__).with_name("network-quality.js").read_text(encoding="utf-8")
     head_script = "<script>\n// The display's refresh rate"
     page = replace_once(page, head_script,
-                        "<script>\n" + graphics + "\ncanopyGraphics.normalizeLink();\n// The display's refresh rate", index.name)
+                        "<script>\n" + graphics + "\ncanopyGraphics.normalizeLink();\n" + network_quality +
+                        "\ninstallCanopyNetworkPage();\n// The display's refresh rate", index.name)
     compat = site / "wasm-compat.js"
     script = compat.read_text(encoding="utf-8")
+    script = replace_once(script, "candidates.find((s) => s.features.every((f) => adapter.features.has(f))) || null",
+                          "canopyGraphics.textureSet(candidates, adapter.features, handheld)", compat.name)
     pick = "const asked = chosenTier();"
     script = replace_once(script, pick, pick + """
       const fastForward = !resolution && !gpuFallback() && !handheld()
@@ -131,14 +160,7 @@ def prepare(stage, site):
     script = replace_once(script, "const wire = f => f.br || f.size;",
                           "const wire = f => f.pagesWireBytes || f.size;", loader.name)
     loader.write_text(script, encoding="utf-8", newline="\n")
-
-    # Returning players can have the previous scripts in their HTTP cache.
-    # Version the small, related boot scripts independently of the game data.
-    for name in ("wasm-compat.js", "wasm-play.js", "wasm-loader.js", "texture-budget.js"):
-        attribute = "content" if name == "texture-budget.js" else "src"
-        stamp = hashlib.sha256((site / name).read_bytes()).hexdigest()[:16]
-        page = replace_once(page, f'{attribute}="{name}"', f'{attribute}="{name}?build={stamp}"', index.name)
-    index.write_text(page, encoding="utf-8", newline="\n")
+    page = patch_loading_progress(site, page)
 
     # Have Epic's cache retain the logical module. Only the physical shards
     # exist in the host's HTTP cache, so its second copy of the logical URL
@@ -153,32 +175,65 @@ def prepare(stage, site):
     engine = engine.replace("toNetwork(url)", "toNetwork(key)")
     transport = Path(__file__).with_name("transport.js").read_text(encoding="utf-8")
     manifest_js = json.dumps(virtual, separators=(",", ":"))
-    sw.write_text(transport + "\nconst pagesFiles = installPagesTransport(" + manifest_js + ");\n" + engine,
+    sw.write_text(network_quality + "\nconst canopyNetworkSample = installCanopyNetworkWorker();\n" + transport +
+                  "\nconst pagesFiles = installPagesTransport(" + manifest_js + ", canopyNetworkSample);\n" + engine,
                   encoding="utf-8", newline="\n")
+    pin_release_worker(site)
+    # Returning players can have the previous scripts in their HTTP cache.
+    for name in ("wasm-compat.js", "wasm-play.js", "wasm-loader.js", "texture-budget.js"):
+        attribute = "content" if name == "texture-budget.js" else "src"
+        stamp = hashlib.sha256((site / name).read_bytes()).hexdigest()[:16]
+        page = replace_once(page, f'{attribute}="{name}"', f'{attribute}="{name}?build={stamp}"', index.name)
+    index.write_text(page, encoding="utf-8", newline="\n")
     # Used by incremental preparation to remove only this tool's stale output.
     files = sorted(p.relative_to(site).as_posix() for p in site.rglob("*") if p.is_file())
     (site / INVENTORY).write_text(json.dumps({"files": files}, separators=(",", ":")), encoding="utf-8")
     return set(files) | {INVENTORY}
 
 
+def retry_busy(operation, *args, **kwargs):
+    for attempt in range(7):
+        try:
+            return operation(*args, **kwargs)
+        except PermissionError:
+            if attempt == 6:
+                raise
+            time.sleep(.1 * 2 ** attempt)
+
+
 def publish_local(temporary, destination, files):
     previous = set()
+    pending = destination.parent / ("." + destination.name + "-pending-release.json")
     if destination.exists() and any(destination.iterdir()):
         inventory = destination / INVENTORY
-        if not inventory.is_file():
+        if not inventory.is_file() and not pending.is_file():
             raise ValueError(f"Use an empty output directory or an existing prepared site: {destination}")
-        previous = set(json.loads(inventory.read_text(encoding="utf-8"))["files"]) | {INVENTORY}
+        if inventory.is_file():
+            previous = set(json.loads(inventory.read_text(encoding="utf-8"))["files"]) | {INVENTORY}
+    if pending.is_file():
+        previous.update(json.loads(pending.read_text(encoding="utf-8")))
     for name in previous | files:
         if not (destination / name).resolve().is_relative_to(destination) or Path(name).is_absolute():
             raise ValueError(f"Unsafe inventory path: {name}")
     destination.mkdir(parents=True, exist_ok=True)
-    for name in sorted(files - {INVENTORY}):
+    # Record which files the packager owns even if a previous local copy was
+    # interrupted between installing new chunks and retiring its old ones.
+    record = temporary / ".pending-release.json"
+    record.write_text(json.dumps(sorted(previous | files)), encoding="utf-8")
+    retry_busy(os.replace, record, pending)
+    for name in sorted(files - {INVENTORY}, key=lambda path: (path == "index.html", path)):
         target = destination / name
         target.parent.mkdir(parents=True, exist_ok=True)
-        os.replace(temporary / name, target)
+        staged = temporary / name
+        if target.is_file() and filecmp.cmp(staged, target, shallow=False):
+            continue
+        # On Windows the active preview or virus scanner can briefly hold a
+        # reader without delete sharing. The existing file stays valid.
+        retry_busy(os.replace, staged, target)
     for stale in previous - files:
-        (destination / stale).unlink(missing_ok=True)
-    os.replace(temporary / INVENTORY, destination / INVENTORY)
+        retry_busy((destination / stale).unlink, missing_ok=True)
+    retry_busy(os.replace, temporary / INVENTORY, destination / INVENTORY)
+    retry_busy(pending.unlink, missing_ok=True)
 
 
 def main():
@@ -190,14 +245,21 @@ def main():
     if stage.is_relative_to(output) or output.is_relative_to(stage):
         parser.error("The input stage and output directory must be separate.")
     output.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(prefix=".ue-pages-", dir=output.parent) as tmp:
-        site = Path(tmp)
+    scratch = output.parent
+    if (scratch / "gameAstraForest.uproject").is_file():
+        scratch = scratch / "Saved/PagesRelease"
+        scratch.mkdir(parents=True, exist_ok=True)
+    temporary = tempfile.TemporaryDirectory(prefix=".ue-pages-", dir=scratch)
+    try:
+        site = Path(temporary.name)
         files = prepare(stage, site)
         size = sum((site / name).stat().st_size for name in files)
         if size > SITE_BUDGET:
             raise ValueError(f"Site is {size:,} bytes, over the {SITE_BUDGET:,} byte budget")
         publish_local(site, output, files)
         print(f"{len(files)} files, {size:,} bytes: {output}")
+    finally:
+        retry_busy(temporary.cleanup)
 
 
 if __name__ == "__main__":

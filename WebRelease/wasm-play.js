@@ -32,46 +32,8 @@ function coverTo(state) {
   document.body.dataset.cover = state;
   console.log('PAGE COVER ' + state + ' ' + Math.round(performance.now()));
 }
-let shown = 0;
 let lifted = false;
 let ready = false;
-// The start-up download (wasm-loader.js: stage 'download' for each byte count from the data cache, 'downloaded' for the last)
-// runs while the engine script loads and the engine module compiles. Until the engine is up (siteStarted) or the bytes are in,
-// the bar and the line follow the download, and a later stage's report waits: its line shows then, its value is dropped (the
-// level eases on from where the download left the bar; kept when no count came at all). After that a count moves the bar only. The engine's first report
-// (0.76) came 2 s into a cold load, the bar kept that maximum for the whole download, and the line switched between the byte
-// count and the level's seconds (UE-410987)
-let download = 'none';   // 'active' while the counts hold the line, then 'over'
-let counted = false;
-let waiting = null;
-function progress(text, fraction, stage) {
-  if (lifted || ready) return;   // the game is ready; later reports (a late file) leave the cover's last line alone
-  if (stage === 'download' || stage === 'downloaded') {
-    if (download === 'over') { progressBar(fraction); return; }
-    download = 'active';
-    counted = counted || stage === 'downloaded' || fraction > 0.05;
-    progressShow(text, fraction);
-    if (stage === 'downloaded') downloadOver();
-    return;
-  }
-  if (download === 'active') { waiting = { text, fraction }; return; }
-  progressShow(text, fraction);
-}
-function progressShow(text, fraction) {
-  $('progress-text').textContent = T(text);
-  progressBar(fraction);
-}
-function progressBar(fraction) {
-  if (fraction === undefined) return;
-  shown = Math.max(shown, Math.min(1, fraction));
-  $('bar').style.width = (shown * 100).toFixed(1) + '%';
-  const pb = $('progressbar'); if (pb && pb.setAttribute) pb.setAttribute('aria-valuenow', String(Math.round(shown * 100)));
-}
-function downloadOver() {
-  if (download === 'active' && waiting) progressShow(waiting.text, counted ? undefined : waiting.fraction);
-  download = 'over';
-  waiting = null;
-}
 // A stop that is this browser, GPU, device or site rather than a fault of the game (stop: 'browser', 'gpu', 'device' or 'site'; the compat
 // check's stops pass one): the card takes the cover's middle under a plain headline with the reason in large type, so a player
 // does not read it as the game breaking. No cross-origin isolation is the site's stop (the host's setup, in any browser and on
@@ -123,6 +85,7 @@ function fail(message, stop) {
 function failQuiet(message) {
   if (failed || recovering) return;
   failed = true;
+  canopyLoading.stop();
   coverTo('failed');
   cover.hidden = false;
   cover.classList.remove('lifting', 'click');
@@ -314,7 +277,7 @@ function restartPage(marker, fallback, line) {
   } catch (e) { return false; }   // storage off: the next load could not tell (a loop), so no reload
   recovering = true;
   console.log(line);
-  if (siteTimer) clearInterval(siteTimer);
+  canopyLoading.stop();
   lifted = true;
   cover.hidden = false;
   cover.classList.remove('lifting', 'click');
@@ -414,7 +377,7 @@ const ueSteps = (() => {
     ['browser', 'Checking the browser'],
     ['gpu', 'Finding the graphics card'],
     ['settings', 'Picking the settings'],
-    ['download', 'Downloading the game'],
+    ['download', 'Loading game data'],
     ['engine', 'Starting the engine'],
     ['site', 'Loading the level'],
   ];
@@ -446,57 +409,293 @@ const ueSteps = (() => {
   return { set, took, finish, stop };
 })();
 
-// The last stretch: the engine is up and loads the startup level (pipelines, textures). The page counts what the engine
-// reports ('ue-progress' {fraction}, 'ue-warmup' {pso, textures}); without reports the bar eases from where it is towards 99 %
-// (time constant tau s) until the ready signal
-let siteTimer = null;
-let warm = null;
-window.addEventListener('ue-warmup', (event) => {
-  const d = event.detail || {};
-  if (!warm) warm = { most: 0, pso: 0, textures: 0 };
-  warm.most = Math.max(warm.most, d.pso || 0);
-  warm.pso = d.pso || 0;
-  warm.textures = d.textures || 0;
-});
-let levelFraction = null;
-window.addEventListener('ue-progress', (event) => {
-  const d = event.detail || {};
-  if (typeof d.fraction === 'number') levelFraction = Math.max(levelFraction || 0, Math.min(1, d.fraction));
-});
-// The level takes the line from the start-up download (progress above) and eases on from where the download left the bar.
-// The engine streams the level's files while the download runs on, so on a slow network the level waits for bytes: the easing's
-// time constant is a quarter of the download's remaining time at its rate so far, at least tau (Lyra, mobile tier: the engine
-// was up at 7 s and ready at 19 s at 50 Mbit with half the start-up bytes in; at 10 Mbit up at 28 s, ready at 89 s, where tau
-// alone left the bar at 98 % for the last 45 s). The level's line counts seconds or percent, whichever it started with: an
-// engine's first 'ue-progress' (0 %) after seconds had been counted read as a step back
-function siteStarted(tau) {
-  coverTo('level');
-  downloadOver();
-  const from = shown, t0 = performance.now();
-  const boot = window.ueBootDownload;
-  if (boot && boot.at > boot.since && boot.total > boot.bytes) tau = Math.max(tau, (boot.total - boot.bytes) * (boot.at - boot.since) / boot.bytes / 4000);
-  let unit = null;
-  ueSteps.set('site', 'active');
-  siteTimer = setInterval(() => {
-    const t = (performance.now() - t0) / 1000;
-    const eased = from + (0.99 - from) * (1 - Math.exp(-t / tau));
-    if (warm && warm.most > 0 && warm.pso > 0) {
-      const compiled = warm.most - warm.pso;
-      progress(`Preparing shaders ${compiled} / ${warm.most}`, Math.max(eased * 0.5, from + (0.99 - from) * compiled / warm.most));
-      ueSteps.set('site', 'active', `${compiled} / ${warm.most}`);
-    } else if (warm && warm.textures > 0) {
-      progress(`Loading textures (${warm.textures} left)`, eased);
-      ueSteps.set('site', 'active', `${warm.textures} textures left`);
-    } else {
-      if (!unit) unit = levelFraction ? 'percent' : 'seconds';
-      const counted = levelFraction !== null ? from + (0.99 - from) * levelFraction : 0;
-      if (unit === 'percent') progress(`Loading the level... ${Math.round(levelFraction * 100)} %`, Math.max(eased * 0.5, counted));
-      else progress('Loading the level... ' + t.toFixed(0) + ' s', Math.max(eased, counted));
-    }
-  }, 250);
-  // A build that never sends the ready signal still gets the page back after two minutes
-  setTimeout(gameReady, 120000);
+// Count decoded startup data. The service worker reports a cumulative offset for
+// a whole file, also on cache hits. Range traffic for the streamed world has
+// no fixed startup total and is intentionally outside this counter.
+function canopyStartupBytes(files, base) {
+  const entries = new Map(files.map(file => [new URL(file.url, base).href, { file, seen: 0 }]));
+  const total = files.reduce((sum, file) => sum + file.size, 0);
+  let loaded = 0;
+  return {
+    total,
+    report(data) {
+      const entry = entries.get(data.url);
+      if (!entry || data.sha1 !== entry.file.sha1 || !Number.isFinite(data.loaded)) return null;
+      const next = Math.min(entry.file.size, data.loaded);
+      if (next <= entry.seen) return null;
+      const delta = next - entry.seen;
+      entry.seen = next;
+      loaded += delta;
+      return { loaded, total, delta, file: entry.file };
+    },
+  };
 }
+
+// These are completed milestones, not a timer or an estimate of remaining work.
+// The last two signals can arrive in either order on the browser's main thread.
+const canopyLoading = (() => {
+  const stages = ['runtime', 'engine_init', 'map_loaded', 'first_frame', 'canvas', 'playable'];
+  const done = new Set();
+  let levelStarted = false;
+  let packages = null;
+  let shaderCount = 0;
+  let textureCount = 0;
+  let retryTimer;
+  let ended = false;
+  const retry = $('loading-retry');
+  function activity() {
+    if (ended || failed || lifted) return;
+    retry.hidden = true;
+    clearTimeout(retryTimer);
+    retryTimer = setTimeout(() => {
+      if (!ended && !failed && !lifted && !document.hidden) retry.hidden = false;
+    }, 75000);
+  }
+  retry.querySelector('button').addEventListener('click', () => location.reload());
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) activity(); });
+  function stop() {
+    ended = true;
+    clearTimeout(retryTimer);
+    retry.hidden = true;
+  }
+  function bar(text, percent) {
+    const label = $('progress-text');
+    if (label.textContent !== text) label.textContent = text;
+    const value = $('progressbar');
+    value.setAttribute('aria-valuenow', String(percent));
+    value.setAttribute('aria-valuetext', text);
+    $('bar').style.width = percent + '%';
+  }
+  function showLevel() {
+    if (!levelStarted) return;
+    const percent = Math.floor(100 * done.size / stages.length);
+    const count = done.size + '/' + stages.length + ' ' + T('stages');
+    const next = !done.has('engine_init') ? 'Initializing the engine'
+      : !done.has('map_loaded') ? 'Loading the map'
+      : !done.has('first_frame') ? 'Preparing the first frame'
+      : !done.has('canvas') ? 'Waiting for the first rendered frame'
+      : !done.has('playable') ? 'Preparing gameplay' : 'Ready';
+    const detail = percent + '% · ' + count;
+    const remaining = [];
+    if (shaderCount) remaining.push(shaderCount + ' ' + T(shaderCount === 1 ? 'shader remaining' : 'shaders remaining'));
+    if (textureCount) remaining.push(textureCount + ' ' + T(textureCount === 1 ? 'texture remaining' : 'textures remaining'));
+    if (packages !== null) remaining.push(T('Package queue') + ' ' + Math.floor(100 * packages) + '%');
+    ueSteps.set('site', done.size === stages.length ? 'done' : 'active',
+      done.size === stages.length ? detail : [detail, ...remaining].join(' · '));
+    bar(T(next) + ' · ' + detail, percent);
+  }
+  function stage(key) {
+    if (ended || failed || lifted || done.has(key)) return;
+    // A map or world-frame notification also proves the earlier synchronous
+    // engine stages finished when its stdout markers arrive late or batched.
+    const index = stages.indexOf(key);
+    if (index < 0) return;
+    if (index <= 3) {
+      for (let i = 0; i <= index; i++) done.add(stages[i]);
+      levelStarted = true;
+    } else {
+      done.add(key);
+    }
+    activity();
+    showLevel();
+  }
+  window.addEventListener('ue-progress', ({ detail }) => {
+    const fraction = detail?.fraction;
+    if (ended || failed || !Number.isFinite(fraction) || fraction < 0 || fraction > 1 || packages === fraction) return;
+    packages = fraction;
+    activity();
+    showLevel();
+  });
+  window.addEventListener('ue-warmup', ({ detail }) => {
+    if (ended || failed || !detail) return;
+    const shaders = Math.max(0, Math.floor(Number(detail.pso) || 0));
+    const textures = Math.max(0, Math.floor(Number(detail.textures) || 0));
+    if (shaders === shaderCount && textures === textureCount) return;
+    shaderCount = shaders;
+    textureCount = textures;
+    activity();
+    showLevel();
+  });
+  function bytes(loaded, total) {
+    if (ended || failed || lifted || !total) return;
+    activity();
+    const percent = Math.floor(100 * loaded / total);
+    const mib = bytes => (bytes / 1048576).toFixed(1);
+    const detail = percent + '% · ' + mib(loaded) + ' / ' + mib(total) + ' MiB';
+    ueSteps.set('download', loaded === total ? 'done' : 'active', detail);
+    if (!levelStarted) bar(T('Loading game data') + ' · ' + detail, percent);
+  }
+  activity();
+  return { stage, bytes, stop };
+})();
+
+// Sample the exact back buffer Unreal is copying into the active game canvas.
+// A fresh swapchain image or a 2D capture between presents can read black on
+// WebKit even when the player can see the world.
+async function canopySceneSample(canvas) {
+  let context, device;
+  try {
+    context = canvas.getContext('webgpu');
+    device = context?.getConfiguration?.()?.device;
+  } catch { return null; }
+  const proto = globalThis.GPUCommandEncoder?.prototype;
+  if (!device || !proto) return null;
+  const original = proto.copyTextureToTexture;
+  // Stay away from the score, crosshair, weapon, touch controls and HUD rails.
+  const points = [[.24,.25],[.42,.23],[.65,.25],[.76,.39],[.32,.40],[.58,.37],[.23,.55],[.43,.58],[.64,.53]];
+  async function sample(texture) {
+    let buffer;
+    try {
+      if (!(texture.usage & GPUTextureUsage.COPY_SRC) || !/^(bgra|rgba)8unorm(-srgb)?$/.test(texture.format) ||
+          texture.width < 32 || texture.height < 32) return null;
+      device.pushErrorScope('validation');
+      let valid;
+      try {
+        // Four pixels in a single row per location: no row stride/padding.
+        buffer = device.createBuffer({ size: points.length * 16, usage: GPUBufferUsage.COPY_DST | GPUBufferUsage.MAP_READ });
+        const encoder = device.createCommandEncoder();
+        points.forEach(([x,y], index) => encoder.copyTextureToBuffer(
+          { texture, origin: [Math.floor(texture.width * x), Math.floor(texture.height * y), 0] },
+          { buffer, offset: index * 16 }, [4,1,1]));
+        device.queue.submit([encoder.finish()]);
+      } finally { valid = device.popErrorScope(); }
+      if (await valid) return null;
+      await buffer.mapAsync(GPUMapMode.READ);
+      const bytes = new Uint8Array(buffer.getMappedRange());
+      let max = 0;
+      for (let i=0; i<bytes.length; i+=4) max = Math.max(max, bytes[i], bytes[i+1], bytes[i+2]);
+      return max;
+    } catch { return null; } finally { buffer?.destroy(); }
+  }
+  return new Promise(resolve => {
+    function restore() {
+      if (proto.copyTextureToTexture === inspect) proto.copyTextureToTexture = original;
+    }
+    function inspect(source, target, extent) {
+      const result = original.call(this, source, target, extent);
+      try {
+        // UE's PresentOffscreen creates a dedicated encoder for this copy;
+        // the scene draw commands have already been submitted to the queue.
+        if (source.texture.label === 'BackBuffer' && target.texture === context.getCurrentTexture()) {
+          restore();
+          sample(source.texture).then(finish, () => finish(null));
+        }
+      } catch { finish(null); }
+      return result;
+    }
+    function finish(value) { clearTimeout(timer); restore(); resolve(value); }
+    const timer = setTimeout(() => finish(null), 2000);
+    try { proto.copyTextureToTexture = inspect; } catch { finish(null); }
+  });
+}
+
+function canopyAlternateGraphics(address, deferred) {
+  const url = new URL(address);
+  url.searchParams.set('mobileGraphicsRetry', '1');
+  url.searchParams.set('tier', deferred ? 'deferred' : 'forward');
+  url.searchParams.set('sp', deferred ? '80' : '65');
+  url.searchParams.set('prewarm', '0');
+  url.searchParams.set('saved', 'memory');
+  url.searchParams.delete('gpuRecovery');
+  const args = (url.searchParams.get('args') || '').split(/\s+/).filter(arg => arg &&
+    !/^-Web(?:GPU(?:NoMobileDeferred|MobileDeferred|SM5|NoSM5)|ScreenPercentage=|QualityPreset=)/i.test(arg));
+  if (!deferred) args.push('-WebQualityPreset=Low');
+  if (args.length) url.searchParams.set('args', args.join(' '));
+  else url.searchParams.delete('args');
+  return url;
+}
+
+(() => {
+  const compat = window.ueCompat;
+  if (compat?.deviceClass() !== 'ios') return;
+  const canvas = $('canvas');
+  const panel = document.createElement('aside');
+  panel.id = 'canopy-graphics-recovery';
+  panel.hidden = true;
+  const status = document.createElement('span');
+  status.setAttribute('role', 'status');
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.textContent = T('Try alternate graphics');
+  const log = document.createElement('button');
+  log.type = 'button';
+  log.textContent = T('Download the log');
+  log.addEventListener('click', () => $('log').click());
+  panel.append(status, button, log);
+  document.body.appendChild(panel);
+  const key = 'ue.' + pageMeta('ue-project', 'game') + '.mobileGraphicsRetry';
+  let retried = new URLSearchParams(location.search).has('mobileGraphicsRetry');
+  try { retried ||= sessionStorage.getItem(key) === '1'; } catch { /* private tab */ }
+  let persistentBlack = false;
+  let inspecting = false;
+  let switching = false;
+  let pauseRequested = false;
+  const controls = $('canopy-controls');
+  const pause = $('canopy-pause');
+  const retryLoading = $('loading-retry');
+  const menuOpen = () => controls?.hidden && cover.hidden && window.Module?.ueWebPage?.wanted === false;
+  function update() {
+    const loadingStalled = !retryLoading.hidden && ready;
+    const active = !document.hidden && !failed && !recovering &&
+      (loadingStalled || (cover.hidden && (persistentBlack || pauseRequested || menuOpen())));
+    panel.hidden = !active;
+    if (!active) return;
+    const tier = compat.runningTier(window.Module?.arguments || []);
+    const why = persistentBlack ? T('The world is still dark.') : loadingStalled ? T('Waiting for a rendered frame.') : '';
+    status.textContent = retried ? [why, T('Alternate graphics already tried') + ' (' + tier + ').'].filter(Boolean).join(' ') : why;
+    button.hidden = retried;
+    log.hidden = !retried;
+  }
+  // The web pause button is still usable when the engine draws no menu or
+  // stops processing the Escape key. Reveal recovery on that gesture too.
+  pause?.addEventListener('click', () => { pauseRequested = true; update(); });
+  document.addEventListener('pointerdown', event => {
+    if (pauseRequested && !panel.contains(event.target) && !pause?.contains(event.target)) {
+      pauseRequested = false;
+      update();
+    }
+  }, { capture: true });
+  button.addEventListener('click', async () => {
+    if (retried || switching) return;
+    switching = true;
+    button.disabled = true;
+    let deferred = false;
+    try {
+      const stage = await fetch('wasm-tiers.json', { signal: AbortSignal.timeout(3000) }).then(r => r.ok ? r.json() : null);
+      const set = compat.hasTextureSets() ? await compat.textureSet() : null;
+      const limits = canvas.getContext('webgpu')?.getConfiguration?.()?.device?.limits;
+      const fallback = sessionStorage.getItem('ue.' + pageMeta('ue-project', 'game') + '.gpuFallback');
+      deferred = !!(compat.stageHas(stage).deferred && !set?.mobileOnly &&
+        compat.runningTier(window.Module?.arguments || []) === 'forward' && !fallback &&
+        limits?.maxColorAttachments >= 4 && limits?.maxColorAttachmentBytesPerSample >= 32);
+    } catch { /* A reduced forward pass is available without extra capabilities. */ }
+    const next = canopyAlternateGraphics(location.href, deferred);
+    try { sessionStorage.setItem(key, '1'); } catch { /* URL preserves the guard. */ }
+    console.log('CANOPY_SCENE_CHECK retry', next.searchParams.get('tier'));
+    location.assign(next.href);
+  });
+  async function checkScene() {
+    if (inspecting || !cover.hidden || failed || document.hidden || menuOpen()) return;
+    inspecting = true;
+    // A respawn/fade is temporary. Four separated, nearly black world samples
+    // only reveal an optional button; they never pause or restart a match.
+    for (const delay of [5500, 2700, 2700, 2700]) {
+      await new Promise(resolve => setTimeout(resolve, delay));
+      if (failed || document.hidden || menuOpen() || !cover.hidden) { inspecting = false; return; }
+      const value = await canopySceneSample(canvas);
+      if (value === null || value > 4) return;
+    }
+    persistentBlack = true;
+    console.log('CANOPY_SCENE_CHECK four dark world samples', compat.runningTier(window.Module?.arguments || []));
+    update();
+  }
+  const observer = new MutationObserver(() => { update(); checkScene(); });
+  for (const element of [cover, controls, retryLoading]) {
+    if (element) observer.observe(element, { attributes: true, attributeFilter: ['hidden'] });
+  }
+  document.addEventListener('visibilitychange', () => { update(); checkScene(); });
+})();
+
 // The pipeline hold (web.ReadyHoldPipelines, WasmPageBridge.cpp): the engine can keep the cover up after the ready signal while draws
 // are still skipped for pipelines that compile (r.WebGPU.AsyncPipelines). It announces the hold with 'UE_RUN HOLD <cap ms>'
 // before 'UE_RUN READY' and ends it with 'UE_RUN SETTLED <held ms> <settled|cap>' (main-thread lines, as the ready line; a
@@ -559,7 +758,6 @@ const pipelineHold = (() => {
       if (pending) { console.log('PAGE HOLD skipped: the download is not in (' + pending + ')'); next(); return; }
       proceed = next;
       console.log(`PAGE HOLD start: the engine holds up to ${capMs} ms`);
-      if (!harness) $('progress-text').textContent = T('Ready: preparing shaders...');
       timer = setTimeout(() => release('page cap'), capMs + 1000);
     },
   };
@@ -619,20 +817,20 @@ function gameReady() {
 function readyNow() {
   if (ready || failed) return;
   ready = true;
-  coverTo('ready');
-  if (siteTimer) clearInterval(siteTimer);
-  ueSteps.set('site', 'done', ueSteps.took('site'));
-  ueSteps.finish('download');
-  $('progress-text').textContent = T(startOnClick ? 'Ready: click to play' : 'Ready');
-  if (cover.setAttribute) cover.setAttribute('aria-busy', 'false');
-  progressBar(1);
-  document.body.dataset.ready = '1';
   pipelineHold.begin(readyProceed);
 }
 function readyProceed() {
   if (failed || coverState === 'ended') return;   // a hold that ends after the game did must not hide the end card
+  canopyLoading.stage('playable');
+  if (!canvasFrame) { waitingForCanvas = true; return; }
+  waitingForCanvas = false;
+  canopyLoading.stop();
+  coverTo('ready');
+  if (cover.setAttribute) cover.setAttribute('aria-busy', 'false');
+  document.body.dataset.ready = '1';
   if (harness) { lifted = true; showToast(); return; }
-  $('progress-text').textContent = T(startOnClick ? 'Ready: click to play' : 'Ready');
+  const action = window.canopyTouch ? 'Tap to play' : 'Ready: click to play';
+  $('progress-text').textContent = T(startOnClick ? action : 'Ready') + ' · 100%';
   if (startOnClick) {
     coverTo('click');
     cover.classList.add('click');
@@ -692,22 +890,18 @@ window.ue.gameReady = () => readySignal.signal();
 window.ue.expectGameReady = () => readySignal.expect();
 window.addEventListener('ue-game-ready', () => readySignal.signal());
 
-// (The cover lifted onto an empty canvas for 0.3-0.7 s; frame 1 presents before anything drew): the
-// WebGPU RHI fires ue-first-canvas-frame on the first frame it copies to the canvas, and the cover waits for it, at most 3 s past
-// the ready signal, so a build without the event still lifts
-let canvasFrame = false, liftWaiting = false;
+// This WebGPU build provides an explicit first canvas copy. A timer cannot certify a frame.
+let canvasFrame = false, waitingForCanvas = false;
+window.addEventListener('ue-first-frame', () => canopyLoading.stage('first_frame'));
 window.addEventListener('ue-first-canvas-frame', () => {
   canvasFrame = true;
+  canopyLoading.stage('canvas');
   console.log('LOADTIME first_canvas_frame ' + Math.round(performance.now()));
-  if (liftWaiting) liftCover(true);
+  if (waitingForCanvas) readyProceed();
 });
-function liftCover(force) {
-  if (lifted || failed) return;
-  if (!canvasFrame && force !== true) {
-    if (!liftWaiting) { liftWaiting = true; setTimeout(() => liftCover(true), 3000); }
-    return;
-  }
-  if (ueShell.active && !ueShell.handedOff) { ueShell.handoff().then(() => liftCover(true)); return; }
+function liftCover() {
+  if (lifted || failed || !canvasFrame) return;
+  if (ueShell.active && !ueShell.handedOff) { ueShell.handoff().then(() => liftCover()); return; }
   lifted = true;
   coverTo('lifted');
   cover.classList.remove('click');

@@ -3,8 +3,7 @@
   const params = new URLSearchParams(location.search);
   const explicitBudget = /\br\.Streaming\.PoolSize\b|-TempleWebTexturePool=/i;
   const desktopRenderer = /(?:^|\s)-WebGPUSM5(?:\s|$)/i;
-  if (!compat || compat.deviceClass() !== 'desktop' ||
-      ['Android', 'iOS'].includes(compat.browser().os)) return;
+  if (!compat) return;
 
   async function configure() {
     const [gpu, commandLine] = await Promise.all([
@@ -13,7 +12,10 @@
     ]);
     const adapter = gpu.adapter;
     if (gpu.message || !adapter) return;
-    const metaArgs = ['ue-args', 'ue-args-desktop', 'ue-args-' + compat.browser().name.toLowerCase()]
+    const deviceClass = compat.deviceClass();
+    const handheld = deviceClass === 'ios' || deviceClass === 'android' ||
+      ['Android', 'iOS'].includes(compat.browser().os);
+    const metaArgs = ['ue-args', 'ue-args-' + deviceClass, 'ue-args-' + compat.browser().name.toLowerCase()]
       .map(name => document.querySelector('meta[name=' + name + ']')?.content || '');
     const existingArgs = [params.get('args'), commandLine, ...metaArgs, ...(window.ueExtraArgs || [])].join(' ');
     const calibrating = params.has('bench') || params.get('gpucheck') === '1' ||
@@ -23,17 +25,11 @@
       // The engine applies this preset only when the player has no saved graphics settings.
       (window.ueExtraArgs ||= []).push('-WebQualityPreset=Medium');
     }
-    // The recovery session keeps the engine's conservative streaming pool.
     const ramGiB = navigator.deviceMemory;
-    if (params.get('gpuRecovery') === '1' || params.get('tier') === 'desktop' || !(ramGiB >= 8) ||
-        adapter.integrated !== false || adapter.fallback ||
-        desktopRenderer.test(existingArgs)) return;
+    if (params.get('gpuRecovery') === '1' || params.get('tier') === 'desktop' || desktopRenderer.test(existingArgs)) return;
 
-    const bufferMiB = adapter.limits.maxBufferSize / 1048576;
-    if (!(bufferMiB >= 1024)) return;
-
-    // Preserve the native HUD. Render the scene at up to about 900p worth of pixels
-    // on a known discrete desktop GPU, using the same CSS-to-device ratio as Unreal.
+    // Preserve the native HUD. The desktop scene's ceiling is about 900p worth
+    // of pixels, using the same CSS-to-device ratio as Unreal.
     const manualResolution = params.has('sp') || /\b(?:WebScreenPercentage|r\.ScreenPercentage|sg\.ResolutionQuality)\b/i.test(existingArgs);
     const project = document.querySelector('meta[name=ue-project]')?.content || 'game';
     let selectedRenderer = params.get('tier');
@@ -41,19 +37,34 @@
       selectedRenderer ||= localStorage.getItem('ue.' + project + '.renderer');
       selectedRenderer ||= JSON.parse(sessionStorage.getItem('ue.' + project + '.gpuFallback') || 'null');
     } catch { /* Storage is optional. */ }
-    if (useDefaultQuality && !manualResolution && !selectedRenderer &&
-        ['Chrome', 'Edge'].includes(compat.browser().name)) {
+    if (useDefaultQuality && !manualResolution && !selectedRenderer) {
       const canvas = document.getElementById('canvas');
       const maxDpr = Number(document.querySelector('meta[name=ue-max-dpr]')?.content) || 1;
       const dpr = Math.min(window.devicePixelRatio || 1, maxDpr);
       const pixels = Math.round(canvas.clientWidth * dpr) * Math.round(canvas.clientHeight * dpr);
       if (pixels > 0) {
-        const percentage = Math.max(25, Math.min(100, Math.floor(100 * Math.sqrt((1600 * 900) / pixels))));
+        // The handheld drawing surface is already bounded to 720p. Keep its
+        // crisp HUD and aim controls while the 3D scene responds to frame cost.
+        const desktopPixelBudget = adapter.fallback ? 960 * 540 : 1600 * 900;
+        let percentage = Math.max(25, Math.min(100, Math.floor(100 * Math.sqrt(desktopPixelBudget / pixels))));
+        if (handheld) {
+          percentage = ramGiB > 0 && ramGiB <= 4 ? 85 : 100;
+          if (adapter.fallback) percentage = 75;
+        }
         window.ueExtraArgs.push('-WebScreenPercentage=' + percentage);
+        if (params.get('adaptive') !== '0') {
+          window.ueExtraArgs.push('-CanopyWebAdaptive=' + percentage);
+          if (handheld) window.ueExtraArgs.push('-CanopyWebHandheld');
+          if (adapter.features?.includes('timestamp-query')) window.ueExtraArgs.push('-CanopyWebGpuTiming');
+        }
       }
     }
 
-    if (explicitBudget.test(existingArgs)) return;
+    // Phones use UE's memory-aware, mobile-capped texture streaming pool.
+    if (handheld || !(ramGiB >= 8) || adapter.integrated !== false ||
+        adapter.fallback || explicitBudget.test(existingArgs)) return;
+    const bufferMiB = adapter.limits.maxBufferSize / 1048576;
+    if (!(bufferMiB >= 1024)) return;
 
     // WebGPU hides VRAM. Use host RAM and the adapter's buffer limit as
     // independent bounds; the game also checks the actual Wasm heap ceiling.

@@ -2,6 +2,29 @@
 // with the page's other scripts, which index.html loads in order (wasm-harness, wasm-compat, wasm-play, wasm-loader).
 
 // The service worker's URL: ?swranges=wait|net and the isolation fallback as its own query
+
+async function canopyReleaseWorker(needsController) {
+  const container = navigator.serviceWorker;
+  const url = new URL(swUrl(), location.href).href;
+  const registration = await container.register(url);
+  // A registration can still have the previous release active while its
+  // replacement installs. Only the expected worker understands these ranges.
+  const until = performance.now() + 30000;
+  let claimRequested = false;
+  while (performance.now() < until) {
+    const active = registration.active;
+    if (active?.scriptURL === url && active.state === 'activated') {
+      if (!needsController || container.controller?.scriptURL === url) return registration;
+      if (!claimRequested) {
+        active.postMessage({ type: 'claim' });
+        claimRequested = true;
+      }
+    }
+    await new Promise(resolve => setTimeout(resolve, 75));
+  }
+  throw new Error("The game update could not take control of this tab. Reload to try again.");
+}
+
 function swUrl() {
   const p = new URLSearchParams();
   if (query.get('swranges')) p.set('ranges', query.get('swranges'));
@@ -10,7 +33,7 @@ function swUrl() {
   if (pageMeta('ue-sw-waves') === '1') p.set('waves', '1');
 
   const q = p.toString();
-  return q ? 'sw.js?' + q : 'sw.js';
+  return q ? 'sw-8b2ed1b2246a108d7abb.js?' + q : 'sw-8b2ed1b2246a108d7abb.js';
 }
 
 // The pool's start-up load: Emscripten posts the compiled module to every pool Worker (PTHREAD_POOL_SIZE, 56 at 16 or more
@@ -128,15 +151,7 @@ async function swKilled() {
     if (!tried && await swKilled()) { tried = true; console.log('PAGE ISOLATION skipped: the data cache is off for this site'); }
     if (!tried) {
       try {
-        const registration = await navigator.serviceWorker.register(swUrl());
-        // wait for the isolating worker itself (an older worker without isolate=1 makes 'ready' resolve at once,
-        // and the reload would not be isolated)
-        await new Promise((resolve) => {
-          const isolating = () => registration.active && /[?&]isolate=1(?:&|$)/.test(registration.active.scriptURL) && registration.active.state === 'activated';
-          if (isolating()) { resolve(); return; }
-          const poll = setInterval(() => { if (isolating()) { clearInterval(poll); resolve(); } }, 50);
-          setTimeout(() => { clearInterval(poll); resolve(); }, 5000);
-        });
+        await canopyReleaseWorker(false);
         sessionStorage.setItem('ue.isolation.reload', '1');
         console.log('PAGE ISOLATION reload under the service worker');
         location.reload();
@@ -363,23 +378,8 @@ async function swKilled() {
     } else {
       try {
         // ?swranges=wait registers the worker that waits for the whole-file load instead of reading ranges from the network
-        const registration = await navigator.serviceWorker.register(swUrl());
+        const registration = await canopyReleaseWorker(true);
         swScope = registration.scope;
-        // (A reload of a page whose worker was already active, and a hard reload, which the worker never controls,
-        // waited here for ever at "Starting..."): a first install waits for the worker's claim (up to 15 s); an already active
-        // worker that does not control the page gets a second for it, then this load runs uncached (the fetch backend reads the
-        // network directly)
-        // A hard reload is not controlled by the active worker: ask it to claim the page (sw.js 'claim'), so the reload reads
-        // the cached files instead of downloading the game again
-        if (!navigator.serviceWorker.controller) {
-          const active = registration.active;
-          await new Promise(resolve => {
-            navigator.serviceWorker.addEventListener('controllerchange', resolve, { once: true });
-            if (active) active.postMessage({ type: 'claim' });
-            setTimeout(resolve, active ? 2000 : 15000);
-          });
-          if (active && navigator.serviceWorker.controller) console.log('PAGE SW_CLAIMED: the active worker took over this load (a hard reload)');
-        }
         if (navigator.serviceWorker.controller) {
           cached = true;
           mark('sw');
@@ -479,10 +479,8 @@ async function swKilled() {
   const needed = files.filter(f => (/\/Binaries\/Wasm\/[^/]+\.(js|wasm)$/.test(f.url) || /\/Content\/Paks\//.test(f.url)) && !late(f.url) && !f.pagesStreamed);
   const wire = f => f.pagesWireBytes || f.size;
   const total = needed.reduce((sum, f) => sum + wire(f), 0);
-  const byUrl = new Map(needed.map(f => [new URL(f.url, location.href).href, f]));
-  const loaded = new Map();
-  let downloaded = false;
-  ueSteps.set('download', 'active', total ? megabytes(total) + ' MB' : '');
+  const startupData = canopyStartupBytes(needed, swScope || location.href);
+  if (cached && startupData.total) canopyLoading.bytes(0, startupData.total);
   // The start-up download as counted here, for the pipeline hold (wasm-play.js pipelineHold): wire bytes in of the total, the
   // bytes that came over the network (not from this browser's cache) and when the last count arrived; none without the worker
   const boot = window.ueBootDownload = cached && total ? { total, bytes: 0, netBytes: 0, since: timings.sw || 0, at: 0 } : null;
@@ -494,19 +492,19 @@ async function swKilled() {
       if (data.type === 'storage-low') { notice(T('This browser has no room to keep the game, so it downloads again on the next visit.')); return; }
       if (data.type === 'sw-off') { console.log('PAGE SW_OFF: the data cache is off for this site; this load runs uncached'); return; }
       if (data.type !== 'progress') return;
-      const f = byUrl.get(data.url);
-      if (!f) return;
-      const before = loaded.get(data.url) || 0;
-      loaded.set(data.url, f.size ? Math.min(data.loaded, f.size) * wire(f) / f.size : 0);
-      const sum = [...loaded.values()].reduce((a, b) => a + b, 0);
-      if (boot) { boot.bytes = sum; if (!data.cached) boot.netBytes += Math.max(0, loaded.get(data.url) - before); boot.at = performance.now(); }
-      if (!total || downloaded) return;
-      downloaded = sum >= 0.999 * total;
-      progress(`Downloading ${megabytes(sum)} of ${megabytes(total)} MB` + (data.cached ? ' (from this browser)' : ''), 0.05 + 0.7 * sum / total, downloaded ? 'downloaded' : 'download');
-      ueSteps.set('download', downloaded ? 'done' : 'active', `${megabytes(sum)} of ${megabytes(total)} MB` + (data.cached ? ', from this browser' : ''));
+      const count = startupData.report(data);
+      if (!count) return;
+      if (boot) {
+        // Preserve the engine's compressed-size estimate for its pipeline-hold
+        // heuristic. The indicator above counts actual decoded bytes.
+        const delta = count.delta * wire(count.file) / count.file.size;
+        boot.bytes = Math.min(total, boot.bytes + delta);
+        if (!data.cached) boot.netBytes += delta;
+        boot.at = performance.now();
+      }
+      canopyLoading.bytes(count.loaded, count.total);
     });
   }
-  progress(cached ? 'Downloading...' : 'Downloading the game...', 0.02, cached && total ? 'download' : undefined);
   // Frames capped at the display's rate, measured by index.html with requestAnimationFrame (t.MaxFPS; a non-Shipping -ini
   // override, so Shipping needs the RHI's own present pacing)
   if (window.ueDisplayHzReady) await Promise.race([window.ueDisplayHzReady, new Promise((r) => setTimeout(r, 1000))]);
@@ -555,6 +553,8 @@ async function swKilled() {
     locateFile: (file) => project + '/Binaries/Wasm/' + file,
     print: t => {
       mark('first_print');
+      const milestone = /\bUE_RUN BOOT (engine_init|map_loaded|first_frame)\b/.exec(t);
+      if (milestone) canopyLoading.stage(milestone[1]);
       rememberLine(t);   // the last engine lines for an error report
       if (!logPrinting) logPrinting = true;   // this build's log reaches the page, so the cover waits for the ready line
       const failure = classifyLine(t);
@@ -584,9 +584,9 @@ async function swKilled() {
     onRuntimeInitialized: () => {
       mark('runtime');
       if (!cached) ueSteps.set('download', 'done', total ? megabytes(total) + ' MB' : '');   // no worker, no byte counts
-      ueSteps.set('engine', 'done', ueSteps.took('engine'));
-      progress('Loading the level...', 0.8);
-      siteStarted(/firefox/i.test(navigator.userAgent) ? 12 : 4);
+      ueSteps.set('engine', 'done');
+      coverTo('level');
+      canopyLoading.stage('runtime');
     },
   };
   window.addEventListener('error', (event) => { if (event.message && /Aborted|RuntimeError/.test(event.message)) fail(event.message); });
@@ -630,7 +630,6 @@ async function swKilled() {
     mark('script');
     ueSteps.set('engine', 'active');
     coverTo('engine');
-    progress('Starting the engine...', 0.76);
     // a throw in the GPU check (or a bench script) starts the game with the defaults instead of stopping silently
     let picked = [];
     try { picked = await startArgs; } catch (e) { console.log('WEB_COMPAT start arguments failed, using the defaults: ' + e); }

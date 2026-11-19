@@ -11,6 +11,8 @@ public class gameAstraForest : ModuleRules
             "AIModule", "NavigationSystem", "GameplayTasks", "UMG", "NetCore", "OnlineSubsystemUtils", "Sockets"
         });
         PrivateDependencyModuleNames.AddRange(new[] { "Slate", "SlateCore", "Niagara", "Landscape", "Networking", "AnimationCore" });
+        if (Target.Platform.ToString() == "Wasm")
+            PrivateDependencyModuleNames.Add("WasmPage");
         if (Target.Configuration != UnrealTargetConfiguration.Shipping)
             PrivateDependencyModuleNames.Add("AudioMixer");
         if (Target.bBuildEditor)
