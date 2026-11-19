@@ -60,13 +60,13 @@ void UTempleMagazinePresentation::TickComponent(float Delta,ELevelTick TickType,
     const FTransform Hand=HandRig->GetSocketTransform(TEXT("hand_l"));
     const FVector Fingers=HandRig->GetSocketLocation(TEXT("middle_02_l"));
     const FVector Thumb=HandRig->GetSocketLocation(TEXT("thumb_03_l"));
-    const FVector Grip=Gun.InverseTransformPosition(FMath::Lerp(Fingers,Thumb,.48f));
+    const FVector LocalGripPosition=Gun.InverseTransformPosition(FMath::Lerp(Fingers,Thumb,.48f));
     // Relative grip orientations sampled from MM_Rifle_Reload at its two contact poses.
     const FQuat Pickup(.595325,.722647,.345014,-.065837);
     const FQuat Return(.686643,.565990,-.261132,.374149);
     const FQuat InHand=FQuat::Slerp(Pickup,Return,FMath::SmoothStep(.255f,.415f,Phase)).GetNormalized();
     const FQuat Held=(Gun.GetRotation().Inverse()*Hand.GetRotation()*SourceHandBasis*InHand).GetNormalized();
     const FQuat Rotation=FQuat::Slerp(FQuat::Identity,Held,Weight);
-    const FVector Location=FMath::Lerp(Center,Grip,Weight)-Rotation.RotateVector(Center);
+    const FVector Location=FMath::Lerp(Center,LocalGripPosition,Weight)-Rotation.RotateVector(Center);
     SetRelativeLocationAndRotation(Location,Rotation);
 }

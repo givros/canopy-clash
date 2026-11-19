@@ -164,10 +164,10 @@ void UTempleRifleComponent::Shoot()
     const FVector TraceEnd=Eye+Direction*TraceDistance;
     bool bHit=GetWorld()->LineTraceSingleByChannel(Hit,Eye,TraceEnd,ECC_Visibility,Query);
     FVector Destination=bHit?Hit.ImpactPoint:TraceEnd;
-    const FVector Muzzle=Fighter->WorldMuzzle();
+    const FVector WorldMuzzlePosition=Fighter->WorldMuzzle();
     // The view picks the sight point. The muzzle sweep catches objects immediately in front of the held weapon.
     FHitResult Obstruction;
-    if (GetWorld()->LineTraceSingleByChannel(Obstruction,Muzzle,Destination,ECC_Visibility,Query))
+    if (GetWorld()->LineTraceSingleByChannel(Obstruction,WorldMuzzlePosition,Destination,ECC_Visibility,Query))
     {
         Hit=Obstruction;
         Destination=Hit.ImpactPoint;

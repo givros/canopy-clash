@@ -1,0 +1,1258 @@
+{
+	"AssetInfoVersion": 2,
+	"ShaderCodeToAssets": [
+		{
+			"ShaderMapHash": "00084F01FEEA3AB6",
+			"Assets": [
+				"/Game/AstraTemple/Architecture/Materials/M_Astra_MossStone"
+			]
+		},
+		{
+			"ShaderMapHash": "0052E675A50E2E85",
+			"Assets": [
+				"/Game/Fab/MetaHuman/MHC_Hero/MetaHumans/MHC_Hero/M_FABRIC_2"
+			]
+		},
+		{
+			"ShaderMapHash": "010FFC792E2887D5",
+			"Assets": [
+				"/HairStrands/Materials/NiagaraHairMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "01148F55B7D713F4",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "0227293742263CB3",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/M_skin_unified_baked"
+			]
+		},
+		{
+			"ShaderMapHash": "03D4737B0C892BBE",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/LayerVisMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "052CB439F58ECFC2",
+			"Assets": [
+				"/Engine/BasicShapes/BasicShapeMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "06ABDBFA11F15950",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked"
+			]
+		},
+		{
+			"ShaderMapHash": "07295547E5AD390B",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Advika/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Dean/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Hannah/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Hero1/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Kabir/Face/Materials/MI_Face_Skin_Baked_LOD3_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "0B2D15662D567F47",
+			"Assets": [
+				"/Game/AstraTemple/Water/M_SprayMist"
+			]
+		},
+		{
+			"ShaderMapHash": "0CA9AE08C4338AB4",
+			"Assets": [
+				"/Engine/EditorMaterials/Dataflow/M_Dataflow_CheckerBoard"
+			]
+		},
+		{
+			"ShaderMapHash": "0E88B17228E18929",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugMeshMaterial",
+				"/Engine/EngineDebugMaterials/M_SimpleUnlitTranslucent"
+			]
+		},
+		{
+			"ShaderMapHash": "110B40A5D49774BC",
+			"Assets": [
+				"/Game/AstraTemple/SpringGrotto/Materials/M_GrottoBed"
+			]
+		},
+		{
+			"ShaderMapHash": "11269231433B7166",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "1411A20ACD7CE47B",
+			"Assets": [
+				"/Game/Characters/Mannequins/Materials/M_Mannequin"
+			]
+		},
+		{
+			"ShaderMapHash": "1412CA5B0C366C87",
+			"Assets": [
+				"/Engine/EngineMaterials/EmissiveMeshMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "15CD580DC311AE9C",
+			"Assets": [
+				"/Game/AstraTemple/Water/M_BrokenFoam"
+			]
+		},
+		{
+			"ShaderMapHash": "1723A5FD4D1EFD25",
+			"Assets": [
+				"/Game/Fab/MetaHuman/Runningshoes/Materials/RunningShoes/M_shs_runningshoes"
+			]
+		},
+		{
+			"ShaderMapHash": "17322D17BD422665",
+			"Assets": [
+				"/ControlRig/Controls/ControlRigGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "17961477B36326A6",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/M_VolumeRenderSphereTracePP"
+			]
+		},
+		{
+			"ShaderMapHash": "17A118642232C2E8",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_VertexColors"
+			]
+		},
+		{
+			"ShaderMapHash": "17EF3EE5FC8311F9",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_AnamorphicUndistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "1A2FD757E02DEE5E",
+			"Assets": [
+				"/Game/AstraTemple/Deathmatch/Standards/M_StandardBlue",
+				"/Game/AstraTemple/Deathmatch/Standards/M_StandardRed"
+			]
+		},
+		{
+			"ShaderMapHash": "1BE83797E561B526",
+			"Assets": [
+				"/InterchangeAssets/Materials/FBXLegacyPhongSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "1C4E981BFD937C76",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/SplineEditorMeshMat"
+			]
+		},
+		{
+			"ShaderMapHash": "1D14FEBD0CD69670",
+			"Assets": [
+				"/CommonUI/M_UI_HoldProgress"
+			]
+		},
+		{
+			"ShaderMapHash": "1E72AF450DD099B7",
+			"Assets": [
+				"/Engine/EditorMaterials/WidgetVertexColorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "1EE22B180F8E5A2A",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "20BF91A8F3465CE0",
+			"Assets": [
+				"/Engine/EngineMaterials/PhAT_JointLimitMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "22436242A877FF12",
+			"Assets": [
+				"/HairStrands/Materials/HairMeshesDefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "254E7146FC726F3B",
+			"Assets": [
+				"/Engine/EngineMaterials/RemoveSurfaceMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "25F37A7FCBAB1780",
+			"Assets": [
+				"/CommonUI/VideoPlayerMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "2786866E5139AEB7",
+			"Assets": [
+				"/ARUtilities/Materials/M_DepthColoration"
+			]
+		},
+		{
+			"ShaderMapHash": "278CE72F38EC5A9C",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "29D252C1D0FE7407",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_AnamorphicDistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "2B7B706ED033E915",
+			"Assets": [
+				"/Engine/EngineMaterials/WorldGridMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "2DFBB172EF5320E2",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "2E662E43554947E2",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/Internal/BrushBounds"
+			]
+		},
+		{
+			"ShaderMapHash": "30B962EA9B160B5C",
+			"Assets": [
+				"/Game/AstraTemple/Terrain/M_RiverGorge"
+			]
+		},
+		{
+			"ShaderMapHash": "312684BB86CF7DD2",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_FernBlade",
+				"/Game/AstraTemple/Nature/Materials/M_MonsteraBlade"
+			]
+		},
+		{
+			"ShaderMapHash": "33A923BB6077CA96",
+			"Assets": [
+				"/Game/AstraTemple/Deathmatch/Standards/M_StandardWood"
+			]
+		},
+		{
+			"ShaderMapHash": "352A01CAD89594E3",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "356ED415212E3CCD",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_BrownConradyDUDistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "37ED93007E4F4A00",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_FracturedRock",
+				"/Game/AstraTemple/Nature/Materials/M_SandstoneFace"
+			]
+		},
+		{
+			"ShaderMapHash": "38648164B98F1006",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/MI_Hair_Helmet"
+			]
+		},
+		{
+			"ShaderMapHash": "386E7B3DC32C487C",
+			"Assets": [
+				"/Landmass/Landscape/BlueprintBrushes/Materials/Sprite/M_BrushSprite_01"
+			]
+		},
+		{
+			"ShaderMapHash": "38833E0F8B532079",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_BractGold",
+				"/Game/AstraTemple/Nature/Materials/M_BractRed"
+			]
+		},
+		{
+			"ShaderMapHash": "39E05C614DE20A4F",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Dean/Body/Materials/MI_Body_Baked_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "3B09C89817B75F62",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "3BC09B82FD1D9D34",
+			"Assets": [
+				"/Engine/EditorMaterials/Dataflow/DataflowVertexMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "3BEF04D320909082",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/M_GrayTexture_Teeth"
+			]
+		},
+		{
+			"ShaderMapHash": "3C88BB946178E831",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_PalmBlade"
+			]
+		},
+		{
+			"ShaderMapHash": "3EFA3F084694D53E",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeBillboardMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "3F2C83B054E8943F",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent"
+			]
+		},
+		{
+			"ShaderMapHash": "400CB7C6363BCBA9",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OutputDepthAndVelocity"
+			]
+		},
+		{
+			"ShaderMapHash": "409C5E71A1A724B6",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/M_skin_unified_baked"
+			]
+		},
+		{
+			"ShaderMapHash": "40DC06B09C9474EE",
+			"Assets": [
+				"/Game/Fab/MetaHuman/CasualSneakers/Materials/M_fabric_simpler",
+				"/Game/Fab/MetaHuman/Runningshoes/Materials/M_fabric_simpler",
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/Common/Materials/M_fabric_simpler"
+			]
+		},
+		{
+			"ShaderMapHash": "41357CE221BE947B",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "41420EF120CC53CF",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "4391A050E3A6B15F",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Eye/Materials/M_eye_lacrimal_fluid_unified"
+			]
+		},
+		{
+			"ShaderMapHash": "44985350F73D3644",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "44D7A8AD350A149B",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_LivingStem"
+			]
+		},
+		{
+			"ShaderMapHash": "454D1CE805C60A1B",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Mask"
+			]
+		},
+		{
+			"ShaderMapHash": "45ADFA20477E9084",
+			"Assets": [
+				"/Engine/EditorMaterials/Dataflow/DataflowSelection"
+			]
+		},
+		{
+			"ShaderMapHash": "46133E69621262C3",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_DistortionPostProcess"
+			]
+		},
+		{
+			"ShaderMapHash": "48DD7F06E328A0B4",
+			"Assets": [
+				"/Game/AstraTemple/Maps/L_CanopyDeathmatch"
+			]
+		},
+		{
+			"ShaderMapHash": "4A5D1A1C762A9A51",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/MI_Facial_Hair"
+			]
+		},
+		{
+			"ShaderMapHash": "4AF16A694EB2CDC8",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/LandscapeDirtyMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "4B58499285D2E91E",
+			"Assets": [
+				"/HairStrands/Emitters/StableRodsSystem",
+				"/HairStrands/Emitters/StableSpringsSystem"
+			]
+		},
+		{
+			"ShaderMapHash": "4C2167AC12993FD0",
+			"Assets": [
+				"/Paper2D/DefaultSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "4CE16263E835B862",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "526270E668065726",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "52F14F9689139B92",
+			"Assets": [
+				"/Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "52F499C710B97260",
+			"Assets": [
+				"/Paper2D/OpaqueUnlitSpriteMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "544C4F644AC65A2B",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "54743A06CB56FBF4",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultPostProcessMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "5562C160AC36600A",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/LandscapeLayerUsageMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "568A07CFAA14E25B",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_SphericalDistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "577257E3ED71FD5F",
+			"Assets": [
+				"/Game/TempleTDM/Feedback/M_CarbineTrace"
+			]
+		},
+		{
+			"ShaderMapHash": "57BBFE8414CC61C1",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/M_GrayTexture_Eyes"
+			]
+		},
+		{
+			"ShaderMapHash": "597ECAC3E04933CD",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/Common/Materials/Crewneckt/M_top_crewneckt"
+			]
+		},
+		{
+			"ShaderMapHash": "5AD41018808A6531",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_DefaultEvenSquare"
+			]
+		},
+		{
+			"ShaderMapHash": "5F50EAC97B10EEE4",
+			"Assets": [
+				"/Engine/EngineDebugMaterials/DebugEditorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "6625A4298A5D2399",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/SelectBrushMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "66B813AE7B2657B1",
+			"Assets": [
+				"/HairStrands/Materials/HairCardsDefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "67F4223B665BCB32",
+			"Assets": [
+				"/Game/AstraTemple/Architecture/Materials/M_Astra_ShadeStone"
+			]
+		},
+		{
+			"ShaderMapHash": "68677942E59DB2B2",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "6B930A87081226A6",
+			"Assets": [
+				"/InterchangeAssets/gltf/M_Transmission"
+			]
+		},
+		{
+			"ShaderMapHash": "6CE57792A122D978",
+			"Assets": [
+				"/Game/AstraTemple/Reliefs/M_CarvedRiverLimestone"
+			]
+		},
+		{
+			"ShaderMapHash": "6CF6027BE71EBA4E",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/M_hair_v4"
+			]
+		},
+		{
+			"ShaderMapHash": "6E9218B97B123F23",
+			"Assets": [
+				"/Game/Fab/MetaHuman/CasualSneakers/Materials/CasualSneakers/M_shs_casualsneakers"
+			]
+		},
+		{
+			"ShaderMapHash": "6ED078AAF89FFE0B",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "6FA35D193D8315A3",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/Baked/MI_Head_Baked_LOD0_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "6FB5FBE4E5D3EB66",
+			"Assets": [
+				"/Engine/VREditor/SnapGrid/SnapGridMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "6FF3FFACC42154F2",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque"
+			]
+		},
+		{
+			"ShaderMapHash": "6FF9CA5BC1C8CBAB",
+			"Assets": [
+				"/Game/AstraTemple/Deathmatch/Standards/M_StandardBraid"
+			]
+		},
+		{
+			"ShaderMapHash": "70730E24CAEAABEC",
+			"Assets": [
+				"/Game/AstraTemple/Reliefs/M_SpringKeeperPatina"
+			]
+		},
+		{
+			"ShaderMapHash": "70BC4D693E0AE3EF",
+			"Assets": [
+				"/Game/AstraTemple/SpringGrotto/Materials/M_GrottoWet"
+			]
+		},
+		{
+			"ShaderMapHash": "719297F7521FB444",
+			"Assets": [
+				"/Engine/EditorMaterials/Camera/CineMat"
+			]
+		},
+		{
+			"ShaderMapHash": "72572A97D01A2037",
+			"Assets": [
+				"/MeshModelingToolsetExp/Materials/LineSetOverlaidComponentMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "73AED6B0D0D3B18D",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_MossNap"
+			]
+		},
+		{
+			"ShaderMapHash": "73B87D21B18B2233",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale"
+			]
+		},
+		{
+			"ShaderMapHash": "74053DA9A3008D17",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Eye/Materials/MI_eye_eyeball_unified_MH_preset_left"
+			]
+		},
+		{
+			"ShaderMapHash": "7559D7388479B7F5",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_BrownConradyUDDistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "76B16CDF54E5995D",
+			"Assets": [
+				"/HairStrands/Materials/HairDebugMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "7B0E575610564BCF",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Masked_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "7CE6049332216B40",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/M_Eyelashes_Cards"
+			]
+		},
+		{
+			"ShaderMapHash": "81D772BD08D67621",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultDeferredDecalMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "822A2961E7F32DFE",
+			"Assets": [
+				"/ARUtilities/Materials/MI_ScreenSpacePassthroughCameraExternalTexture"
+			]
+		},
+		{
+			"ShaderMapHash": "823826C9D111294E",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "84DAFFEA743E556E",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/MaskBrushMaterial_MaskedRegion"
+			]
+		},
+		{
+			"ShaderMapHash": "85D76B0C489C550B",
+			"Assets": [
+				"/Game/AstraTemple/Water/M_CascadeVeil"
+			]
+		},
+		{
+			"ShaderMapHash": "8693739407E4B712",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/Baked/MI_Head_Baked_LOD2_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "8A5C1CD4EA823072",
+			"Assets": [
+				"/Engine/EngineMaterials/M_InvalidLightmapSettings"
+			]
+		},
+		{
+			"ShaderMapHash": "8B7859DC586EF905",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask",
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "8BBC2CCB501A88AC",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Advika/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Dean/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Hannah/Body/Materials/MI_Body_Baked_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "8C17D1F1D30D4322",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Dean/Face/Materials/MI_Face_Skin_Baked_LOD3_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "8CD2BDE513869E8F",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_FigBark"
+			]
+		},
+		{
+			"ShaderMapHash": "8D1D31E7F15345FA",
+			"Assets": [
+				"/Game/AstraTemple/Water/M_SpringWater"
+			]
+		},
+		{
+			"ShaderMapHash": "8F003D8B60533E15",
+			"Assets": [
+				"/ControlRig/M_Manip"
+			]
+		},
+		{
+			"ShaderMapHash": "8FFB9FAF198641E3",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Eye/Materials/M_eye_occlusion_unified"
+			]
+		},
+		{
+			"ShaderMapHash": "91778A7E32411BD2",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Eye/Materials/M_eye_eyeball_unified"
+			]
+		},
+		{
+			"ShaderMapHash": "95E2426D7910F325",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/M_Hide"
+			]
+		},
+		{
+			"ShaderMapHash": "9864712A9B60CF1C",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Eye/Materials/Baked/MI_EyeL_Baked",
+				"/Game/TempleTDM/Bots/Hannah/Face/Materials/MI_EyeL_Baked"
+			]
+		},
+		{
+			"ShaderMapHash": "991F9E44861644E9",
+			"Assets": [
+				"/Game/AstraTemple/FallsGeology/Materials/M_SprayLedges"
+			]
+		},
+		{
+			"ShaderMapHash": "9BA68C7C4F58DB5D",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "9FE7D39DEE67390E",
+			"Assets": [
+				"/Engine/EditorMaterials/PhAT_UnselectedMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A11E7EBF38563F44",
+			"Assets": [
+				"/Engine/EditorMaterials/PreviewShadowIndicatorMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "A1FF5B8E68A06E07",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Transmission_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "A23ED9657A2B9289",
+			"Assets": [
+				"/ARUtilities/Materials/M_ScreenSpacePassthroughCamera"
+			]
+		},
+		{
+			"ShaderMapHash": "A281ACA8537A6226",
+			"Assets": [
+				"/Game/AstraTemple/Architecture/Materials/M_Astra_CarvedStone"
+			]
+		},
+		{
+			"ShaderMapHash": "A325B992566752D0",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_BrownConradyUDUndistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "A43498DAEF67A1A2",
+			"Assets": [
+				"/Game/AstraTemple/Architecture/Materials/M_Astra_Ochre"
+			]
+		},
+		{
+			"ShaderMapHash": "A4ED011A45E1C54D",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/Baked/MI_Head_Baked_LOD0_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "A5941424BDD64384",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/Baked/MI_Head_Baked_LOD1_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "A5F779167B6A98CB",
+			"Assets": [
+				"/Game/AstraTemple/SpringGrotto/Materials/M_GrottoStrata"
+			]
+		},
+		{
+			"ShaderMapHash": "A9039459881F909B",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_BrownConradyDUUndistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "AA5157759FDEE2A5",
+			"Assets": [
+				"/InterchangeAssets/gltf/Substrate/M_GLTF"
+			]
+		},
+		{
+			"ShaderMapHash": "AA929ABB8FB38C74",
+			"Assets": [
+				"/CommonUI/M_UI_VirtualPointer"
+			]
+		},
+		{
+			"ShaderMapHash": "AC2EE7DCE03E5325",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/MI_Hair_Cards"
+			]
+		},
+		{
+			"ShaderMapHash": "AC832FC44AFF1DD7",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/Baked/MI_Head_Baked_LOD2_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "ACA9AA9B32F4821F",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultTextMaterialOpaque"
+			]
+		},
+		{
+			"ShaderMapHash": "ACFBDABA89F62764",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "AD8672AA8EA9E9F3",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_MossRock",
+				"/Game/AstraTemple/Nature/Materials/M_PalmBark"
+			]
+		},
+		{
+			"ShaderMapHash": "AE1B4C963A78F905",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultLightFunctionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "AE44F2EFDCFADC32",
+			"Assets": [
+				"/Game/Characters/Mannequins/Materials/Manny/MI_Manny_02_New"
+			]
+		},
+		{
+			"ShaderMapHash": "B13149AD244E6EAE",
+			"Assets": [
+				"/InterchangeAssets/gltf/M_Sheen"
+			]
+		},
+		{
+			"ShaderMapHash": "B2758184F6C1B2E5",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/M_GrayTexture_Head"
+			]
+		},
+		{
+			"ShaderMapHash": "B2BE2B2974ED3F84",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "B2DBA93004098569",
+			"Assets": [
+				"/Engine/EngineMaterials/GizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "B2F6577CCC83EA30",
+			"Assets": [
+				"/Game/AstraTemple/SpringGrotto/Materials/M_GrottoJoint"
+			]
+		},
+		{
+			"ShaderMapHash": "B3ACDA7A4ED43556",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_DefaultOddSquare"
+			]
+		},
+		{
+			"ShaderMapHash": "B64AB29312232F34",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_CharucoBoard"
+			]
+		},
+		{
+			"ShaderMapHash": "B66FAAF7730E8535",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Default_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "B6D67D036A40E0B6",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeA/Materials/M_DG_bodyShapeA_Shirt"
+			]
+		},
+		{
+			"ShaderMapHash": "B89998D45F441200",
+			"Assets": [
+				"/Engine/EngineMaterials/FlattenMaterial_WS_Normal_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "B98B2F4A2FAB5136",
+			"Assets": [
+				"/HairStrands/Materials/HairDefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "B9F27042F2E36AA4",
+			"Assets": [
+				"/Game/AstraTemple/Architecture/Materials/M_Astra_Pinestone"
+			]
+		},
+		{
+			"ShaderMapHash": "BC8A77947ED991FB",
+			"Assets": [
+				"/Game/AstraTemple/Water/M_LiliesAndLotus"
+			]
+		},
+		{
+			"ShaderMapHash": "BCEF724E9E4878A4",
+			"Assets": [
+				"/Game/AstraTemple/Lighting/M_CloudCeiling"
+			]
+		},
+		{
+			"ShaderMapHash": "BF02E17CEC44D6A6",
+			"Assets": [
+				"/Game/AstraTemple/Architecture/Materials/M_Astra_Sandstone"
+			]
+		},
+		{
+			"ShaderMapHash": "C155E05A5960A171",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_CanopySpray"
+			]
+		},
+		{
+			"ShaderMapHash": "C18E31AFDF858609",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeA/Materials/M_DG_bodyShapeA_Short"
+			]
+		},
+		{
+			"ShaderMapHash": "C22FB1234B61D237",
+			"Assets": [
+				"/InterchangeAssets/gltf/M_Default"
+			]
+		},
+		{
+			"ShaderMapHash": "C30D60332EFABBF2",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Sheen_Mask_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "C3FB020D1AEE24FB",
+			"Assets": [
+				"/Engine/EngineMaterials/DefaultMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "C92E6BD818F12141",
+			"Assets": [
+				"/InterchangeAssets/gltf/M_SpecularGlossiness"
+			]
+		},
+		{
+			"ShaderMapHash": "CA3D277F739D3489",
+			"Assets": [
+				"/Engine/EngineMaterials/PPM_DefaultCalibrationColor"
+			]
+		},
+		{
+			"ShaderMapHash": "CA8674F3B13CBD6E",
+			"Assets": [
+				"/InterchangeAssets/gltf/M_ClearCoat"
+			]
+		},
+		{
+			"ShaderMapHash": "CB3C0BC03D47C083",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Xray"
+			]
+		},
+		{
+			"ShaderMapHash": "CB9B08006C73C2F9",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Teeth/Materials/M_teeth_unified"
+			]
+		},
+		{
+			"ShaderMapHash": "CF8564D2420F9A12",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Skin/Materials/Baked/MI_Head_Baked_LOD1_VT"
+			]
+		},
+		{
+			"ShaderMapHash": "D1E147EBDB7D202B",
+			"Assets": [
+				"/ControlRig/Controls/ControlRigXRayMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "D31E915FA7DB724F",
+			"Assets": [
+				"/Game/Fab/MetaHuman/MHC_Hero/MetaHumans/MHC_Hero/M_Shoe2"
+			]
+		},
+		{
+			"ShaderMapHash": "D4FE72797F114AE8",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OutputDepthAndVelocity_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "D691AE463CB5DBE5",
+			"Assets": [
+				"/SpeedTreeImporter/SpeedTree9/SpeedTreeMaster"
+			]
+		},
+		{
+			"ShaderMapHash": "D82B7C54496430E0",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/TransformGizmoMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "D8E33E0D82A3CE4F",
+			"Assets": [
+				"/Game/AstraTemple/Terrain/M_CatchmentFloor"
+			]
+		},
+		{
+			"ShaderMapHash": "DA9A65DD16D3F289",
+			"Assets": [
+				"/Game/AstraTemple/Water/M_SubmergedGravel"
+			]
+		},
+		{
+			"ShaderMapHash": "DC71B385375D4D81",
+			"Assets": [
+				"/Game/AstraTemple/Deathmatch/Standards/M_StandardBronze"
+			]
+		},
+		{
+			"ShaderMapHash": "DCC11A7D1924588F",
+			"Assets": [
+				"/CameraCalibrationCore/Materials/M_SphericalUndistortionDisplacementMap"
+			]
+		},
+		{
+			"ShaderMapHash": "DF63D4A19FC23D56",
+			"Assets": [
+				"/Game/TempleTDM/Feedback/M_CarbineSpark"
+			]
+		},
+		{
+			"ShaderMapHash": "DF63D882F379D1B0",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Blend"
+			]
+		},
+		{
+			"ShaderMapHash": "E2D808385B40A072",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_SpecularGlossiness_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "E60D1072383E634D",
+			"Assets": [
+				"/Game/AstraTemple/Nature/Materials/M_RainLeaf",
+				"/Game/AstraTemple/Nature/Materials/M_RainLeafLight",
+				"/Game/AstraTemple/Nature/Materials/M_RainLeafShade"
+			]
+		},
+		{
+			"ShaderMapHash": "E64D0F075D5F1F59",
+			"Assets": [
+				"/InterchangeAssets/gltf/M_Unlit"
+			]
+		},
+		{
+			"ShaderMapHash": "E6D9AAF598772C11",
+			"Assets": [
+				"/Engine/EngineMaterials/NaniteHiddenSectionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "E712CC0EAD68AC97",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_ClearCoat_Opaque_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "E72A3E3C11599DC7",
+			"Assets": [
+				"/Game/TempleTDM/Animation/M_TempleSleeveLining"
+			]
+		},
+		{
+			"ShaderMapHash": "E86CFBF9096EC6C4",
+			"Assets": [
+				"/Game/Weapons/Rifle/Materials/M_Rifle"
+			]
+		},
+		{
+			"ShaderMapHash": "E9C5DC8EDA9BA011",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Controls/M_RigControlActor_Black"
+			]
+		},
+		{
+			"ShaderMapHash": "ECB0A44B22D4DAFC",
+			"Assets": [
+				"/Engine/EditorMaterials/Dataflow/DataflowTwoSidedVertexMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "EE00F895106025BD",
+			"Assets": [
+				"/Game/AstraTemple/FloraStudies/Materials/M_ElephantEar",
+				"/Game/AstraTemple/FloraStudies/Materials/M_WoodFern"
+			]
+		},
+		{
+			"ShaderMapHash": "F12893B6D464509C",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeB/Meshes/bodytype2_short"
+			]
+		},
+		{
+			"ShaderMapHash": "F130942DDF995E91",
+			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_Opaque_OneSided"
+			]
+		},
+		{
+			"ShaderMapHash": "F314DBC7FF6A2B56",
+			"Assets": [
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend",
+				"/InterchangeAssets/gltf/MaterialInstances/MI_Unlit_Blend_DS"
+			]
+		},
+		{
+			"ShaderMapHash": "F3E578AD93267057",
+			"Assets": [
+				"/Engine/EngineSky/M_Sky_Panning_Clouds2"
+			]
+		},
+		{
+			"ShaderMapHash": "F576EA83B76CF017",
+			"Assets": [
+				"/Engine/VREditor/TransformGizmo/Main"
+			]
+		},
+		{
+			"ShaderMapHash": "F5868DEC525EC835",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/ColorMaskBrushMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "F58B92DE4F1801F9",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Hannah/Face/Materials/MI_Teeth_Baked",
+				"/Game/TempleTDM/Bots/Hero1/Face/Materials/MI_Teeth_Baked",
+				"/Game/TempleTDM/Bots/Kabir/Face/Materials/MI_Teeth_Baked"
+			]
+		},
+		{
+			"ShaderMapHash": "F6AC341C3EC79AE5",
+			"Assets": [
+				"/Engine/EditorMaterials/PhAT_NoCollisionMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "F74AD40B2DF5D7F3",
+			"Assets": [
+				"/Engine/EditorLandscapeResources/SelectBrushMaterial_SelectedRegion"
+			]
+		},
+		{
+			"ShaderMapHash": "F7857E08DB4E41C7",
+			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Teeth/Materials/MI_teeth_unified_MH_preset"
+			]
+		},
+		{
+			"ShaderMapHash": "F82BB3C0809DFAEA",
+			"Assets": [
+				"/MeshModelingToolsetExp/Materials/PointSetOverlaidComponentMaterial"
+			]
+		},
+		{
+			"ShaderMapHash": "FA227D09C28F55AA",
+			"Assets": [
+				"/ARUtilities/Materials/M_PassthroughCamera"
+			]
+		}
+	]
+}
