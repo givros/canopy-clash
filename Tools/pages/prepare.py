@@ -82,7 +82,39 @@ def prepare(stage, site):
     page = index.read_text(encoding="utf-8")
     if switch not in page:
         page = replace_once(page, switch.replace('"1"', '"0"'), switch, index.name)
-    index.write_text(page, encoding="utf-8", newline="\n")
+    advice = '<meta name="ue-browser-advice" content="">'
+    if advice in page:
+        page = replace_once(page, advice, advice.replace('content=""', 'content="none"'), index.name)
+    graphics = Path(__file__).with_name("browser-graphics.js").read_text(encoding="utf-8")
+    head_script = "<script>\n// The display's refresh rate"
+    page = replace_once(page, head_script,
+                        "<script>\n" + graphics + "\ncanopyGraphics.normalizeLink();\n// The display's refresh rate", index.name)
+    compat = site / "wasm-compat.js"
+    script = compat.read_text(encoding="utf-8")
+    pick = "const asked = chosenTier();"
+    script = replace_once(script, pick, pick + """
+      const fastForward = !resolution && !gpuFallback() && !handheld()
+        ? await canopyGraphics.forwardReason(asked, defaultTier, browser(), probe) : '';""", compat.name)
+    script = replace_once(script, "if (!resolution && (!(sm5 || deferred)",
+                          "if (!resolution && (fastForward || !(sm5 || deferred)", compat.name)
+    script = replace_once(script, "const tier = pickTier(null, 0, stage);",
+                          "const tier = fastForward ? { tier: 'forward', preset: null, why: fastForward } : pickTier(null, 0, stage);",
+                          compat.name)
+    no_gpu = "WebGPU has no GPU to use here: the GPU or its driver may be blocked by the browser (see ${page})."
+    script = replace_once(script, no_gpu,
+                          "The browser did not provide a WebGPU adapter. ${browser().os === 'Windows' ? "
+                          "'Check that hardware acceleration is enabled, restart the browser, and reload the game. ' : ''}"
+                          "See ${page} for GPU diagnostics.", compat.name)
+    compat.write_text(script, encoding="utf-8", newline="\n")
+
+    player = site / "wasm-play.js"
+    script = player.read_text(encoding="utf-8")
+    script = replace_once(script, "const text = T(errorCards[kind] || errorCards.abort);",
+                          "const text = kind === 'device-lost' ? canopyGraphics.deviceLossText($('reload')) : T(errorCards[kind] || errorCards.abort);",
+                          player.name)
+    script = replace_once(script, "$('reload').addEventListener('click', () => location.reload());",
+                          "$('reload').addEventListener('click', () => canopyGraphics.reload($('reload')));", player.name)
+    player.write_text(script, encoding="utf-8", newline="\n")
 
     # Pages stores no Brotli sidecars. Count the initial files as transferred,
     # excluding the large container Unreal will read on demand during play.
@@ -91,12 +123,22 @@ def prepare(stage, site):
     (site / "wasm-cache.json").write_text(json.dumps(manifest, separators=(",", ":")), encoding="utf-8")
     loader = site / "wasm-loader.js"
     script = loader.read_text(encoding="utf-8")
+    dpr = "Math.min(window.devicePixelRatio || 1, Number(pageMeta('ue-max-dpr')) || 1)"
+    script = replace_once(script, dpr, f"canopyGraphics.canvasRatio(canvas, {dpr})", loader.name)
     script = replace_once(script, "Array.isArray(f.parts) && f.parts.length",
                           "f.pagesVirtual || (Array.isArray(f.parts) && f.parts.length)", loader.name)
     script = replace_once(script, "&& !late(f.url)", "&& !late(f.url) && !f.pagesStreamed", loader.name)
     script = replace_once(script, "const wire = f => f.br || f.size;",
                           "const wire = f => f.pagesWireBytes || f.size;", loader.name)
     loader.write_text(script, encoding="utf-8", newline="\n")
+
+    # Returning players can have the previous scripts in their HTTP cache.
+    # Version the small, related boot scripts independently of the game data.
+    for name in ("wasm-compat.js", "wasm-play.js", "wasm-loader.js", "texture-budget.js"):
+        attribute = "content" if name == "texture-budget.js" else "src"
+        stamp = hashlib.sha256((site / name).read_bytes()).hexdigest()[:16]
+        page = replace_once(page, f'{attribute}="{name}"', f'{attribute}="{name}?build={stamp}"', index.name)
+    index.write_text(page, encoding="utf-8", newline="\n")
 
     # Have Epic's cache retain the logical module. Only the physical shards
     # exist in the host's HTTP cache, so its second copy of the logical URL

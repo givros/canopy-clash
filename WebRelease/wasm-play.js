@@ -142,7 +142,7 @@ const errorCards = {
 };
 function failKind(kind, detail) {
   if (failed || recovering) return;
-  const text = T(errorCards[kind] || errorCards.abort);
+  const text = kind === 'device-lost' ? canopyGraphics.deviceLossText($('reload')) : T(errorCards[kind] || errorCards.abort);
   console.log('UE_RUN ERROR ' + JSON.stringify({ kind, message: String(detail || '') }));
   failQuiet(text + (detail ? '\n\n' + detail : ''));
   crashReport(kind, String(detail || ''));
@@ -787,7 +787,7 @@ window.uePage = {
   },
 };
 
-$('reload').addEventListener('click', () => location.reload());
+$('reload').addEventListener('click', () => canopyGraphics.reload($('reload')));
 $('again').addEventListener('click', () => location.reload());
 $('log').addEventListener('click', async () => {
   // UE's log lives in OPFS (Saved/Logs/<Project>.log, lowercased by the icase backend), unless Saved is in memory. A page that stopped before the game ran

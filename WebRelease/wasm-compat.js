@@ -309,7 +309,7 @@ window.ueCompat = (() => {
           return { message: linuxAdvice + ' If both are already on, the GPU or its driver may be blocked by the browser (see chrome://gpu).', adapter: null, kind: 'browser' };
         }
         if (browser().os === 'Android') return { message: noAdapterAndroid(browser()), adapter: null };
-        return { message: `WebGPU has no GPU to use here: the GPU or its driver may be blocked by the browser (see ${page}).`, adapter: null };
+        return { message: `The browser did not provide a WebGPU adapter. ${browser().os === 'Windows' ? 'Check that hardware acceleration is enabled, restart the browser, and reload the game. ' : ''}See ${page} for GPU diagnostics.`, adapter: null };
       }
       let info = adapter.info || {};
       if (!adapter.info && adapter.requestAdapterInfo) {
@@ -685,8 +685,10 @@ window.ueCompat = (() => {
       // No GPU check where nothing reads it: a forward-only stage, a tab after its GPU fallback, and a phone or tablet that asks
       // for no other tier (forward)
       const asked = chosenTier();
-      if (!resolution && (!(sm5 || deferred) || gpuFallback() || (handheld() && (!asked || asked === 'forward')))) {
-        const tier = pickTier(null, 0, stage);
+      const fastForward = !resolution && !gpuFallback() && !handheld()
+        ? await canopyGraphics.forwardReason(asked, defaultTier, browser(), probe) : '';
+      if (!resolution && (fastForward || !(sm5 || deferred) || gpuFallback() || (handheld() && (!asked || asked === 'forward')))) {
+        const tier = fastForward ? { tier: 'forward', preset: null, why: fastForward } : pickTier(null, 0, stage);
         picked = { source: forced ? 'forced' : 'none', ...(forced ? { screen_percentage: forced } : {}), ...tier };
         if (sm5 || deferred) console.log('WEB_TIER ' + JSON.stringify(picked));
         return spArgs(null).concat(tierArgs(tier, stage));

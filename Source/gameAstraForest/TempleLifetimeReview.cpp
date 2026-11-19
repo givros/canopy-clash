@@ -111,7 +111,7 @@ private:
         int32 RemainingOldPawns = 0;
         for (const auto& Pawn : PreviousPawns) if (Pawn.GetEvenIfUnreachable()) ++RemainingOldPawns;
         int32 RemainingOldMuzzles = 0;
-        for (const auto& Muzzle : PreviousMuzzles) if (Muzzle.GetEvenIfUnreachable()) ++RemainingOldMuzzles;
+        for (const auto& PreviousMuzzle : PreviousMuzzles) if (PreviousMuzzle.GetEvenIfUnreachable()) ++RemainingOldMuzzles;
         int32 FighterMaterials = 0;
         for (TObjectIterator<UMaterialInstanceDynamic> Material; Material; ++Material)
         {

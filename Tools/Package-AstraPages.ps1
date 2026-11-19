@@ -27,11 +27,15 @@ try {
     & (Join-Path $batchFiles "Build.bat") gameAstraForest Wasm Shipping "-Project=$project" -WaitMutex -NoUBA -MaxParallelActions=4
     if ($LASTEXITCODE -ne 0) { throw "Unreal Wasm compilation failed ($LASTEXITCODE)." }
 
-    $cook = if ($ReuseCook) { "-skipcook" } else { "-cook" }
+    if (-not $ReuseCook) {
+        $editor = Join-Path $EngineRoot "Engine/Binaries/Win64/UnrealEditor-Cmd.exe"
+        & python (Join-Path $PSScriptRoot "pages/cook.py") --editor $editor --project $project
+        if ($LASTEXITCODE -ne 0) { throw "Unreal Wasm cook failed ($LASTEXITCODE)." }
+    }
     & (Join-Path $batchFiles "RunUAT.bat") BuildCookRun "-project=$project" -platform=Wasm -clientconfig=Shipping `
-        -skipbuild $cook -stage -pak -iostore -compressed -package -archive "-stagingdirectory=$release/Staged" `
+        -skipbuild -skipcook -stage -pak -iostore -compressed -package -archive "-stagingdirectory=$release/Staged" `
         "-archivedirectory=$release/Archive" -map=/Game/AstraTemple/Maps/L_CanopyDeathmatch -cookcultures=en `
-        -nop4 -nocompileeditor -nodebuginfo -unattended -utf8output -WasmNoBrotli "-AdditionalCookerOptions=-NoAlwaysCookMaps"
+        -nop4 -nocompileeditor -nodebuginfo -unattended -utf8output -WasmNoBrotli
     if ($LASTEXITCODE -ne 0) { throw "Unreal Wasm packaging failed ($LASTEXITCODE)." }
 
     $stage = Join-Path $release "Archive/Wasm"

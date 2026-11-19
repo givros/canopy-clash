@@ -10,6 +10,7 @@
 		{
 			"ShaderMapHash": "0052E675A50E2E85",
 			"Assets": [
+				"/Game/Fab/MetaHuman/MHC_Hero/MetaHumans/MHC_Hero/M_FABRIC_1",
 				"/Game/Fab/MetaHuman/MHC_Hero/MetaHumans/MHC_Hero/M_FABRIC_2"
 			]
 		},
@@ -295,7 +296,11 @@
 		{
 			"ShaderMapHash": "39E05C614DE20A4F",
 			"Assets": [
-				"/Game/TempleTDM/Bots/Dean/Body/Materials/MI_Body_Baked_VT"
+				"/Game/TempleTDM/Bots/Advika/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Dean/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Hannah/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Hero1/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Kabir/Body/Materials/MI_Body_Baked_VT"
 			]
 		},
 		{
@@ -411,6 +416,7 @@
 		{
 			"ShaderMapHash": "4A5D1A1C762A9A51",
 			"Assets": [
+				"/Game/TempleTDM/Bots/Common/Materials/M_Facial_Hair",
 				"/Game/TempleTDM/Bots/Common/Materials/MI_Facial_Hair"
 			]
 		},
@@ -442,6 +448,7 @@
 		{
 			"ShaderMapHash": "526270E668065726",
 			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough",
 				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OneSided"
 			]
 		},
@@ -676,6 +683,7 @@
 		{
 			"ShaderMapHash": "84DAFFEA743E556E",
 			"Assets": [
+				"/Engine/EditorLandscapeResources/MaskBrushMaterial",
 				"/Engine/EditorLandscapeResources/MaskBrushMaterial_MaskedRegion"
 			]
 		},
@@ -709,13 +717,19 @@
 			"Assets": [
 				"/Game/TempleTDM/Bots/Advika/Body/Materials/MI_Body_Baked_VT",
 				"/Game/TempleTDM/Bots/Dean/Body/Materials/MI_Body_Baked_VT",
-				"/Game/TempleTDM/Bots/Hannah/Body/Materials/MI_Body_Baked_VT"
+				"/Game/TempleTDM/Bots/Hannah/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Hero1/Body/Materials/MI_Body_Baked_VT",
+				"/Game/TempleTDM/Bots/Kabir/Body/Materials/MI_Body_Baked_VT"
 			]
 		},
 		{
 			"ShaderMapHash": "8C17D1F1D30D4322",
 			"Assets": [
-				"/Game/TempleTDM/Bots/Dean/Face/Materials/MI_Face_Skin_Baked_LOD3_VT"
+				"/Game/TempleTDM/Bots/Advika/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Dean/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Hannah/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Hero1/Face/Materials/MI_Face_Skin_Baked_LOD3_VT",
+				"/Game/TempleTDM/Bots/Kabir/Face/Materials/MI_Face_Skin_Baked_LOD3_VT"
 			]
 		},
 		{
@@ -757,8 +771,12 @@
 		{
 			"ShaderMapHash": "9864712A9B60CF1C",
 			"Assets": [
+				"/Game/TempleTDM/Bots/Advika/Face/Materials/MI_EyeL_Baked",
 				"/Game/TempleTDM/Bots/Common/Lookdev_UHM/Eye/Materials/Baked/MI_EyeL_Baked",
-				"/Game/TempleTDM/Bots/Hannah/Face/Materials/MI_EyeL_Baked"
+				"/Game/TempleTDM/Bots/Dean/Face/Materials/MI_EyeL_Baked",
+				"/Game/TempleTDM/Bots/Hannah/Face/Materials/MI_EyeL_Baked",
+				"/Game/TempleTDM/Bots/Hero1/Face/Materials/MI_EyeL_Baked",
+				"/Game/TempleTDM/Bots/Kabir/Face/Materials/MI_EyeL_Baked"
 			]
 		},
 		{
@@ -945,7 +963,9 @@
 		{
 			"ShaderMapHash": "B6D67D036A40E0B6",
 			"Assets": [
-				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeA/Materials/M_DG_bodyShapeA_Shirt"
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeA/Materials/M_DG_bodyShapeA_Shirt",
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeB/Materials/M_DG_bodyShapeB_Shirt",
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeD/Materials/M_DG_bodyShapeD_Shirt"
 			]
 		},
 		{
@@ -993,7 +1013,9 @@
 		{
 			"ShaderMapHash": "C18E31AFDF858609",
 			"Assets": [
-				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeA/Materials/M_DG_bodyShapeA_Short"
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeA/Materials/M_DG_bodyShapeA_Short",
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeB/Materials/M_DG_bodyShapeB_Short",
+				"/Game/TempleTDM/Bots/Common/Optional/Clothing/DefaultGarment/ClothAssets/bodyShapeD/Materials/M_DG_bodyShapeD_Short"
 			]
 		},
 		{
@@ -1065,6 +1087,7 @@
 		{
 			"ShaderMapHash": "D4FE72797F114AE8",
 			"Assets": [
+				"/Engine/EngineMaterials/Widget3DPassThrough_OutputDepthAndVelocity",
 				"/Engine/EngineMaterials/Widget3DPassThrough_Translucent_OutputDepthAndVelocity_OneSided"
 			]
 		},
@@ -1219,6 +1242,8 @@
 		{
 			"ShaderMapHash": "F58B92DE4F1801F9",
 			"Assets": [
+				"/Game/TempleTDM/Bots/Advika/Face/Materials/MI_Teeth_Baked",
+				"/Game/TempleTDM/Bots/Dean/Face/Materials/MI_Teeth_Baked",
 				"/Game/TempleTDM/Bots/Hannah/Face/Materials/MI_Teeth_Baked",
 				"/Game/TempleTDM/Bots/Hero1/Face/Materials/MI_Teeth_Baked",
 				"/Game/TempleTDM/Bots/Kabir/Face/Materials/MI_Teeth_Baked"

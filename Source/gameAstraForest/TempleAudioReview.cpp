@@ -9,7 +9,7 @@
 #include "LandscapeHeightfieldCollisionComponent.h"
 #include "Misc/CommandLine.h"
 
-namespace
+namespace TempleAudioReview
 {
 const TCHAR* Names[] = {TEXT("Idle"),TEXT("ForestWalk"),TEXT("StoneWalk"),TEXT("Crouch"),TEXT("OtherLeft"),
     TEXT("OtherRight"),TEXT("Report"),TEXT("Reload"),TEXT("Confirm"),TEXT("Contact"),TEXT("Stopped")};
@@ -137,11 +137,11 @@ void Review(UWorld* W, ELevelTick, float)
 void StartTempleAudioReview()
 {
     if (!FParse::Param(FCommandLine::Get(),TEXT("TempleAudioReview")) ||
-        !FParse::Value(FCommandLine::Get(),TEXT("TempleAudioOut="),Output)) return;
-    Hook=FWorldDelegates::OnWorldPostActorTick.AddStatic(Review);
+        !FParse::Value(FCommandLine::Get(),TEXT("TempleAudioOut="),TempleAudioReview::Output)) return;
+    TempleAudioReview::Hook=FWorldDelegates::OnWorldPostActorTick.AddStatic(TempleAudioReview::Review);
 }
 void StopTempleAudioReview()
 {
-    if (Hook.IsValid()) FWorldDelegates::OnWorldPostActorTick.Remove(Hook);
+    if (TempleAudioReview::Hook.IsValid()) FWorldDelegates::OnWorldPostActorTick.Remove(TempleAudioReview::Hook);
 }
 #endif

@@ -294,7 +294,7 @@ async function swKilled() {
   const status = $('status');
   const canvas = $('canvas');
   // The render target at most ue-max-dpr device pixels per CSS pixel (default 1)
-  const dpr = Math.min(window.devicePixelRatio || 1, Number(pageMeta('ue-max-dpr')) || 1);
+  const dpr = canopyGraphics.canvasRatio(canvas, Math.min(window.devicePixelRatio || 1, Number(pageMeta('ue-max-dpr')) || 1));
   canvas.width = Math.round(canvas.clientWidth * dpr);
   canvas.height = Math.round(canvas.clientHeight * dpr);
   let manifest = [];
