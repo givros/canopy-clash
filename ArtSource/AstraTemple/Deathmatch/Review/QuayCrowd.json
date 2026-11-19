@@ -1,0 +1,76 @@
+{
+  "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+  "module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+  "source": "Saved/Deathmatch/ReleaseCrowd/Review.log",
+  "method": "Native dedicated-server Ranger pawns, 60 Hz. One human-controlled stationary Ranger or two production bot controllers, actual CharacterMovement and Detour path following.",
+  "simulation_cost_ms_per_frame": {
+    "without_crowd": 0.001,
+    "with_crowd": 0.032,
+    "measurement": "STAT_AI_Crowd_Tick, 2100 frames at fixed 30 Hz in separate normal ten-bot matches."
+  },
+  "results": {
+    "QuayMeeting": {
+      "passed": true,
+      "seconds": 3.1,
+      "first_distance_m": 12.123,
+      "second_distance_m": 12.203,
+      "minimum_separation_cm": 68.5,
+      "second_net_displacement_cm": 1219.1,
+      "moving_frames": 163
+    },
+    "QuayStationary": {
+      "passed": true,
+      "seconds": 3.22,
+      "first_distance_m": 12.05,
+      "second_distance_m": 0.0,
+      "minimum_separation_cm": 75.6,
+      "second_net_displacement_cm": 0.0,
+      "moving_frames": 170
+    },
+    "PlazaMeeting": {
+      "passed": true,
+      "seconds": 1.85,
+      "first_distance_m": 6.425,
+      "second_distance_m": 6.581,
+      "minimum_separation_cm": 69.0,
+      "second_net_displacement_cm": 641.1,
+      "moving_frames": 88
+    },
+    "PlazaStationary": {
+      "passed": true,
+      "seconds": 1.82,
+      "first_distance_m": 6.554,
+      "second_distance_m": 0.0,
+      "minimum_separation_cm": 68.8,
+      "second_net_displacement_cm": 0.0,
+      "moving_frames": 86
+    },
+    "RailMeeting": {
+      "passed": true,
+      "seconds": 1.83,
+      "first_distance_m": 6.312,
+      "second_distance_m": 5.386,
+      "minimum_separation_cm": 71.6,
+      "second_net_displacement_cm": 496.6,
+      "moving_frames": 87
+    },
+    "RailStationary": {
+      "passed": true,
+      "seconds": 4.6,
+      "first_distance_m": 7.003,
+      "second_distance_m": 0.0,
+      "minimum_separation_cm": 71.4,
+      "second_net_displacement_cm": 0.0,
+      "moving_frames": 253
+    },
+    "RailConvergence": {
+      "passed": true,
+      "seconds": 5.87,
+      "first_distance_m": 4.972,
+      "second_distance_m": 9.089,
+      "minimum_separation_cm": 71.6,
+      "second_net_displacement_cm": 628.0,
+      "moving_frames": 328
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "above_ground_vertices": 22519,
+  "min_walk_center_m": 3.468,
+  "min_channel_edge_xy_m": 0.767,
+  "channel_verts_at_surface": 0,
+  "min_high_fall_curtain_m": 0.518
+}

@@ -1,0 +1,76 @@
+{
+  "license": "CC0",
+  "source": "https://polyhaven.com/license",
+  "assets": {
+    "forest_ground_04": {
+      "Color": {
+        "filename": "T_forest_ground_04_Color.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/forest_ground_04/forest_ground_04_diff_4k.jpg"
+      },
+      "Normal": {
+        "filename": "T_forest_ground_04_Normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/forest_ground_04/forest_ground_04_nor_dx_4k.jpg"
+      },
+      "Rough": {
+        "filename": "T_forest_ground_04_Rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/forest_ground_04/forest_ground_04_rough_4k.jpg"
+      }
+    },
+    "mossy_rock": {
+      "Color": {
+        "filename": "T_mossy_rock_Color.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/mossy_rock/mossy_rock_diff_4k.jpg"
+      },
+      "Normal": {
+        "filename": "T_mossy_rock_Normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/mossy_rock/mossy_rock_nor_dx_4k.jpg"
+      },
+      "Rough": {
+        "filename": "T_mossy_rock_Rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/mossy_rock/mossy_rock_rough_4k.jpg"
+      }
+    },
+    "brown_mud_rocks_01": {
+      "Color": {
+        "filename": "T_brown_mud_rocks_01_Color.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/brown_mud_rocks_01/brown_mud_rocks_01_diff_4k.jpg"
+      },
+      "Normal": {
+        "filename": "T_brown_mud_rocks_01_Normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/brown_mud_rocks_01/brown_mud_rocks_01_nor_dx_4k.jpg"
+      },
+      "Rough": {
+        "filename": "T_brown_mud_rocks_01_Rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/brown_mud_rocks_01/brown_mud_rocks_01_rough_4k.jpg"
+      }
+    },
+    "leafy_grass": {
+      "Color": {
+        "filename": "T_leafy_grass_Color.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/leafy_grass/leafy_grass_diff_4k.jpg"
+      },
+      "Normal": {
+        "filename": "T_leafy_grass_Normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/leafy_grass/leafy_grass_nor_dx_4k.jpg"
+      },
+      "Rough": {
+        "filename": "T_leafy_grass_Rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/leafy_grass/leafy_grass_rough_4k.jpg"
+      }
+    },
+    "mossy_sandstone": {
+      "Color": {
+        "filename": "T_mossy_sandstone_Color.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/mossy_sandstone/mossy_sandstone_diff_4k.jpg"
+      },
+      "Normal": {
+        "filename": "T_mossy_sandstone_Normal.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/mossy_sandstone/mossy_sandstone_nor_dx_4k.jpg"
+      },
+      "Rough": {
+        "filename": "T_mossy_sandstone_Rough.jpg",
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/mossy_sandstone/mossy_sandstone_rough_4k.jpg"
+      }
+    }
+  }
+}

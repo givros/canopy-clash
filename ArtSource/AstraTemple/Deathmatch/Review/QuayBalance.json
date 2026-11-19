@@ -1,0 +1,9054 @@
+{
+  "method": "Every row uses completed native ten-bot matches, default 50 points and 600 seconds. Distance to the team's spawn centre is horizontal. Traces are collected independently of the match outcome.",
+  "results": {
+    "original_24": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "BalanceFinal",
+          "seed": null,
+          "matches": 24,
+          "points": [
+            1181,
+            1067
+          ],
+          "wins": [
+            20,
+            4
+          ],
+          "red_point_share": 0.5254
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 20,
+      "blue_wins": 4,
+      "points": [
+        1181,
+        1067
+      ],
+      "red_point_share": 0.5254,
+      "median_score_gap": 7.0,
+      "mean_round_seconds": 135.5,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 711,
+        "Red": 34
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 711,
+        "Red": 34
+      },
+      "median_engagement_range_m": 63.3,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 267.12,
+      "total_bot_distance_m": 97324,
+      "moving_requests_stalled_5s": 3,
+      "max_stall_s": 6.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2213,
+          "Gallery": 286,
+          "Cloister": 566
+        },
+        "Blue": {
+          "Gate and causeway": 1859,
+          "Gallery": 427,
+          "Terrace": 258,
+          "Cloister": 434
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 914,
+          "East gallery": 144,
+          "West cloister": 82,
+          "Causeway": 41
+        },
+        "Blue": {
+          "Blue quay and plaza": 805,
+          "West cloister": 48,
+          "East gallery": 200,
+          "Upper terraces": 7,
+          "Causeway": 7
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 697,
+          "Causeway": 115,
+          "East gallery": 158,
+          "West cloister": 97
+        },
+        "Blue": {
+          "Blue quay and plaza": 770,
+          "East gallery": 269,
+          "Causeway": 66,
+          "West cloister": 76
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "BalanceFinal",
+          "round": 4,
+          "time": 21.5,
+          "name": "Heron",
+          "position_m": [
+            1.6,
+            38.3,
+            1.3
+          ],
+          "next_path_point_m": [
+            11.1,
+            38.3,
+            4.5
+          ]
+        },
+        {
+          "run": "BalanceFinal",
+          "round": 4,
+          "time": 62.0,
+          "name": "Heron",
+          "position_m": [
+            1.2,
+            38.2,
+            1.0
+          ],
+          "next_path_point_m": [
+            9.3,
+            38.2,
+            4.9
+          ]
+        },
+        {
+          "run": "BalanceFinal",
+          "round": 4,
+          "time": 118.0,
+          "name": "Heron",
+          "position_m": [
+            4.0,
+            39.6,
+            3.0
+          ],
+          "next_path_point_m": [
+            11.1,
+            39.7,
+            4.6
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          41,
+          50
+        ],
+        [
+          50,
+          33
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          44,
+          50
+        ]
+      ]
+    },
+    "unmodified_ford_6": {
+      "rounds": 6,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "QuayImpactBefore",
+          "seed": null,
+          "matches": 6,
+          "points": [
+            298,
+            290
+          ],
+          "wins": [
+            4,
+            2
+          ],
+          "red_point_share": 0.5068
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 4,
+      "blue_wins": 2,
+      "points": [
+        298,
+        290
+      ],
+      "red_point_share": 0.5068,
+      "median_score_gap": 2.0,
+      "mean_round_seconds": 144.0,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 167,
+        "Red": 17
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 167,
+        "Red": 17
+      },
+      "median_engagement_range_m": 62.6,
+      "completed_bot_rounds": 60,
+      "minimum_distance_per_bot_round_m": 321.73,
+      "total_bot_distance_m": 25818,
+      "moving_requests_stalled_5s": 1,
+      "max_stall_s": 20.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 589,
+          "Gallery": 73,
+          "Cloister": 151
+        },
+        "Blue": {
+          "Gate and causeway": 502,
+          "Gallery": 111,
+          "Cloister": 123,
+          "Terrace": 70
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 243,
+          "East gallery": 30,
+          "West cloister": 18,
+          "Causeway": 7
+        },
+        "Blue": {
+          "Blue quay and plaza": 219,
+          "East gallery": 50,
+          "West cloister": 15,
+          "Upper terraces": 1,
+          "Causeway": 5
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 183,
+          "East gallery": 42,
+          "West cloister": 25,
+          "Causeway": 40
+        },
+        "Blue": {
+          "Blue quay and plaza": 184,
+          "East gallery": 63,
+          "West cloister": 23,
+          "Causeway": 28
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "QuayImpactBefore",
+          "round": 5,
+          "time": 42.5,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            2.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            1.5,
+            4.5
+          ]
+        }
+      ],
+      "results": [
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          47
+        ]
+      ]
+    },
+    "two_walls": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "QuayARounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            593,
+            517
+          ],
+          "wins": [
+            9,
+            3
+          ],
+          "red_point_share": 0.5342
+        },
+        {
+          "run": "QuayARounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            595,
+            503
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5419
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 20,
+      "blue_wins": 4,
+      "points": [
+        1188,
+        1020
+      ],
+      "red_point_share": 0.538,
+      "median_score_gap": 7.5,
+      "mean_round_seconds": 146.8,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 433,
+        "Red": 30
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 433,
+        "Red": 30
+      },
+      "median_engagement_range_m": 61.2,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 238.87,
+      "total_bot_distance_m": 106125,
+      "moving_requests_stalled_5s": 5,
+      "max_stall_s": 6.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2457,
+          "Gallery": 350,
+          "Cloister": 639
+        },
+        "Blue": {
+          "Gallery": 398,
+          "Gate and causeway": 2215,
+          "Terrace": 282,
+          "Cloister": 422
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 867,
+          "East gallery": 119,
+          "Causeway": 106,
+          "West cloister": 96
+        },
+        "Blue": {
+          "Blue quay and plaza": 737,
+          "East gallery": 184,
+          "Causeway": 43,
+          "Upper terraces": 9,
+          "West cloister": 47
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 229,
+          "East gallery": 171,
+          "Gate and Red bank": 520,
+          "West cloister": 99,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 627,
+          "East gallery": 276,
+          "West cloister": 92,
+          "Causeway": 192,
+          "Upper terraces": 1
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "QuayARounds1",
+          "round": 5,
+          "time": 65.0,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            2.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            1.5,
+            4.5
+          ]
+        },
+        {
+          "run": "QuayARounds2",
+          "round": 2,
+          "time": 81.0,
+          "name": "Reed",
+          "position_m": [
+            10.4,
+            14.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            10.5,
+            14.6,
+            4.1
+          ]
+        },
+        {
+          "run": "QuayARounds2",
+          "round": 2,
+          "time": 81.0,
+          "name": "Lynx",
+          "position_m": [
+            10.5,
+            14.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            10.5,
+            14.6,
+            4.1
+          ]
+        },
+        {
+          "run": "QuayARounds2",
+          "round": 2,
+          "time": 146.5,
+          "name": "Reed",
+          "position_m": [
+            10.5,
+            14.1,
+            5.0
+          ],
+          "next_path_point_m": [
+            10.5,
+            14.6,
+            4.1
+          ]
+        },
+        {
+          "run": "QuayARounds2",
+          "round": 2,
+          "time": 146.5,
+          "name": "Lynx",
+          "position_m": [
+            10.4,
+            14.8,
+            5.0
+          ],
+          "next_path_point_m": [
+            10.5,
+            14.6,
+            4.1
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          39
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          39
+        ]
+      ]
+    },
+    "three_walls": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "QuayBRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            597,
+            496
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5462
+        },
+        {
+          "run": "QuayBRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            527
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5324
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 23,
+      "blue_wins": 1,
+      "points": [
+        1197,
+        1023
+      ],
+      "red_point_share": 0.5392,
+      "median_score_gap": 6.0,
+      "mean_round_seconds": 164.0,
+      "deaths_within_20m_of_own_start_center": {
+        "Red": 25,
+        "Blue": 280
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Red": 25,
+        "Blue": 280
+      },
+      "median_engagement_range_m": 59.0,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 284.8,
+      "total_bot_distance_m": 121984,
+      "moving_requests_stalled_5s": 12,
+      "max_stall_s": 10.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2961,
+          "Cloister": 724,
+          "Gallery": 266
+        },
+        "Blue": {
+          "Gate and causeway": 2648,
+          "Gallery": 451,
+          "Cloister": 422,
+          "Terrace": 300
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 765,
+          "East gallery": 91,
+          "West cloister": 110,
+          "Causeway": 228,
+          "Blue quay and plaza": 3
+        },
+        "Blue": {
+          "Causeway": 161,
+          "Blue quay and plaza": 551,
+          "East gallery": 222,
+          "West cloister": 66,
+          "Upper terraces": 23
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 407,
+          "Causeway": 308,
+          "East gallery": 182,
+          "West cloister": 110,
+          "Blue quay and plaza": 16
+        },
+        "Blue": {
+          "Causeway": 399,
+          "East gallery": 315,
+          "Blue quay and plaza": 375,
+          "West cloister": 102,
+          "Upper terraces": 6
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "QuayBRounds1",
+          "round": 1,
+          "time": 101.5,
+          "name": "Lynx",
+          "position_m": [
+            -6.9,
+            20.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            -6.3,
+            20.9,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 1,
+          "time": 101.5,
+          "name": "Finch",
+          "position_m": [
+            -6.2,
+            20.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            -17.5,
+            21.3,
+            4.1
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 6,
+          "time": 113.0,
+          "name": "Reed",
+          "position_m": [
+            2.3,
+            22.3,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 6,
+          "time": 113.0,
+          "name": "Lynx",
+          "position_m": [
+            1.7,
+            22.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 6,
+          "time": 114.5,
+          "name": "Finch",
+          "position_m": [
+            3.0,
+            22.1,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 10,
+          "time": 91.5,
+          "name": "Finch",
+          "position_m": [
+            -4.5,
+            21.0,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 11,
+          "time": 124.0,
+          "name": "Delta",
+          "position_m": [
+            1.9,
+            22.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 11,
+          "time": 124.0,
+          "name": "Finch",
+          "position_m": [
+            2.5,
+            22.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 11,
+          "time": 155.5,
+          "name": "Lynx",
+          "position_m": [
+            1.6,
+            22.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds1",
+          "round": 11,
+          "time": 155.5,
+          "name": "Finch",
+          "position_m": [
+            2.3,
+            22.3,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayBRounds2",
+          "round": 5,
+          "time": 106.5,
+          "name": "Reed",
+          "position_m": [
+            -4.8,
+            20.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        },
+        {
+          "run": "QuayBRounds2",
+          "round": 5,
+          "time": 106.5,
+          "name": "Lynx",
+          "position_m": [
+            -5.5,
+            20.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          31
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          42
+        ]
+      ]
+    },
+    "three_walls_with_crowd": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdBRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            599,
+            533
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5292
+        },
+        {
+          "run": "CrowdBRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            592,
+            515
+          ],
+          "wins": [
+            10,
+            2
+          ],
+          "red_point_share": 0.5348
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 21,
+      "blue_wins": 3,
+      "points": [
+        1191,
+        1048
+      ],
+      "red_point_share": 0.5319,
+      "median_score_gap": 5.5,
+      "mean_round_seconds": 164.9,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 280,
+        "Red": 13
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 280,
+        "Red": 13
+      },
+      "median_engagement_range_m": 59.0,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 226.2,
+      "total_bot_distance_m": 122115,
+      "moving_requests_stalled_5s": 11,
+      "max_stall_s": 15.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2947,
+          "Cloister": 752,
+          "Gallery": 267
+        },
+        "Blue": {
+          "Gate and causeway": 2645,
+          "Gallery": 449,
+          "Cloister": 436,
+          "Terrace": 322
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 765,
+          "Causeway": 218,
+          "East gallery": 87,
+          "West cloister": 117,
+          "Blue quay and plaza": 4
+        },
+        "Blue": {
+          "Causeway": 175,
+          "East gallery": 240,
+          "Blue quay and plaza": 539,
+          "West cloister": 57,
+          "Upper terraces": 37
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 422,
+          "East gallery": 188,
+          "West cloister": 99,
+          "Causeway": 325,
+          "Blue quay and plaza": 14
+        },
+        "Blue": {
+          "Causeway": 422,
+          "East gallery": 321,
+          "Blue quay and plaza": 352,
+          "West cloister": 95,
+          "Upper terraces": 1
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "CrowdBRounds1",
+          "round": 1,
+          "time": 56.0,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            -16.4,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            -16.7,
+            4.5
+          ]
+        },
+        {
+          "run": "CrowdBRounds1",
+          "round": 6,
+          "time": 97.0,
+          "name": "Heron",
+          "position_m": [
+            8.1,
+            22.3,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.4,
+            22.4,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds1",
+          "round": 6,
+          "time": 97.0,
+          "name": "Lynx",
+          "position_m": [
+            8.7,
+            22.6,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.4,
+            22.4,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds1",
+          "round": 8,
+          "time": 80.0,
+          "name": "Finch",
+          "position_m": [
+            10.9,
+            9.7,
+            5.0
+          ],
+          "next_path_point_m": [
+            10.5,
+            14.6,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds1",
+          "round": 9,
+          "time": 119.5,
+          "name": "Reed",
+          "position_m": [
+            -4.5,
+            21.0,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds1",
+          "round": 9,
+          "time": 119.5,
+          "name": "Lynx",
+          "position_m": [
+            -5.2,
+            20.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds1",
+          "round": 9,
+          "time": 123.0,
+          "name": "Finch",
+          "position_m": [
+            -4.6,
+            21.6,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.6,
+            21.3,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds2",
+          "round": 4,
+          "time": 50.5,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            2.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            1.5,
+            4.5
+          ]
+        },
+        {
+          "run": "CrowdBRounds2",
+          "round": 6,
+          "time": 159.5,
+          "name": "Delta",
+          "position_m": [
+            7.9,
+            19.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.0,
+            19.8,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds2",
+          "round": 6,
+          "time": 159.5,
+          "name": "Lynx",
+          "position_m": [
+            8.2,
+            19.3,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.0,
+            19.8,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdBRounds2",
+          "round": 12,
+          "time": 77.5,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            2.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            1.5,
+            4.5
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          34
+        ]
+      ]
+    },
+    "shared_rally": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdLaneBRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            524
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5338
+        },
+        {
+          "run": "CrowdLaneBRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            499
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.546
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 0,
+      "points": [
+        1200,
+        1023
+      ],
+      "red_point_share": 0.5398,
+      "median_score_gap": 7.0,
+      "mean_round_seconds": 152.2,
+      "deaths_within_20m_of_own_start_center": {
+        "Red": 38,
+        "Blue": 155
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Red": 38,
+        "Blue": 155
+      },
+      "median_engagement_range_m": 54.6,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 149.83,
+      "total_bot_distance_m": 109771,
+      "moving_requests_stalled_5s": 10,
+      "max_stall_s": 137.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2741,
+          "Cloister": 685,
+          "Gallery": 182
+        },
+        "Blue": {
+          "Gate and causeway": 2560,
+          "Gallery": 457,
+          "Cloister": 445
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 856,
+          "Causeway": 186,
+          "East gallery": 67,
+          "West cloister": 87,
+          "Blue quay and plaza": 4
+        },
+        "Blue": {
+          "Blue quay and plaza": 414,
+          "Causeway": 306,
+          "East gallery": 245,
+          "West cloister": 58
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 482,
+          "Causeway": 279,
+          "East gallery": 156,
+          "West cloister": 93,
+          "Blue quay and plaza": 13
+        },
+        "Blue": {
+          "Causeway": 638,
+          "East gallery": 260,
+          "West cloister": 93,
+          "Blue quay and plaza": 209
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "CrowdLaneBRounds1",
+          "round": 9,
+          "time": 63.0,
+          "name": "Delta",
+          "position_m": [
+            14.9,
+            27.5,
+            5.0
+          ],
+          "next_path_point_m": [
+            15.2,
+            27.4,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds1",
+          "round": 9,
+          "time": 63.0,
+          "name": "Lynx",
+          "position_m": [
+            15.5,
+            27.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            15.2,
+            27.4,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds1",
+          "round": 9,
+          "time": 116.5,
+          "name": "Heron",
+          "position_m": [
+            15.3,
+            26.5,
+            5.0
+          ],
+          "next_path_point_m": [
+            15.2,
+            27.4,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds1",
+          "round": 9,
+          "time": 127.5,
+          "name": "Heron",
+          "position_m": [
+            15.3,
+            26.5,
+            5.0
+          ],
+          "next_path_point_m": [
+            15.2,
+            27.4,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds1",
+          "round": 9,
+          "time": 167.0,
+          "name": "Heron",
+          "position_m": [
+            15.3,
+            26.5,
+            5.0
+          ],
+          "next_path_point_m": [
+            15.2,
+            27.4,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds2",
+          "round": 1,
+          "time": 140.0,
+          "name": "Reed",
+          "position_m": [
+            -4.8,
+            20.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds2",
+          "round": 1,
+          "time": 140.0,
+          "name": "Finch",
+          "position_m": [
+            -5.4,
+            20.8,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds2",
+          "round": 1,
+          "time": 146.0,
+          "name": "Lynx",
+          "position_m": [
+            -4.3,
+            21.4,
+            5.0
+          ],
+          "next_path_point_m": [
+            -4.9,
+            20.9,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds2",
+          "round": 4,
+          "time": 21.0,
+          "name": "Reed",
+          "position_m": [
+            2.3,
+            22.3,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        },
+        {
+          "run": "CrowdLaneBRounds2",
+          "round": 4,
+          "time": 21.0,
+          "name": "Finch",
+          "position_m": [
+            1.6,
+            22.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            1.9,
+            22.2,
+            4.0
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          43
+        ]
+      ]
+    },
+    "widened_openings": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdLaneCRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            595,
+            508
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5394
+        },
+        {
+          "run": "CrowdLaneCRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            495
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5479
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 23,
+      "blue_wins": 1,
+      "points": [
+        1195,
+        1003
+      ],
+      "red_point_share": 0.5437,
+      "median_score_gap": 8.0,
+      "mean_round_seconds": 135.8,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 350,
+        "Red": 78
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 350,
+        "Red": 78
+      },
+      "median_engagement_range_m": 60.9,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 275.72,
+      "total_bot_distance_m": 94488,
+      "moving_requests_stalled_5s": 5,
+      "max_stall_s": 12.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2321,
+          "Cloister": 588,
+          "Gallery": 218
+        },
+        "Blue": {
+          "Gate and causeway": 2132,
+          "Gallery": 411,
+          "Cloister": 424
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 960,
+          "East gallery": 72,
+          "West cloister": 80,
+          "Causeway": 83
+        },
+        "Blue": {
+          "East gallery": 260,
+          "Blue quay and plaza": 591,
+          "West cloister": 50,
+          "Causeway": 102
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 621,
+          "East gallery": 143,
+          "West cloister": 86,
+          "Causeway": 152,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 509,
+          "Causeway": 355,
+          "East gallery": 243,
+          "West cloister": 88
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "CrowdLaneCRounds1",
+          "round": 2,
+          "time": 69.0,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            2.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            7.8,
+            0.6,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdLaneCRounds1",
+          "round": 6,
+          "time": 63.5,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            2.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            1.5,
+            4.5
+          ]
+        },
+        {
+          "run": "CrowdLaneCRounds1",
+          "round": 6,
+          "time": 127.0,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            2.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            1.5,
+            4.5
+          ]
+        },
+        {
+          "run": "CrowdLaneCRounds1",
+          "round": 8,
+          "time": 53.5,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            -16.4,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            -16.7,
+            4.5
+          ]
+        },
+        {
+          "run": "CrowdLaneCRounds2",
+          "round": 6,
+          "time": 54.0,
+          "name": "Delta",
+          "position_m": [
+            8.6,
+            -16.4,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.6,
+            -16.7,
+            4.5
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          47
+        ]
+      ]
+    },
+    "inner_plaza": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdLaneDRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            554,
+            597
+          ],
+          "wins": [
+            2,
+            10
+          ],
+          "red_point_share": 0.4813
+        },
+        {
+          "run": "CrowdLaneDRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            549,
+            597
+          ],
+          "wins": [
+            1,
+            11
+          ],
+          "red_point_share": 0.4791
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 3,
+      "blue_wins": 21,
+      "points": [
+        1103,
+        1194
+      ],
+      "red_point_share": 0.4802,
+      "median_score_gap": 4.0,
+      "mean_round_seconds": 152.8,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 104,
+        "Red": 34
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 469,
+        "Red": 34
+      },
+      "median_engagement_range_m": 61.8,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 350.35,
+      "total_bot_distance_m": 109708,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 2.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2511,
+          "Gallery": 374,
+          "Cloister": 608
+        },
+        "Blue": {
+          "Gate and causeway": 2629,
+          "Cloister": 681,
+          "Gallery": 243
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 868,
+          "East gallery": 119,
+          "Causeway": 30,
+          "West cloister": 86
+        },
+        "Blue": {
+          "Blue quay and plaza": 933,
+          "West cloister": 89,
+          "East gallery": 111,
+          "Causeway": 61
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 749,
+          "Causeway": 157,
+          "West cloister": 124,
+          "East gallery": 164
+        },
+        "Blue": {
+          "Blue quay and plaza": 573,
+          "East gallery": 178,
+          "Causeway": 229,
+          "West cloister": 123
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [],
+      "results": [
+        [
+          47,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          44,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          44,
+          50
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          42,
+          50
+        ],
+        [
+          42,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          44,
+          50
+        ],
+        [
+          48,
+          50
+        ]
+      ]
+    },
+    "middle_quay": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdLaneERounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            595,
+            529
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5294
+        },
+        {
+          "run": "CrowdLaneERounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            599,
+            518
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5363
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 22,
+      "blue_wins": 2,
+      "points": [
+        1194,
+        1047
+      ],
+      "red_point_share": 0.5328,
+      "median_score_gap": 6.5,
+      "mean_round_seconds": 144.5,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 414,
+        "Red": 37
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 411,
+        "Red": 37
+      },
+      "median_engagement_range_m": 60.7,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 313.54,
+      "total_bot_distance_m": 103442,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 3.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2445,
+          "Gallery": 302,
+          "Cloister": 609
+        },
+        "Blue": {
+          "Gate and causeway": 2439,
+          "Gallery": 293,
+          "Cloister": 513
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 918,
+          "Causeway": 66,
+          "East gallery": 120,
+          "West cloister": 90
+        },
+        "Blue": {
+          "Blue quay and plaza": 781,
+          "West cloister": 73,
+          "East gallery": 122,
+          "Causeway": 71
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 566,
+          "Causeway": 208,
+          "East gallery": 167,
+          "West cloister": 104,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "Blue quay and plaza": 570,
+          "East gallery": 223,
+          "Causeway": 298,
+          "West cloister": 103
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [],
+      "results": [
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          45
+        ]
+      ]
+    },
+    "forward_entry": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdForwardERounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            406
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5964
+        },
+        {
+          "run": "CrowdForwardERounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            439
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5775
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 0,
+      "points": [
+        1200,
+        845
+      ],
+      "red_point_share": 0.5868,
+      "median_score_gap": 15.5,
+      "mean_round_seconds": 122.1,
+      "deaths_within_20m_of_own_start_center": {
+        "Red": 62,
+        "Blue": 257
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Red": 62,
+        "Blue": 300
+      },
+      "median_engagement_range_m": 57.2,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 247.51,
+      "total_bot_distance_m": 85855,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 2.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2158,
+          "Cloister": 519,
+          "Gallery": 185
+        },
+        "Blue": {
+          "Gate and causeway": 1871,
+          "Gallery": 270,
+          "Cloister": 426
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 941,
+          "West cloister": 71,
+          "East gallery": 93,
+          "Causeway": 95
+        },
+        "Blue": {
+          "East gallery": 109,
+          "Causeway": 169,
+          "Blue quay and plaza": 508,
+          "West cloister": 59
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 456,
+          "Causeway": 171,
+          "East gallery": 131,
+          "West cloister": 83,
+          "Blue quay and plaza": 4
+        },
+        "Blue": {
+          "Blue quay and plaza": 452,
+          "Causeway": 481,
+          "East gallery": 185,
+          "West cloister": 82
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [],
+      "results": [
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          32
+        ],
+        [
+          50,
+          32
+        ],
+        [
+          50,
+          33
+        ],
+        [
+          50,
+          31
+        ],
+        [
+          50,
+          32
+        ],
+        [
+          50,
+          32
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          33
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          33
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          43
+        ]
+      ]
+    },
+    "sheltered_quay": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdForwardFRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            478
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5566
+        },
+        {
+          "run": "CrowdForwardFRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            502
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5445
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 0,
+      "points": [
+        1200,
+        980
+      ],
+      "red_point_share": 0.5505,
+      "median_score_gap": 8.0,
+      "mean_round_seconds": 140.5,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 221,
+        "Red": 52
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 421,
+        "Red": 52
+      },
+      "median_engagement_range_m": 59.3,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 279.06,
+      "total_bot_distance_m": 99304,
+      "moving_requests_stalled_5s": 1,
+      "max_stall_s": 6.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2405,
+          "Gallery": 295,
+          "Cloister": 590
+        },
+        "Blue": {
+          "Gate and causeway": 2301,
+          "Cloister": 561,
+          "Gallery": 252
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 908,
+          "East gallery": 116,
+          "West cloister": 86,
+          "Causeway": 90
+        },
+        "Blue": {
+          "Blue quay and plaza": 679,
+          "East gallery": 127,
+          "Causeway": 103,
+          "West cloister": 71
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 509,
+          "East gallery": 145,
+          "West cloister": 104,
+          "Causeway": 220,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "Blue quay and plaza": 551,
+          "East gallery": 174,
+          "West cloister": 114,
+          "Causeway": 361
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "CrowdForwardFRounds1",
+          "round": 9,
+          "time": 80.5,
+          "name": "Delta",
+          "position_m": [
+            7.6,
+            19.8,
+            5.0
+          ],
+          "next_path_point_m": [
+            8.0,
+            19.8,
+            4.1
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          46
+        ]
+      ]
+    },
+    "forward_inner": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdForwardDRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            543,
+            598
+          ],
+          "wins": [
+            1,
+            11
+          ],
+          "red_point_share": 0.4759
+        },
+        {
+          "run": "CrowdForwardDRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            564,
+            598
+          ],
+          "wins": [
+            2,
+            10
+          ],
+          "red_point_share": 0.4854
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 3,
+      "blue_wins": 21,
+      "points": [
+        1107,
+        1196
+      ],
+      "red_point_share": 0.4807,
+      "median_score_gap": 2.5,
+      "mean_round_seconds": 152.7,
+      "deaths_within_20m_of_own_start_center": {
+        "Red": 28,
+        "Blue": 107
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 464,
+        "Red": 28
+      },
+      "median_engagement_range_m": 62.1,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 347.61,
+      "total_bot_distance_m": 109606,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 2.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2517,
+          "Gallery": 359,
+          "Cloister": 603
+        },
+        "Blue": {
+          "Gate and causeway": 2639,
+          "Cloister": 672,
+          "Gallery": 236
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 874,
+          "Causeway": 35,
+          "West cloister": 86,
+          "East gallery": 112
+        },
+        "Blue": {
+          "Blue quay and plaza": 942,
+          "Causeway": 58,
+          "West cloister": 96,
+          "East gallery": 100
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 752,
+          "East gallery": 157,
+          "Causeway": 161,
+          "West cloister": 126
+        },
+        "Blue": {
+          "Blue quay and plaza": 594,
+          "East gallery": 170,
+          "Causeway": 219,
+          "West cloister": 124
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [],
+      "results": [
+        [
+          41,
+          50
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          42,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          41,
+          50
+        ],
+        [
+          42,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          41,
+          50
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          43,
+          50
+        ]
+      ]
+    },
+    "two_exits": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdTwoExitsRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            488
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5515
+        },
+        {
+          "run": "CrowdTwoExitsRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            487
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.552
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 0,
+      "points": [
+        1200,
+        975
+      ],
+      "red_point_share": 0.5517,
+      "median_score_gap": 10.0,
+      "mean_round_seconds": 145.6,
+      "deaths_within_20m_of_own_start_center": {
+        "Red": 49,
+        "Blue": 205
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Red": 49,
+        "Blue": 492
+      },
+      "median_engagement_range_m": 58.5,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 303.71,
+      "total_bot_distance_m": 103702,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 2.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2528,
+          "Gallery": 318,
+          "Cloister": 598
+        },
+        "Blue": {
+          "Gate and causeway": 2434,
+          "Cloister": 621,
+          "Gallery": 219
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 910,
+          "West cloister": 89,
+          "East gallery": 103,
+          "Causeway": 98
+        },
+        "Blue": {
+          "Blue quay and plaza": 637,
+          "Causeway": 98,
+          "East gallery": 130,
+          "West cloister": 110
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 428,
+          "East gallery": 139,
+          "Causeway": 296,
+          "West cloister": 112
+        },
+        "Blue": {
+          "Causeway": 330,
+          "West cloister": 122,
+          "East gallery": 177,
+          "Blue quay and plaza": 571
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [],
+      "results": [
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          39
+        ]
+      ]
+    },
+    "dual_shelter": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdDualShelterRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            459
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5666
+        },
+        {
+          "run": "CrowdDualShelterRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            597,
+            495
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5467
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 23,
+      "blue_wins": 1,
+      "points": [
+        1197,
+        954
+      ],
+      "red_point_share": 0.5565,
+      "median_score_gap": 11.0,
+      "mean_round_seconds": 134.3,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 155,
+        "Red": 56
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 440,
+        "Red": 56
+      },
+      "median_engagement_range_m": 58.8,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 253.68,
+      "total_bot_distance_m": 91985,
+      "moving_requests_stalled_5s": 2,
+      "max_stall_s": 16.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2310,
+          "Gallery": 247,
+          "Cloister": 575
+        },
+        "Blue": {
+          "Gate and causeway": 2181,
+          "Cloister": 487,
+          "Gallery": 265
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 935,
+          "East gallery": 110,
+          "West cloister": 80,
+          "Causeway": 72
+        },
+        "Blue": {
+          "Blue quay and plaza": 617,
+          "West cloister": 66,
+          "Causeway": 130,
+          "East gallery": 141
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 509,
+          "West cloister": 95,
+          "East gallery": 145,
+          "Causeway": 204,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 528,
+          "East gallery": 177,
+          "Causeway": 397,
+          "West cloister": 95
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [
+        {
+          "run": "CrowdDualShelterRounds1",
+          "round": 3,
+          "time": 41.5,
+          "name": "Reed",
+          "position_m": [
+            10.6,
+            14.1,
+            5.0
+          ],
+          "next_path_point_m": [
+            10.5,
+            14.6,
+            4.1
+          ]
+        },
+        {
+          "run": "CrowdDualShelterRounds1",
+          "round": 3,
+          "time": 41.5,
+          "name": "Delta",
+          "position_m": [
+            10.4,
+            14.8,
+            5.0
+          ],
+          "next_path_point_m": [
+            10.5,
+            14.6,
+            4.1
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          33
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          33
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          48
+        ]
+      ]
+    },
+    "inner_shelter": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdInnerShelterRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            494
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5484
+        },
+        {
+          "run": "CrowdInnerShelterRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            482
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5545
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 0,
+      "points": [
+        1200,
+        976
+      ],
+      "red_point_share": 0.5515,
+      "median_score_gap": 9.5,
+      "mean_round_seconds": 145.0,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 96,
+        "Red": 50
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 460,
+        "Red": 50
+      },
+      "median_engagement_range_m": 58.6,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 317.93,
+      "total_bot_distance_m": 104129,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 2.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2503,
+          "Gallery": 330,
+          "Cloister": 601
+        },
+        "Blue": {
+          "Gate and causeway": 2405,
+          "Cloister": 621,
+          "Gallery": 218
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 879,
+          "East gallery": 125,
+          "West cloister": 93,
+          "Causeway": 103
+        },
+        "Blue": {
+          "Blue quay and plaza": 684,
+          "West cloister": 104,
+          "East gallery": 92,
+          "Causeway": 96
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 477,
+          "West cloister": 107,
+          "East gallery": 141,
+          "Causeway": 247,
+          "Blue quay and plaza": 4
+        },
+        "Blue": {
+          "Blue quay and plaza": 556,
+          "Causeway": 351,
+          "West cloister": 126,
+          "East gallery": 167
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {},
+      "stalls": [],
+      "results": [
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          42
+        ]
+      ]
+    },
+    "colonnade": {
+      "rounds": 24,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "CrowdPorticoRounds1",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            480
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5556
+        },
+        {
+          "run": "CrowdPorticoRounds2",
+          "seed": null,
+          "matches": 12,
+          "points": [
+            600,
+            463
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5644
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 0,
+      "points": [
+        1200,
+        943
+      ],
+      "red_point_share": 0.56,
+      "median_score_gap": 10.5,
+      "mean_round_seconds": 132.4,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 114,
+        "Red": 84
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 372,
+        "Red": 84
+      },
+      "median_engagement_range_m": 58.2,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 252.75,
+      "total_bot_distance_m": 92302,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 2.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2267,
+          "Gallery": 259,
+          "Cloister": 553
+        },
+        "Blue": {
+          "Gate and causeway": 2099,
+          "Cloister": 478,
+          "Gallery": 299
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 951,
+          "East gallery": 113,
+          "West cloister": 78,
+          "Causeway": 58
+        },
+        "Blue": {
+          "Blue quay and plaza": 598,
+          "Causeway": 140,
+          "East gallery": 138,
+          "West cloister": 67
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 187,
+          "Gate and Red bank": 526,
+          "East gallery": 134,
+          "West cloister": 95,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 479,
+          "East gallery": 193,
+          "Causeway": 433,
+          "West cloister": 95
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "11.25, 14.00": {
+            "count": 672,
+            "mean_nearest_ally_m": 8.66,
+            "mean_nearest_enemy_m": 64.98,
+            "entries_with_enemy_sightline": 234
+          },
+          "15.50, 14.00": {
+            "count": 428,
+            "mean_nearest_ally_m": 10.35,
+            "mean_nearest_enemy_m": 71.85,
+            "entries_with_enemy_sightline": 150
+          },
+          "15.40, 3.60": {
+            "count": 17,
+            "mean_nearest_ally_m": 17.19,
+            "mean_nearest_enemy_m": 74.8,
+            "entries_with_enemy_sightline": 8
+          },
+          "11.45, 4.05": {
+            "count": 8,
+            "mean_nearest_ally_m": 14.26,
+            "mean_nearest_enemy_m": 71.5,
+            "entries_with_enemy_sightline": 2
+          },
+          "13.70, 2.30": {
+            "count": 17,
+            "mean_nearest_ally_m": 13.73,
+            "mean_nearest_enemy_m": 76.45,
+            "entries_with_enemy_sightline": 5
+          },
+          "11.10, 2.30": {
+            "count": 11,
+            "mean_nearest_ally_m": 18.19,
+            "mean_nearest_enemy_m": 75.09,
+            "entries_with_enemy_sightline": 7
+          }
+        },
+        "Red": {
+          "-85.60, 9.60": {
+            "count": 188,
+            "mean_nearest_ally_m": 15.54,
+            "mean_nearest_enemy_m": 81.49,
+            "entries_with_enemy_sightline": 45
+          },
+          "-86.80, 12.80": {
+            "count": 202,
+            "mean_nearest_ally_m": 15.68,
+            "mean_nearest_enemy_m": 82.82,
+            "entries_with_enemy_sightline": 38
+          },
+          "-82.00, 9.40": {
+            "count": 239,
+            "mean_nearest_ally_m": 11.4,
+            "mean_nearest_enemy_m": 78.32,
+            "entries_with_enemy_sightline": 60
+          },
+          "-86.10, 15.00": {
+            "count": 18,
+            "mean_nearest_ally_m": 12.67,
+            "mean_nearest_enemy_m": 84.48,
+            "entries_with_enemy_sightline": 2
+          },
+          "-83.00, 12.00": {
+            "count": 224,
+            "mean_nearest_ally_m": 11.57,
+            "mean_nearest_enemy_m": 78.3,
+            "entries_with_enemy_sightline": 46
+          },
+          "-82.60, 15.70": {
+            "count": 49,
+            "mean_nearest_ally_m": 10.13,
+            "mean_nearest_enemy_m": 77.0,
+            "entries_with_enemy_sightline": 15
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          32
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          36
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          35
+        ]
+      ]
+    },
+    "protected_quay": {
+      "rounds": 12,
+      "seeds": [],
+      "cohorts": [
+        {
+          "run": "QuayShelterStudyRounds1",
+          "seed": null,
+          "matches": 6,
+          "points": [
+            300,
+            281
+          ],
+          "wins": [
+            6,
+            0
+          ],
+          "red_point_share": 0.5164
+        },
+        {
+          "run": "QuayShelterStudyRounds2",
+          "seed": null,
+          "matches": 6,
+          "points": [
+            300,
+            288
+          ],
+          "wins": [
+            6,
+            0
+          ],
+          "red_point_share": 0.5102
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 12,
+      "blue_wins": 0,
+      "points": [
+        600,
+        569
+      ],
+      "red_point_share": 0.5133,
+      "median_score_gap": 2.5,
+      "mean_round_seconds": 155.1,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 51,
+        "Red": 19
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 269,
+        "Red": 19
+      },
+      "median_engagement_range_m": 60.3,
+      "completed_bot_rounds": 120,
+      "minimum_distance_per_bot_round_m": 330.11,
+      "total_bot_distance_m": 55096,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 2.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 1299,
+          "Gallery": 189,
+          "Cloister": 311
+        },
+        "Blue": {
+          "Gate and causeway": 1318,
+          "Cloister": 352,
+          "Gallery": 103
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 457,
+          "East gallery": 68,
+          "West cloister": 52,
+          "Causeway": 23
+        },
+        "Blue": {
+          "Blue quay and plaza": 442,
+          "West cloister": 54,
+          "East gallery": 47,
+          "Causeway": 26
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 271,
+          "Causeway": 146,
+          "West cloister": 64,
+          "East gallery": 88
+        },
+        "Blue": {
+          "Blue quay and plaza": 316,
+          "East gallery": 90,
+          "Causeway": 127,
+          "West cloister": 67
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "13.10, 1.50": {
+            "count": 79,
+            "mean_nearest_ally_m": 10.85,
+            "mean_nearest_enemy_m": 69.93,
+            "entries_with_enemy_sightline": 4
+          },
+          "10.50, 3.50": {
+            "count": 148,
+            "mean_nearest_ally_m": 8.02,
+            "mean_nearest_enemy_m": 67.46,
+            "entries_with_enemy_sightline": 3
+          },
+          "15.70, 3.50": {
+            "count": 81,
+            "mean_nearest_ally_m": 10.45,
+            "mean_nearest_enemy_m": 70.72,
+            "entries_with_enemy_sightline": 2
+          },
+          "13.10, 3.50": {
+            "count": 103,
+            "mean_nearest_ally_m": 11.13,
+            "mean_nearest_enemy_m": 71.14,
+            "entries_with_enemy_sightline": 2
+          },
+          "11.80, 1.50": {
+            "count": 106,
+            "mean_nearest_ally_m": 9.76,
+            "mean_nearest_enemy_m": 69.46,
+            "entries_with_enemy_sightline": 1
+          },
+          "15.70, 1.50": {
+            "count": 62,
+            "mean_nearest_ally_m": 11.46,
+            "mean_nearest_enemy_m": 73.54,
+            "entries_with_enemy_sightline": 3
+          }
+        },
+        "Red": {
+          "-85.60, 9.60": {
+            "count": 127,
+            "mean_nearest_ally_m": 13.45,
+            "mean_nearest_enemy_m": 84.81,
+            "entries_with_enemy_sightline": 25
+          },
+          "-86.80, 12.80": {
+            "count": 138,
+            "mean_nearest_ally_m": 15.34,
+            "mean_nearest_enemy_m": 86.61,
+            "entries_with_enemy_sightline": 28
+          },
+          "-83.00, 12.00": {
+            "count": 104,
+            "mean_nearest_ally_m": 14.68,
+            "mean_nearest_enemy_m": 85.08,
+            "entries_with_enemy_sightline": 17
+          },
+          "-82.60, 15.70": {
+            "count": 40,
+            "mean_nearest_ally_m": 10.7,
+            "mean_nearest_enemy_m": 85.59,
+            "entries_with_enemy_sightline": 11
+          },
+          "-82.00, 9.40": {
+            "count": 126,
+            "mean_nearest_ally_m": 12.35,
+            "mean_nearest_enemy_m": 83.13,
+            "entries_with_enemy_sightline": 31
+          },
+          "-86.10, 15.00": {
+            "count": 16,
+            "mean_nearest_ally_m": 12.95,
+            "mean_nearest_enemy_m": 88.71,
+            "entries_with_enemy_sightline": 2
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          49
+        ]
+      ]
+    },
+    "original_lanes_final_rules": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "QuayAcceptanceRounds1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            600,
+            529
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5314
+        },
+        {
+          "run": "QuayAcceptanceRounds2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            600,
+            536
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5282
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 0,
+      "points": [
+        1200,
+        1065
+      ],
+      "red_point_share": 0.5298,
+      "median_score_gap": 5.0,
+      "mean_round_seconds": 151.0,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 162,
+        "Red": 45
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 571,
+        "Red": 45
+      },
+      "median_engagement_range_m": 61.3,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 328.59,
+      "total_bot_distance_m": 103624,
+      "moving_requests_stalled_5s": 2,
+      "max_stall_s": 9.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2550,
+          "Gallery": 357,
+          "Cloister": 619
+        },
+        "Blue": {
+          "Gate and causeway": 2557,
+          "Cloister": 683,
+          "Gallery": 190
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 913,
+          "East gallery": 138,
+          "West cloister": 85,
+          "Causeway": 64
+        },
+        "Blue": {
+          "Blue quay and plaza": 807,
+          "West cloister": 97,
+          "Causeway": 69,
+          "East gallery": 92
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 592,
+          "East gallery": 168,
+          "West cloister": 114,
+          "Causeway": 191
+        },
+        "Blue": {
+          "Blue quay and plaza": 660,
+          "East gallery": 154,
+          "Causeway": 262,
+          "West cloister": 124
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "10.50, 3.50": {
+            "count": 349,
+            "mean_nearest_ally_m": 9.41,
+            "mean_nearest_enemy_m": 67.65,
+            "entries_with_enemy_sightline": 3
+          },
+          "13.10, 1.50": {
+            "count": 150,
+            "mean_nearest_ally_m": 8.92,
+            "mean_nearest_enemy_m": 71.03,
+            "entries_with_enemy_sightline": 7
+          },
+          "11.80, 1.50": {
+            "count": 192,
+            "mean_nearest_ally_m": 9.33,
+            "mean_nearest_enemy_m": 69.15,
+            "entries_with_enemy_sightline": 3
+          },
+          "13.10, 3.50": {
+            "count": 204,
+            "mean_nearest_ally_m": 9.51,
+            "mean_nearest_enemy_m": 69.23,
+            "entries_with_enemy_sightline": 7
+          },
+          "15.70, 1.50": {
+            "count": 130,
+            "mean_nearest_ally_m": 9.88,
+            "mean_nearest_enemy_m": 72.57,
+            "entries_with_enemy_sightline": 5
+          },
+          "15.70, 3.50": {
+            "count": 138,
+            "mean_nearest_ally_m": 10.15,
+            "mean_nearest_enemy_m": 72.36,
+            "entries_with_enemy_sightline": 4
+          }
+        },
+        "Red": {
+          "-83.00, 12.00": {
+            "count": 228,
+            "mean_nearest_ally_m": 12.77,
+            "mean_nearest_enemy_m": 83.75,
+            "entries_with_enemy_sightline": 50
+          },
+          "-85.60, 9.60": {
+            "count": 199,
+            "mean_nearest_ally_m": 14.62,
+            "mean_nearest_enemy_m": 84.82,
+            "entries_with_enemy_sightline": 42
+          },
+          "-82.60, 15.70": {
+            "count": 94,
+            "mean_nearest_ally_m": 9.63,
+            "mean_nearest_enemy_m": 86.97,
+            "entries_with_enemy_sightline": 20
+          },
+          "-86.80, 12.80": {
+            "count": 236,
+            "mean_nearest_ally_m": 15.11,
+            "mean_nearest_enemy_m": 87.33,
+            "entries_with_enemy_sightline": 42
+          },
+          "-82.00, 9.40": {
+            "count": 240,
+            "mean_nearest_ally_m": 12.94,
+            "mean_nearest_enemy_m": 83.23,
+            "entries_with_enemy_sightline": 64
+          },
+          "-86.10, 15.00": {
+            "count": 44,
+            "mean_nearest_ally_m": 16.53,
+            "mean_nearest_enemy_m": 92.58,
+            "entries_with_enemy_sightline": 9
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "QuayAcceptanceRounds2",
+          "round": 2,
+          "time": 82.0,
+          "name": "Heron",
+          "position_m": [
+            9.6,
+            25.2,
+            5.0
+          ],
+          "next_path_point_m": [
+            9.7,
+            25.5,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayAcceptanceRounds2",
+          "round": 2,
+          "time": 82.0,
+          "name": "Finch",
+          "position_m": [
+            9.8,
+            25.9,
+            5.0
+          ],
+          "next_path_point_m": [
+            9.7,
+            25.5,
+            4.0
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          45
+        ]
+      ]
+    },
+    "inner_control_final_rules": {
+      "rounds": 8,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "QuayInnerFinalControlRounds1",
+          "seed": 5381,
+          "matches": 4,
+          "points": [
+            200,
+            189
+          ],
+          "wins": [
+            4,
+            0
+          ],
+          "red_point_share": 0.5141
+        },
+        {
+          "run": "QuayInnerFinalControlRounds2",
+          "seed": 13007,
+          "matches": 4,
+          "points": [
+            195,
+            191
+          ],
+          "wins": [
+            3,
+            1
+          ],
+          "red_point_share": 0.5052
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 7,
+      "blue_wins": 1,
+      "points": [
+        395,
+        380
+      ],
+      "red_point_share": 0.5097,
+      "median_score_gap": 2.5,
+      "mean_round_seconds": 151.0,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 73,
+        "Red": 8
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 174,
+        "Red": 8
+      },
+      "median_engagement_range_m": 63.9,
+      "completed_bot_rounds": 80,
+      "minimum_distance_per_bot_round_m": 346.68,
+      "total_bot_distance_m": 34996,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 0.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 817,
+          "Gallery": 136,
+          "Cloister": 198
+        },
+        "Blue": {
+          "Gate and causeway": 844,
+          "Cloister": 230,
+          "Gallery": 73
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 313,
+          "East gallery": 48,
+          "West cloister": 27,
+          "Causeway": 7
+        },
+        "Blue": {
+          "Blue quay and plaza": 300,
+          "West cloister": 31,
+          "East gallery": 32,
+          "Causeway": 17
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 249,
+          "East gallery": 53,
+          "West cloister": 46,
+          "Causeway": 32
+        },
+        "Blue": {
+          "Blue quay and plaza": 220,
+          "East gallery": 62,
+          "West cloister": 41,
+          "Causeway": 72
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "11.45, 4.05": {
+            "count": 31,
+            "mean_nearest_ally_m": 10.94,
+            "mean_nearest_enemy_m": 70.08,
+            "entries_with_enemy_sightline": 28
+          },
+          "15.50, 5.00": {
+            "count": 77,
+            "mean_nearest_ally_m": 8.23,
+            "mean_nearest_enemy_m": 76.95,
+            "entries_with_enemy_sightline": 69
+          },
+          "13.70, 2.30": {
+            "count": 94,
+            "mean_nearest_ally_m": 8.4,
+            "mean_nearest_enemy_m": 74.0,
+            "entries_with_enemy_sightline": 80
+          },
+          "11.10, 2.30": {
+            "count": 69,
+            "mean_nearest_ally_m": 8.63,
+            "mean_nearest_enemy_m": 73.15,
+            "entries_with_enemy_sightline": 58
+          },
+          "15.40, 3.60": {
+            "count": 71,
+            "mean_nearest_ally_m": 10.74,
+            "mean_nearest_enemy_m": 74.19,
+            "entries_with_enemy_sightline": 59
+          },
+          "13.75, 5.35": {
+            "count": 36,
+            "mean_nearest_ally_m": 6.33,
+            "mean_nearest_enemy_m": 73.3,
+            "entries_with_enemy_sightline": 32
+          }
+        },
+        "Red": {
+          "-86.80, 12.80": {
+            "count": 84,
+            "mean_nearest_ally_m": 14.85,
+            "mean_nearest_enemy_m": 87.83,
+            "entries_with_enemy_sightline": 16
+          },
+          "-82.60, 15.70": {
+            "count": 47,
+            "mean_nearest_ally_m": 11.89,
+            "mean_nearest_enemy_m": 89.8,
+            "entries_with_enemy_sightline": 8
+          },
+          "-82.00, 9.40": {
+            "count": 69,
+            "mean_nearest_ally_m": 13.4,
+            "mean_nearest_enemy_m": 83.38,
+            "entries_with_enemy_sightline": 21
+          },
+          "-85.60, 9.60": {
+            "count": 79,
+            "mean_nearest_ally_m": 13.76,
+            "mean_nearest_enemy_m": 84.86,
+            "entries_with_enemy_sightline": 12
+          },
+          "-83.00, 12.00": {
+            "count": 73,
+            "mean_nearest_ally_m": 10.67,
+            "mean_nearest_enemy_m": 84.05,
+            "entries_with_enemy_sightline": 11
+          },
+          "-86.10, 15.00": {
+            "count": 23,
+            "mean_nearest_ally_m": 8.88,
+            "mean_nearest_enemy_m": 91.53,
+            "entries_with_enemy_sightline": 5
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          49
+        ]
+      ]
+    },
+    "adaptive_lanes": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "AdaptiveQuayRounds1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            595,
+            536
+          ],
+          "wins": [
+            10,
+            2
+          ],
+          "red_point_share": 0.5261
+        },
+        {
+          "run": "AdaptiveQuayRounds2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            597,
+            539
+          ],
+          "wins": [
+            10,
+            2
+          ],
+          "red_point_share": 0.5255
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 20,
+      "blue_wins": 4,
+      "points": [
+        1192,
+        1075
+      ],
+      "red_point_share": 0.5258,
+      "median_score_gap": 5.5,
+      "mean_round_seconds": 163.8,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 175,
+        "Red": 126
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 423,
+        "Red": 126
+      },
+      "median_engagement_range_m": 60.2,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 280.29,
+      "total_bot_distance_m": 118693,
+      "moving_requests_stalled_5s": 1,
+      "max_stall_s": 6.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2441,
+          "Gallery": 359,
+          "Cloister": 1109
+        },
+        "Blue": {
+          "Gate and causeway": 2380,
+          "Cloister": 1126,
+          "Gallery": 310
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 819,
+          "East gallery": 118,
+          "West cloister": 194,
+          "Causeway": 60,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 658,
+          "West cloister": 195,
+          "East gallery": 99,
+          "Causeway": 122,
+          "Gate and Red bank": 1
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 539,
+          "East gallery": 153,
+          "West cloister": 190,
+          "Causeway": 192,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 493,
+          "East gallery": 160,
+          "Causeway": 325,
+          "West cloister": 212,
+          "Gate and Red bank": 2
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "10.50, 3.50": {
+            "count": 331,
+            "mean_nearest_ally_m": 11.5,
+            "mean_nearest_enemy_m": 65.31,
+            "entries_with_enemy_sightline": 26
+          },
+          "13.10, 1.50": {
+            "count": 166,
+            "mean_nearest_ally_m": 13.53,
+            "mean_nearest_enemy_m": 67.93,
+            "entries_with_enemy_sightline": 7
+          },
+          "11.80, 1.50": {
+            "count": 196,
+            "mean_nearest_ally_m": 12.23,
+            "mean_nearest_enemy_m": 68.63,
+            "entries_with_enemy_sightline": 10
+          },
+          "13.10, 3.50": {
+            "count": 175,
+            "mean_nearest_ally_m": 12.16,
+            "mean_nearest_enemy_m": 69.22,
+            "entries_with_enemy_sightline": 12
+          },
+          "15.70, 3.50": {
+            "count": 188,
+            "mean_nearest_ally_m": 12.0,
+            "mean_nearest_enemy_m": 67.87,
+            "entries_with_enemy_sightline": 22
+          },
+          "15.70, 1.50": {
+            "count": 95,
+            "mean_nearest_ally_m": 11.08,
+            "mean_nearest_enemy_m": 66.22,
+            "entries_with_enemy_sightline": 12
+          }
+        },
+        "Red": {
+          "-83.00, 12.00": {
+            "count": 225,
+            "mean_nearest_ally_m": 14.52,
+            "mean_nearest_enemy_m": 81.06,
+            "entries_with_enemy_sightline": 54
+          },
+          "-85.60, 9.60": {
+            "count": 202,
+            "mean_nearest_ally_m": 16.02,
+            "mean_nearest_enemy_m": 78.67,
+            "entries_with_enemy_sightline": 60
+          },
+          "-86.80, 12.80": {
+            "count": 219,
+            "mean_nearest_ally_m": 16.38,
+            "mean_nearest_enemy_m": 78.84,
+            "entries_with_enemy_sightline": 70
+          },
+          "-82.60, 15.70": {
+            "count": 156,
+            "mean_nearest_ally_m": 13.47,
+            "mean_nearest_enemy_m": 84.28,
+            "entries_with_enemy_sightline": 56
+          },
+          "-82.00, 9.40": {
+            "count": 213,
+            "mean_nearest_ally_m": 14.4,
+            "mean_nearest_enemy_m": 75.9,
+            "entries_with_enemy_sightline": 47
+          },
+          "-86.10, 15.00": {
+            "count": 41,
+            "mean_nearest_ally_m": 11.85,
+            "mean_nearest_enemy_m": 81.75,
+            "entries_with_enemy_sightline": 16
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "AdaptiveQuayRounds2",
+          "round": 5,
+          "time": 55.0,
+          "name": "Reed",
+          "position_m": [
+            11.3,
+            9.7,
+            5.0
+          ],
+          "next_path_point_m": [
+            11.0,
+            9.9,
+            4.1
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          32
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          44
+        ]
+      ]
+    },
+    "approach": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "ApproachQuayRounds1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            592,
+            520
+          ],
+          "wins": [
+            10,
+            2
+          ],
+          "red_point_share": 0.5324
+        },
+        {
+          "run": "ApproachQuayRounds2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            600,
+            517
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5372
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 22,
+      "blue_wins": 2,
+      "points": [
+        1192,
+        1037
+      ],
+      "red_point_share": 0.5348,
+      "median_score_gap": 7.0,
+      "mean_round_seconds": 216.7,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 66,
+        "Red": 63
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 136,
+        "Red": 63
+      },
+      "median_engagement_range_m": 44.5,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 445.8,
+      "total_bot_distance_m": 150663,
+      "moving_requests_stalled_5s": 10,
+      "max_stall_s": 23.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 3505,
+          "Gallery": 606,
+          "Cloister": 1410
+        },
+        "Blue": {
+          "Gate and causeway": 3320,
+          "Cloister": 1586,
+          "Gallery": 493
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 734,
+          "Causeway": 180,
+          "West cloister": 170,
+          "East gallery": 108
+        },
+        "Blue": {
+          "Causeway": 273,
+          "Blue quay and plaza": 432,
+          "West cloister": 213,
+          "East gallery": 118,
+          "Gate and Red bank": 1
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 337,
+          "West cloister": 192,
+          "Gate and Red bank": 376,
+          "East gallery": 131,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 178,
+          "Causeway": 614,
+          "East gallery": 165,
+          "West cloister": 219,
+          "Gate and Red bank": 16
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "15.70, 1.50": {
+            "count": 113,
+            "mean_nearest_ally_m": 12.04,
+            "mean_nearest_enemy_m": 65.6,
+            "entries_with_enemy_sightline": 11
+          },
+          "11.80, 1.50": {
+            "count": 192,
+            "mean_nearest_ally_m": 14.03,
+            "mean_nearest_enemy_m": 62.84,
+            "entries_with_enemy_sightline": 13
+          },
+          "10.50, 3.50": {
+            "count": 422,
+            "mean_nearest_ally_m": 13.09,
+            "mean_nearest_enemy_m": 63.44,
+            "entries_with_enemy_sightline": 27
+          },
+          "13.10, 1.50": {
+            "count": 128,
+            "mean_nearest_ally_m": 13.67,
+            "mean_nearest_enemy_m": 63.67,
+            "entries_with_enemy_sightline": 10
+          },
+          "13.10, 3.50": {
+            "count": 191,
+            "mean_nearest_ally_m": 14.5,
+            "mean_nearest_enemy_m": 65.56,
+            "entries_with_enemy_sightline": 19
+          },
+          "15.70, 3.50": {
+            "count": 111,
+            "mean_nearest_ally_m": 13.66,
+            "mean_nearest_enemy_m": 68.26,
+            "entries_with_enemy_sightline": 11
+          }
+        },
+        "Red": {
+          "-82.00, 9.40": {
+            "count": 203,
+            "mean_nearest_ally_m": 16.35,
+            "mean_nearest_enemy_m": 69.14,
+            "entries_with_enemy_sightline": 56
+          },
+          "-83.00, 12.00": {
+            "count": 256,
+            "mean_nearest_ally_m": 16.44,
+            "mean_nearest_enemy_m": 74.36,
+            "entries_with_enemy_sightline": 73
+          },
+          "-85.60, 9.60": {
+            "count": 210,
+            "mean_nearest_ally_m": 16.68,
+            "mean_nearest_enemy_m": 70.26,
+            "entries_with_enemy_sightline": 61
+          },
+          "-86.80, 12.80": {
+            "count": 219,
+            "mean_nearest_ally_m": 19.06,
+            "mean_nearest_enemy_m": 72.84,
+            "entries_with_enemy_sightline": 62
+          },
+          "-86.10, 15.00": {
+            "count": 37,
+            "mean_nearest_ally_m": 18.76,
+            "mean_nearest_enemy_m": 85.91,
+            "entries_with_enemy_sightline": 10
+          },
+          "-82.60, 15.70": {
+            "count": 96,
+            "mean_nearest_ally_m": 18.53,
+            "mean_nearest_enemy_m": 80.3,
+            "entries_with_enemy_sightline": 34
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 3,
+          "time": 202.0,
+          "name": "Finch",
+          "position_m": [
+            16.3,
+            -9.1,
+            4.6
+          ],
+          "next_path_point_m": [
+            15.8,
+            -9.1,
+            4.0
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 3,
+          "time": 216.0,
+          "name": "Ocelot",
+          "position_m": [
+            -35.0,
+            -51.2,
+            6.8
+          ],
+          "next_path_point_m": [
+            -34.8,
+            -51.3,
+            5.9
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 3,
+          "time": 216.5,
+          "name": "Finch",
+          "position_m": [
+            16.3,
+            -9.1,
+            4.6
+          ],
+          "next_path_point_m": [
+            15.8,
+            -9.1,
+            4.0
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 3,
+          "time": 225.0,
+          "name": "Finch",
+          "position_m": [
+            16.3,
+            -9.1,
+            4.6
+          ],
+          "next_path_point_m": [
+            15.8,
+            -9.1,
+            4.0
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 9,
+          "time": 58.0,
+          "name": "Reed",
+          "position_m": [
+            -30.0,
+            -52.7,
+            7.0
+          ],
+          "next_path_point_m": [
+            -29.6,
+            -52.8,
+            6.1
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 9,
+          "time": 58.0,
+          "name": "Lynx",
+          "position_m": [
+            -29.3,
+            -52.9,
+            7.1
+          ],
+          "next_path_point_m": [
+            -29.6,
+            -52.8,
+            6.1
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 9,
+          "time": 64.0,
+          "name": "Lynx",
+          "position_m": [
+            -29.3,
+            -52.9,
+            7.1
+          ],
+          "next_path_point_m": [
+            -29.6,
+            -52.8,
+            6.1
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 9,
+          "time": 233.0,
+          "name": "Ocelot",
+          "position_m": [
+            -46.2,
+            52.0,
+            6.2
+          ],
+          "next_path_point_m": [
+            -46.2,
+            52.1,
+            5.3
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 12,
+          "time": 157.5,
+          "name": "Reed",
+          "position_m": [
+            -18.1,
+            20.7,
+            5.0
+          ],
+          "next_path_point_m": [
+            -17.5,
+            20.7,
+            4.0
+          ]
+        },
+        {
+          "run": "ApproachQuayRounds1",
+          "round": 12,
+          "time": 157.5,
+          "name": "Lynx",
+          "position_m": [
+            -17.4,
+            20.7,
+            5.0
+          ],
+          "next_path_point_m": [
+            -17.5,
+            20.7,
+            4.0
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          34
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          47
+        ]
+      ]
+    },
+    "approach_yield": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "QuayYieldRounds1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            595,
+            503
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5419
+        },
+        {
+          "run": "QuayYieldRounds2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            600,
+            534
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5291
+        }
+      ],
+      "logged_yield_actions": 10,
+      "red_wins": 23,
+      "blue_wins": 1,
+      "points": [
+        1195,
+        1037
+      ],
+      "red_point_share": 0.5354,
+      "median_score_gap": 6.5,
+      "mean_round_seconds": 217.5,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 76,
+        "Red": 66
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 163,
+        "Red": 66
+      },
+      "median_engagement_range_m": 45.6,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 428.33,
+      "total_bot_distance_m": 151950,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 4.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 3475,
+          "Gallery": 672,
+          "Cloister": 1403
+        },
+        "Blue": {
+          "Gate and causeway": 3309,
+          "Cloister": 1539,
+          "Gallery": 572,
+          "Terrace": 7
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 740,
+          "Causeway": 157,
+          "West cloister": 158,
+          "East gallery": 139,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Causeway": 258,
+          "Blue quay and plaza": 436,
+          "West cloister": 199,
+          "East gallery": 138,
+          "Gate and Red bank": 6
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 304,
+          "West cloister": 194,
+          "East gallery": 141,
+          "Gate and Red bank": 396,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "Blue quay and plaza": 214,
+          "Causeway": 585,
+          "East gallery": 164,
+          "West cloister": 219,
+          "Gate and Red bank": 12,
+          "Upper terraces": 1
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "15.70, 1.50": {
+            "count": 118,
+            "mean_nearest_ally_m": 15.6,
+            "mean_nearest_enemy_m": 63.92,
+            "entries_with_enemy_sightline": 14
+          },
+          "11.80, 1.50": {
+            "count": 200,
+            "mean_nearest_ally_m": 13.17,
+            "mean_nearest_enemy_m": 63.11,
+            "entries_with_enemy_sightline": 15
+          },
+          "10.50, 3.50": {
+            "count": 386,
+            "mean_nearest_ally_m": 13.21,
+            "mean_nearest_enemy_m": 63.41,
+            "entries_with_enemy_sightline": 21
+          },
+          "13.10, 3.50": {
+            "count": 188,
+            "mean_nearest_ally_m": 12.52,
+            "mean_nearest_enemy_m": 67.34,
+            "entries_with_enemy_sightline": 16
+          },
+          "13.10, 1.50": {
+            "count": 132,
+            "mean_nearest_ally_m": 12.83,
+            "mean_nearest_enemy_m": 66.12,
+            "entries_with_enemy_sightline": 8
+          },
+          "15.70, 3.50": {
+            "count": 135,
+            "mean_nearest_ally_m": 13.04,
+            "mean_nearest_enemy_m": 63.34,
+            "entries_with_enemy_sightline": 22
+          }
+        },
+        "Red": {
+          "-82.00, 9.40": {
+            "count": 219,
+            "mean_nearest_ally_m": 16.72,
+            "mean_nearest_enemy_m": 68.15,
+            "entries_with_enemy_sightline": 60
+          },
+          "-86.80, 12.80": {
+            "count": 246,
+            "mean_nearest_ally_m": 18.38,
+            "mean_nearest_enemy_m": 73.6,
+            "entries_with_enemy_sightline": 76
+          },
+          "-82.60, 15.70": {
+            "count": 75,
+            "mean_nearest_ally_m": 16.75,
+            "mean_nearest_enemy_m": 81.07,
+            "entries_with_enemy_sightline": 37
+          },
+          "-85.60, 9.60": {
+            "count": 231,
+            "mean_nearest_ally_m": 16.97,
+            "mean_nearest_enemy_m": 71.7,
+            "entries_with_enemy_sightline": 77
+          },
+          "-86.10, 15.00": {
+            "count": 30,
+            "mean_nearest_ally_m": 16.42,
+            "mean_nearest_enemy_m": 73.78,
+            "entries_with_enemy_sightline": 14
+          },
+          "-83.00, 12.00": {
+            "count": 219,
+            "mean_nearest_ally_m": 17.07,
+            "mean_nearest_enemy_m": 73.6,
+            "entries_with_enemy_sightline": 62
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          37
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          47
+        ]
+      ]
+    },
+    "stable_cadence_yield": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "QuayYieldStableRounds1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            600,
+            525
+          ],
+          "wins": [
+            12,
+            0
+          ],
+          "red_point_share": 0.5333
+        },
+        {
+          "run": "QuayYieldStableRounds2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            598,
+            520
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5349
+        }
+      ],
+      "logged_yield_actions": 7,
+      "red_wins": 23,
+      "blue_wins": 1,
+      "points": [
+        1198,
+        1045
+      ],
+      "red_point_share": 0.5341,
+      "median_score_gap": 7.0,
+      "mean_round_seconds": 218.1,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 74,
+        "Red": 58
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 135,
+        "Red": 58
+      },
+      "median_engagement_range_m": 45.1,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 417.83,
+      "total_bot_distance_m": 153040,
+      "moving_requests_stalled_5s": 4,
+      "max_stall_s": 23.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 3575,
+          "Gallery": 587,
+          "Cloister": 1392
+        },
+        "Blue": {
+          "Gate and causeway": 3276,
+          "Cloister": 1600,
+          "Gallery": 554,
+          "Terrace": 14
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 741,
+          "Causeway": 169,
+          "West cloister": 169,
+          "East gallery": 116,
+          "Blue quay and plaza": 3
+        },
+        "Blue": {
+          "Causeway": 267,
+          "Blue quay and plaza": 429,
+          "West cloister": 225,
+          "East gallery": 121,
+          "Gate and Red bank": 3
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 318,
+          "West cloister": 196,
+          "Gate and Red bank": 402,
+          "East gallery": 128,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 187,
+          "Causeway": 616,
+          "East gallery": 160,
+          "West cloister": 225,
+          "Gate and Red bank": 10
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "15.70, 1.50": {
+            "count": 123,
+            "mean_nearest_ally_m": 13.84,
+            "mean_nearest_enemy_m": 65.93,
+            "entries_with_enemy_sightline": 10
+          },
+          "11.80, 1.50": {
+            "count": 188,
+            "mean_nearest_ally_m": 13.94,
+            "mean_nearest_enemy_m": 63.58,
+            "entries_with_enemy_sightline": 12
+          },
+          "10.50, 3.50": {
+            "count": 398,
+            "mean_nearest_ally_m": 12.26,
+            "mean_nearest_enemy_m": 63.44,
+            "entries_with_enemy_sightline": 32
+          },
+          "13.10, 1.50": {
+            "count": 146,
+            "mean_nearest_ally_m": 14.77,
+            "mean_nearest_enemy_m": 64.95,
+            "entries_with_enemy_sightline": 4
+          },
+          "13.10, 3.50": {
+            "count": 181,
+            "mean_nearest_ally_m": 14.98,
+            "mean_nearest_enemy_m": 66.03,
+            "entries_with_enemy_sightline": 16
+          },
+          "15.70, 3.50": {
+            "count": 126,
+            "mean_nearest_ally_m": 12.89,
+            "mean_nearest_enemy_m": 67.01,
+            "entries_with_enemy_sightline": 9
+          }
+        },
+        "Red": {
+          "-82.00, 9.40": {
+            "count": 215,
+            "mean_nearest_ally_m": 16.1,
+            "mean_nearest_enemy_m": 68.44,
+            "entries_with_enemy_sightline": 66
+          },
+          "-83.00, 12.00": {
+            "count": 243,
+            "mean_nearest_ally_m": 16.52,
+            "mean_nearest_enemy_m": 73.85,
+            "entries_with_enemy_sightline": 62
+          },
+          "-85.60, 9.60": {
+            "count": 223,
+            "mean_nearest_ally_m": 16.43,
+            "mean_nearest_enemy_m": 69.07,
+            "entries_with_enemy_sightline": 61
+          },
+          "-86.80, 12.80": {
+            "count": 221,
+            "mean_nearest_ally_m": 17.35,
+            "mean_nearest_enemy_m": 70.89,
+            "entries_with_enemy_sightline": 67
+          },
+          "-86.10, 15.00": {
+            "count": 35,
+            "mean_nearest_ally_m": 15.65,
+            "mean_nearest_enemy_m": 80.36,
+            "entries_with_enemy_sightline": 9
+          },
+          "-82.60, 15.70": {
+            "count": 99,
+            "mean_nearest_ally_m": 14.39,
+            "mean_nearest_enemy_m": 79.85,
+            "entries_with_enemy_sightline": 41
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "QuayYieldStableRounds1",
+          "round": 3,
+          "time": 202.0,
+          "name": "Finch",
+          "position_m": [
+            16.3,
+            -9.1,
+            4.6
+          ],
+          "next_path_point_m": [
+            15.8,
+            -9.1,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayYieldStableRounds1",
+          "round": 3,
+          "time": 216.5,
+          "name": "Finch",
+          "position_m": [
+            16.3,
+            -9.1,
+            4.6
+          ],
+          "next_path_point_m": [
+            15.8,
+            -9.1,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayYieldStableRounds1",
+          "round": 3,
+          "time": 225.0,
+          "name": "Finch",
+          "position_m": [
+            16.3,
+            -9.1,
+            4.6
+          ],
+          "next_path_point_m": [
+            15.8,
+            -9.1,
+            4.0
+          ]
+        },
+        {
+          "run": "QuayYieldStableRounds2",
+          "round": 12,
+          "time": 30.0,
+          "name": "Cinder",
+          "position_m": [
+            -81.3,
+            -3.6,
+            7.1
+          ],
+          "next_path_point_m": [
+            -74.4,
+            -17.4,
+            4.3
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          39
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          39
+        ]
+      ]
+    },
+    "midspan_approach": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "MidspanApproach1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            594,
+            530
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5285
+        },
+        {
+          "run": "MidspanApproach2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            599,
+            529
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.531
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 22,
+      "blue_wins": 2,
+      "points": [
+        1193,
+        1059
+      ],
+      "red_point_share": 0.5298,
+      "median_score_gap": 5.5,
+      "mean_round_seconds": 222.1,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 74,
+        "Red": 48
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 134,
+        "Red": 48
+      },
+      "median_engagement_range_m": 41.8,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 418.95,
+      "total_bot_distance_m": 156907,
+      "moving_requests_stalled_5s": 2,
+      "max_stall_s": 17.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 3673,
+          "Gallery": 656,
+          "Cloister": 1341
+        },
+        "Blue": {
+          "Gate and causeway": 3533,
+          "Cloister": 1530,
+          "Gallery": 477,
+          "Terrace": 19
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 693,
+          "East gallery": 121,
+          "Causeway": 220,
+          "West cloister": 157,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "Blue quay and plaza": 420,
+          "West cloister": 202,
+          "Causeway": 326,
+          "East gallery": 106,
+          "Gate and Red bank": 5
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 345,
+          "West cloister": 198,
+          "Causeway": 364,
+          "East gallery": 149,
+          "Blue quay and plaza": 3
+        },
+        "Blue": {
+          "Blue quay and plaza": 158,
+          "East gallery": 177,
+          "Causeway": 625,
+          "West cloister": 221,
+          "Gate and Red bank": 12
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "11.80, 1.50": {
+            "count": 209,
+            "mean_nearest_ally_m": 14.22,
+            "mean_nearest_enemy_m": 63.8,
+            "entries_with_enemy_sightline": 14
+          },
+          "10.50, 3.50": {
+            "count": 369,
+            "mean_nearest_ally_m": 11.67,
+            "mean_nearest_enemy_m": 60.37,
+            "entries_with_enemy_sightline": 40
+          },
+          "15.70, 3.50": {
+            "count": 125,
+            "mean_nearest_ally_m": 13.72,
+            "mean_nearest_enemy_m": 62.9,
+            "entries_with_enemy_sightline": 15
+          },
+          "13.10, 3.50": {
+            "count": 190,
+            "mean_nearest_ally_m": 14.0,
+            "mean_nearest_enemy_m": 65.35,
+            "entries_with_enemy_sightline": 10
+          },
+          "15.70, 1.50": {
+            "count": 123,
+            "mean_nearest_ally_m": 14.74,
+            "mean_nearest_enemy_m": 60.68,
+            "entries_with_enemy_sightline": 23
+          },
+          "13.10, 1.50": {
+            "count": 138,
+            "mean_nearest_ally_m": 14.59,
+            "mean_nearest_enemy_m": 63.85,
+            "entries_with_enemy_sightline": 10
+          }
+        },
+        "Red": {
+          "-85.60, 9.60": {
+            "count": 198,
+            "mean_nearest_ally_m": 17.1,
+            "mean_nearest_enemy_m": 70.38,
+            "entries_with_enemy_sightline": 57
+          },
+          "-86.80, 12.80": {
+            "count": 206,
+            "mean_nearest_ally_m": 17.66,
+            "mean_nearest_enemy_m": 72.44,
+            "entries_with_enemy_sightline": 47
+          },
+          "-83.00, 12.00": {
+            "count": 219,
+            "mean_nearest_ally_m": 16.51,
+            "mean_nearest_enemy_m": 71.68,
+            "entries_with_enemy_sightline": 60
+          },
+          "-86.10, 15.00": {
+            "count": 50,
+            "mean_nearest_ally_m": 16.45,
+            "mean_nearest_enemy_m": 79.21,
+            "entries_with_enemy_sightline": 16
+          },
+          "-82.00, 9.40": {
+            "count": 193,
+            "mean_nearest_ally_m": 16.0,
+            "mean_nearest_enemy_m": 66.77,
+            "entries_with_enemy_sightline": 37
+          },
+          "-82.60, 15.70": {
+            "count": 173,
+            "mean_nearest_ally_m": 16.8,
+            "mean_nearest_enemy_m": 74.52,
+            "entries_with_enemy_sightline": 44
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "MidspanApproach1",
+          "round": 3,
+          "time": 176.5,
+          "name": "Ocelot",
+          "position_m": [
+            -79.5,
+            -4.9,
+            6.7
+          ],
+          "next_path_point_m": [
+            -79.6,
+            -4.8,
+            5.8
+          ]
+        },
+        {
+          "run": "MidspanApproach1",
+          "round": 3,
+          "time": 176.5,
+          "name": "Sable",
+          "position_m": [
+            -79.8,
+            -4.2,
+            6.9
+          ],
+          "next_path_point_m": [
+            -84.2,
+            -7.8,
+            5.3
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          40
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          44,
+          50
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          30
+        ],
+        [
+          50,
+          40
+        ]
+      ]
+    },
+    "native_terraces": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "NativeTerraces1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            599,
+            551
+          ],
+          "wins": [
+            11,
+            1
+          ],
+          "red_point_share": 0.5209
+        },
+        {
+          "run": "NativeTerraces2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            593,
+            538
+          ],
+          "wins": [
+            8,
+            4
+          ],
+          "red_point_share": 0.5243
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 19,
+      "blue_wins": 5,
+      "points": [
+        1192,
+        1089
+      ],
+      "red_point_share": 0.5226,
+      "median_score_gap": 5.0,
+      "mean_round_seconds": 254.5,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 205,
+        "Red": 33
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 230,
+        "Red": 33
+      },
+      "median_engagement_range_m": 47.9,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 471.89,
+      "total_bot_distance_m": 182991,
+      "moving_requests_stalled_5s": 1,
+      "max_stall_s": 9.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 4006,
+          "Gallery": 942,
+          "Cloister": 1663
+        },
+        "Blue": {
+          "Gate and causeway": 3479,
+          "Cloister": 1459,
+          "Terrace": 1239,
+          "Gallery": 361
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 614,
+          "East gallery": 176,
+          "Causeway": 227,
+          "West cloister": 169,
+          "Blue quay and plaza": 6
+        },
+        "Blue": {
+          "Blue quay and plaza": 551,
+          "East gallery": 75,
+          "Causeway": 194,
+          "West cloister": 206,
+          "Upper terraces": 63
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 444,
+          "East gallery": 172,
+          "West cloister": 210,
+          "Gate and Red bank": 253,
+          "Blue quay and plaza": 10
+        },
+        "Blue": {
+          "Blue quay and plaza": 361,
+          "East gallery": 142,
+          "Causeway": 471,
+          "West cloister": 211,
+          "Upper terraces": 3,
+          "Gate and Red bank": 4
+        }
+      },
+      "safety_return_counts": {
+        "enemy_base": 1
+      },
+      "safety_returns": [
+        {
+          "run": "NativeTerraces1",
+          "round": 10,
+          "team": "Red",
+          "player": "Cinder",
+          "point_m": [
+            9.98,
+            -2.91,
+            4.98
+          ],
+          "cause": "enemy_base"
+        }
+      ],
+      "respawn_selections": {
+        "Blue": {
+          "15.70, 3.50": {
+            "count": 121,
+            "mean_nearest_ally_m": 11.02,
+            "mean_nearest_enemy_m": 61.13,
+            "entries_with_enemy_sightline": 16
+          },
+          "10.50, 3.50": {
+            "count": 379,
+            "mean_nearest_ally_m": 12.14,
+            "mean_nearest_enemy_m": 61.44,
+            "entries_with_enemy_sightline": 50
+          },
+          "15.70, 1.50": {
+            "count": 129,
+            "mean_nearest_ally_m": 11.47,
+            "mean_nearest_enemy_m": 59.37,
+            "entries_with_enemy_sightline": 26
+          },
+          "13.10, 3.50": {
+            "count": 163,
+            "mean_nearest_ally_m": 12.53,
+            "mean_nearest_enemy_m": 62.53,
+            "entries_with_enemy_sightline": 26
+          },
+          "13.10, 1.50": {
+            "count": 164,
+            "mean_nearest_ally_m": 12.58,
+            "mean_nearest_enemy_m": 60.76,
+            "entries_with_enemy_sightline": 25
+          },
+          "11.80, 1.50": {
+            "count": 201,
+            "mean_nearest_ally_m": 11.95,
+            "mean_nearest_enemy_m": 58.59,
+            "entries_with_enemy_sightline": 23
+          }
+        },
+        "Red": {
+          "-83.00, 12.00": {
+            "count": 239,
+            "mean_nearest_ally_m": 17.54,
+            "mean_nearest_enemy_m": 78.58,
+            "entries_with_enemy_sightline": 32
+          },
+          "-85.60, 9.60": {
+            "count": 194,
+            "mean_nearest_ally_m": 19.46,
+            "mean_nearest_enemy_m": 74.3,
+            "entries_with_enemy_sightline": 47
+          },
+          "-82.00, 9.40": {
+            "count": 202,
+            "mean_nearest_ally_m": 17.26,
+            "mean_nearest_enemy_m": 75.69,
+            "entries_with_enemy_sightline": 39
+          },
+          "-86.80, 12.80": {
+            "count": 229,
+            "mean_nearest_ally_m": 19.82,
+            "mean_nearest_enemy_m": 77.17,
+            "entries_with_enemy_sightline": 36
+          },
+          "-82.60, 15.70": {
+            "count": 139,
+            "mean_nearest_ally_m": 21.19,
+            "mean_nearest_enemy_m": 85.96,
+            "entries_with_enemy_sightline": 33
+          },
+          "-86.10, 15.00": {
+            "count": 72,
+            "mean_nearest_ally_m": 19.2,
+            "mean_nearest_enemy_m": 86.02,
+            "entries_with_enemy_sightline": 15
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "NativeTerraces2",
+          "round": 2,
+          "time": 37.0,
+          "name": "Cinder",
+          "position_m": [
+            -80.1,
+            -3.6,
+            7.0
+          ],
+          "next_path_point_m": [
+            -84.2,
+            -7.8,
+            5.3
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          48,
+          50
+        ]
+      ]
+    },
+    "western_approach": {
+      "rounds": 24,
+      "seeds": [
+        5381,
+        13007
+      ],
+      "cohorts": [
+        {
+          "run": "TerraceCloister1",
+          "seed": 5381,
+          "matches": 12,
+          "points": [
+            586,
+            576
+          ],
+          "wins": [
+            6,
+            6
+          ],
+          "red_point_share": 0.5043
+        },
+        {
+          "run": "TerraceCloister2",
+          "seed": 13007,
+          "matches": 12,
+          "points": [
+            593,
+            569
+          ],
+          "wins": [
+            8,
+            4
+          ],
+          "red_point_share": 0.5103
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 14,
+      "blue_wins": 10,
+      "points": [
+        1179,
+        1145
+      ],
+      "red_point_share": 0.5073,
+      "median_score_gap": 2.0,
+      "mean_round_seconds": 273.0,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 116,
+        "Red": 51
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 152,
+        "Red": 51
+      },
+      "median_engagement_range_m": 40.1,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 556.12,
+      "total_bot_distance_m": 215739,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 3.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 3212,
+          "Gallery": 1079,
+          "Cloister": 2823,
+          "Terrace": 6
+        },
+        "Blue": {
+          "Gate and causeway": 2737,
+          "Cloister": 2365,
+          "Terrace": 1154,
+          "Gallery": 839
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Causeway": 136,
+          "West cloister": 375,
+          "East gallery": 200,
+          "Gate and Red bank": 465,
+          "Upper terraces": 1,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "East gallery": 179,
+          "West cloister": 411,
+          "Blue quay and plaza": 350,
+          "Upper terraces": 39,
+          "Causeway": 162,
+          "Gate and Red bank": 4
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 234,
+          "Causeway": 251,
+          "West cloister": 423,
+          "East gallery": 223,
+          "Blue quay and plaza": 11,
+          "Upper terraces": 3
+        },
+        "Blue": {
+          "Causeway": 313,
+          "West cloister": 434,
+          "East gallery": 214,
+          "Blue quay and plaza": 193,
+          "Gate and Red bank": 23,
+          "Upper terraces": 2
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "11.80, 1.50": {
+            "count": 195,
+            "mean_nearest_ally_m": 17.67,
+            "mean_nearest_enemy_m": 60.27,
+            "entries_with_enemy_sightline": 39
+          },
+          "10.50, 3.50": {
+            "count": 437,
+            "mean_nearest_ally_m": 16.72,
+            "mean_nearest_enemy_m": 60.82,
+            "entries_with_enemy_sightline": 91
+          },
+          "15.70, 1.50": {
+            "count": 111,
+            "mean_nearest_ally_m": 16.88,
+            "mean_nearest_enemy_m": 58.83,
+            "entries_with_enemy_sightline": 43
+          },
+          "13.10, 3.50": {
+            "count": 183,
+            "mean_nearest_ally_m": 15.72,
+            "mean_nearest_enemy_m": 62.83,
+            "entries_with_enemy_sightline": 32
+          },
+          "13.10, 1.50": {
+            "count": 111,
+            "mean_nearest_ally_m": 18.61,
+            "mean_nearest_enemy_m": 63.26,
+            "entries_with_enemy_sightline": 14
+          },
+          "15.70, 3.50": {
+            "count": 124,
+            "mean_nearest_ally_m": 14.25,
+            "mean_nearest_enemy_m": 59.58,
+            "entries_with_enemy_sightline": 39
+          }
+        },
+        "Red": {
+          "-86.80, 12.80": {
+            "count": 216,
+            "mean_nearest_ally_m": 20.6,
+            "mean_nearest_enemy_m": 72.13,
+            "entries_with_enemy_sightline": 50
+          },
+          "-82.00, 9.40": {
+            "count": 265,
+            "mean_nearest_ally_m": 20.57,
+            "mean_nearest_enemy_m": 67.46,
+            "entries_with_enemy_sightline": 80
+          },
+          "-83.00, 12.00": {
+            "count": 245,
+            "mean_nearest_ally_m": 19.7,
+            "mean_nearest_enemy_m": 75.18,
+            "entries_with_enemy_sightline": 61
+          },
+          "-85.60, 9.60": {
+            "count": 163,
+            "mean_nearest_ally_m": 17.22,
+            "mean_nearest_enemy_m": 70.77,
+            "entries_with_enemy_sightline": 53
+          },
+          "-82.60, 15.70": {
+            "count": 174,
+            "mean_nearest_ally_m": 21.42,
+            "mean_nearest_enemy_m": 80.12,
+            "entries_with_enemy_sightline": 73
+          },
+          "-86.10, 15.00": {
+            "count": 58,
+            "mean_nearest_ally_m": 24.61,
+            "mean_nearest_enemy_m": 71.48,
+            "entries_with_enemy_sightline": 13
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          44,
+          50
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          38
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          49
+        ]
+      ]
+    },
+    "filtered_western_approach": {
+      "rounds": 32,
+      "seeds": [
+        71023,
+        94771
+      ],
+      "cohorts": [
+        {
+          "run": "DeliveredMatchSet1",
+          "seed": 71023,
+          "matches": 16,
+          "points": [
+            789,
+            739
+          ],
+          "wins": [
+            13,
+            3
+          ],
+          "red_point_share": 0.5164
+        },
+        {
+          "run": "DeliveredMatchSet2",
+          "seed": 94771,
+          "matches": 16,
+          "points": [
+            785,
+            762
+          ],
+          "wins": [
+            11,
+            5
+          ],
+          "red_point_share": 0.5074
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 24,
+      "blue_wins": 8,
+      "points": [
+        1574,
+        1501
+      ],
+      "red_point_share": 0.5119,
+      "median_score_gap": 4.0,
+      "mean_round_seconds": 269.8,
+      "deaths_within_20m_of_own_start_center": {
+        "Red": 96,
+        "Blue": 162
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Red": 96,
+        "Blue": 206
+      },
+      "median_engagement_range_m": 39.9,
+      "completed_bot_rounds": 320,
+      "minimum_distance_per_bot_round_m": 594.93,
+      "total_bot_distance_m": 284183,
+      "moving_requests_stalled_5s": 1,
+      "max_stall_s": 14.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 4167,
+          "Gallery": 1278,
+          "Cloister": 3947,
+          "Terrace": 4
+        },
+        "Blue": {
+          "Gate and causeway": 3673,
+          "Cloister": 2911,
+          "Terrace": 1533,
+          "Gallery": 1230
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 595,
+          "East gallery": 252,
+          "West cloister": 563,
+          "Causeway": 161,
+          "Upper terraces": 1,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "East gallery": 241,
+          "West cloister": 511,
+          "Causeway": 196,
+          "Blue quay and plaza": 501,
+          "Upper terraces": 38,
+          "Gate and Red bank": 14
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 317,
+          "Gate and Red bank": 311,
+          "East gallery": 301,
+          "West cloister": 562,
+          "Upper terraces": 5,
+          "Blue quay and plaza": 5
+        },
+        "Blue": {
+          "Causeway": 435,
+          "West cloister": 587,
+          "East gallery": 289,
+          "Gate and Red bank": 31,
+          "Blue quay and plaza": 228,
+          "Upper terraces": 4
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "10.50, 3.50": {
+            "count": 590,
+            "mean_nearest_ally_m": 16.66,
+            "mean_nearest_enemy_m": 61.29,
+            "entries_with_enemy_sightline": 132
+          },
+          "13.10, 3.50": {
+            "count": 273,
+            "mean_nearest_ally_m": 15.63,
+            "mean_nearest_enemy_m": 62.09,
+            "entries_with_enemy_sightline": 64
+          },
+          "13.10, 1.50": {
+            "count": 134,
+            "mean_nearest_ally_m": 18.19,
+            "mean_nearest_enemy_m": 61.86,
+            "entries_with_enemy_sightline": 33
+          },
+          "15.70, 1.50": {
+            "count": 130,
+            "mean_nearest_ally_m": 14.62,
+            "mean_nearest_enemy_m": 57.77,
+            "entries_with_enemy_sightline": 31
+          },
+          "15.70, 3.50": {
+            "count": 170,
+            "mean_nearest_ally_m": 16.15,
+            "mean_nearest_enemy_m": 57.72,
+            "entries_with_enemy_sightline": 48
+          },
+          "11.80, 1.50": {
+            "count": 240,
+            "mean_nearest_ally_m": 16.27,
+            "mean_nearest_enemy_m": 62.73,
+            "entries_with_enemy_sightline": 46
+          }
+        },
+        "Red": {
+          "-83.00, 12.00": {
+            "count": 322,
+            "mean_nearest_ally_m": 20.82,
+            "mean_nearest_enemy_m": 76.17,
+            "entries_with_enemy_sightline": 81
+          },
+          "-86.80, 12.80": {
+            "count": 272,
+            "mean_nearest_ally_m": 20.49,
+            "mean_nearest_enemy_m": 75.32,
+            "entries_with_enemy_sightline": 60
+          },
+          "-82.00, 9.40": {
+            "count": 340,
+            "mean_nearest_ally_m": 20.78,
+            "mean_nearest_enemy_m": 65.22,
+            "entries_with_enemy_sightline": 69
+          },
+          "-85.60, 9.60": {
+            "count": 222,
+            "mean_nearest_ally_m": 18.3,
+            "mean_nearest_enemy_m": 71.35,
+            "entries_with_enemy_sightline": 56
+          },
+          "-86.10, 15.00": {
+            "count": 95,
+            "mean_nearest_ally_m": 21.44,
+            "mean_nearest_enemy_m": 71.57,
+            "entries_with_enemy_sightline": 29
+          },
+          "-82.60, 15.70": {
+            "count": 228,
+            "mean_nearest_ally_m": 21.07,
+            "mean_nearest_enemy_m": 81.13,
+            "entries_with_enemy_sightline": 90
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "DeliveredMatchSet2",
+          "round": 16,
+          "time": 229.5,
+          "name": "Flint",
+          "position_m": [
+            -80.8,
+            -4.6,
+            7.1
+          ],
+          "next_path_point_m": [
+            -79.0,
+            -0.0,
+            6.4
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          49
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          49
+        ]
+      ]
+    },
+    "quay_alcove": {
+      "rounds": 24,
+      "seeds": [
+        71023,
+        94771
+      ],
+      "cohorts": [
+        {
+          "run": "BlueAlcoveMatches1",
+          "seed": 71023,
+          "matches": 12,
+          "points": [
+            587,
+            571
+          ],
+          "wins": [
+            8,
+            4
+          ],
+          "red_point_share": 0.5069
+        },
+        {
+          "run": "BlueAlcoveMatches2",
+          "seed": 94771,
+          "matches": 12,
+          "points": [
+            589,
+            550
+          ],
+          "wins": [
+            9,
+            3
+          ],
+          "red_point_share": 0.5171
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 17,
+      "blue_wins": 7,
+      "points": [
+        1176,
+        1121
+      ],
+      "red_point_share": 0.512,
+      "median_score_gap": 4.0,
+      "mean_round_seconds": 263.3,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 97,
+        "Red": 53
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 100,
+        "Red": 53
+      },
+      "median_engagement_range_m": 38.5,
+      "completed_bot_rounds": 240,
+      "minimum_distance_per_bot_round_m": 534.97,
+      "total_bot_distance_m": 209979,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 4.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 3060,
+          "Gallery": 884,
+          "Cloister": 2907
+        },
+        "Blue": {
+          "Gate and causeway": 2707,
+          "Cloister": 2099,
+          "Terrace": 1113,
+          "Gallery": 888
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 485,
+          "East gallery": 176,
+          "West cloister": 412,
+          "Causeway": 101,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "Blue quay and plaza": 324,
+          "West cloister": 371,
+          "Upper terraces": 30,
+          "Causeway": 184,
+          "East gallery": 204,
+          "Gate and Red bank": 8
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 246,
+          "West cloister": 419,
+          "East gallery": 228,
+          "Gate and Red bank": 219,
+          "Upper terraces": 2,
+          "Blue quay and plaza": 7
+        },
+        "Blue": {
+          "Causeway": 363,
+          "West cloister": 443,
+          "East gallery": 231,
+          "Blue quay and plaza": 117,
+          "Gate and Red bank": 21,
+          "Upper terraces": 1
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "10.50, 3.00": {
+            "count": 359,
+            "mean_nearest_ally_m": 16.71,
+            "mean_nearest_enemy_m": 61.74,
+            "entries_with_enemy_sightline": 59
+          },
+          "9.75, 1.25": {
+            "count": 341,
+            "mean_nearest_ally_m": 17.54,
+            "mean_nearest_enemy_m": 60.65,
+            "entries_with_enemy_sightline": 48
+          },
+          "9.75, 5.25": {
+            "count": 315,
+            "mean_nearest_ally_m": 15.17,
+            "mean_nearest_enemy_m": 62.33,
+            "entries_with_enemy_sightline": 62
+          },
+          "9.75, -0.75": {
+            "count": 106,
+            "mean_nearest_ally_m": 15.32,
+            "mean_nearest_enemy_m": 57.68,
+            "entries_with_enemy_sightline": 25
+          },
+          "9.50, -4.75": {
+            "count": 14,
+            "mean_nearest_ally_m": 28.08,
+            "mean_nearest_enemy_m": 50.62,
+            "entries_with_enemy_sightline": 6
+          },
+          "11.00, -5.50": {
+            "count": 12,
+            "mean_nearest_ally_m": 20.15,
+            "mean_nearest_enemy_m": 60.56,
+            "entries_with_enemy_sightline": 1
+          }
+        },
+        "Red": {
+          "-83.00, 12.00": {
+            "count": 240,
+            "mean_nearest_ally_m": 19.41,
+            "mean_nearest_enemy_m": 75.67,
+            "entries_with_enemy_sightline": 61
+          },
+          "-82.00, 9.40": {
+            "count": 251,
+            "mean_nearest_ally_m": 19.22,
+            "mean_nearest_enemy_m": 66.12,
+            "entries_with_enemy_sightline": 78
+          },
+          "-86.80, 12.80": {
+            "count": 191,
+            "mean_nearest_ally_m": 22.03,
+            "mean_nearest_enemy_m": 71.37,
+            "entries_with_enemy_sightline": 64
+          },
+          "-82.60, 15.70": {
+            "count": 179,
+            "mean_nearest_ally_m": 21.14,
+            "mean_nearest_enemy_m": 81.72,
+            "entries_with_enemy_sightline": 62
+          },
+          "-85.60, 9.60": {
+            "count": 164,
+            "mean_nearest_ally_m": 20.35,
+            "mean_nearest_enemy_m": 72.93,
+            "entries_with_enemy_sightline": 54
+          },
+          "-86.10, 15.00": {
+            "count": 77,
+            "mean_nearest_ally_m": 19.91,
+            "mean_nearest_enemy_m": 70.88,
+            "entries_with_enemy_sightline": 26
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          45,
+          50
+        ]
+      ]
+    },
+    "quay_alcove_causeway_terraces": {
+      "rounds": 16,
+      "seeds": [
+        71023,
+        94771
+      ],
+      "cohorts": [
+        {
+          "run": "BlueAlcoveTerrace1",
+          "seed": 71023,
+          "matches": 8,
+          "points": [
+            396,
+            375
+          ],
+          "wins": [
+            6,
+            2
+          ],
+          "red_point_share": 0.5136
+        },
+        {
+          "run": "BlueAlcoveTerrace2",
+          "seed": 94771,
+          "matches": 8,
+          "points": [
+            400,
+            358
+          ],
+          "wins": [
+            8,
+            0
+          ],
+          "red_point_share": 0.5277
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 14,
+      "blue_wins": 2,
+      "points": [
+        796,
+        733
+      ],
+      "red_point_share": 0.5206,
+      "median_score_gap": 4.0,
+      "mean_round_seconds": 244.3,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 83,
+        "Red": 20
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 167,
+        "Red": 20
+      },
+      "median_engagement_range_m": 43.5,
+      "completed_bot_rounds": 160,
+      "minimum_distance_per_bot_round_m": 456.68,
+      "total_bot_distance_m": 124754,
+      "moving_requests_stalled_5s": 2,
+      "max_stall_s": 147.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2494,
+          "Gallery": 638,
+          "Cloister": 1064
+        },
+        "Blue": {
+          "Gate and causeway": 1997,
+          "Cloister": 866,
+          "Terrace": 845,
+          "Gallery": 443
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 388,
+          "Causeway": 137,
+          "East gallery": 143,
+          "West cloister": 123,
+          "Blue quay and plaza": 5
+        },
+        "Blue": {
+          "West cloister": 123,
+          "Blue quay and plaza": 348,
+          "Upper terraces": 41,
+          "Causeway": 108,
+          "East gallery": 111,
+          "Gate and Red bank": 2
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "West cloister": 139,
+          "Causeway": 288,
+          "East gallery": 152,
+          "Blue quay and plaza": 15,
+          "Gate and Red bank": 139
+        },
+        "Blue": {
+          "Blue quay and plaza": 186,
+          "Causeway": 291,
+          "East gallery": 154,
+          "West cloister": 156,
+          "Gate and Red bank": 3,
+          "Upper terraces": 6
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "10.50, 3.00": {
+            "count": 231,
+            "mean_nearest_ally_m": 14.48,
+            "mean_nearest_enemy_m": 57.22,
+            "entries_with_enemy_sightline": 35
+          },
+          "9.75, -0.75": {
+            "count": 139,
+            "mean_nearest_ally_m": 14.96,
+            "mean_nearest_enemy_m": 51.7,
+            "entries_with_enemy_sightline": 26
+          },
+          "9.75, 5.25": {
+            "count": 146,
+            "mean_nearest_ally_m": 13.26,
+            "mean_nearest_enemy_m": 59.08,
+            "entries_with_enemy_sightline": 29
+          },
+          "9.75, 1.25": {
+            "count": 241,
+            "mean_nearest_ally_m": 14.23,
+            "mean_nearest_enemy_m": 55.93,
+            "entries_with_enemy_sightline": 36
+          },
+          "11.00, -5.50": {
+            "count": 6,
+            "mean_nearest_ally_m": 27.18,
+            "mean_nearest_enemy_m": 53.65,
+            "entries_with_enemy_sightline": 1
+          },
+          "9.50, -4.75": {
+            "count": 11,
+            "mean_nearest_ally_m": 14.46,
+            "mean_nearest_enemy_m": 46.51,
+            "entries_with_enemy_sightline": 5
+          }
+        },
+        "Red": {
+          "-85.60, 9.60": {
+            "count": 130,
+            "mean_nearest_ally_m": 17.34,
+            "mean_nearest_enemy_m": 72.69,
+            "entries_with_enemy_sightline": 31
+          },
+          "-86.80, 12.80": {
+            "count": 135,
+            "mean_nearest_ally_m": 19.63,
+            "mean_nearest_enemy_m": 75.73,
+            "entries_with_enemy_sightline": 21
+          },
+          "-83.00, 12.00": {
+            "count": 179,
+            "mean_nearest_ally_m": 18.67,
+            "mean_nearest_enemy_m": 76.57,
+            "entries_with_enemy_sightline": 33
+          },
+          "-86.10, 15.00": {
+            "count": 39,
+            "mean_nearest_ally_m": 20.28,
+            "mean_nearest_enemy_m": 77.52,
+            "entries_with_enemy_sightline": 8
+          },
+          "-82.00, 9.40": {
+            "count": 167,
+            "mean_nearest_ally_m": 18.14,
+            "mean_nearest_enemy_m": 69.03,
+            "entries_with_enemy_sightline": 27
+          },
+          "-82.60, 15.70": {
+            "count": 74,
+            "mean_nearest_ally_m": 19.42,
+            "mean_nearest_enemy_m": 80.86,
+            "entries_with_enemy_sightline": 21
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "BlueAlcoveTerrace2",
+          "round": 1,
+          "time": 133.0,
+          "name": "Delta",
+          "position_m": [
+            63.4,
+            0.6,
+            28.2
+          ],
+          "next_path_point_m": [
+            63.6,
+            0.6,
+            27.3
+          ]
+        },
+        {
+          "run": "BlueAlcoveTerrace2",
+          "round": 1,
+          "time": 133.0,
+          "name": "Lynx",
+          "position_m": [
+            64.1,
+            0.6,
+            28.6
+          ],
+          "next_path_point_m": [
+            63.6,
+            0.6,
+            27.3
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          45
+        ]
+      ]
+    },
+    "quay_alcove_first_landing": {
+      "rounds": 20,
+      "seeds": [
+        71023,
+        94771
+      ],
+      "cohorts": [
+        {
+          "run": "BlueAlcoveLanding1",
+          "seed": 71023,
+          "matches": 10,
+          "points": [
+            495,
+            467
+          ],
+          "wins": [
+            7,
+            3
+          ],
+          "red_point_share": 0.5146
+        },
+        {
+          "run": "BlueAlcoveLanding2",
+          "seed": 94771,
+          "matches": 10,
+          "points": [
+            496,
+            473
+          ],
+          "wins": [
+            6,
+            4
+          ],
+          "red_point_share": 0.5119
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 13,
+      "blue_wins": 7,
+      "points": [
+        991,
+        940
+      ],
+      "red_point_share": 0.5132,
+      "median_score_gap": 2.0,
+      "mean_round_seconds": 255.3,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 70,
+        "Red": 57
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 115,
+        "Red": 57
+      },
+      "median_engagement_range_m": 40.0,
+      "completed_bot_rounds": 200,
+      "minimum_distance_per_bot_round_m": 574.4,
+      "total_bot_distance_m": 168099,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 3.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 2522,
+          "Gallery": 811,
+          "Cloister": 2160,
+          "Terrace": 3
+        },
+        "Blue": {
+          "Gate and causeway": 2329,
+          "Cloister": 2111,
+          "Terrace": 178,
+          "Gallery": 846
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 416,
+          "East gallery": 173,
+          "Causeway": 67,
+          "West cloister": 334,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "East gallery": 160,
+          "West cloister": 377,
+          "Blue quay and plaza": 263,
+          "Gate and Red bank": 7,
+          "Causeway": 124,
+          "Upper terraces": 9
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Causeway": 191,
+          "West cloister": 348,
+          "East gallery": 187,
+          "Gate and Red bank": 203,
+          "Blue quay and plaza": 10,
+          "Upper terraces": 1
+        },
+        "Blue": {
+          "Causeway": 291,
+          "East gallery": 185,
+          "West cloister": 379,
+          "Blue quay and plaza": 116,
+          "Gate and Red bank": 19,
+          "Upper terraces": 1
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Blue": {
+          "10.50, 3.00": {
+            "count": 284,
+            "mean_nearest_ally_m": 16.36,
+            "mean_nearest_enemy_m": 62.78,
+            "entries_with_enemy_sightline": 33
+          },
+          "9.75, 1.25": {
+            "count": 311,
+            "mean_nearest_ally_m": 15.62,
+            "mean_nearest_enemy_m": 63.23,
+            "entries_with_enemy_sightline": 34
+          },
+          "9.75, 5.25": {
+            "count": 237,
+            "mean_nearest_ally_m": 17.28,
+            "mean_nearest_enemy_m": 60.95,
+            "entries_with_enemy_sightline": 40
+          },
+          "11.00, -5.50": {
+            "count": 13,
+            "mean_nearest_ally_m": 24.39,
+            "mean_nearest_enemy_m": 55.82,
+            "entries_with_enemy_sightline": 4
+          },
+          "9.75, -0.75": {
+            "count": 106,
+            "mean_nearest_ally_m": 14.51,
+            "mean_nearest_enemy_m": 61.25,
+            "entries_with_enemy_sightline": 9
+          },
+          "9.50, -4.75": {
+            "count": 17,
+            "mean_nearest_ally_m": 18.1,
+            "mean_nearest_enemy_m": 63.53,
+            "entries_with_enemy_sightline": 2
+          }
+        },
+        "Red": {
+          "-82.60, 15.70": {
+            "count": 180,
+            "mean_nearest_ally_m": 18.73,
+            "mean_nearest_enemy_m": 78.01,
+            "entries_with_enemy_sightline": 79
+          },
+          "-86.80, 12.80": {
+            "count": 172,
+            "mean_nearest_ally_m": 19.32,
+            "mean_nearest_enemy_m": 71.52,
+            "entries_with_enemy_sightline": 73
+          },
+          "-85.60, 9.60": {
+            "count": 147,
+            "mean_nearest_ally_m": 17.0,
+            "mean_nearest_enemy_m": 68.71,
+            "entries_with_enemy_sightline": 58
+          },
+          "-83.00, 12.00": {
+            "count": 205,
+            "mean_nearest_ally_m": 19.82,
+            "mean_nearest_enemy_m": 72.63,
+            "entries_with_enemy_sightline": 78
+          },
+          "-82.00, 9.40": {
+            "count": 181,
+            "mean_nearest_ally_m": 22.51,
+            "mean_nearest_enemy_m": 63.84,
+            "entries_with_enemy_sightline": 65
+          },
+          "-86.10, 15.00": {
+            "count": 43,
+            "mean_nearest_ally_m": 19.42,
+            "mean_nearest_enemy_m": 64.72,
+            "entries_with_enemy_sightline": 25
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          40
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          49,
+          50
+        ]
+      ]
+    },
+    "west_spring_previous": {
+      "rounds": 40,
+      "seeds": [
+        4571,
+        16651,
+        55733,
+        99719
+      ],
+      "cohorts": [
+        {
+          "run": "CanopyFinalApril",
+          "seed": 4571,
+          "matches": 10,
+          "points": [
+            495,
+            474
+          ],
+          "wins": [
+            6,
+            4
+          ],
+          "red_point_share": 0.5108
+        },
+        {
+          "run": "CanopyFinalBirch",
+          "seed": 16651,
+          "matches": 10,
+          "points": [
+            480,
+            481
+          ],
+          "wins": [
+            3,
+            7
+          ],
+          "red_point_share": 0.4995
+        },
+        {
+          "run": "CanopyFinalCedar",
+          "seed": 55733,
+          "matches": 10,
+          "points": [
+            498,
+            442
+          ],
+          "wins": [
+            9,
+            1
+          ],
+          "red_point_share": 0.5298
+        },
+        {
+          "run": "CanopyFinalDawn",
+          "seed": 99719,
+          "matches": 10,
+          "points": [
+            492,
+            467
+          ],
+          "wins": [
+            7,
+            3
+          ],
+          "red_point_share": 0.513
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 25,
+      "blue_wins": 15,
+      "points": [
+        1965,
+        1864
+      ],
+      "red_point_share": 0.5132,
+      "median_score_gap": 4.0,
+      "mean_round_seconds": 248.6,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 164,
+        "Red": 119
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 187,
+        "Red": 119
+      },
+      "median_engagement_range_m": 39.1,
+      "completed_bot_rounds": 400,
+      "minimum_distance_per_bot_round_m": 588.03,
+      "total_bot_distance_m": 322638,
+      "moving_requests_stalled_5s": 1,
+      "max_stall_s": 35.0,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 4861,
+          "Gallery": 1625,
+          "Cloister": 4209,
+          "Terrace": 3
+        },
+        "Blue": {
+          "Gate and causeway": 4655,
+          "Cloister": 4108,
+          "Terrace": 354,
+          "Gallery": 1490
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 801,
+          "East gallery": 331,
+          "West cloister": 682,
+          "Causeway": 150,
+          "Blue quay and plaza": 1
+        },
+        "Blue": {
+          "Blue quay and plaza": 556,
+          "East gallery": 318,
+          "West cloister": 661,
+          "Causeway": 301,
+          "Upper terraces": 14,
+          "Gate and Red bank": 14
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 411,
+          "East gallery": 368,
+          "Causeway": 379,
+          "West cloister": 697,
+          "Blue quay and plaza": 8,
+          "Upper terraces": 1
+        },
+        "Blue": {
+          "Causeway": 573,
+          "West cloister": 750,
+          "East gallery": 371,
+          "Blue quay and plaza": 220,
+          "Upper terraces": 5,
+          "Gate and Red bank": 46
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Red": {
+          "-83.00, 12.00": {
+            "count": 423,
+            "mean_nearest_ally_m": 19.12,
+            "mean_nearest_enemy_m": 73.01,
+            "entries_with_enemy_sightline": 155
+          },
+          "-86.80, 12.80": {
+            "count": 337,
+            "mean_nearest_ally_m": 21.02,
+            "mean_nearest_enemy_m": 70.25,
+            "entries_with_enemy_sightline": 110
+          },
+          "-82.60, 15.70": {
+            "count": 339,
+            "mean_nearest_ally_m": 19.73,
+            "mean_nearest_enemy_m": 79.87,
+            "entries_with_enemy_sightline": 143
+          },
+          "-82.00, 9.40": {
+            "count": 387,
+            "mean_nearest_ally_m": 18.92,
+            "mean_nearest_enemy_m": 63.92,
+            "entries_with_enemy_sightline": 116
+          },
+          "-85.60, 9.60": {
+            "count": 251,
+            "mean_nearest_ally_m": 17.49,
+            "mean_nearest_enemy_m": 68.86,
+            "entries_with_enemy_sightline": 97
+          },
+          "-86.10, 15.00": {
+            "count": 91,
+            "mean_nearest_ally_m": 23.54,
+            "mean_nearest_enemy_m": 66.26,
+            "entries_with_enemy_sightline": 28
+          }
+        },
+        "Blue": {
+          "9.75, 1.25": {
+            "count": 617,
+            "mean_nearest_ally_m": 15.66,
+            "mean_nearest_enemy_m": 61.75,
+            "entries_with_enemy_sightline": 75
+          },
+          "9.75, 5.25": {
+            "count": 477,
+            "mean_nearest_ally_m": 15.44,
+            "mean_nearest_enemy_m": 61.26,
+            "entries_with_enemy_sightline": 95
+          },
+          "10.50, 3.00": {
+            "count": 586,
+            "mean_nearest_ally_m": 16.2,
+            "mean_nearest_enemy_m": 62.86,
+            "entries_with_enemy_sightline": 73
+          },
+          "9.75, -0.75": {
+            "count": 182,
+            "mean_nearest_ally_m": 15.24,
+            "mean_nearest_enemy_m": 59.14,
+            "entries_with_enemy_sightline": 24
+          },
+          "11.00, -5.50": {
+            "count": 26,
+            "mean_nearest_ally_m": 22.81,
+            "mean_nearest_enemy_m": 57.87,
+            "entries_with_enemy_sightline": 7
+          },
+          "9.50, -4.75": {
+            "count": 38,
+            "mean_nearest_ally_m": 20.28,
+            "mean_nearest_enemy_m": 56.89,
+            "entries_with_enemy_sightline": 8
+          }
+        }
+      },
+      "stalls": [
+        {
+          "run": "CanopyFinalApril",
+          "round": 10,
+          "time": 220.5,
+          "name": "Heron",
+          "position_m": [
+            13.8,
+            -46.4,
+            6.5
+          ],
+          "next_path_point_m": [
+            13.5,
+            -47.1,
+            6.6
+          ]
+        }
+      ],
+      "results": [
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          41
+        ]
+      ]
+    },
+    "west_spring_release": {
+      "rounds": 40,
+      "seeds": [
+        4571,
+        16651,
+        55733,
+        99719
+      ],
+      "cohorts": [
+        {
+          "run": "ReleaseCloisterApril",
+          "seed": 4571,
+          "matches": 10,
+          "points": [
+            489,
+            462
+          ],
+          "wins": [
+            7,
+            3
+          ],
+          "red_point_share": 0.5142
+        },
+        {
+          "run": "ReleaseCloisterBirch",
+          "seed": 16651,
+          "matches": 10,
+          "points": [
+            480,
+            465
+          ],
+          "wins": [
+            5,
+            5
+          ],
+          "red_point_share": 0.5079
+        },
+        {
+          "run": "ReleaseCloisterCedar",
+          "seed": 55733,
+          "matches": 10,
+          "points": [
+            500,
+            457
+          ],
+          "wins": [
+            10,
+            0
+          ],
+          "red_point_share": 0.5225
+        },
+        {
+          "run": "ReleaseCloisterDawn",
+          "seed": 99719,
+          "matches": 10,
+          "points": [
+            486,
+            476
+          ],
+          "wins": [
+            5,
+            5
+          ],
+          "red_point_share": 0.5052
+        }
+      ],
+      "logged_yield_actions": 0,
+      "red_wins": 27,
+      "blue_wins": 13,
+      "points": [
+        1955,
+        1860
+      ],
+      "red_point_share": 0.5125,
+      "median_score_gap": 4.0,
+      "mean_round_seconds": 248.1,
+      "deaths_within_20m_of_own_start_center": {
+        "Blue": 141,
+        "Red": 119
+      },
+      "deaths_within_20m_of_original_start_center": {
+        "Blue": 205,
+        "Red": 119
+      },
+      "median_engagement_range_m": 39.2,
+      "completed_bot_rounds": 400,
+      "minimum_distance_per_bot_round_m": 5.32,
+      "total_bot_distance_m": 323055,
+      "moving_requests_stalled_5s": 0,
+      "max_stall_s": 3.5,
+      "regions_by_team": {
+        "Red": {
+          "Gate and causeway": 4860,
+          "Gallery": 1625,
+          "Cloister": 4173,
+          "Terrace": 6
+        },
+        "Blue": {
+          "Gate and causeway": 4681,
+          "Cloister": 4069,
+          "Terrace": 342,
+          "Gallery": 1507
+        }
+      },
+      "scoring_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 816,
+          "East gallery": 313,
+          "West cloister": 658,
+          "Causeway": 166,
+          "Blue quay and plaza": 2
+        },
+        "Blue": {
+          "Blue quay and plaza": 546,
+          "East gallery": 341,
+          "West cloister": 659,
+          "Causeway": 287,
+          "Upper terraces": 13,
+          "Gate and Red bank": 14
+        }
+      },
+      "death_locations_by_team": {
+        "Red": {
+          "Gate and Red bank": 390,
+          "East gallery": 366,
+          "Causeway": 382,
+          "West cloister": 711,
+          "Blue quay and plaza": 8,
+          "Upper terraces": 3
+        },
+        "Blue": {
+          "Causeway": 550,
+          "West cloister": 746,
+          "East gallery": 363,
+          "Blue quay and plaza": 238,
+          "Gate and Red bank": 57,
+          "Upper terraces": 1
+        }
+      },
+      "safety_return_counts": {},
+      "safety_returns": [],
+      "respawn_selections": {
+        "Red": {
+          "-83.00, 12.00": {
+            "count": 383,
+            "mean_nearest_ally_m": 19.05,
+            "mean_nearest_enemy_m": 73.99,
+            "entries_with_enemy_sightline": 129
+          },
+          "-86.80, 12.80": {
+            "count": 337,
+            "mean_nearest_ally_m": 21.01,
+            "mean_nearest_enemy_m": 69.18,
+            "entries_with_enemy_sightline": 123
+          },
+          "-82.60, 15.70": {
+            "count": 335,
+            "mean_nearest_ally_m": 19.02,
+            "mean_nearest_enemy_m": 79.19,
+            "entries_with_enemy_sightline": 156
+          },
+          "-82.00, 9.40": {
+            "count": 409,
+            "mean_nearest_ally_m": 18.25,
+            "mean_nearest_enemy_m": 64.58,
+            "entries_with_enemy_sightline": 127
+          },
+          "-85.60, 9.60": {
+            "count": 276,
+            "mean_nearest_ally_m": 19.23,
+            "mean_nearest_enemy_m": 70.39,
+            "entries_with_enemy_sightline": 100
+          },
+          "-86.10, 15.00": {
+            "count": 85,
+            "mean_nearest_ally_m": 20.06,
+            "mean_nearest_enemy_m": 64.56,
+            "entries_with_enemy_sightline": 33
+          }
+        },
+        "Blue": {
+          "9.75, 1.25": {
+            "count": 599,
+            "mean_nearest_ally_m": 15.79,
+            "mean_nearest_enemy_m": 60.95,
+            "entries_with_enemy_sightline": 69
+          },
+          "9.75, 5.25": {
+            "count": 467,
+            "mean_nearest_ally_m": 15.64,
+            "mean_nearest_enemy_m": 61.39,
+            "entries_with_enemy_sightline": 87
+          },
+          "10.50, 3.00": {
+            "count": 612,
+            "mean_nearest_ally_m": 15.67,
+            "mean_nearest_enemy_m": 62.73,
+            "entries_with_enemy_sightline": 65
+          },
+          "9.75, -0.75": {
+            "count": 181,
+            "mean_nearest_ally_m": 14.99,
+            "mean_nearest_enemy_m": 59.81,
+            "entries_with_enemy_sightline": 22
+          },
+          "11.00, -5.50": {
+            "count": 24,
+            "mean_nearest_ally_m": 19.85,
+            "mean_nearest_enemy_m": 59.18,
+            "entries_with_enemy_sightline": 7
+          },
+          "9.50, -4.75": {
+            "count": 30,
+            "mean_nearest_ally_m": 17.26,
+            "mean_nearest_enemy_m": 58.07,
+            "entries_with_enemy_sightline": 9
+          }
+        }
+      },
+      "stalls": [],
+      "results": [
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          50,
+          41
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          48,
+          50
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          43,
+          50
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          35
+        ],
+        [
+          50,
+          43
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          49
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          50,
+          48
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          42
+        ],
+        [
+          49,
+          50
+        ],
+        [
+          50,
+          45
+        ],
+        [
+          50,
+          46
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          46,
+          50
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          50,
+          47
+        ],
+        [
+          50,
+          44
+        ],
+        [
+          47,
+          50
+        ],
+        [
+          47,
+          50
+        ]
+      ]
+    }
+  }
+}

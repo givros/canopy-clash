@@ -1,0 +1,31 @@
+{
+  "fixed": [
+    "sun direction and intensity",
+    "sky radiance",
+    "exposure bounds"
+  ],
+  "systems": [
+    {
+      "assets": [
+        "M_SpringWater"
+      ],
+      "motion": "Crossing wave normals and underwater light caustics"
+    },
+    {
+      "assets": [
+        "M_CascadeVeil",
+        "M_BrokenFoam",
+        "M_SprayMist"
+      ],
+      "motion": "Per-plume flowing strands, broken foam and slowly advected spray"
+    },
+    {
+      "assets": [
+        "Nature/Materials",
+        "FloraStudies"
+      ],
+      "motion": "Weighted material wind on source leaf, frond and vine meshes; authored roots and structural bark are static",
+      "native_wind_clip": "Nature/Previews/UE_LeafWind.webp"
+    }
+  ]
+}

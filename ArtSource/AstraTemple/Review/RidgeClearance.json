@@ -1,0 +1,57 @@
+{
+  "West canopy trail": {
+    "samples": 444,
+    "radius_m": 0.34,
+    "peak_slope": [
+      132.728,
+      -47.204,
+      43.134,
+      40.79
+    ],
+    "first": [
+      124.0,
+      -35.0,
+      38.033,
+      16.79
+    ],
+    "last": [
+      107.4,
+      -69.7,
+      54.877,
+      1.97
+    ],
+    "above_walkable_deg": [],
+    "nonterrain_pawn_blockers": []
+  },
+  "High shrine ridge": {
+    "samples": 1041,
+    "radius_m": 0.34,
+    "peak_slope": [
+      99.369,
+      -93.244,
+      56.495,
+      46.49
+    ],
+    "first": [
+      101.0,
+      -73.0,
+      55.058,
+      1.63
+    ],
+    "last": [
+      134.7,
+      -72.5,
+      74.859,
+      0.0
+    ],
+    "above_walkable_deg": [
+      [
+        99.369,
+        -93.244,
+        56.495,
+        46.49
+      ]
+    ],
+    "nonterrain_pawn_blockers": []
+  }
+}

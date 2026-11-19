@@ -1,0 +1,70 @@
+{
+  "source": "Saved\\Deathmatch\\QuayImpactBefore\\Review.log",
+  "mode": "impact",
+  "method": "Exact authoritative point-damage trace start and hit point",
+  "events": {
+    "all": {
+      "samples": 2599,
+      "open_before": 2599,
+      "newly_intercepted": 851,
+      "Quay North Recessed Wall": 547,
+      "open_after": 1748,
+      "fatal_segments_intercepted": 190,
+      "Quay South Processional Wall": 304
+    },
+    "red_victims": {
+      "samples": 1282,
+      "open_before": 1282,
+      "newly_intercepted": 395,
+      "Quay North Recessed Wall": 225,
+      "open_after": 887,
+      "fatal_segments_intercepted": 96,
+      "Quay South Processional Wall": 170
+    },
+    "red_home_20m": {
+      "samples": 183,
+      "open_before": 183,
+      "newly_intercepted": 53,
+      "Quay North Recessed Wall": 50,
+      "open_after": 130,
+      "Quay South Processional Wall": 3,
+      "fatal_segments_intercepted": 3
+    },
+    "red_home_20m_over_60m": {
+      "samples": 161,
+      "open_before": 161,
+      "newly_intercepted": 53,
+      "Quay North Recessed Wall": 50,
+      "open_after": 108,
+      "Quay South Processional Wall": 3,
+      "fatal_segments_intercepted": 3
+    },
+    "blue_victims": {
+      "samples": 1317,
+      "open_before": 1317,
+      "newly_intercepted": 456,
+      "Quay North Recessed Wall": 322,
+      "open_after": 861,
+      "fatal_segments_intercepted": 94,
+      "Quay South Processional Wall": 134
+    },
+    "blue_home_20m": {
+      "samples": 825,
+      "open_before": 825,
+      "newly_intercepted": 448,
+      "Quay North Recessed Wall": 314,
+      "open_after": 377,
+      "fatal_segments_intercepted": 92,
+      "Quay South Processional Wall": 134
+    },
+    "blue_home_20m_over_60m": {
+      "samples": 621,
+      "open_before": 621,
+      "newly_intercepted": 334,
+      "Quay North Recessed Wall": 244,
+      "open_after": 287,
+      "fatal_segments_intercepted": 56,
+      "Quay South Processional Wall": 90
+    }
+  }
+}

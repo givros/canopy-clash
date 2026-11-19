@@ -1,0 +1,77 @@
+{
+  "source": "Saved\\Deathmatch\\BalanceFinal\\Review.log",
+  "mode": "encounter",
+  "method": "Reconstructed eye to torso at recorded elimination positions. Historical logs rounded pawn centres to 0.1 m.",
+  "events": {
+    "all": {
+      "samples": 2248,
+      "open_before": 2208,
+      "open_after": 1107,
+      "newly_intercepted": 1101,
+      "Quay South Processional Wall": 241,
+      "fatal_segments_intercepted": 1101,
+      "Quay North Recessed Wall": 409,
+      "Causeway Scupper Pier": 451
+    },
+    "blue_victims": {
+      "samples": 1181,
+      "open_before": 1165,
+      "open_after": 565,
+      "newly_intercepted": 600,
+      "Quay North Recessed Wall": 258,
+      "fatal_segments_intercepted": 600,
+      "Causeway Scupper Pier": 318,
+      "Quay South Processional Wall": 24
+    },
+    "blue_home_20m": {
+      "samples": 711,
+      "open_before": 707,
+      "open_after": 181,
+      "newly_intercepted": 526,
+      "Quay North Recessed Wall": 253,
+      "fatal_segments_intercepted": 526,
+      "Causeway Scupper Pier": 249,
+      "Quay South Processional Wall": 24
+    },
+    "blue_home_20m_over_60m": {
+      "samples": 504,
+      "open_before": 504,
+      "open_after": 132,
+      "newly_intercepted": 372,
+      "Causeway Scupper Pier": 156,
+      "fatal_segments_intercepted": 372,
+      "Quay North Recessed Wall": 196,
+      "Quay South Processional Wall": 20
+    },
+    "red_victims": {
+      "samples": 1067,
+      "open_before": 1043,
+      "newly_intercepted": 501,
+      "Quay South Processional Wall": 217,
+      "fatal_segments_intercepted": 501,
+      "Causeway Scupper Pier": 133,
+      "open_after": 542,
+      "Quay North Recessed Wall": 151
+    },
+    "red_home_20m": {
+      "samples": 34,
+      "open_before": 34,
+      "newly_intercepted": 17,
+      "Quay North Recessed Wall": 5,
+      "fatal_segments_intercepted": 17,
+      "Quay South Processional Wall": 2,
+      "open_after": 17,
+      "Causeway Scupper Pier": 10
+    },
+    "red_home_20m_over_60m": {
+      "samples": 29,
+      "open_before": 29,
+      "newly_intercepted": 15,
+      "Quay North Recessed Wall": 5,
+      "fatal_segments_intercepted": 15,
+      "Quay South Processional Wall": 2,
+      "open_after": 14,
+      "Causeway Scupper Pier": 8
+    }
+  }
+}

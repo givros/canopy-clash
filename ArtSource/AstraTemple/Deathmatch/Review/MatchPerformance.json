@@ -1,0 +1,125 @@
+{
+  "method": "CSV profiling starts after 16 seconds of active play. During capture the actual player walks, acquires opponents and fires. The native UI and nine bots run continuously. These are local PC measurements, not hardware requirements.",
+  "captures": [
+    {
+      "run": "ReleaseCanopy1080",
+      "raw": "Saved/Deathmatch/ReleaseCanopy1080/FrameTimes.csv",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "editor_module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "rendering": "Unreal Standalone Development, native D3D12, offscreen viewport",
+      "resolution": [
+        1920,
+        1080
+      ],
+      "graphics_card": "NVIDIA GeForce RTX 3080",
+      "driver": "616.56",
+      "cpu": "GenuineIntel|Intel(R) Core(TM) i7-10700KF CPU @ 3.80GHz",
+      "engine": "5.9.0-60351404+++UE5+Release-5.9",
+      "audio": "native non-realtime mixer",
+      "timed_frames": 7000,
+      "timed_seconds": 78.34,
+      "roster": 10,
+      "points_during_capture": 37,
+      "frames_moving_percent": 83.4,
+      "frames_under_16_67ms_percent": 99.94,
+      "average_fps": 89.4,
+      "timings_ms": {
+        "FrameTime": {
+          "mean": 11.192,
+          "median": 11.09,
+          "p95": 12.694,
+          "p99": 13.685,
+          "maximum": 31.345
+        },
+        "GPUTime": {
+          "mean": 9.246,
+          "median": 9.209,
+          "p95": 9.962,
+          "p99": 11.072,
+          "maximum": 12.221
+        },
+        "GameThreadTime": {
+          "mean": 5.473,
+          "median": 5.309,
+          "p95": 7.05,
+          "p99": 8.551,
+          "maximum": 31.35
+        },
+        "RenderThreadTime": {
+          "mean": 11.187,
+          "median": 11.082,
+          "p95": 12.713,
+          "p99": 13.703,
+          "maximum": 17.587
+        },
+        "RHIThreadTime": {
+          "mean": 5.008,
+          "median": 4.992,
+          "p95": 5.637,
+          "p99": 5.982,
+          "maximum": 7.009
+        }
+      }
+    },
+    {
+      "run": "ReleaseCanopy720",
+      "raw": "Saved/Deathmatch/ReleaseCanopy720/FrameTimes.csv",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "editor_module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "rendering": "Unreal Standalone Development, native D3D12, offscreen viewport",
+      "resolution": [
+        1280,
+        720
+      ],
+      "graphics_card": "NVIDIA GeForce RTX 3080",
+      "driver": "616.56",
+      "cpu": "GenuineIntel|Intel(R) Core(TM) i7-10700KF CPU @ 3.80GHz",
+      "engine": "5.9.0-60351404+++UE5+Release-5.9",
+      "audio": "native non-realtime mixer",
+      "timed_frames": 7000,
+      "timed_seconds": 62.65,
+      "roster": 10,
+      "points_during_capture": 36,
+      "frames_moving_percent": 84.8,
+      "frames_under_16_67ms_percent": 99.91,
+      "average_fps": 111.7,
+      "timings_ms": {
+        "FrameTime": {
+          "mean": 8.95,
+          "median": 8.863,
+          "p95": 10.328,
+          "p99": 11.352,
+          "maximum": 26.848
+        },
+        "GPUTime": {
+          "mean": 8.162,
+          "median": 8.26,
+          "p95": 8.998,
+          "p99": 10.033,
+          "maximum": 11.637
+        },
+        "GameThreadTime": {
+          "mean": 4.225,
+          "median": 4.12,
+          "p95": 5.259,
+          "p99": 6.198,
+          "maximum": 23.871
+        },
+        "RenderThreadTime": {
+          "mean": 8.946,
+          "median": 8.866,
+          "p95": 10.298,
+          "p99": 11.306,
+          "maximum": 26.854
+        },
+        "RHIThreadTime": {
+          "mean": 3.829,
+          "median": 3.779,
+          "p95": 4.39,
+          "p99": 4.816,
+          "maximum": 5.885
+        }
+      }
+    }
+  ]
+}

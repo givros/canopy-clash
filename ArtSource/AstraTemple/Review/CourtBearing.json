@@ -1,0 +1,312 @@
+{
+  "edges": [
+    {
+      "edge": "rear court west",
+      "xy_m": [
+        98.6,
+        -7.39
+      ],
+      "landscape_m": 19.155,
+      "masonry_base_m": 4.042,
+      "masonry_top_m": 27.79,
+      "paving_underside_m": 27.74,
+      "embed_m": 15.113,
+      "paving_overlap_m": 0.05,
+      "from_below": "Rain court rear foundation",
+      "from_above": "Rain court rear foundation"
+    },
+    {
+      "edge": "rear court east",
+      "xy_m": [
+        98.55,
+        7.43
+      ],
+      "landscape_m": 19.591,
+      "masonry_base_m": 4.038,
+      "masonry_top_m": 27.792,
+      "paving_underside_m": 27.74,
+      "embed_m": 15.553,
+      "paving_overlap_m": 0.052,
+      "from_below": "Rain court rear foundation",
+      "from_above": "Rain court rear foundation"
+    },
+    {
+      "edge": "west side return",
+      "xy_m": [
+        98.19,
+        -8.52
+      ],
+      "landscape_m": 22.304,
+      "masonry_base_m": 2.796,
+      "masonry_top_m": 27.793,
+      "paving_underside_m": 27.74,
+      "embed_m": 19.508,
+      "paving_overlap_m": 0.053,
+      "from_below": "Rain court rear foundation",
+      "from_above": "Rain court rear foundation"
+    },
+    {
+      "edge": "east side return",
+      "xy_m": [
+        98.17,
+        8.47
+      ],
+      "landscape_m": 22.438,
+      "masonry_base_m": 2.799,
+      "masonry_top_m": 27.79,
+      "paving_underside_m": 27.74,
+      "embed_m": 19.639,
+      "paving_overlap_m": 0.05,
+      "from_below": "Rain court rear foundation",
+      "from_above": "Rain court rear foundation"
+    },
+    {
+      "edge": "west upper",
+      "xy_m": [
+        94.23,
+        -13.62
+      ],
+      "landscape_m": 22.617,
+      "masonry_base_m": 4.666,
+      "masonry_top_m": 27.795,
+      "paving_underside_m": 27.74,
+      "embed_m": 17.951,
+      "paving_overlap_m": 0.055,
+      "from_below": "West terrace return foundations",
+      "from_above": "West terrace return foundations"
+    },
+    {
+      "edge": "west middle",
+      "xy_m": [
+        95.3,
+        -22.48
+      ],
+      "landscape_m": 14.097,
+      "masonry_base_m": 2.293,
+      "masonry_top_m": 19.801,
+      "paving_underside_m": 19.74,
+      "embed_m": 11.804,
+      "paving_overlap_m": 0.061,
+      "from_below": "West terrace return foundations",
+      "from_above": "West terrace return foundations"
+    },
+    {
+      "edge": "west lower",
+      "xy_m": [
+        96.23,
+        -29.65
+      ],
+      "landscape_m": 7.113,
+      "masonry_base_m": 3.037,
+      "masonry_top_m": 11.794,
+      "paving_underside_m": 11.74,
+      "embed_m": 4.076,
+      "paving_overlap_m": 0.054,
+      "from_below": "West terrace return foundations",
+      "from_above": "West terrace return foundations"
+    },
+    {
+      "edge": "east upper",
+      "xy_m": [
+        94.23,
+        13.62
+      ],
+      "landscape_m": 22.617,
+      "masonry_base_m": 4.668,
+      "masonry_top_m": 27.793,
+      "paving_underside_m": 27.74,
+      "embed_m": 17.949,
+      "paving_overlap_m": 0.053,
+      "from_below": "East terrace return foundations",
+      "from_above": "East terrace return foundations"
+    },
+    {
+      "edge": "east middle",
+      "xy_m": [
+        95.3,
+        22.48
+      ],
+      "landscape_m": 14.097,
+      "masonry_base_m": 2.293,
+      "masonry_top_m": 19.791,
+      "paving_underside_m": 19.74,
+      "embed_m": 11.805,
+      "paving_overlap_m": 0.051,
+      "from_below": "East terrace return foundations",
+      "from_above": "East terrace return foundations"
+    },
+    {
+      "edge": "east lower",
+      "xy_m": [
+        96.23,
+        29.65
+      ],
+      "landscape_m": 7.112,
+      "masonry_base_m": 2.413,
+      "masonry_top_m": 11.798,
+      "paving_underside_m": 11.74,
+      "embed_m": 4.699,
+      "paving_overlap_m": 0.058,
+      "from_below": "East terrace return foundations",
+      "from_above": "East terrace return foundations"
+    }
+  ],
+  "exterior_toes": [
+    {
+      "edge": "west court",
+      "xy_m": [
+        99.87,
+        -6.76
+      ],
+      "landscape_m": 11.602,
+      "masonry_base_m": 9.665,
+      "embed_m": 1.937,
+      "foundation": "Rain court rear foundation"
+    },
+    {
+      "edge": "west upper",
+      "xy_m": [
+        96.8,
+        -14.25
+      ],
+      "landscape_m": 3.665,
+      "masonry_base_m": 3.083,
+      "embed_m": 0.582,
+      "foundation": "West terrace return foundations"
+    },
+    {
+      "edge": "west middle",
+      "xy_m": [
+        97.34,
+        -22.85
+      ],
+      "landscape_m": 3.662,
+      "masonry_base_m": 2.353,
+      "embed_m": 1.309,
+      "foundation": "West terrace return foundations"
+    },
+    {
+      "edge": "west lower",
+      "xy_m": [
+        97.19,
+        -29.95
+      ],
+      "landscape_m": 4.473,
+      "masonry_base_m": 3.665,
+      "embed_m": 0.808,
+      "foundation": "West terrace return foundations"
+    },
+    {
+      "edge": "east court",
+      "xy_m": [
+        100.79,
+        8.75
+      ],
+      "landscape_m": 3.902,
+      "masonry_base_m": 2.987,
+      "embed_m": 0.914,
+      "foundation": "Rain court rear foundation"
+    },
+    {
+      "edge": "east upper",
+      "xy_m": [
+        96.8,
+        14.25
+      ],
+      "landscape_m": 3.665,
+      "masonry_base_m": 3.404,
+      "embed_m": 0.261,
+      "foundation": "East terrace return foundations"
+    },
+    {
+      "edge": "east middle",
+      "xy_m": [
+        97.34,
+        22.85
+      ],
+      "landscape_m": 3.662,
+      "masonry_base_m": 2.701,
+      "embed_m": 0.961,
+      "foundation": "East terrace return foundations"
+    },
+    {
+      "edge": "east lower",
+      "xy_m": [
+        97.42,
+        29.06
+      ],
+      "landscape_m": 3.662,
+      "masonry_base_m": 2.421,
+      "embed_m": 1.241,
+      "foundation": "East terrace return foundations"
+    }
+  ],
+  "center_route": [
+    [
+      90,
+      0,
+      "Hall of the Open Sky",
+      28.0
+    ],
+    [
+      92,
+      0,
+      "Rain Court Paving 191",
+      27.993
+    ],
+    [
+      94,
+      0,
+      "Rain Court Paving 191",
+      27.993
+    ],
+    [
+      96,
+      0,
+      "Rain Court Paving 191",
+      27.995
+    ],
+    [
+      98,
+      0,
+      "Valley of the Two Springs",
+      27.975
+    ],
+    [
+      98.8,
+      0.5,
+      "Rain Court Paving 191",
+      28.003
+    ],
+    [
+      99.3,
+      0.8,
+      "Valley of the Two Springs",
+      27.984
+    ],
+    [
+      100.1,
+      1.25,
+      "Valley of the Two Springs",
+      27.984
+    ],
+    [
+      101.2,
+      2.0,
+      "Valley of the Two Springs",
+      27.982
+    ],
+    [
+      102.2,
+      2.85,
+      "Valley of the Two Springs",
+      27.976
+    ],
+    [
+      103.4,
+      3.75,
+      "Valley of the Two Springs",
+      27.968
+    ]
+  ]
+}

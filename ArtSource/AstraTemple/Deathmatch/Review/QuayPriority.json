@@ -1,0 +1,261 @@
+{
+  "arena_sha256": "f8d1ef7001b1ac117de049dafbaafc09f7a24858abd7844835ddf0a29244139e",
+  "module_sha256": "43c8b7a461e725268e21dc137fbddd7d79da5dab6171c13d2ba4d33988b26566",
+  "method": "Native 60 Hz CharacterMovement and Detour. The rail cases use the recorded Reed and Lynx capsule centres by Plaza Watch Rail. For convergence the higher-priority ally holds the shared point for 3.7 s, then walks. The seeker must visit its original point before receiving its farther goal. Timing includes the hold.",
+  "measured_incident": {
+    "source": "Saved/Deathmatch/AdaptiveQuayRounds2/Review.log",
+    "round": 5,
+    "time_s": 55,
+    "duration_s": 6.5,
+    "centres_m": [
+      [
+        11.3,
+        9.7
+      ],
+      [
+        10.6,
+        9.6
+      ]
+    ],
+    "next_nav_point_m": [
+      11,
+      9.9,
+      4.1
+    ],
+    "floor": "Basin Plaza Paving 204",
+    "capsule_contact": "Plaza Watch Rail",
+    "contact_m": [
+      11.61,
+      9.81,
+      5.33
+    ]
+  },
+  "enabled": {
+    "source": "Saved/Deathmatch/RailCadenceFinal/Review.log",
+    "before_release_gap_cm": 93.9,
+    "holding_pawn_displacement_cm": 0.0,
+    "original_goal_reached_s": 4.55,
+    "yield_actions": 1,
+    "cases": {
+      "QuayMeeting": {
+        "passed": true,
+        "seconds": 3.1,
+        "walked_cm": [
+          1212.3,
+          1220.3
+        ],
+        "minimum_separation_cm": 68.5,
+        "second_net_displacement_cm": 1219.1
+      },
+      "QuayStationary": {
+        "passed": true,
+        "seconds": 3.22,
+        "walked_cm": [
+          1205.0,
+          0.0
+        ],
+        "minimum_separation_cm": 75.6,
+        "second_net_displacement_cm": 0.0
+      },
+      "PlazaMeeting": {
+        "passed": true,
+        "seconds": 1.85,
+        "walked_cm": [
+          642.5,
+          658.1
+        ],
+        "minimum_separation_cm": 69.0,
+        "second_net_displacement_cm": 641.1
+      },
+      "PlazaStationary": {
+        "passed": true,
+        "seconds": 1.82,
+        "walked_cm": [
+          655.4,
+          0.0
+        ],
+        "minimum_separation_cm": 68.8,
+        "second_net_displacement_cm": 0.0
+      },
+      "RailMeeting": {
+        "passed": true,
+        "seconds": 1.83,
+        "walked_cm": [
+          631.2,
+          538.6
+        ],
+        "minimum_separation_cm": 71.6,
+        "second_net_displacement_cm": 496.6
+      },
+      "RailStationary": {
+        "passed": true,
+        "seconds": 4.6,
+        "walked_cm": [
+          700.3,
+          0.0
+        ],
+        "minimum_separation_cm": 71.4,
+        "second_net_displacement_cm": 0.0
+      },
+      "RailConvergence": {
+        "passed": true,
+        "seconds": 5.87,
+        "walked_cm": [
+          498.3,
+          902.6
+        ],
+        "minimum_separation_cm": 71.6,
+        "second_net_displacement_cm": 628.2
+      }
+    }
+  },
+  "control": {
+    "source": "Saved/Deathmatch/RailCadenceControl/Review.log",
+    "before_release_gap_cm": 83.8,
+    "holding_pawn_displacement_cm": 0.0,
+    "original_goal_reached_s": 4.25,
+    "yield_actions": 0,
+    "cases": {
+      "QuayMeeting": {
+        "passed": true,
+        "seconds": 3.1,
+        "walked_cm": [
+          1212.3,
+          1220.3
+        ],
+        "minimum_separation_cm": 68.5,
+        "second_net_displacement_cm": 1219.1
+      },
+      "QuayStationary": {
+        "passed": true,
+        "seconds": 3.22,
+        "walked_cm": [
+          1205.0,
+          0.0
+        ],
+        "minimum_separation_cm": 75.6,
+        "second_net_displacement_cm": 0.0
+      },
+      "PlazaMeeting": {
+        "passed": true,
+        "seconds": 1.85,
+        "walked_cm": [
+          642.5,
+          658.1
+        ],
+        "minimum_separation_cm": 69.0,
+        "second_net_displacement_cm": 641.1
+      },
+      "PlazaStationary": {
+        "passed": true,
+        "seconds": 1.82,
+        "walked_cm": [
+          655.4,
+          0.0
+        ],
+        "minimum_separation_cm": 68.8,
+        "second_net_displacement_cm": 0.0
+      },
+      "RailMeeting": {
+        "passed": true,
+        "seconds": 1.83,
+        "walked_cm": [
+          631.2,
+          538.6
+        ],
+        "minimum_separation_cm": 71.6,
+        "second_net_displacement_cm": 496.6
+      },
+      "RailStationary": {
+        "passed": true,
+        "seconds": 4.6,
+        "walked_cm": [
+          700.3,
+          0.0
+        ],
+        "minimum_separation_cm": 71.4,
+        "second_net_displacement_cm": 0.0
+      },
+      "RailConvergence": {
+        "passed": true,
+        "seconds": 5.57,
+        "walked_cm": [
+          506.7,
+          712.1
+        ],
+        "minimum_separation_cm": 71.6,
+        "second_net_displacement_cm": 629.9
+      }
+    }
+  },
+  "delivered": {
+    "source": "Saved/Deathmatch/ReleaseCrowd/Review.log",
+    "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+    "module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+    "cases": {
+      "QuayMeeting": {
+        "passed": true,
+        "seconds": 3.1,
+        "first_distance_m": 12.123,
+        "second_distance_m": 12.203,
+        "minimum_separation_cm": 68.5,
+        "second_net_displacement_cm": 1219.1,
+        "moving_frames": 163
+      },
+      "QuayStationary": {
+        "passed": true,
+        "seconds": 3.22,
+        "first_distance_m": 12.05,
+        "second_distance_m": 0.0,
+        "minimum_separation_cm": 75.6,
+        "second_net_displacement_cm": 0.0,
+        "moving_frames": 170
+      },
+      "PlazaMeeting": {
+        "passed": true,
+        "seconds": 1.85,
+        "first_distance_m": 6.425,
+        "second_distance_m": 6.581,
+        "minimum_separation_cm": 69.0,
+        "second_net_displacement_cm": 641.1,
+        "moving_frames": 88
+      },
+      "PlazaStationary": {
+        "passed": true,
+        "seconds": 1.82,
+        "first_distance_m": 6.554,
+        "second_distance_m": 0.0,
+        "minimum_separation_cm": 68.8,
+        "second_net_displacement_cm": 0.0,
+        "moving_frames": 86
+      },
+      "RailMeeting": {
+        "passed": true,
+        "seconds": 1.83,
+        "first_distance_m": 6.312,
+        "second_distance_m": 5.386,
+        "minimum_separation_cm": 71.6,
+        "second_net_displacement_cm": 496.6,
+        "moving_frames": 87
+      },
+      "RailStationary": {
+        "passed": true,
+        "seconds": 4.6,
+        "first_distance_m": 7.003,
+        "second_distance_m": 0.0,
+        "minimum_separation_cm": 71.4,
+        "second_net_displacement_cm": 0.0,
+        "moving_frames": 253
+      },
+      "RailConvergence": {
+        "passed": true,
+        "seconds": 5.87,
+        "first_distance_m": 4.972,
+        "second_distance_m": 9.089,
+        "minimum_separation_cm": 71.6,
+        "second_net_displacement_cm": 628.0,
+        "moving_frames": 328
+      }
+    }
+  }
+}

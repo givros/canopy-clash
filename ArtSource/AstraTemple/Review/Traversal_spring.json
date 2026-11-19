@@ -1,0 +1,4277 @@
+{
+  "renderer_warnings": [
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 632, Water_LotusShelves, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_322.StaticMeshComponent0",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 461, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_34",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 374, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_34",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 267, The branch above the gate, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_644.StaticMeshComponent0",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 205, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_29",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 168, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_26",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 76, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_20",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 73, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_18",
+    "[2026.11.19-00.40.02:941][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 26, West Canopy Spring Grotto, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_658.StaticMeshComponent0",
+    "[2026.11.19-00.40.02:942][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 16, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_36",
+    "[2026.11.19-00.40.02:942][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 16, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_44",
+    "[2026.11.19-00.40.02:942][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 16, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_43",
+    "[2026.11.19-00.40.02:942][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_46",
+    "[2026.11.19-00.40.02:942][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_45",
+    "[2026.11.19-00.40.02:942][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_45",
+    "[2026.11.19-00.40.02:942][ 66]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_50",
+    "[2026.11.19-00.40.03:182][ 69]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 304, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_33",
+    "[2026.11.19-00.40.03:182][ 69]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 235, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_36",
+    "[2026.11.19-00.40.03:182][ 69]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 184, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_34",
+    "[2026.11.19-00.40.03:182][ 69]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 76, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_37",
+    "[2026.11.19-00.40.03:182][ 69]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_38",
+    "[2026.11.19-00.40.03:226][ 70]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 305, Water_ReflectionPoolBed, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_321.StaticMeshComponent0",
+    "[2026.11.19-00.40.03:342][ 73]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 53, Water_LotusShelves, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_322.StaticMeshComponent0",
+    "[2026.11.19-00.40.03:551][ 79]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 20, The branch above the gate, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_644.StaticMeshComponent0",
+    "[2026.11.19-00.40.03:593][ 79]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 119, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_34",
+    "[2026.11.19-00.40.04:849][110]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 228, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_41",
+    "[2026.11.19-00.40.05:061][115]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 294, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_42",
+    "[2026.11.19-00.40.05:218][119]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_32",
+    "[2026.11.19-00.40.06:277][145]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, West Canopy Spring Grotto, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_658.StaticMeshComponent0",
+    "[2026.11.19-00.40.07:073][165]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 9, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_46",
+    "[2026.11.19-00.40.07:219][169]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_45",
+    "[2026.11.19-00.40.07:429][175]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 155, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_43",
+    "[2026.11.19-00.40.07:899][188]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 196, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_35",
+    "[2026.11.19-00.40.08:187][196]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 104, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_36",
+    "[2026.11.19-00.40.08:187][196]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 104, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_34",
+    "[2026.11.19-00.40.08:216][197]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 146, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_33",
+    "[2026.11.19-00.40.08:316][200]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 36, Water_WestPoolBeds, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_324.StaticMeshComponent0",
+    "[2026.11.19-00.40.08:475][205]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 9, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_44",
+    "[2026.11.19-00.40.08:508][206]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 216, Water_ReflectionPoolBed, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_321.StaticMeshComponent0",
+    "[2026.11.19-00.40.08:566][208]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 91, The branch above the gate, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_644.StaticMeshComponent0",
+    "[2026.11.19-00.40.08:603][209]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 162, Water_LotusShelves, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_322.StaticMeshComponent0",
+    "[2026.11.19-00.40.08:603][209]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 162, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_34",
+    "[2026.11.19-00.40.10:417][271]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 141, Foregate WoodFernFountain 02, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_690.StaticMeshComponent0",
+    "[2026.11.19-00.40.11:292][297]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, Water_EastPoolBeds, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_338.StaticMeshComponent0",
+    "[2026.11.19-00.40.11:495][303]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 9, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_52",
+    "[2026.11.19-00.40.11:533][304]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 9, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_51",
+    "[2026.11.19-00.40.11:534][304]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 9, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_50",
+    "[2026.11.19-00.40.11:791][312]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 202, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_27",
+    "[2026.11.19-00.40.11:827][313]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 38, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_26",
+    "[2026.11.19-00.40.12:025][319]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 187, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_42",
+    "[2026.11.19-00.40.12:446][332]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 13, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_18",
+    "[2026.11.19-00.40.12:446][332]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_29",
+    "[2026.11.19-00.40.12:446][332]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_19",
+    "[2026.11.19-00.40.13:123][352]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, West Canopy Spring Grotto, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_658.StaticMeshComponent0",
+    "[2026.11.19-00.40.13:190][354]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 162, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_34",
+    "[2026.11.19-00.40.13:190][354]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 107, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_36",
+    "[2026.11.19-00.40.13:575][365]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 95, The branch above the gate, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_644.StaticMeshComponent0",
+    "[2026.11.19-00.40.13:601][366]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 50, Water_ReflectionPoolBed, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_321.StaticMeshComponent0",
+    "[2026.11.19-00.40.13:634][367]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 128, Water_LotusShelves, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_322.StaticMeshComponent0",
+    "[2026.11.19-00.40.14:291][386]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 125, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_34",
+    "[2026.11.19-00.40.14:458][391]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 160, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_35",
+    "[2026.11.19-00.40.15:275][416]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 105, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_36",
+    "[2026.11.19-00.40.15:375][419]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 140, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_43",
+    "[2026.11.19-00.40.15:406][420]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 114, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_44",
+    "[2026.11.19-00.40.16:100][442]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 41, Water_WestPoolBeds, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_324.StaticMeshComponent0",
+    "[2026.11.19-00.40.16:100][442]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 32, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_28",
+    "[2026.11.19-00.40.16:100][442]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 16, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_37",
+    "[2026.11.19-00.40.16:469][453]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 50, Water_EastPoolBeds, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_338.StaticMeshComponent0",
+    "[2026.11.19-00.40.16:857][464]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 51, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_27",
+    "[2026.11.19-00.40.16:999][468]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 89, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_52",
+    "[2026.11.19-00.40.16:999][468]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_26",
+    "[2026.11.19-00.40.17:449][481]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 16, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_42",
+    "[2026.11.19-00.40.17:449][481]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 16, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_29",
+    "[2026.11.19-00.40.17:449][481]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 15, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_20",
+    "[2026.11.19-00.40.17:449][481]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 9, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_19",
+    "[2026.11.19-00.40.18:208][502]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 67, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_34",
+    "[2026.11.19-00.40.18:208][502]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 31, InstancedFoliageActor0, L_TempleOfTheCanopy:PersistentLevel.InstancedFoliageActor_0.FoliageInstancedStaticMeshComponent_36",
+    "[2026.11.19-00.40.18:424][508]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 13, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_46",
+    "[2026.11.19-00.40.18:424][508]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 13, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_38",
+    "[2026.11.19-00.40.18:424][508]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 10, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_30",
+    "[2026.11.19-00.40.18:598][513]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_18",
+    "[2026.11.19-00.40.18:675][515]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 207, Water_LotusShelves, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_322.StaticMeshComponent0",
+    "[2026.11.19-00.40.18:704][516]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 116, Water_ReflectionPoolBed, L_TempleOfTheCanopy:PersistentLevel.StaticMeshActor_321.StaticMeshComponent0",
+    "[2026.11.19-00.40.19:320][534]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 142, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_34",
+    "[2026.11.19-00.40.19:470][539]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 274, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_35",
+    "[2026.11.19-00.40.19:499][540]LogRenderer: Warning: Non-Nanite VSM page overlap performance Warning, 12, Valley of the Two Springs, L_TempleOfTheCanopy:PersistentLevel.Landscape_0.LandscapeComponent_45"
+  ],
+  "route": "spring",
+  "status": "passed",
+  "phase": "finished",
+  "startup": {
+    "map_instance": "/Game/AstraTemple/Maps/UEDPIE_0_L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+    "pawn": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C",
+    "player_controller": "/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController_C",
+    "position_m": [
+      -83.8,
+      13.4,
+      6.967
+    ],
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "capsule_radius_cm": 33.99907684326172,
+    "capsule_half_height_cm": 96.0,
+    "max_step_cm": 45.0,
+    "max_walk_cm_s": 600.0,
+    "walkable_slope_deg": 44.76508331298828,
+    "default_input_context_priority": 0,
+    "action_keys": [
+      [
+        "SpaceBar",
+        "IA_Jump"
+      ],
+      [
+        "Gamepad_FaceButton_Bottom",
+        "IA_Jump"
+      ],
+      [
+        "W",
+        "IA_Move"
+      ],
+      [
+        "S",
+        "IA_Move"
+      ],
+      [
+        "A",
+        "IA_Move"
+      ],
+      [
+        "D",
+        "IA_Move"
+      ],
+      [
+        "Up",
+        "IA_Move"
+      ],
+      [
+        "Down",
+        "IA_Move"
+      ],
+      [
+        "Right",
+        "IA_Move"
+      ],
+      [
+        "Left",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Left2D",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Right2D",
+        "IA_Look"
+      ]
+    ],
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 0,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8
+    },
+    "initial_camera_yaw": 48.00000000000001,
+    "look_action_yaw_delta_deg": 22.5,
+    "verified_key_deltas_m": {
+      "W": [
+        0.875,
+        1.062,
+        -0.009
+      ]
+    },
+    "azerty_context_priority": 1
+  },
+  "at_goal": 47,
+  "total_goals": 47,
+  "walked_m": 320.81,
+  "checkpoints": [
+    {
+      "section": "Jungle approach",
+      "waypoint": 1,
+      "goal_m": [
+        -76,
+        24,
+        6
+      ],
+      "position_m": [
+        -76.191,
+        23.735,
+        6.979
+      ],
+      "foot_z_m": 6.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.4,
+      "impact_m": [
+        -76.191,
+        23.735,
+        5.995
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Jungle approach",
+      "waypoint": 2,
+      "goal_m": [
+        -64,
+        25,
+        5
+      ],
+      "position_m": [
+        -64.29,
+        24.98,
+        6.008
+      ],
+      "foot_z_m": 5.048,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -64.326,
+        24.984,
+        5.029
+      ],
+      "slope_deg": 6.05
+    },
+    {
+      "section": "Jungle approach",
+      "waypoint": 3,
+      "goal_m": [
+        -53,
+        18,
+        4
+      ],
+      "position_m": [
+        -53.301,
+        18.196,
+        5.008
+      ],
+      "foot_z_m": 4.048,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -53.301,
+        18.196,
+        4.026
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Jungle approach",
+      "waypoint": 4,
+      "goal_m": [
+        -48,
+        16,
+        4
+      ],
+      "position_m": [
+        -48.399,
+        16.156,
+        4.978
+      ],
+      "foot_z_m": 4.018,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -48.53,
+        16.138,
+        4.023
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 1,
+      "goal_m": [
+        -44.041,
+        16.57,
+        4.0
+      ],
+      "position_m": [
+        -44.421,
+        16.509,
+        4.986
+      ],
+      "foot_z_m": 4.026,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -44.421,
+        16.509,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 2,
+      "goal_m": [
+        -36.123,
+        17.71,
+        4.0
+      ],
+      "position_m": [
+        -36.43,
+        17.666,
+        4.988
+      ],
+      "foot_z_m": 4.028,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -36.43,
+        17.666,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 3,
+      "goal_m": [
+        -28.205,
+        18.85,
+        4.0
+      ],
+      "position_m": [
+        -28.58,
+        18.796,
+        4.969
+      ],
+      "foot_z_m": 4.009,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        -28.585,
+        18.814,
+        3.989
+      ],
+      "slope_deg": 3.17
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 4,
+      "goal_m": [
+        -20.287,
+        19.99,
+        4.0
+      ],
+      "position_m": [
+        -20.721,
+        19.928,
+        4.982
+      ],
+      "foot_z_m": 4.022,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        -20.721,
+        19.928,
+        4.001
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 5,
+      "goal_m": [
+        -12.368999999999993,
+        21.13,
+        4.0
+      ],
+      "position_m": [
+        -12.709,
+        21.081,
+        4.979
+      ],
+      "foot_z_m": 4.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -12.709,
+        21.081,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 6,
+      "goal_m": [
+        -8.409999999999997,
+        21.7,
+        4.0
+      ],
+      "position_m": [
+        -8.731,
+        21.654,
+        5.009
+      ],
+      "foot_z_m": 4.049,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -8.731,
+        21.654,
+        4.027
+      ],
+      "slope_deg": 0.04
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 7,
+      "goal_m": [
+        -0.5,
+        21.7,
+        4
+      ],
+      "position_m": [
+        -0.801,
+        21.7,
+        4.97
+      ],
+      "foot_z_m": 4.01,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        -0.804,
+        21.719,
+        3.99
+      ],
+      "slope_deg": 3.16
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 8,
+      "goal_m": [
+        7.65,
+        21.7,
+        4
+      ],
+      "position_m": [
+        7.32,
+        21.7,
+        4.984
+      ],
+      "foot_z_m": 4.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        7.329,
+        21.7,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 9,
+      "goal_m": [
+        11.72,
+        21.7,
+        4
+      ],
+      "position_m": [
+        11.381,
+        21.7,
+        4.981
+      ],
+      "foot_z_m": 4.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        11.381,
+        21.7,
+        4.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 10,
+      "goal_m": [
+        11.72,
+        11,
+        4
+      ],
+      "position_m": [
+        11.726,
+        11.434,
+        4.984
+      ],
+      "foot_z_m": 4.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.726,
+        11.433,
+        4.002
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 11,
+      "goal_m": [
+        13,
+        0,
+        4
+      ],
+      "position_m": [
+        12.954,
+        0.393,
+        4.988
+      ],
+      "foot_z_m": 4.028,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        12.954,
+        0.393,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 12,
+      "goal_m": [
+        15.65,
+        0,
+        4
+      ],
+      "position_m": [
+        15.237,
+        -0.06,
+        4.975
+      ],
+      "foot_z_m": 4.015,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 210",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        15.237,
+        -0.071,
+        3.993
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 1,
+      "goal_m": [
+        16,
+        0,
+        4
+      ],
+      "position_m": [
+        15.623,
+        -0.023,
+        4.981
+      ],
+      "foot_z_m": 4.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 210",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        15.623,
+        -0.041,
+        4.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 2,
+      "goal_m": [
+        19.85,
+        0,
+        6.4
+      ],
+      "position_m": [
+        19.45,
+        0.001,
+        7.326
+      ],
+      "foot_z_m": 6.366,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        19.633,
+        -0.029,
+        6.4
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 3,
+      "goal_m": [
+        23.92,
+        0,
+        8.8
+      ],
+      "position_m": [
+        23.572,
+        -0.0,
+        9.773
+      ],
+      "foot_z_m": 8.813,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        23.59,
+        0.001,
+        8.792
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 4,
+      "goal_m": [
+        28.9,
+        0,
+        11.85
+      ],
+      "position_m": [
+        28.569,
+        -0.0,
+        12.792
+      ],
+      "foot_z_m": 11.832,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        28.871,
+        0.019,
+        11.997
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 5,
+      "goal_m": [
+        30.6,
+        0,
+        12
+      ],
+      "position_m": [
+        30.198,
+        -0.0,
+        12.979
+      ],
+      "foot_z_m": 12.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 003",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        30.198,
+        0.028,
+        11.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 1,
+      "goal_m": [
+        34,
+        0,
+        12
+      ],
+      "position_m": [
+        33.657,
+        -0.0,
+        12.981
+      ],
+      "foot_z_m": 12.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 002",
+      "floor_dist_cm": 2.32,
+      "impact_m": [
+        33.657,
+        -0.035,
+        12.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 2,
+      "goal_m": [
+        37.85,
+        0,
+        14.4
+      ],
+      "position_m": [
+        37.527,
+        -0.0,
+        15.363
+      ],
+      "foot_z_m": 14.403,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        37.633,
+        -0.029,
+        14.4
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 3,
+      "goal_m": [
+        41.92,
+        0,
+        16.8
+      ],
+      "position_m": [
+        41.608,
+        -0.0,
+        17.785
+      ],
+      "foot_z_m": 16.825,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        41.913,
+        -0.042,
+        17.0
+      ],
+      "slope_deg": 1.4
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 4,
+      "goal_m": [
+        46.9,
+        0,
+        19.85
+      ],
+      "position_m": [
+        46.487,
+        -0.0,
+        20.777
+      ],
+      "foot_z_m": 19.817,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        46.545,
+        -0.005,
+        19.8
+      ],
+      "slope_deg": 1.3
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 5,
+      "goal_m": [
+        48.6,
+        0,
+        20
+      ],
+      "position_m": [
+        48.235,
+        -0.0,
+        20.979
+      ],
+      "foot_z_m": 20.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 006",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        48.235,
+        0.028,
+        19.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 1,
+      "goal_m": [
+        52,
+        0,
+        20
+      ],
+      "position_m": [
+        51.639,
+        -0.0,
+        20.981
+      ],
+      "foot_z_m": 20.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 005",
+      "floor_dist_cm": 2.31,
+      "impact_m": [
+        51.639,
+        -0.035,
+        20.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 2,
+      "goal_m": [
+        55.85,
+        0,
+        22.4
+      ],
+      "position_m": [
+        55.498,
+        -0.0,
+        23.352
+      ],
+      "foot_z_m": 22.392,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        55.633,
+        -0.029,
+        22.4
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 3,
+      "goal_m": [
+        59.92,
+        0,
+        24.8
+      ],
+      "position_m": [
+        59.503,
+        -0.0,
+        25.762
+      ],
+      "foot_z_m": 24.802,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        59.59,
+        0.001,
+        24.792
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 4,
+      "goal_m": [
+        64.9,
+        0,
+        27.85
+      ],
+      "position_m": [
+        64.488,
+        -0.0,
+        28.777
+      ],
+      "foot_z_m": 27.817,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        64.545,
+        -0.005,
+        27.8
+      ],
+      "slope_deg": 1.3
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 5,
+      "goal_m": [
+        66.6,
+        0,
+        28
+      ],
+      "position_m": [
+        66.204,
+        -0.0,
+        28.978
+      ],
+      "foot_z_m": 28.018,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        66.222,
+        0.03,
+        27.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 1,
+      "goal_m": [
+        68.6,
+        0,
+        28
+      ],
+      "position_m": [
+        68.192,
+        -0.0,
+        28.98
+      ],
+      "foot_z_m": 28.02,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        68.192,
+        -0.039,
+        28.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 2,
+      "goal_m": [
+        72.7,
+        0,
+        28
+      ],
+      "position_m": [
+        72.366,
+        -0.0,
+        28.98
+      ],
+      "foot_z_m": 28.02,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        72.366,
+        -0.035,
+        28.0
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 3,
+      "goal_m": [
+        77.5,
+        0,
+        28
+      ],
+      "position_m": [
+        77.215,
+        -0.0,
+        28.982
+      ],
+      "foot_z_m": 28.022,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 1.98,
+      "impact_m": [
+        77.217,
+        -0.001,
+        28.002
+      ],
+      "slope_deg": 0.33
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 4,
+      "goal_m": [
+        83,
+        0,
+        28
+      ],
+      "position_m": [
+        82.667,
+        -0.0,
+        28.975
+      ],
+      "foot_z_m": 28.015,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        82.668,
+        0.0,
+        27.993
+      ],
+      "slope_deg": 0.28
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 5,
+      "goal_m": [
+        89.3,
+        0,
+        28
+      ],
+      "position_m": [
+        89.01,
+        -0.0,
+        28.992
+      ],
+      "foot_z_m": 28.032,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        89.044,
+        0.001,
+        28.012
+      ],
+      "slope_deg": 0.17
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 6,
+      "goal_m": [
+        94.5,
+        0,
+        28
+      ],
+      "position_m": [
+        94.09,
+        -0.0,
+        28.975
+      ],
+      "foot_z_m": 28.015,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        94.078,
+        -0.0,
+        27.993
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Rain court",
+      "waypoint": 1,
+      "goal_m": [
+        98,
+        0,
+        28
+      ],
+      "position_m": [
+        97.629,
+        -0.0,
+        28.977
+      ],
+      "foot_z_m": 28.017,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.05,
+      "impact_m": [
+        97.629,
+        -0.0,
+        27.996
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "section": "Rain court",
+      "waypoint": 2,
+      "goal_m": [
+        105,
+        5,
+        28
+      ],
+      "position_m": [
+        104.702,
+        4.782,
+        28.949
+      ],
+      "foot_z_m": 27.989,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.98,
+      "impact_m": [
+        104.702,
+        4.784,
+        27.969
+      ],
+      "slope_deg": 0.3
+    },
+    {
+      "section": "Rain court",
+      "waypoint": 3,
+      "goal_m": [
+        114,
+        13,
+        29
+      ],
+      "position_m": [
+        113.742,
+        12.771,
+        30.125
+      ],
+      "foot_z_m": 29.165,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        113.759,
+        12.916,
+        29.177
+      ],
+      "slope_deg": 25.51
+    },
+    {
+      "section": "Spring trail",
+      "waypoint": 1,
+      "goal_m": [
+        113,
+        12,
+        29
+      ],
+      "position_m": [
+        113.279,
+        12.268,
+        29.951
+      ],
+      "foot_z_m": 28.991,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        113.298,
+        12.352,
+        28.98
+      ],
+      "slope_deg": 14.79
+    },
+    {
+      "section": "Spring trail",
+      "waypoint": 2,
+      "goal_m": [
+        123,
+        26,
+        31
+      ],
+      "position_m": [
+        122.671,
+        25.712,
+        31.973
+      ],
+      "foot_z_m": 31.013,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.94,
+      "impact_m": [
+        122.689,
+        25.757,
+        30.997
+      ],
+      "slope_deg": 8.19
+    },
+    {
+      "section": "Spring trail",
+      "waypoint": 3,
+      "goal_m": [
+        133,
+        39,
+        34
+      ],
+      "position_m": [
+        132.816,
+        38.761,
+        34.997
+      ],
+      "foot_z_m": 34.037,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        132.812,
+        38.823,
+        34.021
+      ],
+      "slope_deg": 10.6
+    },
+    {
+      "section": "Spring trail",
+      "waypoint": 4,
+      "goal_m": [
+        133,
+        55,
+        37
+      ],
+      "position_m": [
+        133.003,
+        54.567,
+        37.896
+      ],
+      "foot_z_m": 36.936,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.9,
+      "impact_m": [
+        132.978,
+        54.635,
+        36.925
+      ],
+      "slope_deg": 12.32
+    },
+    {
+      "section": "Spring trail",
+      "waypoint": 5,
+      "goal_m": [
+        124,
+        65,
+        40
+      ],
+      "position_m": [
+        124.254,
+        64.72,
+        40.842
+      ],
+      "foot_z_m": 39.882,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        124.203,
+        64.776,
+        39.87
+      ],
+      "slope_deg": 12.87
+    },
+    {
+      "section": "Spring trail",
+      "waypoint": 6,
+      "goal_m": [
+        110,
+        67,
+        43
+      ],
+      "position_m": [
+        110.357,
+        66.951,
+        43.951
+      ],
+      "foot_z_m": 42.991,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        110.292,
+        66.959,
+        42.976
+      ],
+      "slope_deg": 11.02
+    },
+    {
+      "section": "Spring trail",
+      "waypoint": 7,
+      "goal_m": [
+        99,
+        63,
+        44
+      ],
+      "position_m": [
+        99.271,
+        63.1,
+        44.989
+      ],
+      "foot_z_m": 44.029,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.02,
+      "impact_m": [
+        99.243,
+        63.091,
+        44.011
+      ],
+      "slope_deg": 4.98
+    }
+  ],
+  "samples": [
+    {
+      "t": 1.55,
+      "section": "Jungle approach",
+      "position_m": [
+        -82.737,
+        14.69,
+        6.958
+      ],
+      "ground_z_m": 5.998,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -82.737,
+        14.69,
+        5.976
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 1.98,
+      "section": "Jungle approach",
+      "position_m": [
+        -81.189,
+        16.775,
+        6.958
+      ],
+      "ground_z_m": 5.998,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.9,
+      "impact_m": [
+        -81.187,
+        16.775,
+        5.979
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 2.39,
+      "section": "Jungle approach",
+      "position_m": [
+        -79.697,
+        18.852,
+        6.981
+      ],
+      "ground_z_m": 6.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -79.695,
+        18.854,
+        6.0
+      ],
+      "slope_deg": 0.48
+    },
+    {
+      "t": 2.81,
+      "section": "Jungle approach",
+      "position_m": [
+        -78.257,
+        20.857,
+        6.985
+      ],
+      "ground_z_m": 6.025,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        -78.257,
+        20.855,
+        6.004
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 3.23,
+      "section": "Jungle approach",
+      "position_m": [
+        -76.785,
+        22.907,
+        6.979
+      ],
+      "ground_z_m": 6.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.4,
+      "impact_m": [
+        -76.785,
+        22.907,
+        5.995
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 3.66,
+      "section": "Jungle approach",
+      "position_m": [
+        -75.286,
+        24.173,
+        6.919
+      ],
+      "ground_z_m": 5.959,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -75.314,
+        24.173,
+        5.939
+      ],
+      "slope_deg": 4.68
+    },
+    {
+      "t": 4.06,
+      "section": "Jungle approach",
+      "position_m": [
+        -72.771,
+        24.388,
+        6.722
+      ],
+      "ground_z_m": 5.762,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -72.799,
+        24.388,
+        5.742
+      ],
+      "slope_deg": 4.35
+    },
+    {
+      "t": 4.48,
+      "section": "Jungle approach",
+      "position_m": [
+        -70.314,
+        24.56,
+        6.531
+      ],
+      "ground_z_m": 5.571,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.23,
+      "impact_m": [
+        -70.342,
+        24.56,
+        5.55
+      ],
+      "slope_deg": 4.68
+    },
+    {
+      "t": 4.91,
+      "section": "Jungle approach",
+      "position_m": [
+        -67.743,
+        24.739,
+        6.319
+      ],
+      "ground_z_m": 5.359,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.25,
+      "impact_m": [
+        -67.773,
+        24.737,
+        5.338
+      ],
+      "slope_deg": 5.03
+    },
+    {
+      "t": 5.31,
+      "section": "Jungle approach",
+      "position_m": [
+        -65.367,
+        24.905,
+        6.109
+      ],
+      "ground_z_m": 5.149,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.31,
+      "impact_m": [
+        -65.397,
+        24.901,
+        5.128
+      ],
+      "slope_deg": 5.07
+    },
+    {
+      "t": 5.72,
+      "section": "Jungle approach",
+      "position_m": [
+        -63.396,
+        24.718,
+        5.929
+      ],
+      "ground_z_m": 4.969,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        -63.42,
+        24.73,
+        4.949
+      ],
+      "slope_deg": 4.49
+    },
+    {
+      "t": 6.14,
+      "section": "Jungle approach",
+      "position_m": [
+        -61.272,
+        23.379,
+        5.718
+      ],
+      "ground_z_m": 4.758,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -61.298,
+        23.393,
+        4.738
+      ],
+      "slope_deg": 4.94
+    },
+    {
+      "t": 6.55,
+      "section": "Jungle approach",
+      "position_m": [
+        -59.147,
+        21.998,
+        5.504
+      ],
+      "ground_z_m": 4.544,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -59.173,
+        22.012,
+        4.524
+      ],
+      "slope_deg": 4.95
+    },
+    {
+      "t": 6.95,
+      "section": "Jungle approach",
+      "position_m": [
+        -57.128,
+        20.685,
+        5.307
+      ],
+      "ground_z_m": 4.347,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        -57.154,
+        20.697,
+        4.326
+      ],
+      "slope_deg": 4.79
+    },
+    {
+      "t": 7.36,
+      "section": "Jungle approach",
+      "position_m": [
+        -55.082,
+        19.354,
+        5.114
+      ],
+      "ground_z_m": 4.154,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -55.106,
+        19.366,
+        4.133
+      ],
+      "slope_deg": 4.5
+    },
+    {
+      "t": 7.78,
+      "section": "Jungle approach",
+      "position_m": [
+        -53.131,
+        18.085,
+        5.008
+      ],
+      "ground_z_m": 4.048,
+      "speed_mps": 3.25,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -53.131,
+        18.085,
+        4.026
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 8.19,
+      "section": "Jungle approach",
+      "position_m": [
+        -51.041,
+        17.194,
+        5.007
+      ],
+      "ground_z_m": 4.047,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -51.041,
+        17.194,
+        4.026
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 8.59,
+      "section": "Jungle approach",
+      "position_m": [
+        -48.788,
+        16.309,
+        5.005
+      ],
+      "ground_z_m": 4.045,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -48.788,
+        16.309,
+        4.023
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 9.0,
+      "section": "Causeway and quay",
+      "position_m": [
+        -46.77,
+        16.157,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -46.77,
+        16.157,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 9.42,
+      "section": "Causeway and quay",
+      "position_m": [
+        -44.335,
+        16.523,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 2.47,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -44.335,
+        16.523,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 9.84,
+      "section": "Causeway and quay",
+      "position_m": [
+        -42.1,
+        16.849,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -42.1,
+        16.849,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 10.25,
+      "section": "Causeway and quay",
+      "position_m": [
+        -39.734,
+        17.19,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        -39.733,
+        17.191,
+        3.991
+      ],
+      "slope_deg": 0.17
+    },
+    {
+      "t": 10.66,
+      "section": "Causeway and quay",
+      "position_m": [
+        -37.278,
+        17.544,
+        4.969
+      ],
+      "ground_z_m": 4.009,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        -37.278,
+        17.544,
+        3.989
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 11.08,
+      "section": "Causeway and quay",
+      "position_m": [
+        -35.147,
+        17.85,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -35.147,
+        17.85,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 11.5,
+      "section": "Causeway and quay",
+      "position_m": [
+        -32.624,
+        18.214,
+        4.971
+      ],
+      "ground_z_m": 4.011,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -32.667,
+        18.208,
+        3.992
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 11.92,
+      "section": "Causeway and quay",
+      "position_m": [
+        -30.104,
+        18.577,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        -30.103,
+        18.577,
+        3.991
+      ],
+      "slope_deg": 0.17
+    },
+    {
+      "t": 12.33,
+      "section": "Causeway and quay",
+      "position_m": [
+        -28.107,
+        18.864,
+        4.971
+      ],
+      "ground_z_m": 4.011,
+      "speed_mps": 4.54,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -28.107,
+        18.864,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 12.75,
+      "section": "Causeway and quay",
+      "position_m": [
+        -25.62,
+        19.222,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -25.62,
+        19.222,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 13.17,
+      "section": "Causeway and quay",
+      "position_m": [
+        -23.079,
+        19.588,
+        4.973
+      ],
+      "ground_z_m": 4.013,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -23.079,
+        19.588,
+        3.992
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 13.59,
+      "section": "Causeway and quay",
+      "position_m": [
+        -20.634,
+        19.94,
+        4.982
+      ],
+      "ground_z_m": 4.022,
+      "speed_mps": 2.84,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        -20.634,
+        19.94,
+        4.001
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 14.02,
+      "section": "Causeway and quay",
+      "position_m": [
+        -18.378,
+        20.265,
+        4.967
+      ],
+      "ground_z_m": 4.007,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.24,
+      "impact_m": [
+        -18.409,
+        20.293,
+        3.987
+      ],
+      "slope_deg": 3.17
+    },
+    {
+      "t": 14.45,
+      "section": "Causeway and quay",
+      "position_m": [
+        -15.819,
+        20.633,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        -15.82,
+        20.633,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 14.86,
+      "section": "Causeway and quay",
+      "position_m": [
+        -13.383,
+        20.984,
+        4.973
+      ],
+      "ground_z_m": 4.013,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -13.383,
+        20.984,
+        3.992
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 15.27,
+      "section": "Causeway and quay",
+      "position_m": [
+        -11.477,
+        21.258,
+        4.982
+      ],
+      "ground_z_m": 4.022,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -11.477,
+        21.258,
+        4.001
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 15.69,
+      "section": "Causeway and quay",
+      "position_m": [
+        -8.935,
+        21.624,
+        5.011
+      ],
+      "ground_z_m": 4.051,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -8.935,
+        21.624,
+        4.03
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 16.11,
+      "section": "Causeway and quay",
+      "position_m": [
+        -6.932,
+        21.706,
+        5.017
+      ],
+      "ground_z_m": 4.057,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -6.932,
+        21.706,
+        4.035
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 16.52,
+      "section": "Causeway and quay",
+      "position_m": [
+        -4.502,
+        21.705,
+        4.973
+      ],
+      "ground_z_m": 4.013,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -4.502,
+        21.705,
+        3.992
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 16.94,
+      "section": "Causeway and quay",
+      "position_m": [
+        -1.986,
+        21.702,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -1.985,
+        21.702,
+        3.991
+      ],
+      "slope_deg": 0.19
+    },
+    {
+      "t": 17.34,
+      "section": "Causeway and quay",
+      "position_m": [
+        0.126,
+        21.7,
+        4.971
+      ],
+      "ground_z_m": 4.011,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        0.126,
+        21.7,
+        3.99
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 17.77,
+      "section": "Causeway and quay",
+      "position_m": [
+        2.741,
+        21.7,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        2.741,
+        21.7,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 18.17,
+      "section": "Causeway and quay",
+      "position_m": [
+        5.144,
+        21.7,
+        4.981
+      ],
+      "ground_z_m": 4.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        5.144,
+        21.7,
+        4.001
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 18.59,
+      "section": "Causeway and quay",
+      "position_m": [
+        7.515,
+        21.7,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 3.21,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        7.515,
+        21.7,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 19.0,
+      "section": "Causeway and quay",
+      "position_m": [
+        9.751,
+        21.7,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        9.751,
+        21.7,
+        3.997
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 19.42,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.725,
+        21.502,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 3.42,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.725,
+        21.502,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 19.83,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.836,
+        19.136,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        11.836,
+        19.136,
+        4.002
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 20.23,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.802,
+        16.674,
+        4.98
+      ],
+      "ground_z_m": 4.02,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.802,
+        16.674,
+        3.999
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 20.66,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.766,
+        14.225,
+        4.983
+      ],
+      "ground_z_m": 4.023,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.01,
+      "impact_m": [
+        11.766,
+        14.225,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 21.06,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.731,
+        11.79,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.731,
+        11.79,
+        4.002
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 21.47,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.877,
+        9.585,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.877,
+        9.594,
+        3.993
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 21.89,
+      "section": "Causeway and quay",
+      "position_m": [
+        12.164,
+        7.126,
+        4.985
+      ],
+      "ground_z_m": 4.025,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.23,
+      "impact_m": [
+        12.164,
+        7.126,
+        4.003
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 22.3,
+      "section": "Causeway and quay",
+      "position_m": [
+        12.451,
+        4.676,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        12.451,
+        4.676,
+        3.991
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 22.72,
+      "section": "Causeway and quay",
+      "position_m": [
+        12.741,
+        2.203,
+        4.981
+      ],
+      "ground_z_m": 4.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        12.769,
+        2.203,
+        4.0
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 23.12,
+      "section": "Causeway and quay",
+      "position_m": [
+        13.087,
+        0.068,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 3.41,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        13.087,
+        0.068,
+        4.007
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 23.55,
+      "section": "Stair flight 1",
+      "position_m": [
+        15.324,
+        -0.052,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 2.81,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 210",
+      "floor_dist_cm": 2.2,
+      "impact_m": [
+        15.324,
+        -0.072,
+        3.993
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 23.95,
+      "section": "Stair flight 1",
+      "position_m": [
+        17.072,
+        0.005,
+        5.873
+      ],
+      "ground_z_m": 4.913,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        17.315,
+        0.055,
+        5.0
+      ],
+      "slope_deg": 1.41
+    },
+    {
+      "t": 24.36,
+      "section": "Stair flight 1",
+      "position_m": [
+        19.527,
+        0.001,
+        7.363
+      ],
+      "ground_z_m": 6.403,
+      "speed_mps": 3.16,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        19.633,
+        -0.029,
+        6.4
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "t": 24.77,
+      "section": "Stair flight 1",
+      "position_m": [
+        21.712,
+        -0.0,
+        8.693
+      ],
+      "ground_z_m": 7.733,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        21.933,
+        -0.002,
+        7.793
+      ],
+      "slope_deg": 1.47
+    },
+    {
+      "t": 25.17,
+      "section": "Stair flight 1",
+      "position_m": [
+        23.961,
+        -0.0,
+        10.037
+      ],
+      "ground_z_m": 9.077,
+      "speed_mps": 4.53,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        24.231,
+        0.023,
+        9.19
+      ],
+      "slope_deg": 1.64
+    },
+    {
+      "t": 25.58,
+      "section": "Stair flight 1",
+      "position_m": [
+        26.334,
+        -0.0,
+        11.498
+      ],
+      "ground_z_m": 10.538,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        26.543,
+        -0.041,
+        10.591
+      ],
+      "slope_deg": 1.38
+    },
+    {
+      "t": 25.98,
+      "section": "Stair flight 1",
+      "position_m": [
+        28.741,
+        -0.0,
+        12.954
+      ],
+      "ground_z_m": 11.994,
+      "speed_mps": 4.09,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        28.876,
+        0.001,
+        12.0
+      ],
+      "slope_deg": 1.32
+    },
+    {
+      "t": 26.41,
+      "section": "Stair flight 2",
+      "position_m": [
+        30.909,
+        -0.0,
+        12.988
+      ],
+      "ground_z_m": 12.028,
+      "speed_mps": 5.91,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 003",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        30.909,
+        0.021,
+        12.007
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 26.81,
+      "section": "Stair flight 2",
+      "position_m": [
+        33.42,
+        -0.0,
+        12.981
+      ],
+      "ground_z_m": 12.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 003",
+      "floor_dist_cm": 2.38,
+      "impact_m": [
+        33.382,
+        0.038,
+        12.002
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 27.22,
+      "section": "Stair flight 2",
+      "position_m": [
+        35.568,
+        -0.0,
+        14.17
+      ],
+      "ground_z_m": 13.21,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        35.65,
+        -0.031,
+        13.2
+      ],
+      "slope_deg": 1.03
+    },
+    {
+      "t": 27.62,
+      "section": "Stair flight 2",
+      "position_m": [
+        37.828,
+        -0.0,
+        15.555
+      ],
+      "ground_z_m": 14.595,
+      "speed_mps": 4.57,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        37.955,
+        -0.03,
+        14.6
+      ],
+      "slope_deg": 1.4
+    },
+    {
+      "t": 28.05,
+      "section": "Stair flight 2",
+      "position_m": [
+        40.25,
+        -0.0,
+        16.981
+      ],
+      "ground_z_m": 16.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        40.276,
+        0.002,
+        16.001
+      ],
+      "slope_deg": 1.39
+    },
+    {
+      "t": 28.45,
+      "section": "Stair flight 2",
+      "position_m": [
+        42.501,
+        -0.0,
+        18.366
+      ],
+      "ground_z_m": 17.406,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        42.573,
+        0.006,
+        17.392
+      ],
+      "slope_deg": 0.95
+    },
+    {
+      "t": 28.88,
+      "section": "Stair flight 2",
+      "position_m": [
+        44.994,
+        -0.0,
+        19.898
+      ],
+      "ground_z_m": 18.938,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        45.212,
+        0.042,
+        19.0
+      ],
+      "slope_deg": 1.47
+    },
+    {
+      "t": 29.28,
+      "section": "Stair flight 2",
+      "position_m": [
+        47.136,
+        -0.0,
+        20.976
+      ],
+      "ground_z_m": 20.016,
+      "speed_mps": 5.38,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        47.129,
+        -0.002,
+        19.995
+      ],
+      "slope_deg": 1.32
+    },
+    {
+      "t": 29.69,
+      "section": "Stair flight 3",
+      "position_m": [
+        49.133,
+        -0.0,
+        20.981
+      ],
+      "ground_z_m": 20.021,
+      "speed_mps": 5.98,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 005",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        49.133,
+        -0.039,
+        20.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 30.09,
+      "section": "Stair flight 3",
+      "position_m": [
+        51.639,
+        -0.0,
+        20.981
+      ],
+      "ground_z_m": 20.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 005",
+      "floor_dist_cm": 2.31,
+      "impact_m": [
+        51.639,
+        -0.035,
+        20.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "t": 30.52,
+      "section": "Stair flight 3",
+      "position_m": [
+        53.955,
+        -0.0,
+        22.375
+      ],
+      "ground_z_m": 21.415,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        53.969,
+        -0.064,
+        21.4
+      ],
+      "slope_deg": 1.35
+    },
+    {
+      "t": 30.92,
+      "section": "Stair flight 3",
+      "position_m": [
+        56.165,
+        -0.0,
+        23.758
+      ],
+      "ground_z_m": 22.798,
+      "speed_mps": 5.6,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        56.28,
+        0.05,
+        22.8
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "t": 31.34,
+      "section": "Stair flight 3",
+      "position_m": [
+        58.683,
+        -0.0,
+        25.28
+      ],
+      "ground_z_m": 24.32,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        58.912,
+        -0.039,
+        24.391
+      ],
+      "slope_deg": 1.42
+    },
+    {
+      "t": 31.75,
+      "section": "Stair flight 3",
+      "position_m": [
+        60.803,
+        -0.0,
+        26.555
+      ],
+      "ground_z_m": 25.595,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        60.915,
+        -0.004,
+        25.592
+      ],
+      "slope_deg": 1.1
+    },
+    {
+      "t": 32.17,
+      "section": "Stair flight 3",
+      "position_m": [
+        63.318,
+        -0.0,
+        28.084
+      ],
+      "ground_z_m": 27.124,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        63.557,
+        -0.001,
+        27.201
+      ],
+      "slope_deg": 1.34
+    },
+    {
+      "t": 32.59,
+      "section": "Stair flight 3",
+      "position_m": [
+        65.569,
+        -0.0,
+        28.984
+      ],
+      "ground_z_m": 28.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        65.569,
+        -0.019,
+        28.003
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 33.0,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        67.686,
+        -0.0,
+        28.988
+      ],
+      "ground_z_m": 28.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        67.686,
+        0.02,
+        28.007
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 33.42,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        69.879,
+        -0.0,
+        28.98
+      ],
+      "ground_z_m": 28.02,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        69.879,
+        0.045,
+        28.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 33.83,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        72.366,
+        -0.0,
+        28.98
+      ],
+      "ground_z_m": 28.02,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        72.366,
+        -0.035,
+        28.0
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 34.25,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        74.497,
+        -0.0,
+        28.989
+      ],
+      "ground_z_m": 28.029,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.33,
+      "impact_m": [
+        74.496,
+        -0.0,
+        28.006
+      ],
+      "slope_deg": 0.2
+    },
+    {
+      "t": 34.67,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        77.014,
+        -0.0,
+        28.982
+      ],
+      "ground_z_m": 28.022,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        77.036,
+        -0.0,
+        28.001
+      ],
+      "slope_deg": 0.33
+    },
+    {
+      "t": 35.11,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        79.331,
+        -0.0,
+        28.993
+      ],
+      "ground_z_m": 28.033,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.38,
+      "impact_m": [
+        79.33,
+        0.0,
+        28.009
+      ],
+      "slope_deg": 0.23
+    },
+    {
+      "t": 35.52,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        81.839,
+        -0.0,
+        28.982
+      ],
+      "ground_z_m": 28.022,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.31,
+      "impact_m": [
+        81.801,
+        -0.001,
+        28.001
+      ],
+      "slope_deg": 0.1
+    },
+    {
+      "t": 35.94,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        84.035,
+        -0.0,
+        28.991
+      ],
+      "ground_z_m": 28.031,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 1.95,
+      "impact_m": [
+        84.035,
+        -0.001,
+        28.012
+      ],
+      "slope_deg": 0.13
+    },
+    {
+      "t": 36.34,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        86.449,
+        -0.0,
+        28.991
+      ],
+      "ground_z_m": 28.031,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 1.95,
+      "impact_m": [
+        86.45,
+        -0.0,
+        28.012
+      ],
+      "slope_deg": 0.16
+    },
+    {
+      "t": 36.77,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        89.01,
+        -0.0,
+        28.992
+      ],
+      "ground_z_m": 28.032,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        89.044,
+        0.001,
+        28.012
+      ],
+      "slope_deg": 0.17
+    },
+    {
+      "t": 37.19,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        91.251,
+        -0.0,
+        28.989
+      ],
+      "ground_z_m": 28.029,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.33,
+      "impact_m": [
+        91.251,
+        -0.0,
+        28.006
+      ],
+      "slope_deg": 0.08
+    },
+    {
+      "t": 37.62,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        93.846,
+        -0.0,
+        28.975
+      ],
+      "ground_z_m": 28.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        93.846,
+        -0.0,
+        27.993
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 38.05,
+      "section": "Rain court",
+      "position_m": [
+        96.148,
+        -0.0,
+        28.977
+      ],
+      "ground_z_m": 28.017,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.4,
+      "impact_m": [
+        96.148,
+        0.021,
+        27.994
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 38.45,
+      "section": "Rain court",
+      "position_m": [
+        98.202,
+        0.132,
+        28.985
+      ],
+      "ground_z_m": 28.025,
+      "speed_mps": 4.97,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        98.202,
+        0.132,
+        28.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 38.89,
+      "section": "Rain court",
+      "position_m": [
+        100.366,
+        1.616,
+        28.964
+      ],
+      "ground_z_m": 28.004,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.01,
+      "impact_m": [
+        100.366,
+        1.616,
+        27.984
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 39.31,
+      "section": "Rain court",
+      "position_m": [
+        102.46,
+        3.145,
+        28.958
+      ],
+      "ground_z_m": 27.998,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.36,
+      "impact_m": [
+        102.458,
+        3.145,
+        27.974
+      ],
+      "slope_deg": 0.36
+    },
+    {
+      "t": 39.73,
+      "section": "Rain court",
+      "position_m": [
+        104.553,
+        4.673,
+        28.949
+      ],
+      "ground_z_m": 27.989,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        104.553,
+        4.675,
+        27.969
+      ],
+      "slope_deg": 0.3
+    },
+    {
+      "t": 40.16,
+      "section": "Rain court",
+      "position_m": [
+        106.179,
+        6.032,
+        29.097
+      ],
+      "ground_z_m": 28.137,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        106.199,
+        6.056,
+        28.117
+      ],
+      "slope_deg": 5.26
+    },
+    {
+      "t": 40.58,
+      "section": "Rain court",
+      "position_m": [
+        108.134,
+        7.772,
+        29.329
+      ],
+      "ground_z_m": 28.369,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.2,
+      "impact_m": [
+        108.152,
+        7.794,
+        28.349
+      ],
+      "slope_deg": 4.76
+    },
+    {
+      "t": 41.0,
+      "section": "Rain court",
+      "position_m": [
+        110.024,
+        9.457,
+        29.531
+      ],
+      "ground_z_m": 28.571,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        110.042,
+        9.475,
+        28.549
+      ],
+      "slope_deg": 4.28
+    },
+    {
+      "t": 41.41,
+      "section": "Rain court",
+      "position_m": [
+        111.85,
+        11.084,
+        29.73
+      ],
+      "ground_z_m": 28.77,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        111.87,
+        11.104,
+        28.749
+      ],
+      "slope_deg": 4.74
+    },
+    {
+      "t": 41.83,
+      "section": "Rain court",
+      "position_m": [
+        113.742,
+        12.771,
+        30.125
+      ],
+      "ground_z_m": 29.165,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        113.759,
+        12.916,
+        29.177
+      ],
+      "slope_deg": 25.51
+    },
+    {
+      "t": 42.27,
+      "section": "Spring trail",
+      "position_m": [
+        113.226,
+        12.216,
+        29.935
+      ],
+      "ground_z_m": 28.975,
+      "speed_mps": 3.05,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        113.245,
+        12.301,
+        28.964
+      ],
+      "slope_deg": 14.79
+    },
+    {
+      "t": 42.69,
+      "section": "Spring trail",
+      "position_m": [
+        113.754,
+        13.109,
+        30.223
+      ],
+      "ground_z_m": 29.263,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        113.886,
+        13.142,
+        29.27
+      ],
+      "slope_deg": 23.48
+    },
+    {
+      "t": 43.11,
+      "section": "Spring trail",
+      "position_m": [
+        115.223,
+        15.158,
+        31.692
+      ],
+      "ground_z_m": 30.732,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        115.287,
+        15.2,
+        30.719
+      ],
+      "slope_deg": 10.98
+    },
+    {
+      "t": 43.52,
+      "section": "Spring trail",
+      "position_m": [
+        115.136,
+        16.399,
+        31.879
+      ],
+      "ground_z_m": 30.919,
+      "speed_mps": 2.55,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Court of the Eastern Spring",
+      "floor_dist_cm": 2.24,
+      "impact_m": [
+        115.341,
+        16.49,
+        30.982
+      ],
+      "slope_deg": 39.99
+    },
+    {
+      "t": 43.94,
+      "section": "Spring trail",
+      "position_m": [
+        114.763,
+        17.23,
+        31.876
+      ],
+      "ground_z_m": 30.916,
+      "speed_mps": 1.81,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Court of the Eastern Spring",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        114.957,
+        17.322,
+        30.972
+      ],
+      "slope_deg": 39.25
+    },
+    {
+      "t": 44.34,
+      "section": "Spring trail",
+      "position_m": [
+        114.502,
+        17.813,
+        31.888
+      ],
+      "ground_z_m": 30.928,
+      "speed_mps": 1.48,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Court of the Eastern Spring",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        114.703,
+        17.909,
+        30.99
+      ],
+      "slope_deg": 39.25
+    },
+    {
+      "t": 44.75,
+      "section": "Spring trail",
+      "position_m": [
+        114.577,
+        18.55,
+        31.851
+      ],
+      "ground_z_m": 30.891,
+      "speed_mps": 4.07,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Court of the Eastern Spring",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        114.683,
+        18.313,
+        30.991
+      ],
+      "slope_deg": 5.43
+    },
+    {
+      "t": 45.17,
+      "section": "Spring trail",
+      "position_m": [
+        116.39,
+        20.215,
+        31.703
+      ],
+      "ground_z_m": 30.743,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        116.4,
+        20.18,
+        30.724
+      ],
+      "slope_deg": 6.21
+    },
+    {
+      "t": 45.58,
+      "section": "Spring trail",
+      "position_m": [
+        118.257,
+        21.85,
+        31.546
+      ],
+      "ground_z_m": 30.586,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        118.235,
+        21.848,
+        30.567
+      ],
+      "slope_deg": 3.69
+    },
+    {
+      "t": 45.98,
+      "section": "Spring trail",
+      "position_m": [
+        120.067,
+        23.433,
+        31.605
+      ],
+      "ground_z_m": 30.645,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        120.086,
+        23.461,
+        30.626
+      ],
+      "slope_deg": 5.74
+    },
+    {
+      "t": 46.39,
+      "section": "Spring trail",
+      "position_m": [
+        121.958,
+        25.089,
+        31.867
+      ],
+      "ground_z_m": 30.907,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        121.978,
+        25.122,
+        30.888
+      ],
+      "slope_deg": 6.61
+    },
+    {
+      "t": 46.8,
+      "section": "Spring trail",
+      "position_m": [
+        123.43,
+        26.56,
+        32.146
+      ],
+      "ground_z_m": 31.186,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        123.465,
+        26.611,
+        31.17
+      ],
+      "slope_deg": 10.52
+    },
+    {
+      "t": 47.22,
+      "section": "Spring trail",
+      "position_m": [
+        124.961,
+        28.539,
+        32.617
+      ],
+      "ground_z_m": 31.657,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        124.996,
+        28.592,
+        31.642
+      ],
+      "slope_deg": 10.76
+    },
+    {
+      "t": 47.64,
+      "section": "Spring trail",
+      "position_m": [
+        126.54,
+        30.594,
+        33.106
+      ],
+      "ground_z_m": 32.146,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        126.573,
+        30.644,
+        32.131
+      ],
+      "slope_deg": 10.28
+    },
+    {
+      "t": 48.06,
+      "section": "Spring trail",
+      "position_m": [
+        128.06,
+        32.572,
+        33.555
+      ],
+      "ground_z_m": 32.595,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        128.092,
+        32.621,
+        32.579
+      ],
+      "slope_deg": 9.88
+    },
+    {
+      "t": 48.47,
+      "section": "Spring trail",
+      "position_m": [
+        129.578,
+        34.547,
+        33.997
+      ],
+      "ground_z_m": 33.037,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        129.613,
+        34.597,
+        33.022
+      ],
+      "slope_deg": 10.47
+    },
+    {
+      "t": 48.89,
+      "section": "Spring trail",
+      "position_m": [
+        131.096,
+        36.522,
+        34.46
+      ],
+      "ground_z_m": 33.5,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.97,
+      "impact_m": [
+        131.131,
+        36.576,
+        33.487
+      ],
+      "slope_deg": 10.77
+    },
+    {
+      "t": 49.31,
+      "section": "Spring trail",
+      "position_m": [
+        132.628,
+        38.516,
+        34.935
+      ],
+      "ground_z_m": 33.975,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        132.663,
+        38.578,
+        33.961
+      ],
+      "slope_deg": 12.12
+    },
+    {
+      "t": 49.72,
+      "section": "Spring trail",
+      "position_m": [
+        133.096,
+        40.587,
+        35.336
+      ],
+      "ground_z_m": 34.376,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        133.092,
+        40.65,
+        34.36
+      ],
+      "slope_deg": 10.66
+    },
+    {
+      "t": 50.12,
+      "section": "Spring trail",
+      "position_m": [
+        133.084,
+        43.088,
+        35.795
+      ],
+      "ground_z_m": 34.835,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        133.081,
+        43.151,
+        34.82
+      ],
+      "slope_deg": 10.6
+    },
+    {
+      "t": 50.55,
+      "section": "Spring trail",
+      "position_m": [
+        133.067,
+        45.58,
+        36.261
+      ],
+      "ground_z_m": 35.301,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        133.067,
+        45.644,
+        35.286
+      ],
+      "slope_deg": 10.93
+    },
+    {
+      "t": 50.97,
+      "section": "Spring trail",
+      "position_m": [
+        133.049,
+        48.108,
+        36.741
+      ],
+      "ground_z_m": 35.781,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        133.051,
+        48.17,
+        35.766
+      ],
+      "slope_deg": 10.64
+    },
+    {
+      "t": 51.38,
+      "section": "Spring trail",
+      "position_m": [
+        133.031,
+        50.616,
+        37.207
+      ],
+      "ground_z_m": 36.247,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        133.029,
+        50.677,
+        36.231
+      ],
+      "slope_deg": 10.31
+    },
+    {
+      "t": 51.78,
+      "section": "Spring trail",
+      "position_m": [
+        133.014,
+        52.992,
+        37.629
+      ],
+      "ground_z_m": 36.669,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        133.014,
+        53.051,
+        36.653
+      ],
+      "slope_deg": 10.0
+    },
+    {
+      "t": 52.19,
+      "section": "Spring trail",
+      "position_m": [
+        132.858,
+        55.09,
+        38.014
+      ],
+      "ground_z_m": 37.054,
+      "speed_mps": 4.97,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.9,
+      "impact_m": [
+        132.833,
+        55.158,
+        37.043
+      ],
+      "slope_deg": 12.32
+    },
+    {
+      "t": 52.61,
+      "section": "Spring trail",
+      "position_m": [
+        131.226,
+        57.033,
+        38.559
+      ],
+      "ground_z_m": 37.599,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        131.177,
+        57.084,
+        37.584
+      ],
+      "slope_deg": 11.94
+    },
+    {
+      "t": 53.03,
+      "section": "Spring trail",
+      "position_m": [
+        129.559,
+        58.872,
+        39.091
+      ],
+      "ground_z_m": 38.131,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.21,
+      "impact_m": [
+        129.51,
+        58.925,
+        38.116
+      ],
+      "slope_deg": 12.16
+    },
+    {
+      "t": 53.44,
+      "section": "Spring trail",
+      "position_m": [
+        127.858,
+        60.748,
+        39.637
+      ],
+      "ground_z_m": 38.677,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.23,
+      "impact_m": [
+        127.809,
+        60.802,
+        38.662
+      ],
+      "slope_deg": 12.16
+    },
+    {
+      "t": 53.84,
+      "section": "Spring trail",
+      "position_m": [
+        126.2,
+        62.575,
+        40.183
+      ],
+      "ground_z_m": 39.223,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        126.152,
+        62.629,
+        39.21
+      ],
+      "slope_deg": 12.41
+    },
+    {
+      "t": 54.25,
+      "section": "Spring trail",
+      "position_m": [
+        124.644,
+        64.29,
+        40.709
+      ],
+      "ground_z_m": 39.749,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        124.593,
+        64.347,
+        39.737
+      ],
+      "slope_deg": 12.87
+    },
+    {
+      "t": 54.67,
+      "section": "Spring trail",
+      "position_m": [
+        122.842,
+        65.236,
+        41.183
+      ],
+      "ground_z_m": 40.223,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        122.77,
+        65.248,
+        40.21
+      ],
+      "slope_deg": 12.4
+    },
+    {
+      "t": 55.08,
+      "section": "Spring trail",
+      "position_m": [
+        120.369,
+        65.586,
+        41.737
+      ],
+      "ground_z_m": 40.777,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        120.297,
+        65.595,
+        40.764
+      ],
+      "slope_deg": 12.35
+    },
+    {
+      "t": 55.5,
+      "section": "Spring trail",
+      "position_m": [
+        117.882,
+        65.925,
+        42.294
+      ],
+      "ground_z_m": 41.334,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        117.809,
+        65.935,
+        41.321
+      ],
+      "slope_deg": 12.65
+    },
+    {
+      "t": 55.92,
+      "section": "Spring trail",
+      "position_m": [
+        115.318,
+        66.275,
+        42.871
+      ],
+      "ground_z_m": 41.911,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        115.244,
+        66.283,
+        41.898
+      ],
+      "slope_deg": 12.64
+    },
+    {
+      "t": 56.33,
+      "section": "Spring trail",
+      "position_m": [
+        112.899,
+        66.605,
+        43.404
+      ],
+      "ground_z_m": 42.444,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        112.827,
+        66.612,
+        42.43
+      ],
+      "slope_deg": 12.28
+    },
+    {
+      "t": 56.73,
+      "section": "Spring trail",
+      "position_m": [
+        110.537,
+        66.927,
+        43.915
+      ],
+      "ground_z_m": 42.955,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        110.466,
+        66.935,
+        42.94
+      ],
+      "slope_deg": 11.98
+    },
+    {
+      "t": 57.16,
+      "section": "Spring trail",
+      "position_m": [
+        108.355,
+        66.455,
+        44.172
+      ],
+      "ground_z_m": 43.212,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        108.329,
+        66.443,
+        43.192
+      ],
+      "slope_deg": 4.79
+    },
+    {
+      "t": 57.56,
+      "section": "Spring trail",
+      "position_m": [
+        106.061,
+        65.611,
+        44.37
+      ],
+      "ground_z_m": 43.41,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        106.037,
+        65.599,
+        43.389
+      ],
+      "slope_deg": 4.36
+    },
+    {
+      "t": 57.98,
+      "section": "Spring trail",
+      "position_m": [
+        103.71,
+        64.741,
+        44.576
+      ],
+      "ground_z_m": 43.616,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        103.684,
+        64.729,
+        43.597
+      ],
+      "slope_deg": 4.82
+    },
+    {
+      "t": 58.39,
+      "section": "Spring trail",
+      "position_m": [
+        101.47,
+        63.913,
+        44.785
+      ],
+      "ground_z_m": 43.825,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.01,
+      "impact_m": [
+        101.442,
+        63.901,
+        43.807
+      ],
+      "slope_deg": 5.1
+    }
+  ],
+  "failure": null,
+  "detours": [],
+  "airborne_samples": 0,
+  "max_continuous_air_seconds": 0.0,
+  "wall_time_cadence": {
+    "scope": "Offscreen PIE engine ticker wall clock while walking. Includes editor and driver overhead. This measures main-loop cadence, not presentation or GPU completion.",
+    "frames": 1982,
+    "mean_fps": 34.6,
+    "median_ms": 31.0,
+    "p95_ms": 47.0,
+    "p99_ms": 47.0,
+    "max_ms": 78.0
+  },
+  "native_csv_basename": "Astra_spring_20261119_014004"
+}

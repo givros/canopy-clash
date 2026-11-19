@@ -1,0 +1,556 @@
+{
+  "units": "meters",
+  "assets": {
+    "SM_StranglerFig": {
+      "fbx": "FBX/SM_StranglerFig.fbx",
+      "bounds_m": [
+        [
+          -11.598224639892578,
+          -13.012617111206055,
+          -0.44224151968955994
+        ],
+        [
+          13.0545654296875,
+          11.574546813964844,
+          25.690326690673828
+        ]
+      ],
+      "triangles": 410226,
+      "material_slots": [
+        "M_FigBark",
+        "M_RainLeaf",
+        "M_RainLeafShade",
+        "M_RainLeafLight"
+      ],
+      "lods": [
+        {
+          "fbx": "FBX/LODs/SM_StranglerFig_LOD1.fbx",
+          "triangles": 37124
+        },
+        {
+          "fbx": "FBX/LODs/SM_StranglerFig_LOD2.fbx",
+          "triangles": 14966
+        },
+        {
+          "fbx": "FBX/LODs/SM_StranglerFig_LOD3.fbx",
+          "triangles": 6902
+        }
+      ]
+    },
+    "SM_WallRoots": {
+      "fbx": "FBX/SM_WallRoots.fbx",
+      "bounds_m": [
+        [
+          -3.0023417472839355,
+          -2.590665340423584,
+          -4.960260391235352
+        ],
+        [
+          2.294666051864624,
+          2.891003131866455,
+          0.7365294098854065
+        ]
+      ],
+      "triangles": 7626,
+      "material_slots": [
+        "M_FigBark"
+      ]
+    },
+    "SM_Monstera": {
+      "fbx": "FBX/SM_Monstera.fbx",
+      "bounds_m": [
+        [
+          -0.9764420390129089,
+          -1.096846580505371,
+          -0.08120471984148026
+        ],
+        [
+          1.2787667512893677,
+          0.9172306656837463,
+          1.324491262435913
+        ]
+      ],
+      "triangles": 11650,
+      "material_slots": [
+        "M_LivingStem",
+        "M_MonsteraBlade"
+      ]
+    },
+    "SM_SandstoneCliff": {
+      "fbx": "FBX/SM_SandstoneCliff.fbx",
+      "bounds_m": [
+        [
+          -2.4767556190490723,
+          -1.9136515855789185,
+          -0.1603822112083435
+        ],
+        [
+          2.4767556190490723,
+          1.913651704788208,
+          3.4036667346954346
+        ]
+      ],
+      "triangles": 20174,
+      "material_slots": [
+        "M_SandstoneFace"
+      ]
+    },
+    "SM_FracturedCliff": {
+      "fbx": "FBX/SM_FracturedCliff.fbx",
+      "bounds_m": [
+        [
+          -4.139521598815918,
+          -2.1950669288635254,
+          -0.22324784100055695
+        ],
+        [
+          4.139521598815918,
+          2.1950669288635254,
+          4.7378153800964355
+        ]
+      ],
+      "triangles": 94369,
+      "material_slots": [
+        "M_FracturedRock"
+      ]
+    },
+    "SM_MossBoulder": {
+      "fbx": "FBX/SM_MossBoulder.fbx",
+      "bounds_m": [
+        [
+          -1.1188161373138428,
+          -1.6844022274017334,
+          -0.5301713347434998
+        ],
+        [
+          1.1188161373138428,
+          1.6844022274017334,
+          0.9425267577171326
+        ]
+      ],
+      "triangles": 11000,
+      "material_slots": [
+        "M_MossRock"
+      ]
+    },
+    "SM_MossBoulder02": {
+      "fbx": "FBX/SM_MossBoulder02.fbx",
+      "bounds_m": [
+        [
+          -1.3276903629302979,
+          -1.6318602561950684,
+          -0.4543168246746063
+        ],
+        [
+          1.3276903629302979,
+          1.6318602561950684,
+          0.8076743483543396
+        ]
+      ],
+      "triangles": 10996,
+      "material_slots": [
+        "M_MossRock"
+      ]
+    },
+    "SM_MossBoulder03": {
+      "fbx": "FBX/SM_MossBoulder03.fbx",
+      "bounds_m": [
+        [
+          -1.0542912483215332,
+          -1.039792776107788,
+          -0.3958899974822998
+        ],
+        [
+          1.0542912483215332,
+          1.039792776107788,
+          0.7038044333457947
+        ]
+      ],
+      "triangles": 5000,
+      "material_slots": [
+        "M_MossRock"
+      ]
+    },
+    "SM_MossBoulder04": {
+      "fbx": "FBX/SM_MossBoulder04.fbx",
+      "bounds_m": [
+        [
+          -1.063814640045166,
+          -0.9823706746101379,
+          -0.6365951299667358
+        ],
+        [
+          1.063814640045166,
+          0.9823706746101379,
+          1.1317247152328491
+        ]
+      ],
+      "triangles": 10589,
+      "material_slots": [
+        "M_MossRock"
+      ]
+    },
+    "SM_MossBoulder05": {
+      "fbx": "FBX/SM_MossBoulder05.fbx",
+      "bounds_m": [
+        [
+          -0.9086613655090332,
+          -1.4993319511413574,
+          -0.43396225571632385
+        ],
+        [
+          0.9086613655090332,
+          1.4993319511413574,
+          0.7714884281158447
+        ]
+      ],
+      "triangles": 16548,
+      "material_slots": [
+        "M_MossRock"
+      ]
+    },
+    "SM_MossBoulder06": {
+      "fbx": "FBX/SM_MossBoulder06.fbx",
+      "bounds_m": [
+        [
+          -1.0629911422729492,
+          -1.3786516189575195,
+          -0.4542669653892517
+        ],
+        [
+          1.0629911422729492,
+          1.3786516189575195,
+          0.8075857162475586
+        ]
+      ],
+      "triangles": 8994,
+      "material_slots": [
+        "M_MossRock"
+      ]
+    },
+    "SM_JungleCanopy": {
+      "fbx": "FBX/SM_JungleCanopy.fbx",
+      "bounds_m": [
+        [
+          -8.971871376037598,
+          -7.971245288848877,
+          -0.3405534029006958
+        ],
+        [
+          8.484853744506836,
+          9.139568328857422,
+          18.627368927001953
+        ]
+      ],
+      "triangles": 334218,
+      "material_slots": [
+        "M_FigBark",
+        "M_RainLeaf",
+        "M_RainLeafLight",
+        "M_RainLeafShade"
+      ],
+      "lods": [
+        {
+          "fbx": "FBX/LODs/SM_JungleCanopy_LOD1.fbx",
+          "triangles": 30224
+        },
+        {
+          "fbx": "FBX/LODs/SM_JungleCanopy_LOD2.fbx",
+          "triangles": 12324
+        },
+        {
+          "fbx": "FBX/LODs/SM_JungleCanopy_LOD3.fbx",
+          "triangles": 5828
+        }
+      ]
+    },
+    "SM_ArecaPalm": {
+      "fbx": "FBX/SM_ArecaPalm.fbx",
+      "bounds_m": [
+        [
+          -1.9790239334106445,
+          -4.063364505767822,
+          -0.1389501690864563
+        ],
+        [
+          4.967103481292725,
+          2.6359035968780518,
+          9.93366813659668
+        ]
+      ],
+      "triangles": 15362,
+      "material_slots": [
+        "M_PalmBark",
+        "M_LivingStem",
+        "M_PalmBlade"
+      ]
+    },
+    "SM_Fern": {
+      "fbx": "FBX/SM_Fern.fbx",
+      "bounds_m": [
+        [
+          -0.8599629402160645,
+          -0.9430460333824158,
+          -0.048855509608983994
+        ],
+        [
+          1.0149774551391602,
+          0.7887881398200989,
+          0.8182252049446106
+        ]
+      ],
+      "triangles": 30812,
+      "material_slots": [
+        "M_LivingStem",
+        "M_FernBlade"
+      ]
+    },
+    "SM_Heliconia": {
+      "fbx": "FBX/SM_Heliconia.fbx",
+      "bounds_m": [
+        [
+          -0.6324619650840759,
+          -0.7183647155761719,
+          -0.029608551412820816
+        ],
+        [
+          0.6150796413421631,
+          0.5637143850326538,
+          1.0526599884033203
+        ]
+      ],
+      "triangles": 2400,
+      "material_slots": [
+        "M_LivingStem",
+        "M_PalmBlade",
+        "M_BractRed",
+        "M_BractGold"
+      ]
+    },
+    "SM_WaterLily": {
+      "fbx": "FBX/SM_WaterLily.fbx",
+      "bounds_m": [
+        [
+          -0.3131069242954254,
+          -0.2792789340019226,
+          -0.1202639490365982
+        ],
+        [
+          0.33125609159469604,
+          0.27196604013442993,
+          0.1459999978542328
+        ]
+      ],
+      "triangles": 1814,
+      "material_slots": [
+        "M_LilyLeaf",
+        "M_LivingStem",
+        "M_PetalRose",
+        "M_PetalCream",
+        "M_BractGold"
+      ]
+    },
+    "SM_LianaCurtain": {
+      "fbx": "FBX/SM_LianaCurtain.fbx",
+      "bounds_m": [
+        [
+          -0.5793389081954956,
+          -1.6208912134170532,
+          -4.819570541381836
+        ],
+        [
+          0.2690945863723755,
+          1.6129642724990845,
+          0.004137793555855751
+        ]
+      ],
+      "triangles": 9214,
+      "material_slots": [
+        "M_FigBark",
+        "M_RainLeafLight",
+        "M_RainLeaf"
+      ]
+    },
+    "SM_MossCushion": {
+      "fbx": "FBX/SM_MossCushion.fbx",
+      "bounds_m": [
+        [
+          -0.5956556797027588,
+          -0.3542470633983612,
+          -0.011937028728425503
+        ],
+        [
+          0.6582955718040466,
+          0.30539682507514954,
+          0.065721794962883
+        ]
+      ],
+      "triangles": 12960,
+      "material_slots": [
+        "M_MossNap",
+        "M_RainLeafLight",
+        "M_FernBlade"
+      ]
+    },
+    "SM_CecropiaSapling": {
+      "fbx": "FBX/SM_CecropiaSapling.fbx",
+      "bounds_m": [
+        [
+          -1.308587908744812,
+          -1.1234691143035889,
+          -0.050833798944950104
+        ],
+        [
+          1.1659927368164062,
+          1.0931017398834229,
+          2.788538694381714
+        ]
+      ],
+      "triangles": 12462,
+      "material_slots": [
+        "M_FigBark",
+        "M_LivingStem",
+        "M_RainLeafLight",
+        "M_RainLeaf"
+      ]
+    }
+  },
+  "materials": {
+    "M_RainLeaf": {
+      "base_color": "Textures/T_RainLeaf_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_RainLeafLight": {
+      "base_color": "Textures/T_RainLeafLight_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_RainLeafShade": {
+      "base_color": "Textures/T_RainLeafShade_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_PalmBlade": {
+      "base_color": "Textures/T_PalmBlade_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.48,
+      "two_sided": true
+    },
+    "M_MonsteraBlade": {
+      "base_color": "Textures/T_MonsteraBlade_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.48,
+      "two_sided": true
+    },
+    "M_BractRed": {
+      "base_color": "Textures/T_BractRed_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_BractGold": {
+      "base_color": "Textures/T_BractGold_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_LilyLeaf": {
+      "base_color": "Textures/T_LilyLeaf_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_PetalRose": {
+      "base_color": "Textures/T_PetalRose_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_PetalCream": {
+      "base_color": "Textures/T_PetalCream_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_FernBlade": {
+      "base_color": "Textures/T_FernBlade_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.48,
+      "two_sided": true
+    },
+    "M_LivingStem": {
+      "base_color": "Textures/T_LivingStem_Color.jpg",
+      "normal_gl": "Textures/T_Botanical_NormalGL.png",
+      "roughness": 0.54,
+      "two_sided": true
+    },
+    "M_CanopySpray": {
+      "base_color": "Textures/T_CanopySpray_ColorOpacity.png",
+      "roughness": 0.64,
+      "two_sided": true,
+      "alpha_cutout": true
+    },
+    "M_FigBark": {
+      "base_color": "Textures/T_japanese_hackberry_bark_Color.jpg",
+      "normal_gl": "Textures/T_japanese_hackberry_bark_NormalGL.jpg",
+      "roughness_map": "Textures/T_japanese_hackberry_bark_Roughness.jpg",
+      "roughness": 0.78,
+      "two_sided": false,
+      "linear_tint": [
+        0.7,
+        0.56,
+        0.45
+      ]
+    },
+    "M_PalmBark": {
+      "base_color": "Textures/T_palm_bark_Color.jpg",
+      "normal_gl": "Textures/T_palm_bark_NormalGL.jpg",
+      "roughness_map": "Textures/T_palm_bark_Roughness.jpg",
+      "roughness": 0.78,
+      "two_sided": false
+    },
+    "M_MossNap": {
+      "base_color": "Textures/T_MossNap_Color.jpg",
+      "roughness": 0.86,
+      "two_sided": false
+    },
+    "M_SandstoneFace": {
+      "base_color": "Sources/rock_face_01/textures/rock_face_01_diff_2k.jpg",
+      "normal_gl": "Sources/rock_face_01/textures/rock_face_01_nor_gl_2k.jpg",
+      "roughness": 0.86,
+      "two_sided": false,
+      "arm": "Sources/rock_face_01/textures/rock_face_01_arm_2k.jpg"
+    },
+    "M_FracturedRock": {
+      "base_color": "Sources/namaqualand_cliff_01/textures/namaqualand_cliff_01_diff_2k.jpg",
+      "normal_gl": "Sources/namaqualand_cliff_01/textures/namaqualand_cliff_01_nor_gl_2k.jpg",
+      "roughness": 0.86,
+      "two_sided": false,
+      "arm": "Sources/namaqualand_cliff_01/textures/namaqualand_cliff_01_arm_2k.jpg"
+    },
+    "M_MossRock": {
+      "base_color": "Sources/rock_moss_set_01/textures/rock_moss_set_01_diff_2k.jpg",
+      "normal_gl": "Sources/rock_moss_set_01/textures/rock_moss_set_01_nor_gl_2k.jpg",
+      "roughness_map": "Sources/rock_moss_set_01/textures/rock_moss_set_01_rough_2k.jpg",
+      "roughness": 0.86,
+      "two_sided": false
+    }
+  },
+  "provenance": {
+    "original": "Fig, buttress and aerial roots, tropical canopy, palm, undergrowth, lily, lianas, botanical albedos and normals are original.",
+    "poly_haven": {
+      "license": "https://polyhaven.com/license",
+      "assets": [
+        "https://polyhaven.com/a/rock_face_01",
+        "https://polyhaven.com/a/namaqualand_cliff_01",
+        "https://polyhaven.com/a/rock_moss_set_01",
+        "https://polyhaven.com/a/palm_bark",
+        "https://polyhaven.com/a/japanese_hackberry_bark"
+      ]
+    }
+  }
+}

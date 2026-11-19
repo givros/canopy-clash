@@ -1,0 +1,70 @@
+{
+  "source": "Saved\\Deathmatch\\BalanceFinal\\Review.log",
+  "mode": "encounter",
+  "method": "Reconstructed eye to torso at recorded elimination positions. Historical logs rounded pawn centres to 0.1 m.",
+  "events": {
+    "all": {
+      "samples": 2248,
+      "open_before": 2208,
+      "open_after": 1407,
+      "newly_intercepted": 801,
+      "Quay South Processional Wall": 347,
+      "fatal_segments_intercepted": 801,
+      "Quay North Recessed Wall": 454
+    },
+    "blue_victims": {
+      "samples": 1181,
+      "open_before": 1165,
+      "open_after": 732,
+      "newly_intercepted": 433,
+      "Quay North Recessed Wall": 303,
+      "fatal_segments_intercepted": 433,
+      "Quay South Processional Wall": 130
+    },
+    "blue_home_20m": {
+      "samples": 711,
+      "open_before": 707,
+      "open_after": 283,
+      "newly_intercepted": 424,
+      "Quay North Recessed Wall": 294,
+      "fatal_segments_intercepted": 424,
+      "Quay South Processional Wall": 130
+    },
+    "blue_home_20m_over_60m": {
+      "samples": 504,
+      "open_before": 504,
+      "open_after": 199,
+      "newly_intercepted": 305,
+      "Quay North Recessed Wall": 214,
+      "fatal_segments_intercepted": 305,
+      "Quay South Processional Wall": 91
+    },
+    "red_victims": {
+      "samples": 1067,
+      "open_before": 1043,
+      "newly_intercepted": 368,
+      "Quay South Processional Wall": 217,
+      "fatal_segments_intercepted": 368,
+      "open_after": 675,
+      "Quay North Recessed Wall": 151
+    },
+    "red_home_20m": {
+      "samples": 34,
+      "open_before": 34,
+      "newly_intercepted": 7,
+      "Quay North Recessed Wall": 5,
+      "fatal_segments_intercepted": 7,
+      "Quay South Processional Wall": 2,
+      "open_after": 27
+    },
+    "red_home_20m_over_60m": {
+      "samples": 29,
+      "open_before": 29,
+      "newly_intercepted": 7,
+      "Quay North Recessed Wall": 5,
+      "fatal_segments_intercepted": 7,
+      "Quay South Processional Wall": 2,
+      "open_after": 22
+    }
+  }
+}

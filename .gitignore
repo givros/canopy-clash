@@ -1,0 +1,35 @@
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+/.vs/
+/Build/*/FileOpenOrder/
+/Builds/*
+!/Builds/Windows/
+/Builds/Windows/Manifest_*.txt
+/Config/User*.ini
+__pycache__/
+*.pyc
+
+# Local credentials
+*.pem
+*.key
+.env
+
+# Restricted editable sources are stored encrypted in SourceArchives.
+/Content/Fab/
+/Content/EditableCharacters/
+/Content/TempleTDM/Bots/
+/Content/Characters/
+/Content/Weapons/
+/Content/TempleTDM/Animation/
+/Content/TempleTDM/Presentation/
+/Content/FirstPerson/
+/Content/Variant_Shooter/
+/Content/LevelPrototyping/
+/Content/Input/
+/Content/__ExternalActors__/FirstPerson/
+/Content/__ExternalActors__/Variant_Shooter/
+/Content/__ExternalObjects__/FirstPerson/
+/Content/__ExternalObjects__/Variant_Shooter/
+/ArtSource/AstraTemple/References/

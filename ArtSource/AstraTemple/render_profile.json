@@ -1,0 +1,891 @@
+{
+  "runtime": "Unreal Engine 5.9, Direct3D 12",
+  "gpu": "NVIDIA GeForce RTX 3080",
+  "lighting": "Fixed key, specified sky cubemap, fixed exposure, local bounced daylight",
+  "water_reflections": "Screen-space reflections plus a local parallax-corrected basin capture; single-layer water",
+  "vegetation": "Instanced mesh foliage with distance-limited wind, authored tree LODs and paired Nanite shadow geometry",
+  "play_in_editor": {
+    "cloister": {
+      "viewport_px": [
+        1239,
+        350
+      ],
+      "frame_time": {
+        "samples": 971,
+        "mean_ms": 29.494,
+        "median_ms": 28.74,
+        "p95_ms": 36.336,
+        "p99_ms": 40.785,
+        "max_ms": 98.365,
+        "mean_fps": 33.91
+      },
+      "gpu_time": {
+        "samples": 971,
+        "mean_ms": 24.585,
+        "median_ms": 25.358,
+        "p95_ms": 31.888,
+        "p99_ms": 33.591,
+        "max_ms": 63.813
+      },
+      "sections": {
+        "Broken cloister walk": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 5.048,
+            "GPU/Basepass": 4.92,
+            "GPU/RenderVelocities": 3.944,
+            "GPU/Unaccounted": 2.999,
+            "GPU/NaniteVisBuffer": 1.414,
+            "GPU/TemporalSuperResolution": 1.061
+          },
+          "native_frames": 971,
+          "mean_fps": 33.91,
+          "frame_p95_ms": 36.336,
+          "gpu_p95_ms": 31.888
+        }
+      },
+      "source": "Saved\\Profiling\\CSV\\Astra_cloister_20261119_020136.csv"
+    },
+    "east": {
+      "viewport_px": [
+        1239,
+        350
+      ],
+      "frame_time": {
+        "samples": 3039,
+        "mean_ms": 9.756,
+        "median_ms": 9.461,
+        "p95_ms": 11.74,
+        "p99_ms": 12.747,
+        "max_ms": 103.557,
+        "mean_fps": 102.5
+      },
+      "gpu_time": {
+        "samples": 3039,
+        "mean_ms": 7.998,
+        "median_ms": 8.125,
+        "p95_ms": 9.37,
+        "p99_ms": 9.863,
+        "max_ms": 11.86
+      },
+      "sections": {
+        "Jungle approach to gallery": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.636,
+            "GPU/ShadowDepths": 1.376,
+            "GPU/RenderVelocities": 1.322,
+            "GPU/Unaccounted": 0.683,
+            "GPU/NaniteVisBuffer": 0.455,
+            "GPU/TemporalSuperResolution": 0.348
+          },
+          "native_frames": 343,
+          "mean_fps": 103.76,
+          "frame_p95_ms": 11.445,
+          "gpu_p95_ms": 9.418
+        },
+        "East jungle gallery": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.504,
+            "GPU/RenderVelocities": 1.258,
+            "GPU/ShadowDepths": 1.148,
+            "GPU/Unaccounted": 0.673,
+            "GPU/NaniteVisBuffer": 0.408,
+            "GPU/TemporalSuperResolution": 0.346
+          },
+          "native_frames": 2696,
+          "mean_fps": 102.35,
+          "frame_p95_ms": 11.783,
+          "gpu_p95_ms": 9.358
+        }
+      },
+      "source": "Saved\\Profiling\\CSV\\Astra_east_20261119_022704.csv"
+    },
+    "main": {
+      "viewport_px": [
+        1239,
+        350
+      ],
+      "frame_time": {
+        "samples": 7271,
+        "mean_ms": 9.518,
+        "median_ms": 9.205,
+        "p95_ms": 11.659,
+        "p99_ms": 12.656,
+        "max_ms": 80.393,
+        "mean_fps": 105.06
+      },
+      "gpu_time": {
+        "samples": 7271,
+        "mean_ms": 7.298,
+        "median_ms": 7.168,
+        "p95_ms": 8.588,
+        "p99_ms": 9.129,
+        "max_ms": 10.232
+      },
+      "sections": {
+        "Jungle approach": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.554,
+            "GPU/ShadowDepths": 1.308,
+            "GPU/RenderVelocities": 1.282,
+            "GPU/Unaccounted": 0.686,
+            "GPU/NaniteVisBuffer": 0.431,
+            "GPU/TemporalSuperResolution": 0.346
+          },
+          "native_frames": 694,
+          "mean_fps": 102.28,
+          "frame_p95_ms": 11.675,
+          "gpu_p95_ms": 9.198
+        },
+        "Causeway and quay": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.362,
+            "GPU/ShadowDepths": 1.166,
+            "GPU/RenderVelocities": 1.151,
+            "GPU/Unaccounted": 0.674,
+            "GPU/NaniteVisBuffer": 0.42,
+            "GPU/TemporalSuperResolution": 0.348
+          },
+          "native_frames": 1473,
+          "mean_fps": 103.74,
+          "frame_p95_ms": 11.581,
+          "gpu_p95_ms": 8.822
+        },
+        "Stair flight 1": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.123,
+            "GPU/ShadowDepths": 1.017,
+            "GPU/RenderVelocities": 0.93,
+            "GPU/Unaccounted": 0.662,
+            "GPU/NaniteVisBuffer": 0.395,
+            "GPU/TemporalSuperResolution": 0.347
+          },
+          "native_frames": 261,
+          "mean_fps": 103.37,
+          "frame_p95_ms": 12.021,
+          "gpu_p95_ms": 7.73
+        },
+        "Stair flight 2": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.11,
+            "GPU/ShadowDepths": 1.016,
+            "GPU/RenderVelocities": 0.928,
+            "GPU/Unaccounted": 0.652,
+            "GPU/NaniteVisBuffer": 0.394,
+            "GPU/TemporalSuperResolution": 0.34
+          },
+          "native_frames": 314,
+          "mean_fps": 102.09,
+          "frame_p95_ms": 12.815,
+          "gpu_p95_ms": 7.767
+        },
+        "Stair flight 3": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.127,
+            "GPU/ShadowDepths": 1.003,
+            "GPU/RenderVelocities": 0.977,
+            "GPU/Unaccounted": 0.659,
+            "GPU/NaniteVisBuffer": 0.383,
+            "GPU/TemporalSuperResolution": 0.346
+          },
+          "native_frames": 322,
+          "mean_fps": 106.44,
+          "frame_p95_ms": 11.814,
+          "gpu_p95_ms": 7.755
+        },
+        "Deity portal and ritual hall": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 1.114,
+            "GPU/ShadowDepths": 1.105,
+            "GPU/RenderVelocities": 0.927,
+            "GPU/Unaccounted": 0.67,
+            "GPU/NaniteVisBuffer": 0.376,
+            "GPU/TemporalSuperResolution": 0.337
+          },
+          "native_frames": 494,
+          "mean_fps": 105.53,
+          "frame_p95_ms": 11.452,
+          "gpu_p95_ms": 7.638
+        },
+        "Return through hall down all stairs": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 1.079,
+            "GPU/Basepass": 1.008,
+            "GPU/RenderVelocities": 0.794,
+            "GPU/Unaccounted": 0.654,
+            "GPU/NaniteVisBuffer": 0.415,
+            "GPU/TemporalSuperResolution": 0.344
+          },
+          "native_frames": 1453,
+          "mean_fps": 104.79,
+          "frame_p95_ms": 11.843,
+          "gpu_p95_ms": 7.601
+        },
+        "Return across causeway": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 1.192,
+            "GPU/Basepass": 1.101,
+            "GPU/RenderVelocities": 0.899,
+            "GPU/Unaccounted": 0.662,
+            "GPU/NaniteVisBuffer": 0.384,
+            "GPU/TemporalSuperResolution": 0.345
+          },
+          "native_frames": 1481,
+          "mean_fps": 107.64,
+          "frame_p95_ms": 11.084,
+          "gpu_p95_ms": 8.212
+        },
+        "Return to jungle PlayerStart": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 1.477,
+            "GPU/Basepass": 1.307,
+            "GPU/RenderVelocities": 1.069,
+            "GPU/Unaccounted": 0.665,
+            "GPU/NaniteVisBuffer": 0.355,
+            "GPU/TemporalSuperResolution": 0.345
+          },
+          "native_frames": 779,
+          "mean_fps": 106.84,
+          "frame_p95_ms": 11.357,
+          "gpu_p95_ms": 8.278
+        }
+      },
+      "source": "Saved\\Profiling\\CSV\\Astra_main_20261119_022550.csv"
+    },
+    "ridge": {
+      "viewport_px": [
+        1239,
+        350
+      ],
+      "frame_time": {
+        "samples": 3334,
+        "mean_ms": 26.15,
+        "median_ms": 26.131,
+        "p95_ms": 33.682,
+        "p99_ms": 37.756,
+        "max_ms": 377.472,
+        "mean_fps": 38.24
+      },
+      "gpu_time": {
+        "samples": 3334,
+        "mean_ms": 21.213,
+        "median_ms": 20.579,
+        "p95_ms": 26.814,
+        "p99_ms": 31.657,
+        "max_ms": 38.369
+      },
+      "sections": {
+        "Jungle approach": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 4.935,
+            "GPU/Basepass": 4.471,
+            "GPU/RenderVelocities": 4.245,
+            "GPU/Unaccounted": 3.016,
+            "GPU/NaniteVisBuffer": 1.531,
+            "GPU/TemporalSuperResolution": 0.988
+          },
+          "native_frames": 231,
+          "mean_fps": 32.35,
+          "frame_p95_ms": 35.439,
+          "gpu_p95_ms": 29.23
+        },
+        "Causeway and quay": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 4.006,
+            "GPU/ShadowDepths": 3.877,
+            "GPU/RenderVelocities": 3.455,
+            "GPU/Unaccounted": 2.952,
+            "GPU/NaniteVisBuffer": 1.842,
+            "GPU/LumenSceneUpdate": 1.026
+          },
+          "native_frames": 544,
+          "mean_fps": 36.94,
+          "frame_p95_ms": 33.461,
+          "gpu_p95_ms": 26.809
+        },
+        "Stair flight 1": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 3.641,
+            "GPU/Basepass": 3.344,
+            "GPU/RenderVelocities": 3.006,
+            "GPU/Unaccounted": 2.48,
+            "GPU/TemporalSuperResolution": 1.2,
+            "GPU/RayTracingScene": 1.178
+          },
+          "native_frames": 109,
+          "mean_fps": 39.8,
+          "frame_p95_ms": 31.543,
+          "gpu_p95_ms": 25.236
+        },
+        "Stair flight 2": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 3.276,
+            "GPU/Basepass": 3.054,
+            "GPU/RenderVelocities": 2.455,
+            "GPU/Unaccounted": 2.344,
+            "GPU/NaniteVisBuffer": 1.218,
+            "GPU/LumenSceneUpdate": 0.941
+          },
+          "native_frames": 143,
+          "mean_fps": 45.03,
+          "frame_p95_ms": 30.23,
+          "gpu_p95_ms": 24.486
+        },
+        "Stair flight 3": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 3.739,
+            "GPU/RenderVelocities": 3.338,
+            "GPU/ShadowDepths": 3.024,
+            "GPU/Unaccounted": 2.363,
+            "GPU/NaniteBasePass": 1.357,
+            "GPU/TemporalSuperResolution": 1.058
+          },
+          "native_frames": 129,
+          "mean_fps": 40.61,
+          "frame_p95_ms": 31.119,
+          "gpu_p95_ms": 24.984
+        },
+        "Deity portal and ritual hall": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 4.239,
+            "GPU/Basepass": 3.32,
+            "GPU/RenderVelocities": 2.963,
+            "GPU/Unaccounted": 2.762,
+            "GPU/NaniteBasePass": 1.437,
+            "GPU/LumenSceneUpdate": 1.12
+          },
+          "native_frames": 197,
+          "mean_fps": 40.25,
+          "frame_p95_ms": 32.481,
+          "gpu_p95_ms": 25.525
+        },
+        "Rear terrace to canopy": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 4.71,
+            "GPU/RenderVelocities": 3.443,
+            "GPU/Unaccounted": 3.05,
+            "GPU/Basepass": 2.893,
+            "GPU/LumenSceneUpdate": 2.059,
+            "GPU/TemporalSuperResolution": 1.171
+          },
+          "native_frames": 44,
+          "mean_fps": 37.63,
+          "frame_p95_ms": 31.859,
+          "gpu_p95_ms": 25.61
+        },
+        "Spring grotto": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 3.91,
+            "GPU/Unaccounted": 3.113,
+            "GPU/Basepass": 2.766,
+            "GPU/RenderVelocities": 2.479,
+            "GPU/LumenSceneUpdate": 1.231,
+            "GPU/TemporalSuperResolution": 0.915
+          },
+          "native_frames": 268,
+          "mean_fps": 40.21,
+          "frame_p95_ms": 32.084,
+          "gpu_p95_ms": 24.991
+        },
+        "West canopy trail": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 3.555,
+            "GPU/RenderVelocities": 3.395,
+            "GPU/ShadowDepths": 3.387,
+            "GPU/Unaccounted": 2.886,
+            "GPU/TemporalSuperResolution": 1.078,
+            "GPU/LumenSceneUpdate": 0.993
+          },
+          "native_frames": 523,
+          "mean_fps": 39.75,
+          "frame_p95_ms": 33.306,
+          "gpu_p95_ms": 26.286
+        },
+        "High shrine ridge": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/Basepass": 4.149,
+            "GPU/ShadowDepths": 3.946,
+            "GPU/RenderVelocities": 3.806,
+            "GPU/Unaccounted": 3.028,
+            "GPU/TemporalSuperResolution": 1.016,
+            "GPU/LumenSceneUpdate": 0.893
+          },
+          "native_frames": 1146,
+          "mean_fps": 37.77,
+          "frame_p95_ms": 34.161,
+          "gpu_p95_ms": 27.495
+        }
+      },
+      "source": "Saved\\Profiling\\CSV\\Astra_ridge_20261119_015622.csv"
+    },
+    "spring": {
+      "viewport_px": [
+        1239,
+        350
+      ],
+      "frame_time": {
+        "samples": 1983,
+        "mean_ms": 28.89,
+        "median_ms": 28.156,
+        "p95_ms": 39.315,
+        "p99_ms": 43.586,
+        "max_ms": 106.429,
+        "mean_fps": 34.61
+      },
+      "gpu_time": {
+        "samples": 1983,
+        "mean_ms": 24.205,
+        "median_ms": 24.439,
+        "p95_ms": 33.687,
+        "p99_ms": 37.617,
+        "max_ms": 46.951
+      },
+      "sections": {
+        "Jungle approach": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 9.917,
+            "GPU/Basepass": 4.279,
+            "GPU/RenderVelocities": 3.94,
+            "GPU/Unaccounted": 3.092,
+            "GPU/NaniteVisBuffer": 1.727,
+            "GPU/TemporalSuperResolution": 1.283
+          },
+          "native_frames": 205,
+          "mean_fps": 28.58,
+          "frame_p95_ms": 44.228,
+          "gpu_p95_ms": 40.07
+        },
+        "Causeway and quay": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 7.384,
+            "GPU/Basepass": 3.945,
+            "GPU/RenderVelocities": 3.591,
+            "GPU/Unaccounted": 3.225,
+            "GPU/NaniteVisBuffer": 1.985,
+            "GPU/TemporalSuperResolution": 1.136
+          },
+          "native_frames": 467,
+          "mean_fps": 31.42,
+          "frame_p95_ms": 40.086,
+          "gpu_p95_ms": 34.074
+        },
+        "Stair flight 1": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 3.832,
+            "GPU/RenderVelocities": 3.277,
+            "GPU/Basepass": 3.243,
+            "GPU/Unaccounted": 2.562,
+            "GPU/NaniteVisBuffer": 1.786,
+            "GPU/TemporalSuperResolution": 1.112
+          },
+          "native_frames": 108,
+          "mean_fps": 39.56,
+          "frame_p95_ms": 31.366,
+          "gpu_p95_ms": 25.533
+        },
+        "Stair flight 2": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 3.685,
+            "GPU/Basepass": 3.261,
+            "GPU/RenderVelocities": 2.803,
+            "GPU/Unaccounted": 2.67,
+            "GPU/NaniteVisBuffer": 1.748,
+            "GPU/TemporalSuperResolution": 1.035
+          },
+          "native_frames": 127,
+          "mean_fps": 39.49,
+          "frame_p95_ms": 33.757,
+          "gpu_p95_ms": 25.641
+        },
+        "Stair flight 3": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 4.203,
+            "GPU/Basepass": 3.574,
+            "GPU/RenderVelocities": 3.383,
+            "GPU/Unaccounted": 2.789,
+            "GPU/NaniteVisBuffer": 2.027,
+            "GPU/TemporalSuperResolution": 1.104
+          },
+          "native_frames": 121,
+          "mean_fps": 37.38,
+          "frame_p95_ms": 33.525,
+          "gpu_p95_ms": 26.191
+        },
+        "Deity portal and ritual hall": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 5.459,
+            "GPU/Basepass": 3.282,
+            "GPU/Unaccounted": 2.777,
+            "GPU/RenderVelocities": 2.683,
+            "GPU/NaniteVisBuffer": 1.931,
+            "GPU/TemporalSuperResolution": 0.972
+          },
+          "native_frames": 184,
+          "mean_fps": 37.2,
+          "frame_p95_ms": 33.637,
+          "gpu_p95_ms": 27.07
+        },
+        "Rain court": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 7.772,
+            "GPU/Basepass": 3.71,
+            "GPU/RenderVelocities": 3.237,
+            "GPU/Unaccounted": 3.163,
+            "GPU/NaniteBasePass": 1.841,
+            "GPU/TemporalSuperResolution": 1.385
+          },
+          "native_frames": 130,
+          "mean_fps": 31.08,
+          "frame_p95_ms": 38.094,
+          "gpu_p95_ms": 33.232
+        },
+        "Spring trail": {
+          "top_gpu_pass_mean_ms": {
+            "GPU/ShadowDepths": 4.733,
+            "GPU/Basepass": 3.905,
+            "GPU/RenderVelocities": 3.428,
+            "GPU/Unaccounted": 2.658,
+            "GPU/TemporalSuperResolution": 0.965,
+            "GPU/LumenSceneUpdate": 0.905
+          },
+          "native_frames": 641,
+          "mean_fps": 37.84,
+          "frame_p95_ms": 34.99,
+          "gpu_p95_ms": 29.259
+        }
+      },
+      "source": "Saved\\Profiling\\CSV\\Astra_spring_20261119_014004.csv"
+    }
+  },
+  "standalone": {
+    "1280x720": {
+      "map": "/Game/AstraTemple/Maps/L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+      "game_mode": "BP_FirstPersonGameMode_C",
+      "boot_to_world_ready_seconds": 11.435,
+      "resolution": [
+        1280,
+        720
+      ],
+      "launch": "UnrealEditor -game -RenderOffscreen",
+      "process_seconds": 26.32,
+      "map_load_seconds": 1.401759,
+      "raw_csv": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1280x720_20261119_022949\\Frames.csv",
+      "log": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1280x720_20261119_022949\\Standalone.log",
+      "capture_frames": 1205,
+      "excluded_startup_and_warmup_frames": 265,
+      "bookmarks": {
+        "DenseStart": 263,
+        "DenseEnd": 564,
+        "BridgeStart": 863,
+        "BridgeEnd": 1164
+      },
+      "sections": {
+        "dense_player_start": {
+          "frames": 300,
+          "start_frame": 264,
+          "end_frame_exclusive": 564,
+          "mean_fps": 106.7,
+          "timings": {
+            "FrameTime": {
+              "mean_ms": 9.372,
+              "median_ms": 9.286,
+              "p95_ms": 10.6,
+              "p99_ms": 11.203
+            },
+            "GPUTime": {
+              "mean_ms": 8.86,
+              "median_ms": 8.702,
+              "p95_ms": 9.748,
+              "p99_ms": 10.19
+            },
+            "GameThreadTime": {
+              "mean_ms": 2.26,
+              "median_ms": 2.208,
+              "p95_ms": 2.667,
+              "p99_ms": 3.021
+            },
+            "RenderThreadTime": {
+              "mean_ms": 9.372,
+              "median_ms": 9.282,
+              "p95_ms": 10.594,
+              "p99_ms": 11.147
+            },
+            "RHIThreadTime": {
+              "mean_ms": 3.647,
+              "median_ms": 3.662,
+              "p95_ms": 4.278,
+              "p99_ms": 4.549
+            }
+          },
+          "top_gpu_pass_mean_ms": {
+            "ShadowDepths": 1.806,
+            "Basepass": 1.534,
+            "RenderVelocities": 1.14,
+            "TemporalSuperResolution": 0.635,
+            "Unaccounted": 0.51,
+            "NaniteVisBuffer": 0.409
+          }
+        },
+        "bridge_gameplay_view": {
+          "frames": 300,
+          "start_frame": 864,
+          "end_frame_exclusive": 1164,
+          "mean_fps": 113.07,
+          "timings": {
+            "FrameTime": {
+              "mean_ms": 8.844,
+              "median_ms": 8.714,
+              "p95_ms": 9.966,
+              "p99_ms": 10.864
+            },
+            "GPUTime": {
+              "mean_ms": 8.234,
+              "median_ms": 8.107,
+              "p95_ms": 8.992,
+              "p99_ms": 9.614
+            },
+            "GameThreadTime": {
+              "mean_ms": 2.428,
+              "median_ms": 2.34,
+              "p95_ms": 2.971,
+              "p99_ms": 3.181
+            },
+            "RenderThreadTime": {
+              "mean_ms": 8.842,
+              "median_ms": 8.719,
+              "p95_ms": 9.969,
+              "p99_ms": 10.791
+            },
+            "RHIThreadTime": {
+              "mean_ms": 3.663,
+              "median_ms": 3.628,
+              "p95_ms": 4.473,
+              "p99_ms": 4.755
+            }
+          },
+          "top_gpu_pass_mean_ms": {
+            "ShadowDepths": 1.358,
+            "Basepass": 1.227,
+            "RenderVelocities": 0.985,
+            "TemporalSuperResolution": 0.61,
+            "Unaccounted": 0.505,
+            "NaniteVisBuffer": 0.475
+          }
+        }
+      },
+      "hardware": {
+        "platform": "Windows",
+        "config": "Development",
+        "buildversion": "++UE5+Release-5.9-CL-60351404",
+        "engineversion": "5.9.0-60351404+++UE5+Release-5.9",
+        "os": "Windows 10 (22H2) [10.0.19045.7846] ",
+        "cpu": "GenuineIntel|Intel(R) Core(TM) i7-10700KF CPU @ 3.80GHz",
+        "systemresolution.resx": "1280",
+        "systemresolution.resy": "720",
+        "gpu": "NVIDIA GeForce RTX 3080",
+        "gpudriver": "616.56",
+        "deviceprofile": "WindowsEditor"
+      },
+      "rhi": [
+        "LogRHI: Using Highest Feature Level of D3D12: SM6",
+        "LogD3D12RHI: Chosen D3D12 Adapter Id = 0",
+        "LogRHI:             Name: NVIDIA GeForce RTX 3080",
+        "LogD3D12RHI:     GPU DeviceId: 0x2216 (for the marketing name, search the web for \"GPU Device Id\")",
+        "LogD3D12RHI:         Chosen Barrier Implementation: D3D12LegacyBarriers"
+      ],
+      "screen_settings": [
+        "[2026.11.19-01.30.03:371][154]r.Shadow.Virtual.ResolutionLodBiasDirectional = \"-0.5\"      LastSetBy: SystemSettingsIni",
+        "[2026.11.19-01.30.03:380][155]r.Shadow.Virtual.NonNanite.IncludeInCoarsePages = \"0\"      LastSetBy: SystemSettingsIni",
+        "[2026.11.19-01.30.03:388][156]r.TSR.History.ScreenPercentage = \"200\"      LastSetBy: Scalability",
+        "[2026.11.19-01.30.03:463][164]r.ScreenPercentage = \"0\"      LastSetBy: Constructor",
+        "[2026.11.19-01.30.03:472][165]sg.ResolutionQuality = \"0\"      LastSetBy: Scalability",
+        "[2026.11.19-01.30.03:481][166]r.DynamicRes.OperationMode = \"0\"      LastSetBy: Constructor"
+      ],
+      "screenshots": {
+        "Start": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1280x720_20261119_022949\\Start.png",
+        "Bridge": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1280x720_20261119_022949\\Bridge.png"
+      },
+      "rendering_warnings": [],
+      "gpu_telemetry": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1280x720_20261119_022949\\GpuTelemetry.csv",
+      "host_before_launch": {
+        "preexisting_unreal_editor_pids": [
+          24932
+        ],
+        "gpu_before_launch": [
+          {
+            "name": "NVIDIA GeForce RTX 3080",
+            "driver_version": "616.56",
+            "memory.total": "10240",
+            "memory.used": "3287",
+            "utilization.gpu": "10"
+          }
+        ]
+      },
+      "candidate": null
+    },
+    "1920x1080": {
+      "map": "/Game/AstraTemple/Maps/L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+      "game_mode": "BP_FirstPersonGameMode_C",
+      "boot_to_world_ready_seconds": 11.081,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "launch": "UnrealEditor -game -RenderOffscreen",
+      "process_seconds": 26.98,
+      "map_load_seconds": 1.426896,
+      "raw_csv": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_023015\\Frames.csv",
+      "log": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_023015\\Standalone.log",
+      "capture_frames": 1205,
+      "excluded_startup_and_warmup_frames": 265,
+      "bookmarks": {
+        "DenseStart": 263,
+        "DenseEnd": 564,
+        "BridgeStart": 863,
+        "BridgeEnd": 1164
+      },
+      "sections": {
+        "dense_player_start": {
+          "frames": 300,
+          "start_frame": 264,
+          "end_frame_exclusive": 564,
+          "mean_fps": 97.41,
+          "timings": {
+            "FrameTime": {
+              "mean_ms": 10.266,
+              "median_ms": 10.176,
+              "p95_ms": 11.381,
+              "p99_ms": 12.06
+            },
+            "GPUTime": {
+              "mean_ms": 9.789,
+              "median_ms": 9.61,
+              "p95_ms": 10.644,
+              "p99_ms": 11.095
+            },
+            "GameThreadTime": {
+              "mean_ms": 2.283,
+              "median_ms": 2.249,
+              "p95_ms": 2.62,
+              "p99_ms": 3.042
+            },
+            "RenderThreadTime": {
+              "mean_ms": 10.265,
+              "median_ms": 10.181,
+              "p95_ms": 11.354,
+              "p99_ms": 12.138
+            },
+            "RHIThreadTime": {
+              "mean_ms": 3.66,
+              "median_ms": 3.642,
+              "p95_ms": 4.404,
+              "p99_ms": 4.731
+            }
+          },
+          "top_gpu_pass_mean_ms": {
+            "ShadowDepths": 1.917,
+            "Basepass": 1.637,
+            "RenderVelocities": 1.132,
+            "TemporalSuperResolution": 1.007,
+            "Unaccounted": 0.496,
+            "ShadowProjection": 0.465
+          }
+        },
+        "bridge_gameplay_view": {
+          "frames": 300,
+          "start_frame": 864,
+          "end_frame_exclusive": 1164,
+          "mean_fps": 103.87,
+          "timings": {
+            "FrameTime": {
+              "mean_ms": 9.627,
+              "median_ms": 9.538,
+              "p95_ms": 10.597,
+              "p99_ms": 11.144
+            },
+            "GPUTime": {
+              "mean_ms": 9.146,
+              "median_ms": 8.979,
+              "p95_ms": 10.01,
+              "p99_ms": 10.36
+            },
+            "GameThreadTime": {
+              "mean_ms": 2.285,
+              "median_ms": 2.22,
+              "p95_ms": 2.962,
+              "p99_ms": 3.216
+            },
+            "RenderThreadTime": {
+              "mean_ms": 9.626,
+              "median_ms": 9.555,
+              "p95_ms": 10.551,
+              "p99_ms": 11.129
+            },
+            "RHIThreadTime": {
+              "mean_ms": 3.664,
+              "median_ms": 3.638,
+              "p95_ms": 4.312,
+              "p99_ms": 4.633
+            }
+          },
+          "top_gpu_pass_mean_ms": {
+            "ShadowDepths": 1.491,
+            "Basepass": 1.271,
+            "TemporalSuperResolution": 1.01,
+            "RenderVelocities": 1.006,
+            "Unaccounted": 0.512,
+            "NaniteVisBuffer": 0.503
+          }
+        }
+      },
+      "hardware": {
+        "platform": "Windows",
+        "config": "Development",
+        "buildversion": "++UE5+Release-5.9-CL-60351404",
+        "engineversion": "5.9.0-60351404+++UE5+Release-5.9",
+        "os": "Windows 10 (22H2) [10.0.19045.7846] ",
+        "cpu": "GenuineIntel|Intel(R) Core(TM) i7-10700KF CPU @ 3.80GHz",
+        "systemresolution.resx": "1920",
+        "systemresolution.resy": "1080",
+        "gpu": "NVIDIA GeForce RTX 3080",
+        "gpudriver": "616.56",
+        "deviceprofile": "WindowsEditor"
+      },
+      "rhi": [
+        "LogRHI: Using Highest Feature Level of D3D12: SM6",
+        "LogD3D12RHI: Chosen D3D12 Adapter Id = 0",
+        "LogRHI:             Name: NVIDIA GeForce RTX 3080",
+        "LogD3D12RHI:     GPU DeviceId: 0x2216 (for the marketing name, search the web for \"GPU Device Id\")",
+        "LogD3D12RHI:         Chosen Barrier Implementation: D3D12LegacyBarriers"
+      ],
+      "screen_settings": [
+        "[2026.11.19-01.30.29:849][154]r.Shadow.Virtual.ResolutionLodBiasDirectional = \"-0.5\"      LastSetBy: SystemSettingsIni",
+        "[2026.11.19-01.30.29:863][155]r.Shadow.Virtual.NonNanite.IncludeInCoarsePages = \"0\"      LastSetBy: SystemSettingsIni",
+        "[2026.11.19-01.30.29:871][156]r.TSR.History.ScreenPercentage = \"200\"      LastSetBy: Scalability",
+        "[2026.11.19-01.30.29:954][164]r.ScreenPercentage = \"0\"      LastSetBy: Constructor",
+        "[2026.11.19-01.30.29:964][165]sg.ResolutionQuality = \"0\"      LastSetBy: Scalability",
+        "[2026.11.19-01.30.29:974][166]r.DynamicRes.OperationMode = \"0\"      LastSetBy: Constructor"
+      ],
+      "screenshots": {
+        "Start": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_023015\\Start.png",
+        "Bridge": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_023015\\Bridge.png"
+      },
+      "rendering_warnings": [],
+      "gpu_telemetry": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_023015\\GpuTelemetry.csv",
+      "host_before_launch": {
+        "preexisting_unreal_editor_pids": [
+          24932
+        ],
+        "gpu_before_launch": [
+          {
+            "name": "NVIDIA GeForce RTX 3080",
+            "driver_version": "616.56",
+            "memory.total": "10240",
+            "memory.used": "3288",
+            "utilization.gpu": "5"
+          }
+        ]
+      },
+      "candidate": null
+    }
+  }
+}

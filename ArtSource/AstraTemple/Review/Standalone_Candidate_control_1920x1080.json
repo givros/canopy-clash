@@ -1,0 +1,165 @@
+{
+  "map": "/Game/AstraTemple/Maps/L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+  "game_mode": "BP_FirstPersonGameMode_C",
+  "boot_to_world_ready_seconds": 11.496,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "launch": "UnrealEditor -game -RenderOffscreen",
+  "process_seconds": 28.37,
+  "map_load_seconds": 1.357381,
+  "raw_csv": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_022831\\Frames.csv",
+  "log": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_022831\\Standalone.log",
+  "capture_frames": 1205,
+  "excluded_startup_and_warmup_frames": 265,
+  "bookmarks": {
+    "DenseStart": 263,
+    "DenseEnd": 564,
+    "BridgeStart": 863,
+    "BridgeEnd": 1164
+  },
+  "sections": {
+    "dense_player_start": {
+      "frames": 300,
+      "start_frame": 264,
+      "end_frame_exclusive": 564,
+      "mean_fps": 84.42,
+      "timings": {
+        "FrameTime": {
+          "mean_ms": 11.846,
+          "median_ms": 11.728,
+          "p95_ms": 12.935,
+          "p99_ms": 13.82
+        },
+        "GPUTime": {
+          "mean_ms": 11.371,
+          "median_ms": 11.21,
+          "p95_ms": 12.177,
+          "p99_ms": 13.111
+        },
+        "GameThreadTime": {
+          "mean_ms": 2.29,
+          "median_ms": 2.252,
+          "p95_ms": 2.6,
+          "p99_ms": 2.903
+        },
+        "RenderThreadTime": {
+          "mean_ms": 11.845,
+          "median_ms": 11.734,
+          "p95_ms": 12.946,
+          "p99_ms": 13.685
+        },
+        "RHIThreadTime": {
+          "mean_ms": 3.296,
+          "median_ms": 3.239,
+          "p95_ms": 3.831,
+          "p99_ms": 4.383
+        }
+      },
+      "top_gpu_pass_mean_ms": {
+        "ShadowDepths": 3.711,
+        "Basepass": 1.629,
+        "RenderVelocities": 1.145,
+        "TemporalSuperResolution": 1.004,
+        "Unaccounted": 0.496,
+        "NaniteVisBuffer": 0.437
+      }
+    },
+    "bridge_gameplay_view": {
+      "frames": 300,
+      "start_frame": 864,
+      "end_frame_exclusive": 1164,
+      "mean_fps": 95.05,
+      "timings": {
+        "FrameTime": {
+          "mean_ms": 10.521,
+          "median_ms": 10.454,
+          "p95_ms": 11.413,
+          "p99_ms": 11.969
+        },
+        "GPUTime": {
+          "mean_ms": 10.03,
+          "median_ms": 9.849,
+          "p95_ms": 10.888,
+          "p99_ms": 11.509
+        },
+        "GameThreadTime": {
+          "mean_ms": 2.234,
+          "median_ms": 2.216,
+          "p95_ms": 2.457,
+          "p99_ms": 2.6
+        },
+        "RenderThreadTime": {
+          "mean_ms": 10.52,
+          "median_ms": 10.446,
+          "p95_ms": 11.409,
+          "p99_ms": 11.97
+        },
+        "RHIThreadTime": {
+          "mean_ms": 3.648,
+          "median_ms": 3.645,
+          "p95_ms": 4.361,
+          "p99_ms": 4.574
+        }
+      },
+      "top_gpu_pass_mean_ms": {
+        "ShadowDepths": 2.604,
+        "Basepass": 1.27,
+        "RenderVelocities": 1.001,
+        "TemporalSuperResolution": 0.996,
+        "NaniteVisBuffer": 0.499,
+        "Unaccounted": 0.495
+      }
+    }
+  },
+  "hardware": {
+    "platform": "Windows",
+    "config": "Development",
+    "buildversion": "++UE5+Release-5.9-CL-60351404",
+    "engineversion": "5.9.0-60351404+++UE5+Release-5.9",
+    "os": "Windows 10 (22H2) [10.0.19045.7846] ",
+    "cpu": "GenuineIntel|Intel(R) Core(TM) i7-10700KF CPU @ 3.80GHz",
+    "systemresolution.resx": "1920",
+    "systemresolution.resy": "1080",
+    "gpu": "NVIDIA GeForce RTX 3080",
+    "gpudriver": "616.56",
+    "deviceprofile": "WindowsEditor"
+  },
+  "rhi": [
+    "LogRHI: Using Highest Feature Level of D3D12: SM6",
+    "LogD3D12RHI: Chosen D3D12 Adapter Id = 0",
+    "LogRHI:             Name: NVIDIA GeForce RTX 3080",
+    "LogD3D12RHI:     GPU DeviceId: 0x2216 (for the marketing name, search the web for \"GPU Device Id\")",
+    "LogD3D12RHI:         Chosen Barrier Implementation: D3D12LegacyBarriers"
+  ],
+  "screen_settings": [
+    "[2026.11.19-01.28.46:006][154]r.Shadow.Virtual.ResolutionLodBiasDirectional = \"-1.5\"      LastSetBy: Scalability",
+    "[2026.11.19-01.28.46:017][155]r.Shadow.Virtual.NonNanite.IncludeInCoarsePages = \"1\"      LastSetBy: Constructor",
+    "[2026.11.19-01.28.46:029][156]r.TSR.History.ScreenPercentage = \"200\"      LastSetBy: Scalability",
+    "[2026.11.19-01.28.46:124][164]r.ScreenPercentage = \"0\"      LastSetBy: Constructor",
+    "[2026.11.19-01.28.46:135][165]sg.ResolutionQuality = \"0\"      LastSetBy: Scalability",
+    "[2026.11.19-01.28.46:147][166]r.DynamicRes.OperationMode = \"0\"      LastSetBy: Constructor"
+  ],
+  "screenshots": {
+    "Start": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_022831\\Start.png",
+    "Bridge": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_022831\\Bridge.png"
+  },
+  "rendering_warnings": [],
+  "gpu_telemetry": "Saved\\AstraAuthoring\\Standalone\\AstraStandalone_1920x1080_20261119_022831\\GpuTelemetry.csv",
+  "host_before_launch": {
+    "preexisting_unreal_editor_pids": [
+      24932
+    ],
+    "gpu_before_launch": [
+      {
+        "name": "NVIDIA GeForce RTX 3080",
+        "driver_version": "616.56",
+        "memory.total": "10240",
+        "memory.used": "3288",
+        "utilization.gpu": "16"
+      }
+    ]
+  },
+  "candidate": "control"
+}

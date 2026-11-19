@@ -1,0 +1,292 @@
+{
+  "level_package_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+  "method": "Standalone Unreal Development, two staged local games. Direct MoveTo used BP_CanopyBot with its assigned team filter and BP_CanopyRanger. Navigation telemetry sampled at 30 Hz. The return-fire trial used the production perception and server damage paths.",
+  "protection": {
+    "radius_m": 6.5,
+    "vertical_half_extent_m": 4.3,
+    "centres_m": {
+      "Red": [
+        -84.35,
+        12.416666666666666,
+        7.1433333333333335
+      ],
+      "Blue": [
+        10.041666666666666,
+        -0.25,
+        5.0535
+      ]
+    },
+    "controller_filters": {
+      "Red": "/Script/gameAstraForest.TempleRedRouteFilter",
+      "Blue": "/Script/gameAstraForest.TempleBlueRouteFilter"
+    }
+  },
+  "routes": [
+    {
+      "route": "RedEastToLanding",
+      "result": "reached",
+      "seconds": 11.867,
+      "unfiltered_path_m": 52.566,
+      "filtered_path_m": 52.566,
+      "walked_m": 52.439,
+      "min_enemy_boundary_clearance_m": 0.947,
+      "samples": 356
+    },
+    {
+      "route": "RedFordToLanding",
+      "result": "reached",
+      "seconds": 13.033,
+      "unfiltered_path_m": 54.363,
+      "filtered_path_m": 54.363,
+      "walked_m": 57.968,
+      "min_enemy_boundary_clearance_m": 0.948,
+      "samples": 391
+    },
+    {
+      "route": "RedWestToLanding",
+      "result": "reached",
+      "seconds": 9.3,
+      "unfiltered_path_m": 37.301,
+      "filtered_path_m": 37.301,
+      "walked_m": 37.406,
+      "min_enemy_boundary_clearance_m": 0.593,
+      "samples": 279
+    },
+    {
+      "route": "BlueExit",
+      "result": "reached",
+      "seconds": 7.2,
+      "unfiltered_path_m": 36.028,
+      "filtered_path_m": 36.028,
+      "walked_m": 35.553,
+      "min_enemy_boundary_clearance_m": 72.099,
+      "samples": 216
+    },
+    {
+      "route": "BlueEnter",
+      "result": "reached",
+      "seconds": 7.2,
+      "unfiltered_path_m": 36.028,
+      "filtered_path_m": 36.028,
+      "walked_m": 35.301,
+      "min_enemy_boundary_clearance_m": 71.434,
+      "samples": 216
+    },
+    {
+      "route": "RedExit",
+      "result": "reached",
+      "seconds": 4.467,
+      "unfiltered_path_m": 23.25,
+      "filtered_path_m": 23.25,
+      "walked_m": 22.505,
+      "min_enemy_boundary_clearance_m": 70.01,
+      "samples": 134
+    },
+    {
+      "route": "RedEnter",
+      "result": "reached",
+      "seconds": 4.367,
+      "unfiltered_path_m": 22.794,
+      "filtered_path_m": 22.794,
+      "walked_m": 21.992,
+      "min_enemy_boundary_clearance_m": 69.325,
+      "samples": 131
+    },
+    {
+      "route": "RedForbiddenBlue",
+      "result": "request_denied",
+      "seconds": 2.2,
+      "unfiltered_path_m": 36.028,
+      "filtered_path_m": null,
+      "walked_m": 0.0,
+      "min_enemy_boundary_clearance_m": 21.289,
+      "samples": 66
+    },
+    {
+      "route": "BlueForbiddenRed",
+      "result": "request_denied",
+      "seconds": 2.2,
+      "unfiltered_path_m": 22.794,
+      "filtered_path_m": null,
+      "walked_m": 0.0,
+      "min_enemy_boundary_clearance_m": 16.157,
+      "samples": 66
+    }
+  ],
+  "observation": {
+    "tracked_frames": 1855,
+    "frames_inside_enemy_zone": 0,
+    "largest_step_m": 0.24,
+    "denied_route_seconds": "Observation window after the immediate failed request."
+  },
+  "return_fire": {
+    "passive_visible_cycles_ignored": 7,
+    "shielded_hit_hp_before_after": [
+      100.0,
+      100.0
+    ],
+    "defender_ammo_before_after_shot": [
+      30,
+      29
+    ],
+    "shield_before_after_shot": [
+      true,
+      false
+    ],
+    "acquisition_after_defender_shot_s": 0.166,
+    "first_health_loss_after_shot_s": 0.533,
+    "defender_hp_after_hit": 76.0,
+    "outside_bot_min_radius_m": 7.022,
+    "covered_sensing_cycles_without_target_or_burst": 31,
+    "expiry_reveal_after_shot_s": 6.467,
+    "visible_cycles_ignored_after_expiry": 6,
+    "final_defender_hp": 76.0
+  },
+  "evidence": {
+    "routes": "Saved/Deathmatch/TeamNavigationReview/HeronSlopeFinal.json",
+    "frame_positions": "Saved/Deathmatch/TeamNavigationReview/HeronSlopeFinalFrames.json",
+    "return_fire": "Saved/Deathmatch/ReturnFireHeronSlopeShort/Retaliation.json",
+    "perception": "Saved/Deathmatch/ReturnFireHeronSlopeShort/HeronSlopeShort.log",
+    "stair_contact": "Saved/Deathmatch/TeamNavigationReview/BlueStairArcPhysical.json",
+    "stair_geometry": "Saved/Deathmatch/TeamNavigationReview/BlueStairArcGeometry.json"
+  },
+  "previous_deployment": {
+    "map_sha256": "1d35f4c18d0899b12cd3e1a6ad1e9be37ca968b566234a2564e2a4316512d573",
+    "routes": [
+      {
+        "route": "RedEastToLanding",
+        "length_m": 243.776,
+        "seconds": 48.9
+      },
+      {
+        "route": "RedFordToLanding",
+        "length_m": 275.078,
+        "seconds": 55.567
+      },
+      {
+        "route": "RedWestToLanding",
+        "length_m": 37.301,
+        "seconds": 8.2
+      }
+    ],
+    "eastern_stair_flank": {
+      "nearby_east_arc": "A separate first-person walk and jump trial on the same stair geometry stopped at the north flank of Steps of the Basin and Terrace 1 TerraceBay 056.",
+      "contact_position_m": [
+        20.02,
+        6.07
+      ],
+      "approach_floor_z_m": 4.17,
+      "parapet_top_z_m": 8.38,
+      "step_limit_m": 0.45,
+      "arc_walk_jump_trials": 12
+    },
+    "resolution": "Moving the six blue starts behind the existing Quay Screen shifted the protection circle by 4.28 m on the lower plaza. This freed the existing central route from East Quay and Ford Landing. The stair and its retaining wall were preserved.",
+    "shift_m": 4.276
+  },
+  "other_verified_variants": [
+    {
+      "map_sha256": "fa8a77787a1dd474ae17140d145f2af9089b92c047ac41b5e28699449814a813",
+      "map": "BlueAlcoveIntegrated",
+      "native_short_routes": [
+        {
+          "name": "RedEastToLanding",
+          "complete": true,
+          "walk_s": 11.867,
+          "min_boundary_margin_m": 0.947
+        },
+        {
+          "name": "RedFordToLanding",
+          "complete": true,
+          "walk_s": 10.733,
+          "min_boundary_margin_m": 0.801
+        },
+        {
+          "name": "RedWestToLanding",
+          "complete": true,
+          "walk_s": 9.333,
+          "min_boundary_margin_m": 0.584
+        }
+      ],
+      "enemy_zone_samples": 0,
+      "return_fire_after_defender_shot_s": 0.5,
+      "route_evidence": "Saved/Deathmatch/TeamNavigationReview/AlcoveFilter8192.json",
+      "return_fire_evidence": "Saved/Deathmatch/ReturnFireBlueAlcoveIntegrated/Retaliation.json"
+    },
+    {
+      "map_sha256": "ad80f2bc6207c6c45e2ff697c9bc8d76e02e55f662dd63446e7c73a711524812",
+      "map": "BlueAlcoveTerrace",
+      "native_short_routes": [
+        {
+          "name": "RedEastToLanding",
+          "complete": true,
+          "walk_s": 11.867,
+          "min_boundary_margin_m": 0.947
+        },
+        {
+          "name": "RedFordToLanding",
+          "complete": true,
+          "walk_s": 13.6,
+          "min_boundary_margin_m": 0.952
+        },
+        {
+          "name": "RedWestToLanding",
+          "complete": true,
+          "walk_s": 9.467,
+          "min_boundary_margin_m": 0.582
+        }
+      ],
+      "enemy_zone_samples": 0,
+      "return_fire_after_defender_shot_s": 0.733,
+      "route_evidence": "Saved/Deathmatch/TeamNavigationReview/AlcoveTerraceFinal.json",
+      "return_fire_evidence": "Saved/Deathmatch/ReturnFireBlueAlcoveTerrace/Retaliation.json"
+    },
+    {
+      "map_sha256": "d7ca86df245cef021100a3f02cc8707ce0d4dd8cf41a13f7ae3eed97d834adf4",
+      "map": "BlueAlcoveLanding",
+      "native_short_routes": [
+        {
+          "name": "RedEastToLanding",
+          "complete": true,
+          "walk_s": 11.867,
+          "min_boundary_margin_m": 0.947
+        },
+        {
+          "name": "RedFordToLanding",
+          "complete": true,
+          "walk_s": 13.6,
+          "min_boundary_margin_m": 0.952
+        },
+        {
+          "name": "RedWestToLanding",
+          "complete": true,
+          "walk_s": 9.4,
+          "min_boundary_margin_m": 0.586
+        }
+      ],
+      "enemy_zone_samples": 0,
+      "return_fire_after_defender_shot_s": 0.766,
+      "route_evidence": "Saved/Deathmatch/TeamNavigationReview/AlcoveLandingFinal.json",
+      "return_fire_evidence": "Saved/Deathmatch/ReturnFireBlueAlcoveLanding/Retaliation.json"
+    }
+  ],
+  "blue_screen_corner": {
+    "source": "Saved/Deathmatch/CornerHeronSlopeShort/Corner.json",
+    "lateral_change_m": 0.19,
+    "blocked": {
+      "eye_reached_target": true,
+      "muzzle_first_contact": "Blue Quay Screen",
+      "target_hp_before_after": [
+        100.0,
+        100.0
+      ]
+    },
+    "clear": {
+      "eye_and_muzzle_reached_target": true,
+      "target_hp_before_after": [
+        100.0,
+        76.0
+      ]
+    }
+  },
+  "local_navigation_revision": "A 3.08 m by 0.92 m Recast exclusion at the cloister avoids a steep walkable-nav edge. The preceding First Landing map is preserved among the comparison runs."
+}

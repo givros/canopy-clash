@@ -1,0 +1,1095 @@
+{
+  "method": "Native Unreal dedicated process, loopback only. Ten actual bot controllers. Fixed 30 Hz simulation. Active combat ends at the normal score limit. Movement distances exclude teleports. Movement stalls require a live path-following request.",
+  "runs": {
+    "CanopyFinalApril": {
+      "seed": 4571,
+      "matches": [
+        {
+          "round": 1,
+          "red": 50,
+          "blue": 46,
+          "seconds": 257.2,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 50,
+          "blue": 45,
+          "seconds": 232.53,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 50,
+          "blue": 49,
+          "seconds": 240.53,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 50,
+          "blue": 42,
+          "seconds": 246.97,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 50,
+          "blue": 49,
+          "seconds": 256.6,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 50,
+          "blue": 43,
+          "seconds": 227.93,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 49,
+          "blue": 50,
+          "seconds": 241.77,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 49,
+          "blue": 50,
+          "seconds": 258.67,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 48,
+          "blue": 50,
+          "seconds": 240.27,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 49,
+          "blue": 50,
+          "seconds": 250.73,
+          "participants": 10
+        }
+      ],
+      "red_wins": 6,
+      "blue_wins": 4,
+      "total_score_events": 969,
+      "located_score_events": 969,
+      "eliminations_inside_victim_home_base": 6,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 412,
+        "Western cloister": 367,
+        "Eastern gallery": 187,
+        "Temple terraces": 3
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2374,
+        "Western cloister": 2036,
+        "Temple terraces": 91,
+        "Eastern gallery": 734
+      },
+      "bot_rounds": 100,
+      "walked_m": 79327,
+      "minimum_distance_per_bot_per_round_m": 623.93,
+      "movement_requests_stalled_five_seconds": 1,
+      "longest_stall_s": 35.0,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/CanopyFinalApril/Review.log",
+      "map_sha256": "d7ca86df245cef021100a3f02cc8707ce0d4dd8cf41a13f7ae3eed97d834adf4",
+      "editor_module_sha256": "ada5072fc78a7f70e12cd0eac39cf723fae6efa710a30c6b0f2568b0b69577f6",
+      "engagement_distance_m": {
+        "minimum": 0.7000000000000028,
+        "median": 38.2,
+        "p90": 65.4,
+        "maximum": 73.7
+      },
+      "engagements_from_or_onto_terraces": 9,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2626
+          },
+          "scoring_positions": {
+            "Rest of arena": 495
+          },
+          "opponents_eliminated_more_than_3m_below": 9
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2518,
+            "Upper approach": 91
+          },
+          "scoring_positions": {
+            "Rest of arena": 468,
+            "Upper approach": 6
+          },
+          "opponents_eliminated_more_than_3m_below": 6
+        }
+      }
+    },
+    "CanopyFinalBirch": {
+      "seed": 16651,
+      "matches": [
+        {
+          "round": 1,
+          "red": 47,
+          "blue": 50,
+          "seconds": 245.0,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 50,
+          "blue": 45,
+          "seconds": 304.93,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 43,
+          "blue": 50,
+          "seconds": 273.13,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 49,
+          "blue": 50,
+          "seconds": 236.17,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 49,
+          "blue": 50,
+          "seconds": 249.03,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 50,
+          "blue": 42,
+          "seconds": 225.7,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 50,
+          "blue": 44,
+          "seconds": 239.87,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 49,
+          "blue": 50,
+          "seconds": 273.77,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 46,
+          "blue": 50,
+          "seconds": 241.1,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 47,
+          "blue": 50,
+          "seconds": 251.6,
+          "participants": 10
+        }
+      ],
+      "red_wins": 3,
+      "blue_wins": 7,
+      "total_score_events": 961,
+      "located_score_events": 961,
+      "eliminations_inside_victim_home_base": 6,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 404,
+        "Eastern gallery": 192,
+        "Western cloister": 364,
+        "Temple terraces": 1
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2334,
+        "Western cloister": 2157,
+        "Temple terraces": 86,
+        "Eastern gallery": 887
+      },
+      "bot_rounds": 100,
+      "walked_m": 83465,
+      "minimum_distance_per_bot_per_round_m": 588.03,
+      "movement_requests_stalled_five_seconds": 0,
+      "longest_stall_s": 4.0,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/CanopyFinalBirch/Review.log",
+      "map_sha256": "d7ca86df245cef021100a3f02cc8707ce0d4dd8cf41a13f7ae3eed97d834adf4",
+      "editor_module_sha256": "ada5072fc78a7f70e12cd0eac39cf723fae6efa710a30c6b0f2568b0b69577f6",
+      "engagement_distance_m": {
+        "minimum": 0.6999999999999993,
+        "median": 39.3,
+        "p90": 67.4,
+        "maximum": 73.5
+      },
+      "engagements_from_or_onto_terraces": 1,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2731,
+            "Upper approach": 3
+          },
+          "scoring_positions": {
+            "Rest of arena": 480
+          },
+          "opponents_eliminated_more_than_3m_below": 7
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2647,
+            "Upper approach": 83
+          },
+          "scoring_positions": {
+            "Rest of arena": 481
+          },
+          "opponents_eliminated_more_than_3m_below": 2
+        }
+      }
+    },
+    "CanopyFinalCedar": {
+      "seed": 55733,
+      "matches": [
+        {
+          "round": 1,
+          "red": 50,
+          "blue": 45,
+          "seconds": 245.4,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 50,
+          "blue": 46,
+          "seconds": 241.73,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 50,
+          "blue": 44,
+          "seconds": 258.6,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 50,
+          "blue": 43,
+          "seconds": 250.87,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 50,
+          "blue": 41,
+          "seconds": 221.37,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 48,
+          "blue": 50,
+          "seconds": 261.03,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 50,
+          "blue": 44,
+          "seconds": 243.9,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 50,
+          "blue": 42,
+          "seconds": 253.03,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 50,
+          "blue": 42,
+          "seconds": 238.73,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 50,
+          "blue": 45,
+          "seconds": 242.93,
+          "participants": 10
+        }
+      ],
+      "red_wins": 9,
+      "blue_wins": 1,
+      "total_score_events": 940,
+      "located_score_events": 940,
+      "eliminations_inside_victim_home_base": 6,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 400,
+        "Western cloister": 355,
+        "Eastern gallery": 184,
+        "Temple terraces": 1
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2424,
+        "Western cloister": 2012,
+        "Temple terraces": 89,
+        "Eastern gallery": 742
+      },
+      "bot_rounds": 100,
+      "walked_m": 79471,
+      "minimum_distance_per_bot_per_round_m": 599.88,
+      "movement_requests_stalled_five_seconds": 0,
+      "longest_stall_s": 2.5,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/CanopyFinalCedar/Review.log",
+      "map_sha256": "d7ca86df245cef021100a3f02cc8707ce0d4dd8cf41a13f7ae3eed97d834adf4",
+      "editor_module_sha256": "ada5072fc78a7f70e12cd0eac39cf723fae6efa710a30c6b0f2568b0b69577f6",
+      "engagement_distance_m": {
+        "minimum": 0.7615773105863891,
+        "median": 38.8,
+        "p90": 67.2,
+        "maximum": 83.6
+      },
+      "engagements_from_or_onto_terraces": 8,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2659
+          },
+          "scoring_positions": {
+            "Rest of arena": 498
+          },
+          "opponents_eliminated_more_than_3m_below": 12
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2519,
+            "Upper approach": 89
+          },
+          "scoring_positions": {
+            "Rest of arena": 435,
+            "Upper approach": 7
+          },
+          "opponents_eliminated_more_than_3m_below": 9
+        }
+      }
+    },
+    "CanopyFinalDawn": {
+      "seed": 99719,
+      "matches": [
+        {
+          "round": 1,
+          "red": 48,
+          "blue": 50,
+          "seconds": 246.93,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 45,
+          "blue": 50,
+          "seconds": 241.67,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 50,
+          "blue": 43,
+          "seconds": 239.6,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 49,
+          "blue": 50,
+          "seconds": 249.77,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 50,
+          "blue": 48,
+          "seconds": 267.77,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 50,
+          "blue": 47,
+          "seconds": 253.6,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 50,
+          "blue": 49,
+          "seconds": 243.17,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 50,
+          "blue": 48,
+          "seconds": 243.73,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 50,
+          "blue": 41,
+          "seconds": 237.87,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 50,
+          "blue": 41,
+          "seconds": 270.17,
+          "participants": 10
+        }
+      ],
+      "red_wins": 7,
+      "blue_wins": 3,
+      "total_score_events": 959,
+      "located_score_events": 959,
+      "eliminations_inside_victim_home_base": 5,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 421,
+        "Eastern gallery": 176,
+        "Western cloister": 361,
+        "Temple terraces": 1
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2384,
+        "Western cloister": 2112,
+        "Temple terraces": 91,
+        "Eastern gallery": 752
+      },
+      "bot_rounds": 100,
+      "walked_m": 80374,
+      "minimum_distance_per_bot_per_round_m": 628.67,
+      "movement_requests_stalled_five_seconds": 0,
+      "longest_stall_s": 2.5,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/CanopyFinalDawn/Review.log",
+      "map_sha256": "d7ca86df245cef021100a3f02cc8707ce0d4dd8cf41a13f7ae3eed97d834adf4",
+      "editor_module_sha256": "ada5072fc78a7f70e12cd0eac39cf723fae6efa710a30c6b0f2568b0b69577f6",
+      "engagement_distance_m": {
+        "minimum": 2.570992026436481,
+        "median": 40.1,
+        "p90": 66.6,
+        "maximum": 73.9
+      },
+      "engagements_from_or_onto_terraces": 2,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2679
+          },
+          "scoring_positions": {
+            "Rest of arena": 492
+          },
+          "opponents_eliminated_more_than_3m_below": 15
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2569,
+            "Upper approach": 91
+          },
+          "scoring_positions": {
+            "Rest of arena": 466,
+            "Upper approach": 1
+          },
+          "opponents_eliminated_more_than_3m_below": 10
+        }
+      }
+    },
+    "ReleaseCloisterApril": {
+      "seed": 4571,
+      "matches": [
+        {
+          "round": 1,
+          "red": 50,
+          "blue": 46,
+          "seconds": 257.2,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 50,
+          "blue": 41,
+          "seconds": 215.03,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 50,
+          "blue": 48,
+          "seconds": 291.5,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 45,
+          "blue": 50,
+          "seconds": 263.13,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 50,
+          "blue": 47,
+          "seconds": 251.23,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 50,
+          "blue": 43,
+          "seconds": 245.73,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 46,
+          "blue": 50,
+          "seconds": 235.87,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 50,
+          "blue": 41,
+          "seconds": 233.5,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 48,
+          "blue": 50,
+          "seconds": 243.43,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 50,
+          "blue": 46,
+          "seconds": 227.03,
+          "participants": 10
+        }
+      ],
+      "red_wins": 7,
+      "blue_wins": 3,
+      "total_score_events": 951,
+      "located_score_events": 951,
+      "eliminations_inside_victim_home_base": 7,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 414,
+        "Western cloister": 364,
+        "Eastern gallery": 173
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2411,
+        "Western cloister": 2052,
+        "Temple terraces": 83,
+        "Eastern gallery": 721
+      },
+      "bot_rounds": 100,
+      "walked_m": 79031,
+      "minimum_distance_per_bot_per_round_m": 5.32,
+      "movement_requests_stalled_five_seconds": 0,
+      "longest_stall_s": 3.0,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/ReleaseCloisterApril/Review.log",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "editor_module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "engagement_distance_m": {
+        "minimum": 0.6708203932499385,
+        "median": 37.5,
+        "p90": 65.9,
+        "maximum": 76.1
+      },
+      "engagements_from_or_onto_terraces": 6,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2643
+          },
+          "scoring_positions": {
+            "Rest of arena": 489
+          },
+          "opponents_eliminated_more_than_3m_below": 15
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2541,
+            "Upper approach": 83
+          },
+          "scoring_positions": {
+            "Rest of arena": 456,
+            "Upper approach": 6
+          },
+          "opponents_eliminated_more_than_3m_below": 10
+        }
+      }
+    },
+    "ReleaseCloisterBirch": {
+      "seed": 16651,
+      "matches": [
+        {
+          "round": 1,
+          "red": 47,
+          "blue": 50,
+          "seconds": 245.0,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 50,
+          "blue": 45,
+          "seconds": 304.93,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 43,
+          "blue": 50,
+          "seconds": 273.13,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 48,
+          "blue": 50,
+          "seconds": 245.0,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 50,
+          "blue": 48,
+          "seconds": 259.73,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 50,
+          "blue": 44,
+          "seconds": 248.03,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 43,
+          "blue": 50,
+          "seconds": 240.77,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 49,
+          "blue": 50,
+          "seconds": 233.27,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 50,
+          "blue": 35,
+          "seconds": 236.6,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 50,
+          "blue": 43,
+          "seconds": 257.73,
+          "participants": 10
+        }
+      ],
+      "red_wins": 5,
+      "blue_wins": 5,
+      "total_score_events": 945,
+      "located_score_events": 945,
+      "eliminations_inside_victim_home_base": 5,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 403,
+        "Eastern gallery": 187,
+        "Western cloister": 353,
+        "Temple terraces": 2
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2333,
+        "Western cloister": 2173,
+        "Temple terraces": 87,
+        "Eastern gallery": 898
+      },
+      "bot_rounds": 100,
+      "walked_m": 84317,
+      "minimum_distance_per_bot_per_round_m": 522.24,
+      "movement_requests_stalled_five_seconds": 0,
+      "longest_stall_s": 2.5,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/ReleaseCloisterBirch/Review.log",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "editor_module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "engagement_distance_m": {
+        "minimum": 0.6082762530298217,
+        "median": 39.0,
+        "p90": 67.3,
+        "maximum": 73.8
+      },
+      "engagements_from_or_onto_terraces": 2,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2749,
+            "Upper approach": 4
+          },
+          "scoring_positions": {
+            "Rest of arena": 480
+          },
+          "opponents_eliminated_more_than_3m_below": 11
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2655,
+            "Upper approach": 83
+          },
+          "scoring_positions": {
+            "Rest of arena": 465
+          },
+          "opponents_eliminated_more_than_3m_below": 6
+        }
+      }
+    },
+    "ReleaseCloisterCedar": {
+      "seed": 55733,
+      "matches": [
+        {
+          "round": 1,
+          "red": 50,
+          "blue": 49,
+          "seconds": 250.13,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 50,
+          "blue": 44,
+          "seconds": 236.37,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 50,
+          "blue": 45,
+          "seconds": 285.0,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 50,
+          "blue": 45,
+          "seconds": 240.57,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 50,
+          "blue": 47,
+          "seconds": 243.4,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 50,
+          "blue": 49,
+          "seconds": 247.73,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 50,
+          "blue": 42,
+          "seconds": 218.23,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 50,
+          "blue": 48,
+          "seconds": 234.03,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 50,
+          "blue": 46,
+          "seconds": 238.0,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 50,
+          "blue": 42,
+          "seconds": 247.2,
+          "participants": 10
+        }
+      ],
+      "red_wins": 10,
+      "blue_wins": 0,
+      "total_score_events": 957,
+      "located_score_events": 957,
+      "eliminations_inside_victim_home_base": 4,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 396,
+        "Western cloister": 377,
+        "Eastern gallery": 184
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2365,
+        "Western cloister": 2011,
+        "Temple terraces": 90,
+        "Eastern gallery": 746
+      },
+      "bot_rounds": 100,
+      "walked_m": 78857,
+      "minimum_distance_per_bot_per_round_m": 637.99,
+      "movement_requests_stalled_five_seconds": 0,
+      "longest_stall_s": 3.0,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/ReleaseCloisterCedar/Review.log",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "editor_module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "engagement_distance_m": {
+        "minimum": 1.208304597359458,
+        "median": 40.5,
+        "p90": 66.3,
+        "maximum": 89.7
+      },
+      "engagements_from_or_onto_terraces": 3,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2617,
+            "Upper approach": 1
+          },
+          "scoring_positions": {
+            "Rest of arena": 500
+          },
+          "opponents_eliminated_more_than_3m_below": 9
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2505,
+            "Upper approach": 89
+          },
+          "scoring_positions": {
+            "Rest of arena": 454,
+            "Upper approach": 3
+          },
+          "opponents_eliminated_more_than_3m_below": 9
+        }
+      }
+    },
+    "ReleaseCloisterDawn": {
+      "seed": 99719,
+      "matches": [
+        {
+          "round": 1,
+          "red": 49,
+          "blue": 50,
+          "seconds": 248.77,
+          "participants": 10
+        },
+        {
+          "round": 2,
+          "red": 50,
+          "blue": 45,
+          "seconds": 240.4,
+          "participants": 10
+        },
+        {
+          "round": 3,
+          "red": 50,
+          "blue": 46,
+          "seconds": 234.57,
+          "participants": 10
+        },
+        {
+          "round": 4,
+          "red": 50,
+          "blue": 44,
+          "seconds": 225.0,
+          "participants": 10
+        },
+        {
+          "round": 5,
+          "red": 46,
+          "blue": 50,
+          "seconds": 237.6,
+          "participants": 10
+        },
+        {
+          "round": 6,
+          "red": 47,
+          "blue": 50,
+          "seconds": 258.2,
+          "participants": 10
+        },
+        {
+          "round": 7,
+          "red": 50,
+          "blue": 47,
+          "seconds": 252.83,
+          "participants": 10
+        },
+        {
+          "round": 8,
+          "red": 50,
+          "blue": 44,
+          "seconds": 231.9,
+          "participants": 10
+        },
+        {
+          "round": 9,
+          "red": 47,
+          "blue": 50,
+          "seconds": 277.8,
+          "participants": 10
+        },
+        {
+          "round": 10,
+          "red": 47,
+          "blue": 50,
+          "seconds": 267.13,
+          "participants": 10
+        }
+      ],
+      "red_wins": 5,
+      "blue_wins": 5,
+      "total_score_events": 962,
+      "located_score_events": 962,
+      "eliminations_inside_victim_home_base": 6,
+      "victim_locations_by_region": {
+        "Gate, bridge and plaza": 412,
+        "Eastern gallery": 185,
+        "Western cloister": 363,
+        "Temple terraces": 2
+      },
+      "movement_samples_by_region": {
+        "Gate, bridge and plaza": 2432,
+        "Western cloister": 2006,
+        "Temple terraces": 88,
+        "Eastern gallery": 767
+      },
+      "bot_rounds": 100,
+      "walked_m": 80850,
+      "minimum_distance_per_bot_per_round_m": 675.83,
+      "movement_requests_stalled_five_seconds": 0,
+      "longest_stall_s": 3.5,
+      "all_ten_bots_present": true,
+      "raw_log": "Saved/Deathmatch/ReleaseCloisterDawn/Review.log",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "editor_module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "engagement_distance_m": {
+        "minimum": 1.5329709716755893,
+        "median": 40.7,
+        "p90": 66.9,
+        "maximum": 73.3
+      },
+      "engagements_from_or_onto_terraces": 6,
+      "temple_activity": {
+        "Red": {
+          "movement_samples": {
+            "Rest of arena": 2649,
+            "Upper approach": 1
+          },
+          "scoring_positions": {
+            "Rest of arena": 486
+          },
+          "opponents_eliminated_more_than_3m_below": 12
+        },
+        "Blue": {
+          "movement_samples": {
+            "Rest of arena": 2556,
+            "Upper approach": 87
+          },
+          "scoring_positions": {
+            "Rest of arena": 472,
+            "Upper approach": 4
+          },
+          "opponents_eliminated_more_than_3m_below": 10
+        }
+      }
+    }
+  },
+  "delivered": {
+    "runs": [
+      "ReleaseCloisterApril",
+      "ReleaseCloisterBirch",
+      "ReleaseCloisterCedar",
+      "ReleaseCloisterDawn"
+    ],
+    "matches": 40,
+    "score": [
+      1955,
+      1860
+    ],
+    "cohort_seeds": [
+      4571,
+      16651,
+      55733,
+      99719
+    ],
+    "red_point_share": 0.5125,
+    "wins": [
+      27,
+      13
+    ],
+    "draws": 0,
+    "median_winning_margin": 4.0,
+    "rounds_decided_by_three_points_or_less": 16,
+    "total_time_in_active_play_minutes": 165.4,
+    "movement_requests_stalled_five_seconds": 0,
+    "eliminations_inside_victim_home_base": 22,
+    "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+    "editor_module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+    "samples_by_team_and_region": {
+      "Red": {
+        "Gate, bridge and plaza": 4860,
+        "Eastern gallery": 1625,
+        "Western cloister": 4173,
+        "Temple terraces": 6
+      },
+      "Blue": {
+        "Gate, bridge and plaza": 4681,
+        "Western cloister": 4069,
+        "Temple terraces": 342,
+        "Eastern gallery": 1507
+      }
+    },
+    "deaths_within_20m_of_own_start_center": {
+      "Red": 119,
+      "Blue": 141
+    }
+  }
+}

@@ -1,0 +1,2083 @@
+{
+  "renderer_warnings": [],
+  "route": "east",
+  "status": "passed",
+  "phase": "finished",
+  "startup": {
+    "map_instance": "/Game/AstraTemple/Maps/UEDPIE_0_L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+    "pawn": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C",
+    "player_controller": "/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController_C",
+    "position_m": [
+      -83.8,
+      13.4,
+      6.967
+    ],
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "capsule_radius_cm": 33.99907684326172,
+    "capsule_half_height_cm": 96.0,
+    "max_step_cm": 45.0,
+    "max_walk_cm_s": 600.0,
+    "walkable_slope_deg": 44.76508331298828,
+    "default_input_context_priority": 0,
+    "action_keys": [
+      [
+        "SpaceBar",
+        "IA_Jump"
+      ],
+      [
+        "Gamepad_FaceButton_Bottom",
+        "IA_Jump"
+      ],
+      [
+        "W",
+        "IA_Move"
+      ],
+      [
+        "S",
+        "IA_Move"
+      ],
+      [
+        "A",
+        "IA_Move"
+      ],
+      [
+        "D",
+        "IA_Move"
+      ],
+      [
+        "Up",
+        "IA_Move"
+      ],
+      [
+        "Down",
+        "IA_Move"
+      ],
+      [
+        "Right",
+        "IA_Move"
+      ],
+      [
+        "Left",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Left2D",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Right2D",
+        "IA_Look"
+      ]
+    ],
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 0,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8,
+      "r.Water.SingleLayer.Reflection": 3,
+      "r.Shadow.Virtual.ResolutionLodBiasDirectional": -0.5,
+      "r.TSR.History.ScreenPercentage": 200.0
+    },
+    "initial_camera_yaw": 48.00000000000001,
+    "look_action_yaw_delta_deg": 82.5,
+    "verified_key_deltas_m": {
+      "W": [
+        0.986,
+        1.196,
+        -0.008
+      ]
+    },
+    "azerty_context_priority": 1
+  },
+  "at_goal": 16,
+  "total_goals": 16,
+  "walked_m": 159.32,
+  "checkpoints": [
+    {
+      "section": "Jungle approach to gallery",
+      "waypoint": 1,
+      "goal_m": [
+        -76,
+        24,
+        6
+      ],
+      "position_m": [
+        -76.257,
+        23.643,
+        6.977
+      ],
+      "foot_z_m": 6.017,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        -76.257,
+        23.643,
+        5.995
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Jungle approach to gallery",
+      "waypoint": 2,
+      "goal_m": [
+        -69,
+        29,
+        5
+      ],
+      "position_m": [
+        -69.34,
+        28.761,
+        5.997
+      ],
+      "foot_z_m": 5.037,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        -69.34,
+        28.759,
+        5.016
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 1,
+      "goal_m": [
+        -65,
+        42,
+        5.2
+      ],
+      "position_m": [
+        -65.12,
+        41.595,
+        6.177
+      ],
+      "foot_z_m": 5.217,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        -65.118,
+        41.599,
+        5.196
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 2,
+      "goal_m": [
+        -49,
+        52,
+        5.2
+      ],
+      "position_m": [
+        -49.345,
+        51.787,
+        6.194
+      ],
+      "foot_z_m": 5.234,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.21,
+      "impact_m": [
+        -49.343,
+        51.784,
+        5.212
+      ],
+      "slope_deg": 0.74
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 3,
+      "goal_m": [
+        -38,
+        54,
+        5.361918549347289
+      ],
+      "position_m": [
+        -38.44,
+        53.923,
+        6.338
+      ],
+      "foot_z_m": 5.378,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.91,
+      "impact_m": [
+        -38.438,
+        53.925,
+        5.359
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 4,
+      "goal_m": [
+        -32.1,
+        55,
+        5.384252945475169
+      ],
+      "position_m": [
+        -32.486,
+        54.935,
+        6.371
+      ],
+      "foot_z_m": 5.411,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -32.494,
+        54.939,
+        5.39
+      ],
+      "slope_deg": 1.48
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 5,
+      "goal_m": [
+        -30.2,
+        55.4,
+        5.335450509285533
+      ],
+      "position_m": [
+        -30.584,
+        55.315,
+        6.323
+      ],
+      "foot_z_m": 5.363,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -30.588,
+        55.352,
+        5.344
+      ],
+      "slope_deg": 6.38
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 6,
+      "goal_m": [
+        -27.3,
+        55.7,
+        5.340249033839179
+      ],
+      "position_m": [
+        -27.734,
+        55.662,
+        6.33
+      ],
+      "foot_z_m": 5.37,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -27.736,
+        55.684,
+        5.35
+      ],
+      "slope_deg": 3.73
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 7,
+      "goal_m": [
+        -27,
+        54,
+        5.46
+      ],
+      "position_m": [
+        -26.91,
+        54.422,
+        6.438
+      ],
+      "foot_z_m": 5.478,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Shrine of the Lower Ford",
+      "floor_dist_cm": 2.35,
+      "impact_m": [
+        -26.91,
+        54.422,
+        5.454
+      ],
+      "slope_deg": 0.05
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 8,
+      "goal_m": [
+        -26.8,
+        52.4,
+        5.46
+      ],
+      "position_m": [
+        -26.881,
+        52.813,
+        6.442
+      ],
+      "foot_z_m": 5.482,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Shrine of the Lower Ford",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        -26.881,
+        52.813,
+        5.462
+      ],
+      "slope_deg": 0.06
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 9,
+      "goal_m": [
+        -27.3,
+        55.7,
+        5.340249033839179
+      ],
+      "position_m": [
+        -27.238,
+        55.262,
+        6.409
+      ],
+      "foot_z_m": 5.449,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Shrine of the Lower Ford",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -27.226,
+        55.12,
+        5.459
+      ],
+      "slope_deg": 0.12
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 10,
+      "goal_m": [
+        -21,
+        55,
+        5.376160829632408
+      ],
+      "position_m": [
+        -21.405,
+        55.064,
+        6.366
+      ],
+      "foot_z_m": 5.406,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        -21.415,
+        55.062,
+        5.386
+      ],
+      "slope_deg": 1.71
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 11,
+      "goal_m": [
+        -9,
+        54,
+        5
+      ],
+      "position_m": [
+        -9.4,
+        54.033,
+        6.012
+      ],
+      "foot_z_m": 5.052,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -9.409,
+        54.035,
+        5.031
+      ],
+      "slope_deg": 1.7
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 12,
+      "goal_m": [
+        7,
+        48,
+        5
+      ],
+      "position_m": [
+        6.623,
+        48.143,
+        5.998
+      ],
+      "foot_z_m": 5.038,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.96,
+      "impact_m": [
+        6.621,
+        48.14,
+        5.018
+      ],
+      "slope_deg": 0.48
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 13,
+      "goal_m": [
+        14,
+        29,
+        4
+      ],
+      "position_m": [
+        13.854,
+        29.404,
+        4.926
+      ],
+      "foot_z_m": 3.966,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.35,
+      "impact_m": [
+        13.846,
+        29.418,
+        3.943
+      ],
+      "slope_deg": 2.69
+    },
+    {
+      "section": "East jungle gallery",
+      "waypoint": 14,
+      "goal_m": [
+        16,
+        7,
+        4
+      ],
+      "position_m": [
+        16.0,
+        7.431,
+        5.0
+      ],
+      "foot_z_m": 4.04,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        15.998,
+        7.433,
+        4.018
+      ],
+      "slope_deg": 0.46
+    }
+  ],
+  "samples": [
+    {
+      "t": 1.45,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -82.761,
+        14.66,
+        6.959
+      ],
+      "ground_z_m": 5.999,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.29,
+      "impact_m": [
+        -82.761,
+        14.66,
+        5.976
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 1.86,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -81.317,
+        16.604,
+        6.959
+      ],
+      "ground_z_m": 5.999,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -81.315,
+        16.604,
+        5.978
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 2.27,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -79.888,
+        18.592,
+        6.976
+      ],
+      "ground_z_m": 6.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.91,
+      "impact_m": [
+        -79.886,
+        18.594,
+        5.997
+      ],
+      "slope_deg": 0.48
+    },
+    {
+      "t": 2.67,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -78.473,
+        20.56,
+        6.985
+      ],
+      "ground_z_m": 6.025,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        -78.473,
+        20.56,
+        6.005
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 3.08,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -77.033,
+        22.564,
+        6.979
+      ],
+      "ground_z_m": 6.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.29,
+      "impact_m": [
+        -77.035,
+        22.564,
+        5.997
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 3.48,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -75.497,
+        24.389,
+        6.937
+      ],
+      "ground_z_m": 5.977,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -75.525,
+        24.389,
+        5.956
+      ],
+      "slope_deg": 4.68
+    },
+    {
+      "t": 3.89,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -73.57,
+        25.782,
+        6.787
+      ],
+      "ground_z_m": 5.827,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        -73.594,
+        25.79,
+        5.807
+      ],
+      "slope_deg": 4.23
+    },
+    {
+      "t": 4.3,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -71.55,
+        27.205,
+        6.72
+      ],
+      "ground_z_m": 5.76,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        -71.573,
+        27.2,
+        5.74
+      ],
+      "slope_deg": 6.15
+    },
+    {
+      "t": 4.7,
+      "section": "Jungle approach to gallery",
+      "position_m": [
+        -69.569,
+        28.6,
+        5.997
+      ],
+      "ground_z_m": 5.037,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        -69.569,
+        28.598,
+        5.017
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 5.11,
+      "section": "East jungle gallery",
+      "position_m": [
+        -68.379,
+        30.658,
+        6.017
+      ],
+      "ground_z_m": 5.057,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        -68.377,
+        30.664,
+        5.037
+      ],
+      "slope_deg": 1.06
+    },
+    {
+      "t": 5.52,
+      "section": "East jungle gallery",
+      "position_m": [
+        -67.685,
+        32.97,
+        6.063
+      ],
+      "ground_z_m": 5.103,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.97,
+      "impact_m": [
+        -67.681,
+        32.976,
+        5.083
+      ],
+      "slope_deg": 1.21
+    },
+    {
+      "t": 5.92,
+      "section": "East jungle gallery",
+      "position_m": [
+        -66.996,
+        35.285,
+        6.11
+      ],
+      "ground_z_m": 5.15,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.93,
+      "impact_m": [
+        -66.994,
+        35.289,
+        5.13
+      ],
+      "slope_deg": 0.75
+    },
+    {
+      "t": 6.33,
+      "section": "East jungle gallery",
+      "position_m": [
+        -66.289,
+        37.664,
+        6.138
+      ],
+      "ground_z_m": 5.178,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -66.289,
+        37.666,
+        5.157
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 6.73,
+      "section": "East jungle gallery",
+      "position_m": [
+        -65.607,
+        39.957,
+        6.154
+      ],
+      "ground_z_m": 5.194,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.94,
+      "impact_m": [
+        -65.605,
+        39.959,
+        5.175
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 7.14,
+      "section": "East jungle gallery",
+      "position_m": [
+        -64.729,
+        42.184,
+        6.183
+      ],
+      "ground_z_m": 5.223,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.05,
+      "impact_m": [
+        -64.727,
+        42.186,
+        5.202
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 7.55,
+      "section": "East jungle gallery",
+      "position_m": [
+        -62.735,
+        43.537,
+        6.196
+      ],
+      "ground_z_m": 5.236,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        -62.733,
+        43.537,
+        5.215
+      ],
+      "slope_deg": 0.33
+    },
+    {
+      "t": 7.95,
+      "section": "East jungle gallery",
+      "position_m": [
+        -60.669,
+        44.811,
+        6.196
+      ],
+      "ground_z_m": 5.236,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.37,
+      "impact_m": [
+        -60.669,
+        44.807,
+        5.212
+      ],
+      "slope_deg": 0.33
+    },
+    {
+      "t": 8.36,
+      "section": "East jungle gallery",
+      "position_m": [
+        -58.58,
+        46.098,
+        6.18
+      ],
+      "ground_z_m": 5.22,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.32,
+      "impact_m": [
+        -58.58,
+        46.094,
+        5.197
+      ],
+      "slope_deg": 0.67
+    },
+    {
+      "t": 8.77,
+      "section": "East jungle gallery",
+      "position_m": [
+        -56.5,
+        47.379,
+        6.178
+      ],
+      "ground_z_m": 5.218,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        -56.498,
+        47.379,
+        5.195
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 9.17,
+      "section": "East jungle gallery",
+      "position_m": [
+        -54.432,
+        48.653,
+        6.191
+      ],
+      "ground_z_m": 5.231,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.9,
+      "impact_m": [
+        -54.43,
+        48.653,
+        5.212
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 9.58,
+      "section": "East jungle gallery",
+      "position_m": [
+        -52.374,
+        49.921,
+        6.202
+      ],
+      "ground_z_m": 5.242,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -52.373,
+        49.917,
+        5.221
+      ],
+      "slope_deg": 0.75
+    },
+    {
+      "t": 9.98,
+      "section": "East jungle gallery",
+      "position_m": [
+        -50.268,
+        51.219,
+        6.196
+      ],
+      "ground_z_m": 5.236,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.35,
+      "impact_m": [
+        -50.266,
+        51.215,
+        5.213
+      ],
+      "slope_deg": 0.75
+    },
+    {
+      "t": 10.39,
+      "section": "East jungle gallery",
+      "position_m": [
+        -48.146,
+        52.2,
+        6.204
+      ],
+      "ground_z_m": 5.244,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        -48.14,
+        52.2,
+        5.224
+      ],
+      "slope_deg": 1.01
+    },
+    {
+      "t": 10.8,
+      "section": "East jungle gallery",
+      "position_m": [
+        -45.736,
+        52.644,
+        6.245
+      ],
+      "ground_z_m": 5.285,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        -45.73,
+        52.646,
+        5.265
+      ],
+      "slope_deg": 1.06
+    },
+    {
+      "t": 11.2,
+      "section": "East jungle gallery",
+      "position_m": [
+        -43.333,
+        53.065,
+        6.29
+      ],
+      "ground_z_m": 5.33,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.98,
+      "impact_m": [
+        -43.327,
+        53.067,
+        5.31
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "t": 11.61,
+      "section": "East jungle gallery",
+      "position_m": [
+        -40.914,
+        53.489,
+        6.322
+      ],
+      "ground_z_m": 5.362,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.0,
+      "impact_m": [
+        -40.911,
+        53.493,
+        5.342
+      ],
+      "slope_deg": 0.75
+    },
+    {
+      "t": 12.02,
+      "section": "East jungle gallery",
+      "position_m": [
+        -38.558,
+        53.902,
+        6.338
+      ],
+      "ground_z_m": 5.378,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        -38.556,
+        53.904,
+        5.359
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 12.42,
+      "section": "East jungle gallery",
+      "position_m": [
+        -36.179,
+        54.312,
+        6.349
+      ],
+      "ground_z_m": 5.389,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.92,
+      "impact_m": [
+        -36.177,
+        54.314,
+        5.37
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "t": 12.83,
+      "section": "East jungle gallery",
+      "position_m": [
+        -33.737,
+        54.724,
+        6.367
+      ],
+      "ground_z_m": 5.407,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.93,
+      "impact_m": [
+        -33.733,
+        54.728,
+        5.388
+      ],
+      "slope_deg": 0.96
+    },
+    {
+      "t": 13.23,
+      "section": "East jungle gallery",
+      "position_m": [
+        -31.359,
+        55.151,
+        6.326
+      ],
+      "ground_z_m": 5.366,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        -31.379,
+        55.153,
+        5.344
+      ],
+      "slope_deg": 3.38
+    },
+    {
+      "t": 13.64,
+      "section": "East jungle gallery",
+      "position_m": [
+        -29.022,
+        55.537,
+        6.329
+      ],
+      "ground_z_m": 5.369,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -29.024,
+        55.562,
+        5.349
+      ],
+      "slope_deg": 4.38
+    },
+    {
+      "t": 14.05,
+      "section": "East jungle gallery",
+      "position_m": [
+        -27.042,
+        55.118,
+        6.438
+      ],
+      "ground_z_m": 5.478,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Shrine of the Lower Ford",
+      "floor_dist_cm": 1.93,
+      "impact_m": [
+        -27.042,
+        55.117,
+        5.459
+      ],
+      "slope_deg": 0.12
+    },
+    {
+      "t": 14.45,
+      "section": "East jungle gallery",
+      "position_m": [
+        -26.87,
+        52.723,
+        6.442
+      ],
+      "ground_z_m": 5.482,
+      "speed_mps": 5.2,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Shrine of the Lower Ford",
+      "floor_dist_cm": 2.0,
+      "impact_m": [
+        -26.87,
+        52.723,
+        5.462
+      ],
+      "slope_deg": 0.06
+    },
+    {
+      "t": 14.86,
+      "section": "East jungle gallery",
+      "position_m": [
+        -27.003,
+        53.603,
+        6.442
+      ],
+      "ground_z_m": 5.482,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Shrine of the Lower Ford",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -27.003,
+        53.602,
+        5.461
+      ],
+      "slope_deg": 0.1
+    },
+    {
+      "t": 15.27,
+      "section": "East jungle gallery",
+      "position_m": [
+        -27.031,
+        55.683,
+        6.332
+      ],
+      "ground_z_m": 5.372,
+      "speed_mps": 3.98,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.38,
+      "impact_m": [
+        -27.033,
+        55.703,
+        5.349
+      ],
+      "slope_deg": 3.38
+    },
+    {
+      "t": 15.67,
+      "section": "East jungle gallery",
+      "position_m": [
+        -24.753,
+        55.589,
+        6.35
+      ],
+      "ground_z_m": 5.39,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Shrine of the Lower Ford",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        -24.732,
+        55.383,
+        5.439
+      ],
+      "slope_deg": 36.93
+    },
+    {
+      "t": 16.08,
+      "section": "East jungle gallery",
+      "position_m": [
+        -22.345,
+        55.213,
+        6.357
+      ],
+      "ground_z_m": 5.397,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.0,
+      "impact_m": [
+        -22.339,
+        55.213,
+        5.377
+      ],
+      "slope_deg": 1.01
+    },
+    {
+      "t": 16.48,
+      "section": "East jungle gallery",
+      "position_m": [
+        -19.97,
+        54.905,
+        6.325
+      ],
+      "ground_z_m": 5.365,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        -19.98,
+        54.903,
+        5.345
+      ],
+      "slope_deg": 1.73
+    },
+    {
+      "t": 16.89,
+      "section": "East jungle gallery",
+      "position_m": [
+        -17.568,
+        54.704,
+        6.258
+      ],
+      "ground_z_m": 5.298,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        -17.579,
+        54.704,
+        5.277
+      ],
+      "slope_deg": 1.7
+    },
+    {
+      "t": 17.3,
+      "section": "East jungle gallery",
+      "position_m": [
+        -15.114,
+        54.503,
+        6.187
+      ],
+      "ground_z_m": 5.227,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        -15.121,
+        54.504,
+        5.206
+      ],
+      "slope_deg": 1.36
+    },
+    {
+      "t": 17.7,
+      "section": "East jungle gallery",
+      "position_m": [
+        -12.651,
+        54.3,
+        6.118
+      ],
+      "ground_z_m": 5.158,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -12.661,
+        54.302,
+        5.137
+      ],
+      "slope_deg": 1.73
+    },
+    {
+      "t": 18.11,
+      "section": "East jungle gallery",
+      "position_m": [
+        -10.252,
+        54.103,
+        6.042
+      ],
+      "ground_z_m": 5.082,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -10.264,
+        54.105,
+        5.061
+      ],
+      "slope_deg": 2.04
+    },
+    {
+      "t": 18.52,
+      "section": "East jungle gallery",
+      "position_m": [
+        -7.949,
+        53.646,
+        5.993
+      ],
+      "ground_z_m": 5.033,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.27,
+      "impact_m": [
+        -7.951,
+        53.646,
+        5.01
+      ],
+      "slope_deg": 0.32
+    },
+    {
+      "t": 18.92,
+      "section": "East jungle gallery",
+      "position_m": [
+        -5.635,
+        52.78,
+        5.979
+      ],
+      "ground_z_m": 5.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        -5.637,
+        52.782,
+        4.997
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "t": 19.33,
+      "section": "East jungle gallery",
+      "position_m": [
+        -3.342,
+        51.913,
+        5.966
+      ],
+      "ground_z_m": 5.006,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        -3.344,
+        51.913,
+        4.983
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 19.73,
+      "section": "East jungle gallery",
+      "position_m": [
+        -1.075,
+        51.055,
+        5.961
+      ],
+      "ground_z_m": 5.001,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -1.075,
+        51.051,
+        4.98
+      ],
+      "slope_deg": 0.68
+    },
+    {
+      "t": 20.14,
+      "section": "East jungle gallery",
+      "position_m": [
+        1.207,
+        50.192,
+        5.966
+      ],
+      "ground_z_m": 5.006,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        1.207,
+        50.188,
+        4.985
+      ],
+      "slope_deg": 0.67
+    },
+    {
+      "t": 20.55,
+      "section": "East jungle gallery",
+      "position_m": [
+        3.515,
+        49.319,
+        5.974
+      ],
+      "ground_z_m": 5.014,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.9,
+      "impact_m": [
+        3.515,
+        49.315,
+        4.995
+      ],
+      "slope_deg": 0.67
+    },
+    {
+      "t": 20.95,
+      "section": "East jungle gallery",
+      "position_m": [
+        5.741,
+        48.476,
+        5.992
+      ],
+      "ground_z_m": 5.032,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        5.743,
+        48.472,
+        5.011
+      ],
+      "slope_deg": 0.74
+    },
+    {
+      "t": 21.36,
+      "section": "East jungle gallery",
+      "position_m": [
+        7.477,
+        47.026,
+        5.959
+      ],
+      "ground_z_m": 4.999,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.2,
+      "impact_m": [
+        7.471,
+        47.038,
+        4.977
+      ],
+      "slope_deg": 2.26
+    },
+    {
+      "t": 21.77,
+      "section": "East jungle gallery",
+      "position_m": [
+        8.329,
+        44.746,
+        5.858
+      ],
+      "ground_z_m": 4.898,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        8.321,
+        44.76,
+        4.875
+      ],
+      "slope_deg": 2.72
+    },
+    {
+      "t": 22.17,
+      "section": "East jungle gallery",
+      "position_m": [
+        9.151,
+        42.463,
+        5.741
+      ],
+      "ground_z_m": 4.781,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.3,
+      "impact_m": [
+        9.143,
+        42.479,
+        4.758
+      ],
+      "slope_deg": 3.0
+    },
+    {
+      "t": 22.58,
+      "section": "East jungle gallery",
+      "position_m": [
+        9.965,
+        40.203,
+        5.608
+      ],
+      "ground_z_m": 4.648,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.32,
+      "impact_m": [
+        9.957,
+        40.221,
+        4.625
+      ],
+      "slope_deg": 3.29
+    },
+    {
+      "t": 22.98,
+      "section": "East jungle gallery",
+      "position_m": [
+        10.797,
+        37.895,
+        5.454
+      ],
+      "ground_z_m": 4.494,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.33,
+      "impact_m": [
+        10.789,
+        37.915,
+        4.472
+      ],
+      "slope_deg": 3.61
+    },
+    {
+      "t": 23.39,
+      "section": "East jungle gallery",
+      "position_m": [
+        11.62,
+        35.608,
+        5.297
+      ],
+      "ground_z_m": 4.337,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.36,
+      "impact_m": [
+        11.612,
+        35.628,
+        4.314
+      ],
+      "slope_deg": 3.61
+    },
+    {
+      "t": 23.8,
+      "section": "East jungle gallery",
+      "position_m": [
+        12.442,
+        33.325,
+        5.145
+      ],
+      "ground_z_m": 4.185,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.36,
+      "impact_m": [
+        12.434,
+        33.343,
+        4.162
+      ],
+      "slope_deg": 3.32
+    },
+    {
+      "t": 24.2,
+      "section": "East jungle gallery",
+      "position_m": [
+        13.272,
+        31.021,
+        5.01
+      ],
+      "ground_z_m": 4.05,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.37,
+      "impact_m": [
+        13.264,
+        31.037,
+        4.027
+      ],
+      "slope_deg": 3.0
+    },
+    {
+      "t": 24.61,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.027,
+        28.715,
+        4.977
+      ],
+      "ground_z_m": 4.017,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 1.94,
+      "impact_m": [
+        14.027,
+        28.715,
+        3.997
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 25.02,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.262,
+        27.228,
+        4.985
+      ],
+      "ground_z_m": 4.025,
+      "speed_mps": 0.35,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 1.93,
+      "impact_m": [
+        14.262,
+        27.228,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 25.42,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.373,
+        27.228,
+        4.985
+      ],
+      "ground_z_m": 4.025,
+      "speed_mps": 0.23,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        14.346,
+        27.228,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 25.83,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.462,
+        27.228,
+        4.987
+      ],
+      "ground_z_m": 4.027,
+      "speed_mps": 0.21,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        14.462,
+        27.228,
+        4.006
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 26.23,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.547,
+        27.228,
+        4.987
+      ],
+      "ground_z_m": 4.027,
+      "speed_mps": 0.2,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        14.547,
+        27.228,
+        4.006
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 26.64,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.626,
+        27.228,
+        4.987
+      ],
+      "ground_z_m": 4.027,
+      "speed_mps": 0.19,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        14.627,
+        27.228,
+        4.006
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 27.05,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.702,
+        27.228,
+        4.987
+      ],
+      "ground_z_m": 4.027,
+      "speed_mps": 0.18,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        14.702,
+        27.228,
+        4.006
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 27.45,
+      "section": "East jungle gallery",
+      "position_m": [
+        14.773,
+        27.228,
+        4.987
+      ],
+      "ground_z_m": 4.027,
+      "speed_mps": 0.17,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        14.773,
+        27.228,
+        4.006
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 27.86,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.798,
+        26.764,
+        4.974
+      ],
+      "ground_z_m": 4.014,
+      "speed_mps": 4.81,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.37,
+      "impact_m": [
+        15.798,
+        26.763,
+        3.99
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 28.27,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.994,
+        24.391,
+        4.982
+      ],
+      "ground_z_m": 4.022,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.34,
+      "impact_m": [
+        15.968,
+        24.421,
+        4.0
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 28.67,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.997,
+        21.914,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 214",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        15.971,
+        21.919,
+        3.989
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 29.08,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.998,
+        19.513,
+        4.969
+      ],
+      "ground_z_m": 4.009,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.02,
+      "impact_m": [
+        15.964,
+        19.513,
+        3.99
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 29.48,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.998,
+        17.044,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        16.0,
+        17.04,
+        4.005
+      ],
+      "slope_deg": 0.76
+    },
+    {
+      "t": 29.89,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.999,
+        14.623,
+        5.011
+      ],
+      "ground_z_m": 4.051,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        15.999,
+        14.621,
+        4.03
+      ],
+      "slope_deg": 0.32
+    },
+    {
+      "t": 30.3,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.999,
+        12.168,
+        5.022
+      ],
+      "ground_z_m": 4.062,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        15.999,
+        12.168,
+        4.04
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 30.7,
+      "section": "East jungle gallery",
+      "position_m": [
+        15.999,
+        9.729,
+        5.014
+      ],
+      "ground_z_m": 4.054,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        15.999,
+        9.731,
+        4.032
+      ],
+      "slope_deg": 0.35
+    }
+  ],
+  "failure": null,
+  "detours": [
+    {
+      "section": "East jungle gallery",
+      "position_m": [
+        14.775,
+        27.228,
+        4.987
+      ],
+      "blockers": [
+        {
+          "height_cm": 4.0,
+          "actor": "Basin Plaza Colonnade 226",
+          "point_m": [
+            14.796,
+            26.876,
+            4.067
+          ]
+        },
+        {
+          "height_cm": 48.0,
+          "actor": "Basin Plaza Colonnade 226",
+          "point_m": [
+            14.811,
+            26.62,
+            4.507
+          ]
+        }
+      ],
+      "walked_detour_target": [
+        15.843632476805292,
+        26.952093078164054
+      ]
+    }
+  ],
+  "airborne_samples": 0,
+  "max_continuous_air_seconds": 0.0,
+  "wall_time_cadence": {
+    "scope": "The embedded Python clock in this run advanced in coarse increments; several engine frames could share a timestamp. The native CSV report supplies the measured frame rate and percentiles.",
+    "nonzero_clock_intervals": 1889,
+    "median_nonzero_interval_ms": 16.0,
+    "native_report": "Performance_east.json"
+  },
+  "native_csv_basename": "Astra_east_20261119_022704"
+}

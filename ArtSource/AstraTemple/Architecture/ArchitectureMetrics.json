@@ -1,0 +1,300 @@
+{
+  "SM_Astra_Portal": {
+    "minimum": [
+      -3.993,
+      -10.252,
+      0.0
+    ],
+    "maximum": [
+      5.287,
+      10.264,
+      21.42
+    ],
+    "vertices": 51062,
+    "polygons": 46495,
+    "components": [
+      "Deep reveals",
+      "Footings",
+      "Fluted shaft and rings",
+      "Carved lintel and cornice",
+      "Upper stepped masonry",
+      "Deity headdress and facial sculpture"
+    ]
+  },
+  "SM_Astra_BridgeSpan": {
+    "minimum": [
+      -5.018,
+      -2.84,
+      -5.192
+    ],
+    "maximum": [
+      5.022,
+      2.844,
+      1.12
+    ],
+    "vertices": 7520,
+    "polygons": 6196,
+    "components": [
+      "Foundation and springing piers",
+      "Load bearing vault",
+      "Spandrel ashlar",
+      "Transverse end walls",
+      "Worn paving",
+      "Carved parapet and cutwaters"
+    ]
+  },
+  "SM_Astra_StairFlight": {
+    "minimum": [
+      -0.016,
+      -6.228,
+      -0.25
+    ],
+    "maximum": [
+      13.222,
+      6.23,
+      9.18
+    ],
+    "vertices": 17380,
+    "polygons": 14072,
+    "components": [
+      "Individually cut stair treads",
+      "Solid stair backing and end courses",
+      "Stepped lateral retaining walls"
+    ]
+  },
+  "SM_Astra_Serpent": {
+    "minimum": [
+      -2.496,
+      -1.554,
+      -0.18
+    ],
+    "maximum": [
+      1.788,
+      1.555,
+      8.026
+    ],
+    "vertices": 6452,
+    "polygons": 5836,
+    "components": [
+      "Battered stele shaft",
+      "Serpent mask and fanged jaws"
+    ]
+  },
+  "SM_Astra_TerraceBay": {
+    "minimum": [
+      -0.197,
+      -4.022,
+      -0.132
+    ],
+    "maximum": [
+      1.866,
+      4.022,
+      8.565
+    ],
+    "vertices": 10951,
+    "polygons": 9255,
+    "components": [
+      "Retaining masonry",
+      "Procession bas relief"
+    ]
+  },
+  "SM_Astra_Paving": {
+    "minimum": [
+      -3.997,
+      -4.019,
+      -0.26
+    ],
+    "maximum": [
+      3.996,
+      4.016,
+      0.008
+    ],
+    "vertices": 1408,
+    "polygons": 1144,
+    "components": [
+      "Irregular bonded pavement"
+    ]
+  },
+  "SM_Astra_Colonnade": {
+    "minimum": [
+      -1.156,
+      -1.168,
+      -0.06
+    ],
+    "maximum": [
+      1.177,
+      1.145,
+      6.42
+    ],
+    "vertices": 2382,
+    "polygons": 2017,
+    "components": [
+      "Footings",
+      "Fluted shaft and rings"
+    ]
+  },
+  "SM_Astra_Balustrade": {
+    "minimum": [
+      -0.477,
+      -4.012,
+      0.0
+    ],
+    "maximum": [
+      0.464,
+      3.991,
+      1.41
+    ],
+    "vertices": 1528,
+    "polygons": 1255,
+    "components": [
+      "Terrace perimeter"
+    ]
+  },
+  "SM_Astra_RitualHall": {
+    "minimum": [
+      -0.686,
+      -8.34,
+      -0.26
+    ],
+    "maximum": [
+      18.687,
+      8.339,
+      8.89
+    ],
+    "vertices": 161892,
+    "polygons": 149520,
+    "components": [
+      "Incised paving",
+      "Full height processional walls",
+      "Ritual wall reliefs",
+      "Skylit stone corbels",
+      "Footings",
+      "Fluted shaft and rings",
+      "Hall masks"
+    ]
+  },
+  "SM_Astra_Shrine": {
+    "minimum": [
+      -1.713,
+      -5.231,
+      -0.26
+    ],
+    "maximum": [
+      8.234,
+      5.243,
+      10.14
+    ],
+    "vertices": 27564,
+    "polygons": 22899,
+    "components": [
+      "Paved lower plinth",
+      "Footings",
+      "Fluted shaft and rings",
+      "Corbel-vaulted shrine roof",
+      "Offering stand"
+    ]
+  },
+  "SM_Astra_RuinedGate": {
+    "minimum": [
+      -2.088,
+      -6.666,
+      -0.28
+    ],
+    "maximum": [
+      5.173,
+      6.761,
+      13.83
+    ],
+    "vertices": 35400,
+    "polygons": 33152,
+    "components": [
+      "Walking stones and stylobates",
+      "Inscribed mask pier",
+      "Footings",
+      "Fluted shaft and rings",
+      "Radiating bonded vault courses",
+      "Broken spandrels and crown",
+      "Rear wall fracture and fallen voussoirs"
+    ]
+  },
+  "SM_Astra_CollapsedCloister": {
+    "minimum": [
+      -1.478,
+      -5.055,
+      -0.26
+    ],
+    "maximum": [
+      5.532,
+      4.449,
+      8.317
+    ],
+    "vertices": 3956,
+    "polygons": 3180,
+    "components": [
+      "Surviving footing",
+      "Footings",
+      "Fluted shaft and rings",
+      "Broken half vault",
+      "Splintered northern column",
+      "Fallen fluted drums and cap"
+    ]
+  },
+  "SM_Astra_BatteredBay": {
+    "minimum": [
+      -0.301,
+      -4.016,
+      0.009
+    ],
+    "maximum": [
+      1.943,
+      4.025,
+      8.55
+    ],
+    "vertices": 4602,
+    "polygons": 3788,
+    "components": [
+      "Battered retaining courses",
+      "Splayed masonry buttresses",
+      "Recessed fret and cornice"
+    ]
+  },
+  "SM_Astra_SpillwayBay": {
+    "minimum": [
+      -1.093,
+      -4.016,
+      0.009
+    ],
+    "maximum": [
+      1.954,
+      4.025,
+      8.0
+    ],
+    "vertices": 3460,
+    "polygons": 2809,
+    "components": [
+      "Battered retaining courses",
+      "Splayed masonry buttresses",
+      "Recessed fret and cornice",
+      "Lowered open scupper chute"
+    ]
+  },
+  "SM_Astra_ApproachSteps": {
+    "minimum": [
+      -0.013,
+      -2.942,
+      -0.074
+    ],
+    "maximum": [
+      2.111,
+      2.941,
+      0.8
+    ],
+    "vertices": 1248,
+    "polygons": 1014,
+    "components": [
+      "Individually cut stair treads",
+      "Structural masonry core",
+      "Outer stair cheeks"
+    ]
+  }
+}

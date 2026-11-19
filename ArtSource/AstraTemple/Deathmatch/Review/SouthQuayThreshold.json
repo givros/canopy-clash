@@ -1,0 +1,956 @@
+{
+  "method": "Same native ranger module, fixed 60 Hz. Four angled crossings at two normal speeds in both directions, two bidirectional navigation paths, and a pair beginning or ending at the recorded stop. CharacterMovement input or fully physical MoveTo; no jump and no teleport after spawning. The sprint input uses the actual authoritative sprint action.",
+  "positions_m": {
+    "recorded_stop": [
+      16.3,
+      -9.1,
+      4.6
+    ],
+    "original_lower_floor": 3.6,
+    "original_upper_floor": 3.99,
+    "threshold_top": 3.805,
+    "length": 21.55,
+    "exposed_tread_width_at_recorded_stop": 1.14
+  },
+  "source_asset": "/Game/AstraTemple/Architecture/Meshes/SM_Astra_Paving",
+  "asset_instances": 3,
+  "results": {
+    "original": {
+      "source": "Saved/Deathmatch/FinchBeforeProbe/Traversal.log",
+      "map_sha256": "f8d1ef7001b1ac117de049dafbaafc09f7a24858abd7844835ddf0a29244139e",
+      "module_sha256": "c2e6ec4de9ef12f99c7d2bc69ec32d884190089b42b7fd9a9639dbbd5e3212e6",
+      "total_cases": 22,
+      "cases_passed": 15,
+      "stone_contact_frames": 0,
+      "walkable_floor_frames": 2216,
+      "falling_frames": 0,
+      "cases": {
+        "FootProbeWalk00_Out": {
+          "status": "stalled",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 224,
+          "falling_frames": 0
+        },
+        "FootProbeWalk00_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Out": {
+          "status": "stalled",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 219,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Out": {
+          "status": "stalled",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 269,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 40,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 92,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Out": {
+          "status": "stalled",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 228,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Out": {
+          "status": "stalled",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 224,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 76,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Out": {
+          "status": "stalled",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 231,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Out": {
+          "status": "start_failed"
+        },
+        "FootProbeRestAtFinch_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        }
+      }
+    },
+    "initial_threshold": {
+      "source": "Saved/Deathmatch/FinchThresholdK/Traversal.log",
+      "map_sha256": "472975380e1d77cbd1d2479affa2c67121b21c6493a66d93798c3899881eead2",
+      "module_sha256": "c2e6ec4de9ef12f99c7d2bc69ec32d884190089b42b7fd9a9639dbbd5e3212e6",
+      "total_cases": 22,
+      "cases_passed": 22,
+      "stone_contact_frames": 179,
+      "walkable_floor_frames": 1070,
+      "falling_frames": 17,
+      "cases": {
+        "FootProbeWalk00_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeWalk00_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 7,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 7,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 7,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 22,
+          "falling_frames": 17
+        },
+        "FootProbeWalk02_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 8,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 8,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 6,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 6,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 7,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 7,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 44,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 18,
+          "walkable_floor_frames": 76,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 18,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 4,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        }
+      }
+    },
+    "delivered_threshold": {
+      "source": "Saved/Deathmatch/FinchAfterProbe/Traversal.log",
+      "map_sha256": "4cbd06687163705a6e61d54393270b32d4704f683b886b9bc2cdc2f7a2e07205",
+      "module_sha256": "c2e6ec4de9ef12f99c7d2bc69ec32d884190089b42b7fd9a9639dbbd5e3212e6",
+      "total_cases": 22,
+      "cases_passed": 22,
+      "stone_contact_frames": 272,
+      "walkable_floor_frames": 1087,
+      "falling_frames": 0,
+      "cases": {
+        "FootProbeWalk00_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeWalk00_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 11,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 12,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 12,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 44,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 28,
+          "walkable_floor_frames": 76,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 29,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Out": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 4,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Back": {
+          "status": "passed",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        }
+      }
+    },
+    "integrated_release": {
+      "source": "Saved/Deathmatch/IntegratedThreshold/Traversal.log",
+      "map_sha256": "1d35f4c18d0899b12cd3e1a6ad1e9be37ca968b566234a2564e2a4316512d573",
+      "module_sha256": "c081dc99bec182f3a7d9fbe33ab700c656b93d6277748f4d20bbd0eae1a1730f",
+      "total_cases": 22,
+      "cases_passed": 22,
+      "stone_contact_frames": 272,
+      "movement_frames": 1087,
+      "walkable_floor_frames": 1087,
+      "falling_frames": 0,
+      "cases": {
+        "FootProbeWalk00_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeWalk00_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 11,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 12,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 12,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 44,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 28,
+          "walkable_floor_frames": 76,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 29,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 4,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        }
+      }
+    },
+    "delivered": {
+      "source": "Saved/Deathmatch/ReleaseThreshold/Traversal.log",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "total_cases": 22,
+      "cases_passed": 22,
+      "stone_contact_frames": 272,
+      "movement_frames": 1087,
+      "walkable_floor_frames": 1087,
+      "falling_frames": 0,
+      "cases": {
+        "FootProbeWalk00_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeWalk00_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 46,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeSprint00_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 37,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeWalk01_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 48,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeSprint01_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 11,
+          "walkable_floor_frames": 39,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 12,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeWalk02_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 12,
+          "walkable_floor_frames": 67,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeSprint02_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 9,
+          "walkable_floor_frames": 53,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeWalk03_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 59,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FootProbeSprint03_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 690.0,
+          "movement_speed_setting_cm_s": 690.0,
+          "new_stone_contact_frames": 10,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 13,
+          "walkable_floor_frames": 44,
+          "falling_frames": 0
+        },
+        "FinchNavigation_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 28,
+          "walkable_floor_frames": 76,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 14,
+          "walkable_floor_frames": 47,
+          "falling_frames": 0
+        },
+        "FinchAngledNavigation_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 29,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Out": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 4,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        },
+        "FootProbeRestAtFinch_Back": {
+          "status": "reached",
+          "actual_peak_speed_cm_s": 510.0,
+          "movement_speed_setting_cm_s": 510.0,
+          "new_stone_contact_frames": 0,
+          "walkable_floor_frames": 25,
+          "falling_frames": 0
+        }
+      }
+    }
+  }
+}

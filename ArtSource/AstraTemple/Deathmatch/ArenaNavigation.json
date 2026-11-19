@@ -1,0 +1,1230 @@
+{
+  "map": "/Game/AstraTemple/Maps/L_CanopyDeathmatch",
+  "spawns": {
+    "Red Arrival 1": {
+      "point_m": [
+        -83.0,
+        12.0,
+        7.04
+      ],
+      "nav_m": [
+        -83.0,
+        12.0,
+        6.2
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": 55.0,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.07
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.11
+        }
+      ]
+    },
+    "Red Arrival 2": {
+      "point_m": [
+        -82.0,
+        9.4,
+        7.04
+      ],
+      "nav_m": [
+        -82.0,
+        9.4,
+        6.01
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": -37.0,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.31
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.46
+        }
+      ]
+    },
+    "Red Arrival 3": {
+      "point_m": [
+        -85.6,
+        9.6,
+        7.27
+      ],
+      "nav_m": [
+        -85.6,
+        9.6,
+        6.31
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": -33.0,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.14
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.11
+        }
+      ]
+    },
+    "Red Arrival 4": {
+      "point_m": [
+        -86.8,
+        12.8,
+        7.09
+      ],
+      "nav_m": [
+        -86.8,
+        12.8,
+        6.22
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": 31.0,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.09
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.0
+        }
+      ]
+    },
+    "Red Arrival 5": {
+      "point_m": [
+        -86.1,
+        15.0,
+        7.41
+      ],
+      "nav_m": [
+        -86.1,
+        15.0,
+        6.48
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": 23.0,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.21
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.39
+        }
+      ]
+    },
+    "Red Arrival 6": {
+      "point_m": [
+        -82.6,
+        15.7,
+        7.01
+      ],
+      "nav_m": [
+        -82.6,
+        15.7,
+        6.11
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": 19.0,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.05
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.02
+        }
+      ]
+    },
+    "Blue Arrival 1": {
+      "point_m": [
+        9.5,
+        -4.75,
+        5.06
+      ],
+      "nav_m": [
+        9.69,
+        -4.75,
+        4.09
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": -79.4,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.03
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.02
+        }
+      ]
+    },
+    "Blue Arrival 2": {
+      "point_m": [
+        9.75,
+        -0.75,
+        5.05
+      ],
+      "nav_m": [
+        9.75,
+        -0.75,
+        4.1
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": -88.2,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.05
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.09
+        }
+      ]
+    },
+    "Blue Arrival 3": {
+      "point_m": [
+        9.75,
+        1.25,
+        5.05
+      ],
+      "nav_m": [
+        9.75,
+        1.25,
+        4.11
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": 86.8,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.12
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.01
+        }
+      ]
+    },
+    "Blue Arrival 4": {
+      "point_m": [
+        10.5,
+        3.0,
+        5.05
+      ],
+      "nav_m": [
+        10.5,
+        3.0,
+        4.2
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": 90.2,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.04
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.03
+        }
+      ]
+    },
+    "Blue Arrival 5": {
+      "point_m": [
+        9.75,
+        5.25,
+        5.05
+      ],
+      "nav_m": [
+        9.75,
+        5.25,
+        4.07
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": 88.4,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.05
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.02
+        }
+      ]
+    },
+    "Blue Arrival 6": {
+      "point_m": [
+        11.0,
+        -5.5,
+        5.06
+      ],
+      "nav_m": [
+        11.0,
+        -5.5,
+        4.14
+      ],
+      "clear_character_capsule": true,
+      "orientation_yaw": -86.7,
+      "forward_ground_coverage": [
+        {
+          "distance_m": 2.25,
+          "nearest_nav_offset_m": 0.02
+        },
+        {
+          "distance_m": 4.5,
+          "nearest_nav_offset_m": 0.03
+        }
+      ]
+    }
+  },
+  "direct_spawn_sightlines": [],
+  "legs": {
+    "Causeway": [
+      {
+        "start": "Red Arrival 1",
+        "end": "Roots Gate",
+        "complete": true,
+        "length_m": 22.58,
+        "points_m": [
+          [
+            -83.0,
+            12.0,
+            6.2
+          ],
+          [
+            -79.04,
+            16.72,
+            5.99
+          ],
+          [
+            -63.0,
+            20.0,
+            4.88
+          ]
+        ]
+      },
+      {
+        "start": "Roots Gate",
+        "end": "Gate Steps",
+        "complete": true,
+        "length_m": 10.24,
+        "points_m": [
+          [
+            -63.0,
+            20.0,
+            4.88
+          ],
+          [
+            -59.28,
+            19.76,
+            4.5
+          ],
+          [
+            -54.0,
+            16.0,
+            4.11
+          ]
+        ]
+      },
+      {
+        "start": "Gate Steps",
+        "end": "Causeway",
+        "complete": true,
+        "length_m": 20.1,
+        "points_m": [
+          [
+            -54.0,
+            16.0,
+            4.11
+          ],
+          [
+            -34.0,
+            18.0,
+            4.05
+          ]
+        ]
+      },
+      {
+        "start": "Causeway",
+        "end": "East Quay",
+        "complete": true,
+        "length_m": 27.27,
+        "points_m": [
+          [
+            -34.0,
+            18.0,
+            4.05
+          ],
+          [
+            -19.0,
+            20.52,
+            4.0
+          ],
+          [
+            -17.48,
+            20.71,
+            4.0
+          ],
+          [
+            -7.0,
+            21.7,
+            4.1
+          ]
+        ]
+      },
+      {
+        "start": "East Quay",
+        "end": "Blue Arrival 1",
+        "complete": true,
+        "length_m": 40.55,
+        "points_m": [
+          [
+            -7.0,
+            21.7,
+            4.1
+          ],
+          [
+            -6.46,
+            21.66,
+            4.1
+          ],
+          [
+            -4.75,
+            21.66,
+            4.1
+          ],
+          [
+            1.9,
+            21.85,
+            4.0
+          ],
+          [
+            3.42,
+            21.85,
+            4.0
+          ],
+          [
+            7.98,
+            19.76,
+            4.1
+          ],
+          [
+            10.45,
+            14.63,
+            4.1
+          ],
+          [
+            10.45,
+            13.68,
+            4.0
+          ],
+          [
+            9.88,
+            6.65,
+            4.0
+          ],
+          [
+            9.69,
+            -4.75,
+            4.09
+          ]
+        ]
+      }
+    ],
+    "Eastern Gallery": [
+      {
+        "start": "Red Arrival 1",
+        "end": "Garden Fork",
+        "complete": true,
+        "length_m": 33.85,
+        "points_m": [
+          [
+            -83.0,
+            12.0,
+            6.2
+          ],
+          [
+            -79.41,
+            17.28,
+            6.0
+          ],
+          [
+            -64.0,
+            40.0,
+            5.31
+          ]
+        ]
+      },
+      {
+        "start": "Garden Fork",
+        "end": "Litter Walk",
+        "complete": true,
+        "length_m": 20.81,
+        "points_m": [
+          [
+            -64.0,
+            40.0,
+            5.31
+          ],
+          [
+            -47.0,
+            52.0,
+            5.38
+          ]
+        ]
+      },
+      {
+        "start": "Litter Walk",
+        "end": "Ford Chapel",
+        "complete": true,
+        "length_m": 16.82,
+        "points_m": [
+          [
+            -47.0,
+            52.0,
+            5.38
+          ],
+          [
+            -45.22,
+            52.44,
+            5.3
+          ],
+          [
+            -30.46,
+            49.84,
+            5.31
+          ]
+        ]
+      },
+      {
+        "start": "Ford Chapel",
+        "end": "Forest Gallery",
+        "complete": true,
+        "length_m": 24.0,
+        "points_m": [
+          [
+            -30.46,
+            49.84,
+            5.31
+          ],
+          [
+            -30.97,
+            53.96,
+            5.4
+          ],
+          [
+            -28.5,
+            54.91,
+            5.5
+          ],
+          [
+            -21.85,
+            55.48,
+            5.4
+          ],
+          [
+            -19.76,
+            55.48,
+            5.4
+          ],
+          [
+            -15.58,
+            55.29,
+            5.3
+          ],
+          [
+            -12.0,
+            53.0,
+            5.32
+          ]
+        ]
+      },
+      {
+        "start": "Forest Gallery",
+        "end": "Orchid Bend",
+        "complete": true,
+        "length_m": 15.4,
+        "points_m": [
+          [
+            -12.0,
+            53.0,
+            5.32
+          ],
+          [
+            3.0,
+            49.5,
+            5.12
+          ]
+        ]
+      },
+      {
+        "start": "Orchid Bend",
+        "end": "Ford Landing",
+        "complete": true,
+        "length_m": 13.57,
+        "points_m": [
+          [
+            3.0,
+            49.5,
+            5.12
+          ],
+          [
+            9.88,
+            42.75,
+            4.8
+          ],
+          [
+            11.0,
+            39.0,
+            4.54
+          ]
+        ]
+      },
+      {
+        "start": "Ford Landing",
+        "end": "Blue Arrival 1",
+        "complete": true,
+        "length_m": 43.79,
+        "points_m": [
+          [
+            11.0,
+            39.0,
+            4.54
+          ],
+          [
+            10.45,
+            13.68,
+            4.0
+          ],
+          [
+            9.88,
+            6.65,
+            4.0
+          ],
+          [
+            9.69,
+            -4.75,
+            4.09
+          ]
+        ]
+      }
+    ],
+    "Cloister": [
+      {
+        "start": "Red Arrival 1",
+        "end": "Cloister Threshold",
+        "complete": true,
+        "length_m": 24.94,
+        "points_m": [
+          [
+            -83.0,
+            12.0,
+            6.2
+          ],
+          [
+            -83.03,
+            5.51,
+            6.5
+          ],
+          [
+            -82.46,
+            -2.09,
+            6.6
+          ],
+          [
+            -82.65,
+            -4.37,
+            6.0
+          ],
+          [
+            -84.17,
+            -7.79,
+            5.3
+          ],
+          [
+            -88.0,
+            -10.0,
+            6.74
+          ]
+        ]
+      },
+      {
+        "start": "Cloister Threshold",
+        "end": "West Court Bend",
+        "complete": true,
+        "length_m": 28.04,
+        "points_m": [
+          [
+            -88.0,
+            -10.0,
+            6.74
+          ],
+          [
+            -84.36,
+            -19.76,
+            6.9
+          ],
+          [
+            -84.17,
+            -20.14,
+            6.9
+          ],
+          [
+            -82.08,
+            -22.99,
+            6.7
+          ],
+          [
+            -74.0,
+            -34.0,
+            6.76
+          ]
+        ]
+      },
+      {
+        "start": "West Court Bend",
+        "end": "Cloister Court",
+        "complete": true,
+        "length_m": 26.52,
+        "points_m": [
+          [
+            -74.0,
+            -34.0,
+            6.76
+          ],
+          [
+            -64.79,
+            -39.52,
+            5.9
+          ],
+          [
+            -57.76,
+            -41.61,
+            6.5
+          ],
+          [
+            -53.58,
+            -44.84,
+            6.0
+          ],
+          [
+            -53.39,
+            -45.6,
+            6.2
+          ],
+          [
+            -54.33,
+            -47.67,
+            6.3
+          ]
+        ]
+      },
+      {
+        "start": "Cloister Court",
+        "end": "Cloister Terrace",
+        "complete": true,
+        "length_m": 43.26,
+        "points_m": [
+          [
+            -54.33,
+            -47.67,
+            6.3
+          ],
+          [
+            -53.01,
+            -45.41,
+            6.2
+          ],
+          [
+            -52.06,
+            -45.6,
+            5.8
+          ],
+          [
+            -44.65,
+            -48.26,
+            5.3
+          ],
+          [
+            -42.18,
+            -49.02,
+            5.4
+          ],
+          [
+            -39.52,
+            -49.4,
+            5.6
+          ],
+          [
+            -34.77,
+            -51.3,
+            5.9
+          ],
+          [
+            -29.64,
+            -52.82,
+            6.1
+          ],
+          [
+            -15.96,
+            -55.29,
+            6.9
+          ],
+          [
+            -14.82,
+            -55.29,
+            7.0
+          ],
+          [
+            -14.0,
+            -55.0,
+            7.05
+          ]
+        ]
+      },
+      {
+        "start": "Cloister Terrace",
+        "end": "West Chapel Path",
+        "complete": true,
+        "length_m": 24.35,
+        "points_m": [
+          [
+            -14.0,
+            -55.0,
+            7.05
+          ],
+          [
+            10.0,
+            -51.0,
+            8.13
+          ]
+        ]
+      },
+      {
+        "start": "West Chapel Path",
+        "end": "West Spring Bridge",
+        "complete": true,
+        "length_m": 16.17,
+        "points_m": [
+          [
+            10.0,
+            -51.0,
+            8.13
+          ],
+          [
+            11.59,
+            -43.13,
+            4.3
+          ],
+          [
+            13.0,
+            -36.0,
+            4.07
+          ]
+        ]
+      },
+      {
+        "start": "West Spring Bridge",
+        "end": "West Plaza",
+        "complete": true,
+        "length_m": 13.04,
+        "points_m": [
+          [
+            13.0,
+            -36.0,
+            4.07
+          ],
+          [
+            12.0,
+            -23.0,
+            4.1
+          ]
+        ]
+      },
+      {
+        "start": "West Plaza",
+        "end": "Basin Plaza",
+        "complete": true,
+        "length_m": 27.0,
+        "points_m": [
+          [
+            12.0,
+            -23.0,
+            4.1
+          ],
+          [
+            12.0,
+            -7.01,
+            4.1
+          ],
+          [
+            12.0,
+            4.0,
+            4.16
+          ]
+        ]
+      },
+      {
+        "start": "Basin Plaza",
+        "end": "Blue Arrival 1",
+        "complete": true,
+        "length_m": 9.05,
+        "points_m": [
+          [
+            12.0,
+            4.0,
+            4.16
+          ],
+          [
+            9.69,
+            -4.75,
+            4.09
+          ]
+        ]
+      }
+    ],
+    "Terraces": [
+      {
+        "start": "Basin Plaza",
+        "end": "First Landing",
+        "complete": true,
+        "length_m": 21.76,
+        "points_m": [
+          [
+            12.0,
+            4.0,
+            4.16
+          ],
+          [
+            15.52,
+            4.12,
+            4.23
+          ],
+          [
+            17.48,
+            4.18,
+            5.2
+          ],
+          [
+            24.89,
+            1.14,
+            9.7
+          ],
+          [
+            28.88,
+            0.57,
+            12.0
+          ],
+          [
+            31.0,
+            -0.0,
+            12.34
+          ]
+        ]
+      },
+      {
+        "start": "First Landing",
+        "end": "Sanctuary Steps",
+        "complete": true,
+        "length_m": 19.99,
+        "points_m": [
+          [
+            31.0,
+            -0.0,
+            12.34
+          ],
+          [
+            36.1,
+            0.38,
+            13.4
+          ],
+          [
+            40.28,
+            0.57,
+            16.1
+          ],
+          [
+            44.27,
+            0.57,
+            18.5
+          ],
+          [
+            46.55,
+            0.38,
+            19.8
+          ],
+          [
+            49.0,
+            -0.0,
+            20.1
+          ]
+        ]
+      },
+      {
+        "start": "Sanctuary Steps",
+        "end": "Keeper Landing",
+        "complete": true,
+        "length_m": 19.83,
+        "points_m": [
+          [
+            49.0,
+            -0.0,
+            20.1
+          ],
+          [
+            53.77,
+            0.38,
+            21.3
+          ],
+          [
+            63.65,
+            0.57,
+            27.3
+          ],
+          [
+            64.03,
+            0.57,
+            27.6
+          ],
+          [
+            66.8,
+            -0.0,
+            28.0
+          ]
+        ]
+      }
+    ]
+  },
+  "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+  "pair_sightlines": [
+    {
+      "red": "Red Arrival 1",
+      "blue": "Blue Arrival 1",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 1",
+      "blue": "Blue Arrival 2",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 1",
+      "blue": "Blue Arrival 3",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 1",
+      "blue": "Blue Arrival 4",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 1",
+      "blue": "Blue Arrival 5",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 1",
+      "blue": "Blue Arrival 6",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 2",
+      "blue": "Blue Arrival 1",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 2",
+      "blue": "Blue Arrival 2",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 2",
+      "blue": "Blue Arrival 3",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 2",
+      "blue": "Blue Arrival 4",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 2",
+      "blue": "Blue Arrival 5",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 2",
+      "blue": "Blue Arrival 6",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 3",
+      "blue": "Blue Arrival 1",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 3",
+      "blue": "Blue Arrival 2",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 3",
+      "blue": "Blue Arrival 3",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 3",
+      "blue": "Blue Arrival 4",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 3",
+      "blue": "Blue Arrival 5",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 3",
+      "blue": "Blue Arrival 6",
+      "blocked": true,
+      "blocking_actor": "InstancedFoliageActor0"
+    },
+    {
+      "red": "Red Arrival 4",
+      "blue": "Blue Arrival 1",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 4",
+      "blue": "Blue Arrival 2",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 4",
+      "blue": "Blue Arrival 3",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 4",
+      "blue": "Blue Arrival 4",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 4",
+      "blue": "Blue Arrival 5",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 4",
+      "blue": "Blue Arrival 6",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 5",
+      "blue": "Blue Arrival 1",
+      "blocked": true,
+      "blocking_actor": "Red Woven Standard"
+    },
+    {
+      "red": "Red Arrival 5",
+      "blue": "Blue Arrival 2",
+      "blocked": true,
+      "blocking_actor": "Red Woven Standard"
+    },
+    {
+      "red": "Red Arrival 5",
+      "blue": "Blue Arrival 3",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 5",
+      "blue": "Blue Arrival 4",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 5",
+      "blue": "Blue Arrival 5",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 5",
+      "blue": "Blue Arrival 6",
+      "blocked": true,
+      "blocking_actor": "Red Woven Standard"
+    },
+    {
+      "red": "Red Arrival 6",
+      "blue": "Blue Arrival 1",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 6",
+      "blue": "Blue Arrival 2",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 6",
+      "blue": "Blue Arrival 3",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 6",
+      "blue": "Blue Arrival 4",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 6",
+      "blue": "Blue Arrival 5",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    },
+    {
+      "red": "Red Arrival 6",
+      "blue": "Blue Arrival 6",
+      "blocked": true,
+      "blocking_actor": "Red Gate Screen"
+    }
+  ]
+}

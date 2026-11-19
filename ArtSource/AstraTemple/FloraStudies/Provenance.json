@@ -1,0 +1,116 @@
+[
+  {
+    "asset": "fern_02",
+    "title": "Fern 02",
+    "authors": {
+      "Rob Tuytel": "scanning",
+      "Rico Cilliers": "modeling"
+    },
+    "site": "https://polyhaven.com/a/fern_02",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://polyhaven.com/license",
+    "source_api": "https://api.polyhaven.com/files/fern_02",
+    "resolution": "4K",
+    "files": {
+      "fern_02_4k.blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/fern_02/fern_02_4k.blend",
+        "md5": "3485442b302b2877ffc24c6226f15ee4",
+        "size": 261710
+      },
+      "textures/fern_02_alpha_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fern_02/fern_02_alpha_4k.png",
+        "md5": "520e194db987df18fd73b49d979ada0c",
+        "size": 470827
+      },
+      "textures/fern_02_diff_4k.jpg": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/4k/fern_02/fern_02_diff_4k.jpg",
+        "md5": "07642c942fe65ae5b03b212398ba7004",
+        "size": 3025392
+      },
+      "textures/fern_02_nor_gl_4k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fern_02/fern_02_nor_gl_4k.exr",
+        "md5": "ec983165b8370ec93880049d780bea4e",
+        "size": 10330145
+      },
+      "textures/fern_02_rough_4k.exr": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/4k/fern_02/fern_02_rough_4k.exr",
+        "md5": "3e15403b8fe8581d1b548074b4b25284",
+        "size": 2986520
+      },
+      "textures/fern_02_arm_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fern_02/fern_02_arm_4k.png",
+        "md5": "718b8bf9f55b1f7af549cf4fa8b01b0f",
+        "size": 4933376
+      },
+      "textures/fern_02_nor_dx_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/fern_02/fern_02_nor_dx_4k.png",
+        "md5": "3932da9f475dcb14bd15bf08767f70c2",
+        "size": 34346531
+      }
+    }
+  },
+  {
+    "asset": "potted_plant_02",
+    "title": "Potted Plant 02",
+    "authors": {
+      "Rico Cilliers": "All"
+    },
+    "site": "https://polyhaven.com/a/potted_plant_02",
+    "license": "CC0 1.0 Universal",
+    "license_url": "https://polyhaven.com/license",
+    "source_api": "https://api.polyhaven.com/files/potted_plant_02",
+    "resolution": "4K",
+    "files": {
+      "potted_plant_02_4k.blend": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/blend/4k/potted_plant_02/potted_plant_02_4k.blend",
+        "md5": "6151aba4450786542701ac0614252121",
+        "size": 8109906
+      },
+      "textures/potted_plant_02_pot_diff_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_pot_diff_4k.png",
+        "md5": "fe4ea1bd5717bba35df5751f07247d9c",
+        "size": 71027212
+      },
+      "textures/potted_plant_02_leaves_nor_gl_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_leaves_nor_gl_4k.png",
+        "md5": "e7aaf78e69287999ffe970918a434bf4",
+        "size": 60811146
+      },
+      "textures/potted_plant_02_leaves_rough_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_leaves_rough_4k.png",
+        "md5": "0b6ad7534c83c4f2d903e9ec6f7eb882",
+        "size": 14740352
+      },
+      "textures/potted_plant_02_leaves_diff_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_leaves_diff_4k.png",
+        "md5": "f15435f91df33744c66a03bfe1189c99",
+        "size": 61900987
+      },
+      "textures/potted_plant_02_pot_nor_gl_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_pot_nor_gl_4k.png",
+        "md5": "ffc6cba35379bc58c8cbf13eebab07bd",
+        "size": 54545198
+      },
+      "textures/potted_plant_02_leaves_alpha_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_leaves_alpha_4k.png",
+        "md5": "eb4bd67179e25768a342dabcdf8e42da",
+        "size": 514863
+      },
+      "textures/potted_plant_02_pot_rough_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_pot_rough_4k.png",
+        "md5": "4fe45967601a8467066064355dabd524",
+        "size": 14204281
+      },
+      "textures/potted_plant_02_leaves_arm_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_leaves_arm_4k.png",
+        "md5": "1774a746f6150f6b74d20724506ab6c6",
+        "size": 12287544
+      },
+      "textures/potted_plant_02_leaves_nor_dx_4k.png": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/4k/potted_plant_02/potted_plant_02_leaves_nor_dx_4k.png",
+        "md5": "3d6baced0bd39a67e21b1e3694d00a14",
+        "size": 60798561
+      }
+    }
+  }
+]

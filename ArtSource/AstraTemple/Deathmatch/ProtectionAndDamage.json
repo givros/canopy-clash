@@ -1,0 +1,26 @@
+{
+  "sample": "Native PIE. A real team change and respawn are followed by isolated server damage probes. Ordinary match scores are validated separately.",
+  "new_pawn_start_health": 100.0,
+  "new_pawn_start_ammo": [
+    30,
+    120
+  ],
+  "protected_opponent_damage": {
+    "before": 100.0,
+    "after": 100.0,
+    "applied": 0.0
+  },
+  "protected_after_first_shot": false,
+  "opponent_after_first_shot": {
+    "before": 100.0,
+    "after": 98.0,
+    "applied": 2.0
+  },
+  "default_friendly_fire": {
+    "before": 98.0,
+    "after": 98.0,
+    "applied": 0.0
+  },
+  "passive_expiry_seconds": 2.75,
+  "passed": true
+}

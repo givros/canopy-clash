@@ -1,0 +1,5590 @@
+{
+  "renderer_warnings": [],
+  "route": "main",
+  "status": "passed",
+  "phase": "finished",
+  "startup": {
+    "map_instance": "/Game/AstraTemple/Maps/UEDPIE_0_L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+    "pawn": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C",
+    "player_controller": "/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController_C",
+    "position_m": [
+      -83.8,
+      13.4,
+      6.967
+    ],
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "capsule_radius_cm": 33.99907684326172,
+    "capsule_half_height_cm": 96.0,
+    "max_step_cm": 45.0,
+    "max_walk_cm_s": 600.0,
+    "walkable_slope_deg": 44.76508331298828,
+    "default_input_context_priority": 0,
+    "action_keys": [
+      [
+        "SpaceBar",
+        "IA_Jump"
+      ],
+      [
+        "Gamepad_FaceButton_Bottom",
+        "IA_Jump"
+      ],
+      [
+        "W",
+        "IA_Move"
+      ],
+      [
+        "S",
+        "IA_Move"
+      ],
+      [
+        "A",
+        "IA_Move"
+      ],
+      [
+        "D",
+        "IA_Move"
+      ],
+      [
+        "Up",
+        "IA_Move"
+      ],
+      [
+        "Down",
+        "IA_Move"
+      ],
+      [
+        "Right",
+        "IA_Move"
+      ],
+      [
+        "Left",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Left2D",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Right2D",
+        "IA_Look"
+      ]
+    ],
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 1,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8,
+      "r.Water.SingleLayer.Reflection": 3
+    },
+    "initial_camera_yaw": 48.00000000000001,
+    "look_action_yaw_delta_deg": 2.5,
+    "verified_key_deltas_m": {
+      "W": [
+        0.852,
+        1.034,
+        -0.007
+      ],
+      "Z": [
+        0.984,
+        1.193,
+        0.0
+      ],
+      "Q": [
+        1.111,
+        -0.916,
+        -0.004
+      ]
+    },
+    "azerty_context_priority": 1,
+    "visible_user_widgets": [],
+    "camera_component_names": [
+      "FirstPersonCamera"
+    ]
+  },
+  "at_goal": 73,
+  "total_goals": 73,
+  "walked_m": 410.08,
+  "checkpoints": [
+    {
+      "section": "Jungle approach",
+      "waypoint": 1,
+      "goal_m": [
+        -76,
+        24,
+        6
+      ],
+      "position_m": [
+        -76.128,
+        23.671,
+        6.977
+      ],
+      "foot_z_m": 6.017,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        -76.128,
+        23.671,
+        5.995
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Jungle approach",
+      "waypoint": 2,
+      "goal_m": [
+        -64,
+        25,
+        5
+      ],
+      "position_m": [
+        -64.433,
+        24.969,
+        6.023
+      ],
+      "foot_z_m": 5.063,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -64.469,
+        24.972,
+        5.044
+      ],
+      "slope_deg": 6.05
+    },
+    {
+      "section": "Jungle approach",
+      "waypoint": 3,
+      "goal_m": [
+        -53,
+        18,
+        4
+      ],
+      "position_m": [
+        -53.299,
+        18.192,
+        5.008
+      ],
+      "foot_z_m": 4.048,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -53.299,
+        18.192,
+        4.026
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Jungle approach",
+      "waypoint": 4,
+      "goal_m": [
+        -48,
+        16,
+        4
+      ],
+      "position_m": [
+        -48.409,
+        16.162,
+        4.981
+      ],
+      "foot_z_m": 4.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -48.531,
+        16.144,
+        4.023
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 1,
+      "goal_m": [
+        -44.041,
+        16.57,
+        4.0
+      ],
+      "position_m": [
+        -44.428,
+        16.505,
+        4.986
+      ],
+      "foot_z_m": 4.026,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -44.428,
+        16.505,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 2,
+      "goal_m": [
+        -36.123,
+        17.71,
+        4.0
+      ],
+      "position_m": [
+        -36.494,
+        17.657,
+        4.988
+      ],
+      "foot_z_m": 4.028,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -36.494,
+        17.657,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 3,
+      "goal_m": [
+        -28.205,
+        18.85,
+        4.0
+      ],
+      "position_m": [
+        -28.55,
+        18.8,
+        4.972
+      ],
+      "foot_z_m": 4.012,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.37,
+      "impact_m": [
+        -28.555,
+        18.818,
+        3.988
+      ],
+      "slope_deg": 3.17
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 4,
+      "goal_m": [
+        -20.287,
+        19.99,
+        4.0
+      ],
+      "position_m": [
+        -20.55,
+        19.952,
+        4.982
+      ],
+      "foot_z_m": 4.022,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        -20.55,
+        19.952,
+        4.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 5,
+      "goal_m": [
+        -12.368999999999993,
+        21.13,
+        4.0
+      ],
+      "position_m": [
+        -12.681,
+        21.085,
+        4.979
+      ],
+      "foot_z_m": 4.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -12.681,
+        21.085,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 6,
+      "goal_m": [
+        -8.409999999999997,
+        21.7,
+        4.0
+      ],
+      "position_m": [
+        -8.853,
+        21.636,
+        5.011
+      ],
+      "foot_z_m": 4.051,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.33,
+      "impact_m": [
+        -8.888,
+        21.634,
+        4.03
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 7,
+      "goal_m": [
+        -0.5,
+        21.7,
+        4
+      ],
+      "position_m": [
+        -0.806,
+        21.7,
+        4.971
+      ],
+      "foot_z_m": 4.011,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -0.809,
+        21.719,
+        3.99
+      ],
+      "slope_deg": 3.16
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 8,
+      "goal_m": [
+        7.65,
+        21.7,
+        4
+      ],
+      "position_m": [
+        7.288,
+        21.7,
+        4.982
+      ],
+      "foot_z_m": 4.022,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        7.329,
+        21.7,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 9,
+      "goal_m": [
+        11.72,
+        21.7,
+        4
+      ],
+      "position_m": [
+        11.406,
+        21.7,
+        4.981
+      ],
+      "foot_z_m": 4.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        11.406,
+        21.7,
+        4.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 10,
+      "goal_m": [
+        11.72,
+        11,
+        4
+      ],
+      "position_m": [
+        11.726,
+        11.353,
+        4.978
+      ],
+      "foot_z_m": 4.018,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.727,
+        11.418,
+        4.002
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 11,
+      "goal_m": [
+        13,
+        0,
+        4
+      ],
+      "position_m": [
+        12.959,
+        0.344,
+        4.988
+      ],
+      "foot_z_m": 4.028,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        12.959,
+        0.344,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Causeway and quay",
+      "waypoint": 12,
+      "goal_m": [
+        15.65,
+        0,
+        4
+      ],
+      "position_m": [
+        15.302,
+        -0.062,
+        4.975
+      ],
+      "foot_z_m": 4.015,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 210",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        15.302,
+        -0.072,
+        3.993
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 1,
+      "goal_m": [
+        16,
+        0,
+        4
+      ],
+      "position_m": [
+        15.636,
+        -0.024,
+        4.981
+      ],
+      "foot_z_m": 4.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 210",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        15.636,
+        -0.041,
+        4.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 2,
+      "goal_m": [
+        19.85,
+        0,
+        6.4
+      ],
+      "position_m": [
+        19.425,
+        0.002,
+        7.308
+      ],
+      "foot_z_m": 6.348,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        19.633,
+        -0.029,
+        6.399
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 3,
+      "goal_m": [
+        23.92,
+        0,
+        8.8
+      ],
+      "position_m": [
+        23.479,
+        -0.0,
+        9.755
+      ],
+      "foot_z_m": 8.795,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        23.59,
+        0.001,
+        8.792
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 4,
+      "goal_m": [
+        28.9,
+        0,
+        11.85
+      ],
+      "position_m": [
+        28.514,
+        -0.0,
+        12.781
+      ],
+      "foot_z_m": 11.821,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        28.545,
+        -0.005,
+        11.8
+      ],
+      "slope_deg": 1.3
+    },
+    {
+      "section": "Stair flight 1",
+      "waypoint": 5,
+      "goal_m": [
+        30.6,
+        0,
+        12
+      ],
+      "position_m": [
+        30.253,
+        -0.0,
+        12.979
+      ],
+      "foot_z_m": 12.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 003",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        30.253,
+        0.028,
+        11.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 1,
+      "goal_m": [
+        34,
+        0,
+        12
+      ],
+      "position_m": [
+        33.618,
+        -0.0,
+        12.981
+      ],
+      "foot_z_m": 12.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 002",
+      "floor_dist_cm": 2.31,
+      "impact_m": [
+        33.617,
+        -0.035,
+        12.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 2,
+      "goal_m": [
+        37.85,
+        0,
+        14.4
+      ],
+      "position_m": [
+        37.479,
+        -0.0,
+        15.343
+      ],
+      "foot_z_m": 14.383,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        37.633,
+        -0.029,
+        14.4
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 3,
+      "goal_m": [
+        41.92,
+        0,
+        16.8
+      ],
+      "position_m": [
+        41.548,
+        -0.0,
+        17.771
+      ],
+      "foot_z_m": 16.811,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        41.59,
+        0.001,
+        16.792
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 4,
+      "goal_m": [
+        46.9,
+        0,
+        19.85
+      ],
+      "position_m": [
+        46.544,
+        -0.0,
+        20.782
+      ],
+      "foot_z_m": 19.822,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        46.545,
+        -0.005,
+        19.8
+      ],
+      "slope_deg": 1.3
+    },
+    {
+      "section": "Stair flight 2",
+      "waypoint": 5,
+      "goal_m": [
+        48.6,
+        0,
+        20
+      ],
+      "position_m": [
+        48.27,
+        -0.0,
+        20.979
+      ],
+      "foot_z_m": 20.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 006",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        48.27,
+        0.028,
+        19.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 1,
+      "goal_m": [
+        52,
+        0,
+        20
+      ],
+      "position_m": [
+        51.599,
+        -0.0,
+        20.979
+      ],
+      "foot_z_m": 20.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 005",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        51.599,
+        -0.034,
+        20.0
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 2,
+      "goal_m": [
+        55.85,
+        0,
+        22.4
+      ],
+      "position_m": [
+        55.552,
+        -0.0,
+        23.37
+      ],
+      "foot_z_m": 22.41,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        55.633,
+        -0.029,
+        22.4
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 3,
+      "goal_m": [
+        59.92,
+        0,
+        24.8
+      ],
+      "position_m": [
+        59.537,
+        -0.0,
+        25.769
+      ],
+      "foot_z_m": 24.809,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        59.59,
+        0.001,
+        24.792
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 4,
+      "goal_m": [
+        64.9,
+        0,
+        27.85
+      ],
+      "position_m": [
+        64.564,
+        -0.0,
+        28.783
+      ],
+      "foot_z_m": 27.823,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        64.871,
+        0.019,
+        27.997
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "section": "Stair flight 3",
+      "waypoint": 5,
+      "goal_m": [
+        66.6,
+        0,
+        28
+      ],
+      "position_m": [
+        66.261,
+        -0.0,
+        28.979
+      ],
+      "foot_z_m": 28.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        66.261,
+        0.03,
+        27.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 1,
+      "goal_m": [
+        68.6,
+        0,
+        28
+      ],
+      "position_m": [
+        68.169,
+        -0.0,
+        28.98
+      ],
+      "foot_z_m": 28.02,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        68.169,
+        -0.039,
+        28.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 2,
+      "goal_m": [
+        72.7,
+        0,
+        28
+      ],
+      "position_m": [
+        72.287,
+        -0.0,
+        28.978
+      ],
+      "foot_z_m": 28.018,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 1.98,
+      "impact_m": [
+        72.287,
+        -0.034,
+        28.0
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 3,
+      "goal_m": [
+        77.5,
+        0,
+        28
+      ],
+      "position_m": [
+        77.16,
+        -0.0,
+        28.984
+      ],
+      "foot_z_m": 28.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        77.162,
+        -0.001,
+        28.002
+      ],
+      "slope_deg": 0.33
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 4,
+      "goal_m": [
+        83,
+        0,
+        28
+      ],
+      "position_m": [
+        82.593,
+        -0.0,
+        28.974
+      ],
+      "foot_z_m": 28.014,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        82.595,
+        0.0,
+        27.993
+      ],
+      "slope_deg": 0.28
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 5,
+      "goal_m": [
+        89.3,
+        0,
+        28
+      ],
+      "position_m": [
+        88.961,
+        -0.0,
+        28.984
+      ],
+      "foot_z_m": 28.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        89.044,
+        0.001,
+        28.012
+      ],
+      "slope_deg": 0.17
+    },
+    {
+      "section": "Deity portal and ritual hall",
+      "waypoint": 6,
+      "goal_m": [
+        94.5,
+        0,
+        28
+      ],
+      "position_m": [
+        94.117,
+        -0.0,
+        28.974
+      ],
+      "foot_z_m": 28.014,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.35,
+      "impact_m": [
+        94.078,
+        -0.0,
+        27.993
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 1,
+      "goal_m": [
+        89.3,
+        0,
+        28
+      ],
+      "position_m": [
+        89.741,
+        -0.0,
+        28.99
+      ],
+      "foot_z_m": 28.03,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        89.73,
+        0.007,
+        28.009
+      ],
+      "slope_deg": 2.19
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 2,
+      "goal_m": [
+        83,
+        0,
+        28
+      ],
+      "position_m": [
+        83.311,
+        -0.0,
+        28.993
+      ],
+      "foot_z_m": 28.033,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.25,
+      "impact_m": [
+        83.312,
+        -0.0,
+        28.011
+      ],
+      "slope_deg": 0.23
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 3,
+      "goal_m": [
+        77.5,
+        0,
+        28
+      ],
+      "position_m": [
+        77.945,
+        -0.0,
+        28.987
+      ],
+      "foot_z_m": 28.027,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        77.944,
+        0.001,
+        28.006
+      ],
+      "slope_deg": 0.29
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 4,
+      "goal_m": [
+        72.7,
+        0,
+        28
+      ],
+      "position_m": [
+        73.033,
+        -0.0,
+        28.964
+      ],
+      "foot_z_m": 28.004,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        72.934,
+        -0.04,
+        28.0
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 5,
+      "goal_m": [
+        68.6,
+        0,
+        28
+      ],
+      "position_m": [
+        68.912,
+        -0.0,
+        28.981
+      ],
+      "foot_z_m": 28.021,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        68.913,
+        -0.037,
+        28.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 6,
+      "goal_m": [
+        66.6,
+        0,
+        28
+      ],
+      "position_m": [
+        66.886,
+        -0.0,
+        28.979
+      ],
+      "foot_z_m": 28.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        66.886,
+        0.028,
+        27.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 7,
+      "goal_m": [
+        64.9,
+        0,
+        27.85
+      ],
+      "position_m": [
+        65.311,
+        -0.0,
+        28.984
+      ],
+      "foot_z_m": 28.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        65.311,
+        -0.018,
+        28.003
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 8,
+      "goal_m": [
+        59.92,
+        0,
+        24.8
+      ],
+      "position_m": [
+        60.321,
+        -0.0,
+        26.264
+      ],
+      "foot_z_m": 25.304,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        60.565,
+        -0.041,
+        25.389
+      ],
+      "slope_deg": 1.75
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 9,
+      "goal_m": [
+        55.85,
+        0,
+        22.4
+      ],
+      "position_m": [
+        56.287,
+        -0.0,
+        23.778
+      ],
+      "foot_z_m": 22.818,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        56.28,
+        0.048,
+        22.8
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 10,
+      "goal_m": [
+        52,
+        0,
+        20
+      ],
+      "position_m": [
+        52.363,
+        -0.0,
+        21.412
+      ],
+      "foot_z_m": 20.452,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        52.655,
+        -0.041,
+        20.6
+      ],
+      "slope_deg": 1.33
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 11,
+      "goal_m": [
+        48.6,
+        0,
+        20
+      ],
+      "position_m": [
+        48.926,
+        -0.0,
+        20.987
+      ],
+      "foot_z_m": 20.027,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 006",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        48.926,
+        0.021,
+        20.007
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 12,
+      "goal_m": [
+        46.9,
+        0,
+        19.85
+      ],
+      "position_m": [
+        47.281,
+        -0.0,
+        20.984
+      ],
+      "foot_z_m": 20.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 005",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        47.281,
+        -0.018,
+        20.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 13,
+      "goal_m": [
+        41.92,
+        0,
+        16.8
+      ],
+      "position_m": [
+        42.301,
+        -0.0,
+        18.241
+      ],
+      "foot_z_m": 17.281,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        42.565,
+        -0.041,
+        17.389
+      ],
+      "slope_deg": 1.75
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 14,
+      "goal_m": [
+        37.85,
+        0,
+        14.4
+      ],
+      "position_m": [
+        38.269,
+        -0.0,
+        15.778
+      ],
+      "foot_z_m": 14.818,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        38.28,
+        0.05,
+        14.8
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 15,
+      "goal_m": [
+        34,
+        0,
+        12
+      ],
+      "position_m": [
+        34.348,
+        -0.0,
+        13.381
+      ],
+      "foot_z_m": 12.421,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        34.655,
+        -0.041,
+        12.6
+      ],
+      "slope_deg": 1.33
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 16,
+      "goal_m": [
+        30.6,
+        0,
+        12
+      ],
+      "position_m": [
+        30.878,
+        -0.0,
+        12.987
+      ],
+      "foot_z_m": 12.027,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 003",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        30.878,
+        0.021,
+        12.007
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 17,
+      "goal_m": [
+        28.9,
+        0,
+        11.85
+      ],
+      "position_m": [
+        29.24,
+        -0.0,
+        12.984
+      ],
+      "foot_z_m": 12.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 002",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        29.24,
+        -0.018,
+        12.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 18,
+      "goal_m": [
+        23.92,
+        0,
+        8.8
+      ],
+      "position_m": [
+        24.25,
+        -0.0,
+        10.172
+      ],
+      "foot_z_m": 9.212,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        24.258,
+        -0.024,
+        9.192
+      ],
+      "slope_deg": 1.42
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 19,
+      "goal_m": [
+        19.85,
+        0,
+        6.4
+      ],
+      "position_m": [
+        20.197,
+        -0.0,
+        7.768
+      ],
+      "foot_z_m": 6.808,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        20.28,
+        0.05,
+        6.8
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 20,
+      "goal_m": [
+        16,
+        0,
+        4
+      ],
+      "position_m": [
+        16.391,
+        -0.0,
+        5.452
+      ],
+      "foot_z_m": 4.492,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        16.655,
+        -0.041,
+        4.6
+      ],
+      "slope_deg": 1.33
+    },
+    {
+      "section": "Return through hall, down all stairs",
+      "waypoint": 21,
+      "goal_m": [
+        13,
+        0,
+        4
+      ],
+      "position_m": [
+        13.373,
+        -0.0,
+        4.98
+      ],
+      "foot_z_m": 4.02,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 210",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        13.374,
+        -0.046,
+        4.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 1,
+      "goal_m": [
+        11.72,
+        11,
+        4
+      ],
+      "position_m": [
+        11.755,
+        10.645,
+        4.975
+      ],
+      "foot_z_m": 4.015,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.755,
+        10.645,
+        3.993
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 2,
+      "goal_m": [
+        11.72,
+        21.7,
+        4
+      ],
+      "position_m": [
+        11.72,
+        21.317,
+        4.984
+      ],
+      "foot_z_m": 4.024,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        11.719,
+        21.317,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 3,
+      "goal_m": [
+        7.65,
+        21.7,
+        4
+      ],
+      "position_m": [
+        8.027,
+        21.719,
+        4.975
+      ],
+      "foot_z_m": 4.015,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 206",
+      "floor_dist_cm": 2.27,
+      "impact_m": [
+        8.028,
+        21.785,
+        3.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 4,
+      "goal_m": [
+        -0.5,
+        21.7,
+        4
+      ],
+      "position_m": [
+        -0.144,
+        21.7,
+        4.971
+      ],
+      "foot_z_m": 4.011,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -0.144,
+        21.7,
+        3.99
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 5,
+      "goal_m": [
+        -8.409999999999997,
+        21.7,
+        4.0
+      ],
+      "position_m": [
+        -8.061,
+        21.7,
+        5.013
+      ],
+      "foot_z_m": 4.053,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -8.061,
+        21.7,
+        4.032
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 6,
+      "goal_m": [
+        -12.368999999999993,
+        21.13,
+        4.0
+      ],
+      "position_m": [
+        -11.941,
+        21.197,
+        4.979
+      ],
+      "foot_z_m": 4.019,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -11.941,
+        21.197,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 7,
+      "goal_m": [
+        -20.287,
+        19.99,
+        4.0
+      ],
+      "position_m": [
+        -19.858,
+        20.052,
+        4.972
+      ],
+      "foot_z_m": 4.012,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        -19.858,
+        20.05,
+        3.991
+      ],
+      "slope_deg": 0.25
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 8,
+      "goal_m": [
+        -28.205,
+        18.85,
+        4.0
+      ],
+      "position_m": [
+        -27.956,
+        18.886,
+        4.971
+      ],
+      "foot_z_m": 4.011,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -27.956,
+        18.886,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 9,
+      "goal_m": [
+        -36.123,
+        17.71,
+        4.0
+      ],
+      "position_m": [
+        -35.687,
+        17.773,
+        4.97
+      ],
+      "foot_z_m": 4.01,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -35.687,
+        17.773,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 10,
+      "goal_m": [
+        -44.041,
+        16.57,
+        4.0
+      ],
+      "position_m": [
+        -43.628,
+        16.63,
+        4.983
+      ],
+      "foot_z_m": 4.023,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -43.673,
+        16.623,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return across causeway",
+      "waypoint": 11,
+      "goal_m": [
+        -48,
+        16,
+        4
+      ],
+      "position_m": [
+        -47.566,
+        16.062,
+        4.973
+      ],
+      "foot_z_m": 4.013,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -47.564,
+        16.06,
+        3.991
+      ],
+      "slope_deg": 0.48
+    },
+    {
+      "section": "Return to jungle PlayerStart",
+      "waypoint": 1,
+      "goal_m": [
+        -53,
+        18,
+        4
+      ],
+      "position_m": [
+        -52.647,
+        17.85,
+        4.995
+      ],
+      "foot_z_m": 4.035,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -52.647,
+        17.85,
+        4.014
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "section": "Return to jungle PlayerStart",
+      "waypoint": 2,
+      "goal_m": [
+        -64,
+        25,
+        5
+      ],
+      "position_m": [
+        -63.652,
+        24.778,
+        5.95
+      ],
+      "foot_z_m": 4.99,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        -63.676,
+        24.79,
+        4.969
+      ],
+      "slope_deg": 4.49
+    },
+    {
+      "section": "Return to jungle PlayerStart",
+      "waypoint": 3,
+      "goal_m": [
+        -76,
+        24,
+        6
+      ],
+      "position_m": [
+        -75.651,
+        24.032,
+        6.947
+      ],
+      "foot_z_m": 5.987,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.97,
+      "impact_m": [
+        -75.679,
+        24.032,
+        5.969
+      ],
+      "slope_deg": 4.68
+    },
+    {
+      "section": "Return to jungle PlayerStart",
+      "waypoint": 4,
+      "goal_m": [
+        -83.8,
+        13.4,
+        6
+      ],
+      "position_m": [
+        -83.589,
+        13.692,
+        6.963
+      ],
+      "foot_z_m": 6.003,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.05,
+      "impact_m": [
+        -83.587,
+        13.688,
+        5.983
+      ],
+      "slope_deg": 0.74
+    }
+  ],
+  "samples": [
+    {
+      "t": 3.64,
+      "section": "Jungle approach",
+      "position_m": [
+        -80.105,
+        15.155,
+        6.945
+      ],
+      "ground_z_m": 5.985,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        -80.113,
+        15.159,
+        5.965
+      ],
+      "slope_deg": 1.51
+    },
+    {
+      "t": 4.09,
+      "section": "Jungle approach",
+      "position_m": [
+        -78.988,
+        16.366,
+        6.944
+      ],
+      "ground_z_m": 5.984,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -79.002,
+        16.382,
+        5.963
+      ],
+      "slope_deg": 3.57
+    },
+    {
+      "t": 4.5,
+      "section": "Jungle approach",
+      "position_m": [
+        -77.812,
+        19.333,
+        6.987
+      ],
+      "ground_z_m": 6.027,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        -77.811,
+        19.331,
+        6.007
+      ],
+      "slope_deg": 0.46
+    },
+    {
+      "t": 4.94,
+      "section": "Jungle approach",
+      "position_m": [
+        -76.876,
+        21.744,
+        6.981
+      ],
+      "ground_z_m": 6.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -76.876,
+        21.742,
+        5.999
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 5.38,
+      "section": "Jungle approach",
+      "position_m": [
+        -76.046,
+        23.882,
+        6.977
+      ],
+      "ground_z_m": 6.017,
+      "speed_mps": 2.91,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        -76.046,
+        23.882,
+        5.995
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 5.81,
+      "section": "Jungle approach",
+      "position_m": [
+        -73.777,
+        24.288,
+        6.799
+      ],
+      "ground_z_m": 5.839,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -73.803,
+        24.288,
+        5.819
+      ],
+      "slope_deg": 4.35
+    },
+    {
+      "t": 6.22,
+      "section": "Jungle approach",
+      "position_m": [
+        -71.322,
+        24.468,
+        6.608
+      ],
+      "ground_z_m": 5.648,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        -71.35,
+        24.468,
+        5.628
+      ],
+      "slope_deg": 4.68
+    },
+    {
+      "t": 6.81,
+      "section": "Jungle approach",
+      "position_m": [
+        -68.913,
+        24.643,
+        6.416
+      ],
+      "ground_z_m": 5.456,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -68.94,
+        24.641,
+        5.436
+      ],
+      "slope_deg": 4.7
+    },
+    {
+      "t": 7.23,
+      "section": "Jungle approach",
+      "position_m": [
+        -65.16,
+        24.916,
+        6.09
+      ],
+      "ground_z_m": 5.13,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        -65.19,
+        24.912,
+        5.109
+      ],
+      "slope_deg": 5.07
+    },
+    {
+      "t": 7.66,
+      "section": "Jungle approach",
+      "position_m": [
+        -63.103,
+        24.458,
+        5.898
+      ],
+      "ground_z_m": 4.938,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.2,
+      "impact_m": [
+        -63.129,
+        24.472,
+        4.917
+      ],
+      "slope_deg": 4.96
+    },
+    {
+      "t": 8.08,
+      "section": "Jungle approach",
+      "position_m": [
+        -60.948,
+        23.094,
+        5.683
+      ],
+      "ground_z_m": 4.723,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.19,
+      "impact_m": [
+        -60.974,
+        23.106,
+        4.702
+      ],
+      "slope_deg": 4.79
+    },
+    {
+      "t": 8.48,
+      "section": "Jungle approach",
+      "position_m": [
+        -58.86,
+        21.756,
+        5.473
+      ],
+      "ground_z_m": 4.513,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        -58.886,
+        21.77,
+        4.492
+      ],
+      "slope_deg": 4.95
+    },
+    {
+      "t": 8.91,
+      "section": "Jungle approach",
+      "position_m": [
+        -56.782,
+        20.424,
+        5.272
+      ],
+      "ground_z_m": 4.312,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.21,
+      "impact_m": [
+        -56.808,
+        20.436,
+        4.291
+      ],
+      "slope_deg": 4.5
+    },
+    {
+      "t": 9.33,
+      "section": "Jungle approach",
+      "position_m": [
+        -54.647,
+        19.056,
+        5.074
+      ],
+      "ground_z_m": 4.114,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.2,
+      "impact_m": [
+        -54.671,
+        19.066,
+        4.093
+      ],
+      "slope_deg": 4.35
+    },
+    {
+      "t": 9.75,
+      "section": "Jungle approach",
+      "position_m": [
+        -52.879,
+        17.961,
+        4.995
+      ],
+      "ground_z_m": 4.035,
+      "speed_mps": 4.46,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -52.879,
+        17.961,
+        4.014
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 10.17,
+      "section": "Jungle approach",
+      "position_m": [
+        -50.543,
+        17.006,
+        4.995
+      ],
+      "ground_z_m": 4.035,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -50.543,
+        17.006,
+        4.013
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 10.58,
+      "section": "Causeway and quay",
+      "position_m": [
+        -48.337,
+        16.133,
+        4.968
+      ],
+      "ground_z_m": 4.008,
+      "speed_mps": 2.76,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -48.335,
+        16.131,
+        3.986
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 10.98,
+      "section": "Causeway and quay",
+      "position_m": [
+        -46.13,
+        16.231,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -46.13,
+        16.231,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 11.41,
+      "section": "Causeway and quay",
+      "position_m": [
+        -44.059,
+        16.564,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 3.99,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -44.059,
+        16.564,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 11.83,
+      "section": "Causeway and quay",
+      "position_m": [
+        -41.579,
+        16.925,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -41.579,
+        16.925,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 12.23,
+      "section": "Causeway and quay",
+      "position_m": [
+        -39.144,
+        17.275,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 1.92,
+      "impact_m": [
+        -39.136,
+        17.281,
+        3.993
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 12.66,
+      "section": "Causeway and quay",
+      "position_m": [
+        -36.626,
+        17.638,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -36.626,
+        17.638,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 13.06,
+      "section": "Causeway and quay",
+      "position_m": [
+        -34.403,
+        17.958,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -34.403,
+        17.958,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 13.48,
+      "section": "Causeway and quay",
+      "position_m": [
+        -31.918,
+        18.315,
+        4.976
+      ],
+      "ground_z_m": 4.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 1.91,
+      "impact_m": [
+        -31.918,
+        18.315,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 13.91,
+      "section": "Causeway and quay",
+      "position_m": [
+        -29.435,
+        18.673,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        -29.435,
+        18.672,
+        3.991
+      ],
+      "slope_deg": 0.25
+    },
+    {
+      "t": 14.33,
+      "section": "Causeway and quay",
+      "position_m": [
+        -27.153,
+        19.002,
+        4.977
+      ],
+      "ground_z_m": 4.017,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -27.065,
+        19.014,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 14.73,
+      "section": "Causeway and quay",
+      "position_m": [
+        -24.82,
+        19.338,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -24.82,
+        19.338,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 15.16,
+      "section": "Causeway and quay",
+      "position_m": [
+        -22.286,
+        19.703,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -22.286,
+        19.703,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 15.58,
+      "section": "Causeway and quay",
+      "position_m": [
+        -19.942,
+        20.04,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 5.63,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        -19.941,
+        20.04,
+        3.991
+      ],
+      "slope_deg": 0.17
+    },
+    {
+      "t": 15.98,
+      "section": "Causeway and quay",
+      "position_m": [
+        -17.554,
+        20.383,
+        4.971
+      ],
+      "ground_z_m": 4.011,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -17.554,
+        20.383,
+        3.989
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 16.41,
+      "section": "Causeway and quay",
+      "position_m": [
+        -15.054,
+        20.743,
+        4.976
+      ],
+      "ground_z_m": 4.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -14.972,
+        20.755,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 16.83,
+      "section": "Causeway and quay",
+      "position_m": [
+        -12.605,
+        21.096,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 2.76,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -12.605,
+        21.096,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 17.23,
+      "section": "Causeway and quay",
+      "position_m": [
+        -10.362,
+        21.419,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -10.21,
+        21.43,
+        4.03
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 17.64,
+      "section": "Causeway and quay",
+      "position_m": [
+        -8.313,
+        21.689,
+        5.013
+      ],
+      "ground_z_m": 4.053,
+      "speed_mps": 4.9,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -8.313,
+        21.689,
+        4.032
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 18.05,
+      "section": "Causeway and quay",
+      "position_m": [
+        -5.871,
+        21.707,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -5.871,
+        21.707,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 18.45,
+      "section": "Causeway and quay",
+      "position_m": [
+        -3.369,
+        21.704,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -3.369,
+        21.704,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 18.86,
+      "section": "Causeway and quay",
+      "position_m": [
+        -0.954,
+        21.701,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -0.958,
+        21.719,
+        3.991
+      ],
+      "slope_deg": 3.16
+    },
+    {
+      "t": 19.26,
+      "section": "Causeway and quay",
+      "position_m": [
+        1.14,
+        21.7,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        1.14,
+        21.7,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 19.67,
+      "section": "Causeway and quay",
+      "position_m": [
+        3.533,
+        21.7,
+        4.973
+      ],
+      "ground_z_m": 4.013,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        3.533,
+        21.7,
+        3.992
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 20.08,
+      "section": "Causeway and quay",
+      "position_m": [
+        5.939,
+        21.7,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        5.94,
+        21.7,
+        3.99
+      ],
+      "slope_deg": 0.19
+    },
+    {
+      "t": 20.48,
+      "section": "Causeway and quay",
+      "position_m": [
+        8.167,
+        21.7,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        8.167,
+        21.7,
+        3.991
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 20.91,
+      "section": "Causeway and quay",
+      "position_m": [
+        10.616,
+        21.7,
+        4.974
+      ],
+      "ground_z_m": 4.014,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        10.616,
+        21.679,
+        3.993
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 21.31,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.855,
+        20.905,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 5.83,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.855,
+        20.905,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 21.72,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.853,
+        18.409,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.853,
+        18.409,
+        3.993
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 22.12,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.811,
+        16.037,
+        4.98
+      ],
+      "ground_z_m": 4.02,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        11.811,
+        16.037,
+        3.999
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 22.55,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.764,
+        13.469,
+        4.985
+      ],
+      "ground_z_m": 4.025,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.23,
+      "impact_m": [
+        11.764,
+        13.469,
+        4.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 22.98,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.725,
+        11.083,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 4.21,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.725,
+        11.083,
+        3.993
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 23.39,
+      "section": "Causeway and quay",
+      "position_m": [
+        11.98,
+        8.607,
+        4.98
+      ],
+      "ground_z_m": 4.02,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        11.98,
+        8.607,
+        3.999
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 23.81,
+      "section": "Causeway and quay",
+      "position_m": [
+        12.275,
+        6.117,
+        4.982
+      ],
+      "ground_z_m": 4.022,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        12.275,
+        6.117,
+        4.001
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 24.22,
+      "section": "Causeway and quay",
+      "position_m": [
+        12.567,
+        3.653,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        12.567,
+        3.673,
+        3.991
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 24.64,
+      "section": "Causeway and quay",
+      "position_m": [
+        12.861,
+        1.172,
+        4.981
+      ],
+      "ground_z_m": 4.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        12.861,
+        1.172,
+        4.0
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 25.05,
+      "section": "Causeway and quay",
+      "position_m": [
+        13.931,
+        -0.141,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 210",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        13.931,
+        -0.141,
+        3.997
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 25.45,
+      "section": "Stair flight 1",
+      "position_m": [
+        15.85,
+        -0.007,
+        5.144
+      ],
+      "ground_z_m": 4.184,
+      "speed_mps": 3.12,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        15.991,
+        -0.003,
+        4.193
+      ],
+      "slope_deg": 0.92
+    },
+    {
+      "t": 25.86,
+      "section": "Stair flight 1",
+      "position_m": [
+        18.06,
+        0.007,
+        6.468
+      ],
+      "ground_z_m": 5.508,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        18.314,
+        0.007,
+        5.601
+      ],
+      "slope_deg": 1.09
+    },
+    {
+      "t": 26.26,
+      "section": "Stair flight 1",
+      "position_m": [
+        20.234,
+        0.0,
+        7.775
+      ],
+      "ground_z_m": 6.815,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        20.279,
+        0.05,
+        6.8
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "t": 26.67,
+      "section": "Stair flight 1",
+      "position_m": [
+        22.656,
+        -0.0,
+        9.252
+      ],
+      "ground_z_m": 8.292,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        22.912,
+        -0.039,
+        8.391
+      ],
+      "slope_deg": 1.42
+    },
+    {
+      "t": 27.08,
+      "section": "Stair flight 1",
+      "position_m": [
+        24.888,
+        -0.0,
+        10.573
+      ],
+      "ground_z_m": 9.613,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        24.915,
+        -0.004,
+        9.592
+      ],
+      "slope_deg": 1.1
+    },
+    {
+      "t": 27.48,
+      "section": "Stair flight 1",
+      "position_m": [
+        27.287,
+        -0.0,
+        12.048
+      ],
+      "ground_z_m": 11.088,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        27.557,
+        -0.0,
+        11.201
+      ],
+      "slope_deg": 1.34
+    },
+    {
+      "t": 27.89,
+      "section": "Stair flight 1",
+      "position_m": [
+        29.458,
+        -0.0,
+        12.984
+      ],
+      "ground_z_m": 12.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 002",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        29.458,
+        -0.019,
+        12.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 28.31,
+      "section": "Stair flight 2",
+      "position_m": [
+        31.794,
+        -0.0,
+        12.981
+      ],
+      "ground_z_m": 12.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 003",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        31.795,
+        0.047,
+        12.003
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 28.72,
+      "section": "Stair flight 2",
+      "position_m": [
+        34.09,
+        -0.0,
+        13.279
+      ],
+      "ground_z_m": 12.319,
+      "speed_mps": 5.39,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        34.328,
+        -0.002,
+        12.394
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "t": 29.12,
+      "section": "Stair flight 2",
+      "position_m": [
+        36.551,
+        -0.0,
+        14.77
+      ],
+      "ground_z_m": 13.81,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        36.628,
+        -0.043,
+        13.8
+      ],
+      "slope_deg": 1.26
+    },
+    {
+      "t": 29.55,
+      "section": "Stair flight 2",
+      "position_m": [
+        38.908,
+        -0.0,
+        16.172
+      ],
+      "ground_z_m": 15.212,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        38.943,
+        0.001,
+        15.193
+      ],
+      "slope_deg": 1.51
+    },
+    {
+      "t": 29.97,
+      "section": "Stair flight 2",
+      "position_m": [
+        41.316,
+        -0.0,
+        17.635
+      ],
+      "ground_z_m": 16.675,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        41.59,
+        0.001,
+        16.792
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "t": 30.38,
+      "section": "Stair flight 2",
+      "position_m": [
+        43.498,
+        -0.0,
+        18.973
+      ],
+      "ground_z_m": 18.013,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        43.572,
+        -0.007,
+        18.0
+      ],
+      "slope_deg": 1.35
+    },
+    {
+      "t": 30.78,
+      "section": "Stair flight 2",
+      "position_m": [
+        45.908,
+        -0.0,
+        20.402
+      ],
+      "ground_z_m": 19.442,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        46.206,
+        -0.002,
+        19.598
+      ],
+      "slope_deg": 1.03
+    },
+    {
+      "t": 31.19,
+      "section": "Stair flight 2",
+      "position_m": [
+        48.27,
+        -0.0,
+        20.979
+      ],
+      "ground_z_m": 20.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 006",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        48.27,
+        0.028,
+        19.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 31.61,
+      "section": "Stair flight 3",
+      "position_m": [
+        50.601,
+        -0.0,
+        20.974
+      ],
+      "ground_z_m": 20.014,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 005",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        50.601,
+        -0.059,
+        19.998
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 32.01,
+      "section": "Stair flight 3",
+      "position_m": [
+        52.998,
+        -0.0,
+        21.774
+      ],
+      "ground_z_m": 20.814,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        53.005,
+        0.001,
+        20.792
+      ],
+      "slope_deg": 1.11
+    },
+    {
+      "t": 32.42,
+      "section": "Stair flight 3",
+      "position_m": [
+        55.397,
+        -0.0,
+        23.284
+      ],
+      "ground_z_m": 22.324,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        55.633,
+        -0.029,
+        22.4
+      ],
+      "slope_deg": 1.19
+    },
+    {
+      "t": 32.84,
+      "section": "Stair flight 3",
+      "position_m": [
+        57.738,
+        -0.0,
+        24.712
+      ],
+      "ground_z_m": 23.752,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        57.933,
+        -0.002,
+        23.792
+      ],
+      "slope_deg": 1.47
+    },
+    {
+      "t": 33.25,
+      "section": "Stair flight 3",
+      "position_m": [
+        59.885,
+        -0.0,
+        25.978
+      ],
+      "ground_z_m": 25.018,
+      "speed_mps": 4.17,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        59.923,
+        0.018,
+        24.999
+      ],
+      "slope_deg": 1.11
+    },
+    {
+      "t": 33.66,
+      "section": "Stair flight 3",
+      "position_m": [
+        62.24,
+        -0.0,
+        27.382
+      ],
+      "ground_z_m": 26.422,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        62.236,
+        -0.001,
+        26.401
+      ],
+      "slope_deg": 1.38
+    },
+    {
+      "t": 34.06,
+      "section": "Stair flight 3",
+      "position_m": [
+        64.64,
+        -0.0,
+        28.886
+      ],
+      "ground_z_m": 27.926,
+      "speed_mps": 2.57,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        64.871,
+        0.019,
+        27.997
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 34.48,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        66.661,
+        -0.0,
+        28.979
+      ],
+      "ground_z_m": 28.019,
+      "speed_mps": 4.67,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        66.662,
+        0.029,
+        27.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 34.89,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        68.834,
+        -0.0,
+        28.98
+      ],
+      "ground_z_m": 28.02,
+      "speed_mps": 5.53,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        68.834,
+        -0.038,
+        28.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 35.3,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        71.241,
+        -0.0,
+        28.981
+      ],
+      "ground_z_m": 28.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        71.241,
+        0.036,
+        28.002
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 35.7,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        73.357,
+        -0.0,
+        28.976
+      ],
+      "ground_z_m": 28.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        73.451,
+        -0.001,
+        28.008
+      ],
+      "slope_deg": 0.13
+    },
+    {
+      "t": 36.11,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        75.786,
+        -0.0,
+        28.98
+      ],
+      "ground_z_m": 28.02,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        75.786,
+        -0.0,
+        27.999
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "t": 36.51,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        78.024,
+        -0.0,
+        28.987
+      ],
+      "ground_z_m": 28.027,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        78.023,
+        0.001,
+        28.006
+      ],
+      "slope_deg": 0.29
+    },
+    {
+      "t": 36.92,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        80.512,
+        -0.0,
+        28.99
+      ],
+      "ground_z_m": 28.03,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.38,
+      "impact_m": [
+        80.511,
+        -0.002,
+        28.007
+      ],
+      "slope_deg": 0.32
+    },
+    {
+      "t": 37.42,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        82.681,
+        -0.0,
+        28.974
+      ],
+      "ground_z_m": 28.014,
+      "speed_mps": 2.85,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        82.683,
+        0.0,
+        27.993
+      ],
+      "slope_deg": 0.28
+    },
+    {
+      "t": 37.83,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        85.643,
+        -0.0,
+        28.989
+      ],
+      "ground_z_m": 28.029,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 1.93,
+      "impact_m": [
+        85.644,
+        -0.001,
+        28.009
+      ],
+      "slope_deg": 0.12
+    },
+    {
+      "t": 38.25,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        88.183,
+        -0.0,
+        28.978
+      ],
+      "ground_z_m": 28.018,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        88.184,
+        -0.0,
+        27.998
+      ],
+      "slope_deg": 0.14
+    },
+    {
+      "t": 38.67,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        90.38,
+        -0.0,
+        28.989
+      ],
+      "ground_z_m": 28.029,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        90.379,
+        -0.0,
+        28.007
+      ],
+      "slope_deg": 0.13
+    },
+    {
+      "t": 39.09,
+      "section": "Deity portal and ritual hall",
+      "position_m": [
+        92.946,
+        -0.0,
+        28.969
+      ],
+      "ground_z_m": 28.009,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        92.946,
+        0.04,
+        27.991
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 39.5,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        94.244,
+        -0.0,
+        28.971
+      ],
+      "ground_z_m": 28.011,
+      "speed_mps": 1.92,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        94.244,
+        -0.0,
+        27.989
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "t": 39.92,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        92.066,
+        -0.0,
+        28.975
+      ],
+      "ground_z_m": 28.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Rain Court Paving 191",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        92.066,
+        -0.0,
+        27.993
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 40.33,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        89.667,
+        -0.0,
+        28.992
+      ],
+      "ground_z_m": 28.032,
+      "speed_mps": 3.58,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        89.664,
+        0.002,
+        28.011
+      ],
+      "slope_deg": 0.17
+    },
+    {
+      "t": 40.73,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        87.27,
+        -0.0,
+        28.996
+      ],
+      "ground_z_m": 28.036,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.36,
+      "impact_m": [
+        87.272,
+        -0.001,
+        28.012
+      ],
+      "slope_deg": 0.3
+    },
+    {
+      "t": 41.14,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        84.929,
+        -0.0,
+        28.991
+      ],
+      "ground_z_m": 28.031,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        84.929,
+        -0.0,
+        28.008
+      ],
+      "slope_deg": 0.05
+    },
+    {
+      "t": 41.55,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        82.611,
+        -0.0,
+        28.976
+      ],
+      "ground_z_m": 28.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        82.612,
+        0.0,
+        27.993
+      ],
+      "slope_deg": 0.28
+    },
+    {
+      "t": 41.95,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        80.243,
+        -0.0,
+        28.988
+      ],
+      "ground_z_m": 28.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        80.242,
+        -0.002,
+        28.007
+      ],
+      "slope_deg": 0.32
+    },
+    {
+      "t": 42.36,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        77.868,
+        -0.0,
+        28.987
+      ],
+      "ground_z_m": 28.027,
+      "speed_mps": 3.02,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        77.867,
+        0.001,
+        28.006
+      ],
+      "slope_deg": 0.29
+    },
+    {
+      "t": 42.76,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        75.58,
+        -0.0,
+        28.981
+      ],
+      "ground_z_m": 28.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Hall of the Open Sky",
+      "floor_dist_cm": 2.27,
+      "impact_m": [
+        75.58,
+        -0.0,
+        27.999
+      ],
+      "slope_deg": 0.03
+    },
+    {
+      "t": 43.19,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        73.033,
+        -0.0,
+        28.964
+      ],
+      "ground_z_m": 28.004,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        72.934,
+        -0.04,
+        28.0
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 43.59,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        70.962,
+        -0.0,
+        28.974
+      ],
+      "ground_z_m": 28.014,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        70.962,
+        0.046,
+        27.996
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 44.01,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        68.663,
+        -0.0,
+        28.981
+      ],
+      "ground_z_m": 28.021,
+      "speed_mps": 3.78,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 008",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        68.663,
+        -0.038,
+        28.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 44.42,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        66.519,
+        -0.0,
+        28.979
+      ],
+      "ground_z_m": 28.019,
+      "speed_mps": 4.48,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 009",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        66.519,
+        0.029,
+        27.998
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 44.84,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        64.219,
+        -0.0,
+        28.582
+      ],
+      "ground_z_m": 27.622,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        64.219,
+        -0.0,
+        27.601
+      ],
+      "slope_deg": 1.03
+    },
+    {
+      "t": 45.26,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        61.716,
+        -0.0,
+        27.126
+      ],
+      "ground_z_m": 26.166,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        61.9,
+        -0.0,
+        26.198
+      ],
+      "slope_deg": 1.05
+    },
+    {
+      "t": 45.67,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        59.415,
+        -0.0,
+        25.725
+      ],
+      "ground_z_m": 24.765,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        59.59,
+        0.001,
+        24.792
+      ],
+      "slope_deg": 1.07
+    },
+    {
+      "t": 46.09,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        56.878,
+        -0.0,
+        24.168
+      ],
+      "ground_z_m": 23.208,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        56.943,
+        0.001,
+        23.193
+      ],
+      "slope_deg": 1.51
+    },
+    {
+      "t": 46.5,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        54.711,
+        -0.0,
+        22.86
+      ],
+      "ground_z_m": 21.9,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        54.969,
+        0.001,
+        21.998
+      ],
+      "slope_deg": 0.52
+    },
+    {
+      "t": 46.91,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        52.286,
+        -0.0,
+        21.373
+      ],
+      "ground_z_m": 20.413,
+      "speed_mps": 2.95,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Sanctuary Ascent",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        52.328,
+        -0.002,
+        20.394
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "t": 47.33,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        50.047,
+        -0.0,
+        20.981
+      ],
+      "ground_z_m": 20.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 006",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        50.048,
+        0.045,
+        20.003
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 47.73,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        47.769,
+        -0.0,
+        20.984
+      ],
+      "ground_z_m": 20.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 005",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        47.769,
+        -0.02,
+        20.003
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 48.16,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        45.556,
+        -0.0,
+        20.182
+      ],
+      "ground_z_m": 19.222,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        45.56,
+        -0.001,
+        19.201
+      ],
+      "slope_deg": 1.34
+    },
+    {
+      "t": 48.58,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        43.088,
+        -0.0,
+        18.743
+      ],
+      "ground_z_m": 17.783,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        43.246,
+        -0.003,
+        17.801
+      ],
+      "slope_deg": 1.32
+    },
+    {
+      "t": 49.0,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        40.793,
+        -0.0,
+        17.349
+      ],
+      "ground_z_m": 16.389,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        40.912,
+        -0.039,
+        16.391
+      ],
+      "slope_deg": 1.42
+    },
+    {
+      "t": 49.42,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        38.269,
+        -0.0,
+        15.778
+      ],
+      "ground_z_m": 14.818,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        38.28,
+        0.05,
+        14.8
+      ],
+      "slope_deg": 0.49
+    },
+    {
+      "t": 49.83,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        36.102,
+        -0.0,
+        14.508
+      ],
+      "ground_z_m": 13.548,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        36.314,
+        -0.001,
+        13.601
+      ],
+      "slope_deg": 1.09
+    },
+    {
+      "t": 50.25,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        33.851,
+        -0.0,
+        13.144
+      ],
+      "ground_z_m": 12.184,
+      "speed_mps": 5.04,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Processional Stair",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        33.991,
+        0.001,
+        12.193
+      ],
+      "slope_deg": 0.92
+    },
+    {
+      "t": 50.67,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        31.348,
+        -0.0,
+        12.981
+      ],
+      "ground_z_m": 12.021,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 002",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        31.348,
+        -0.038,
+        12.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 51.09,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        29.162,
+        -0.0,
+        12.977
+      ],
+      "ground_z_m": 12.017,
+      "speed_mps": 2.99,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Grand Stair Paving 002",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        29.232,
+        -0.018,
+        12.003
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 51.51,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        26.78,
+        -0.0,
+        11.762
+      ],
+      "ground_z_m": 10.802,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        26.894,
+        -0.005,
+        10.801
+      ],
+      "slope_deg": 1.35
+    },
+    {
+      "t": 51.94,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        24.25,
+        -0.0,
+        10.172
+      ],
+      "ground_z_m": 9.212,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        24.258,
+        -0.024,
+        9.192
+      ],
+      "slope_deg": 1.42
+    },
+    {
+      "t": 52.36,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        21.949,
+        -0.0,
+        8.775
+      ],
+      "ground_z_m": 7.815,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        21.958,
+        -0.002,
+        7.793
+      ],
+      "slope_deg": 1.47
+    },
+    {
+      "t": 52.78,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        19.672,
+        -0.0,
+        7.428
+      ],
+      "ground_z_m": 6.468,
+      "speed_mps": 5.17,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        19.955,
+        -0.03,
+        6.6
+      ],
+      "slope_deg": 1.4
+    },
+    {
+      "t": 53.19,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        17.221,
+        -0.0,
+        5.963
+      ],
+      "ground_z_m": 5.003,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Steps of the Basin",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        17.315,
+        0.055,
+        5.0
+      ],
+      "slope_deg": 1.41
+    },
+    {
+      "t": 53.59,
+      "section": "Return through hall, down all stairs",
+      "position_m": [
+        15.05,
+        -0.0,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.0,
+      "impact_m": [
+        15.049,
+        0.043,
+        4.002
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 54.0,
+      "section": "Return across causeway",
+      "position_m": [
+        12.982,
+        0.194,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 3.98,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        12.982,
+        0.194,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 54.41,
+      "section": "Return across causeway",
+      "position_m": [
+        12.569,
+        2.498,
+        4.976
+      ],
+      "ground_z_m": 4.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 2.01,
+      "impact_m": [
+        12.569,
+        2.487,
+        3.996
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 54.81,
+      "section": "Return across causeway",
+      "position_m": [
+        12.332,
+        4.85,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 211",
+      "floor_dist_cm": 1.95,
+      "impact_m": [
+        12.332,
+        4.85,
+        3.991
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 55.23,
+      "section": "Return across causeway",
+      "position_m": [
+        12.074,
+        7.444,
+        4.985
+      ],
+      "ground_z_m": 4.025,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        12.074,
+        7.444,
+        4.004
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 55.64,
+      "section": "Return across causeway",
+      "position_m": [
+        11.835,
+        9.843,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.835,
+        9.843,
+        3.993
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 56.06,
+      "section": "Return across causeway",
+      "position_m": [
+        11.71,
+        12.047,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 212",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.71,
+        12.047,
+        4.002
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 56.48,
+      "section": "Return across causeway",
+      "position_m": [
+        11.71,
+        14.619,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.01,
+      "impact_m": [
+        11.71,
+        14.619,
+        4.004
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 56.92,
+      "section": "Return across causeway",
+      "position_m": [
+        11.714,
+        17.192,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.714,
+        17.192,
+        3.993
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 57.34,
+      "section": "Return across causeway",
+      "position_m": [
+        11.717,
+        19.828,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 213",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        11.717,
+        19.828,
+        4.002
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 57.75,
+      "section": "Return across causeway",
+      "position_m": [
+        11.529,
+        21.668,
+        4.984
+      ],
+      "ground_z_m": 4.024,
+      "speed_mps": 3.42,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.4,
+      "impact_m": [
+        11.529,
+        21.669,
+        4.0
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 58.16,
+      "section": "Return across causeway",
+      "position_m": [
+        9.222,
+        21.77,
+        4.975
+      ],
+      "ground_z_m": 4.015,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Basin Plaza Paving 205",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        9.223,
+        21.705,
+        4.001
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 58.56,
+      "section": "Return across causeway",
+      "position_m": [
+        7.028,
+        21.698,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        7.025,
+        21.717,
+        3.991
+      ],
+      "slope_deg": 3.16
+    },
+    {
+      "t": 58.97,
+      "section": "Return across causeway",
+      "position_m": [
+        4.54,
+        21.697,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        4.54,
+        21.697,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 59.39,
+      "section": "Return across causeway",
+      "position_m": [
+        2.023,
+        21.698,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        2.023,
+        21.698,
+        3.989
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 59.8,
+      "section": "Return across causeway",
+      "position_m": [
+        -0.311,
+        21.7,
+        4.971
+      ],
+      "ground_z_m": 4.011,
+      "speed_mps": 3.71,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 233",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -0.311,
+        21.7,
+        3.99
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 60.2,
+      "section": "Return across causeway",
+      "position_m": [
+        -2.656,
+        21.7,
+        4.982
+      ],
+      "ground_z_m": 4.022,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -2.657,
+        21.7,
+        4.001
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 60.61,
+      "section": "Return across causeway",
+      "position_m": [
+        -5.11,
+        21.7,
+        4.985
+      ],
+      "ground_z_m": 4.025,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay BridgeSpan 232",
+      "floor_dist_cm": 2.01,
+      "impact_m": [
+        -5.11,
+        21.7,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 61.03,
+      "section": "Return across causeway",
+      "position_m": [
+        -7.587,
+        21.7,
+        5.018
+      ],
+      "ground_z_m": 4.058,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -7.586,
+        21.688,
+        4.036
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 61.44,
+      "section": "Return across causeway",
+      "position_m": [
+        -9.933,
+        21.504,
+        5.012
+      ],
+      "ground_z_m": 4.052,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "East Quay Paving 234",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -9.933,
+        21.504,
+        4.03
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 61.86,
+      "section": "Return across causeway",
+      "position_m": [
+        -12.298,
+        21.142,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 5.48,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -12.298,
+        21.142,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 62.26,
+      "section": "Return across causeway",
+      "position_m": [
+        -14.744,
+        20.786,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -14.744,
+        20.786,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 62.69,
+      "section": "Return across causeway",
+      "position_m": [
+        -17.177,
+        20.437,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 231",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        -17.168,
+        20.438,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 63.11,
+      "section": "Return across causeway",
+      "position_m": [
+        -19.705,
+        20.074,
+        4.972
+      ],
+      "ground_z_m": 4.012,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        -19.705,
+        20.072,
+        3.991
+      ],
+      "slope_deg": 0.25
+    },
+    {
+      "t": 63.53,
+      "section": "Return across causeway",
+      "position_m": [
+        -21.93,
+        19.753,
+        4.979
+      ],
+      "ground_z_m": 4.019,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -21.93,
+        19.753,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 63.94,
+      "section": "Return across causeway",
+      "position_m": [
+        -24.386,
+        19.4,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -24.386,
+        19.4,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 64.36,
+      "section": "Return across causeway",
+      "position_m": [
+        -26.858,
+        19.044,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 230",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -26.858,
+        19.044,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 64.76,
+      "section": "Return across causeway",
+      "position_m": [
+        -29.092,
+        18.723,
+        4.973
+      ],
+      "ground_z_m": 4.013,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -29.097,
+        18.741,
+        3.993
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 65.17,
+      "section": "Return across causeway",
+      "position_m": [
+        -31.544,
+        18.369,
+        4.978
+      ],
+      "ground_z_m": 4.018,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -31.551,
+        18.368,
+        3.997
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 65.58,
+      "section": "Return across causeway",
+      "position_m": [
+        -33.981,
+        18.018,
+        4.986
+      ],
+      "ground_z_m": 4.026,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -33.981,
+        18.018,
+        4.005
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 65.98,
+      "section": "Return across causeway",
+      "position_m": [
+        -36.107,
+        17.712,
+        4.988
+      ],
+      "ground_z_m": 4.028,
+      "speed_mps": 5.01,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 229",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -36.107,
+        17.712,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 66.41,
+      "section": "Return across causeway",
+      "position_m": [
+        -38.62,
+        17.351,
+        4.971
+      ],
+      "ground_z_m": 4.011,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -38.625,
+        17.369,
+        3.99
+      ],
+      "slope_deg": 3.17
+    },
+    {
+      "t": 66.81,
+      "section": "Return across causeway",
+      "position_m": [
+        -41.089,
+        16.995,
+        4.982
+      ],
+      "ground_z_m": 4.022,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -41.089,
+        16.995,
+        4.001
+      ],
+      "slope_deg": 0.02
+    },
+    {
+      "t": 67.22,
+      "section": "Return across causeway",
+      "position_m": [
+        -43.424,
+        16.659,
+        4.973
+      ],
+      "ground_z_m": 4.013,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -43.424,
+        16.659,
+        3.992
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 67.66,
+      "section": "Return across causeway",
+      "position_m": [
+        -45.783,
+        16.319,
+        4.978
+      ],
+      "ground_z_m": 4.018,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Pilgrim Causeway BridgeSpan 228",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -45.866,
+        16.306,
+        4.007
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 68.06,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -48.274,
+        16.1,
+        4.97
+      ],
+      "ground_z_m": 4.01,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.29,
+      "impact_m": [
+        -48.272,
+        16.098,
+        3.987
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 68.47,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -50.464,
+        16.925,
+        4.995
+      ],
+      "ground_z_m": 4.035,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -50.464,
+        16.925,
+        4.013
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 68.89,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -52.717,
+        17.88,
+        4.995
+      ],
+      "ground_z_m": 4.035,
+      "speed_mps": 2.58,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Approach Paving 235",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -52.717,
+        17.88,
+        4.014
+      ],
+      "slope_deg": 0.01
+    },
+    {
+      "t": 69.31,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -54.689,
+        19.057,
+        5.076
+      ],
+      "ground_z_m": 4.116,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -54.713,
+        19.067,
+        4.096
+      ],
+      "slope_deg": 4.35
+    },
+    {
+      "t": 69.73,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -56.81,
+        20.41,
+        5.272
+      ],
+      "ground_z_m": 4.312,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        -56.836,
+        20.422,
+        4.293
+      ],
+      "slope_deg": 4.79
+    },
+    {
+      "t": 70.14,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -58.876,
+        21.729,
+        5.471
+      ],
+      "ground_z_m": 4.511,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.97,
+      "impact_m": [
+        -58.901,
+        21.743,
+        4.492
+      ],
+      "slope_deg": 4.95
+    },
+    {
+      "t": 70.55,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -60.95,
+        23.053,
+        5.68
+      ],
+      "ground_z_m": 4.72,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.03,
+      "impact_m": [
+        -60.976,
+        23.065,
+        4.701
+      ],
+      "slope_deg": 4.79
+    },
+    {
+      "t": 70.97,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -63.063,
+        24.402,
+        5.891
+      ],
+      "ground_z_m": 4.931,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.03,
+      "impact_m": [
+        -63.089,
+        24.416,
+        4.912
+      ],
+      "slope_deg": 4.96
+    },
+    {
+      "t": 71.38,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -65.069,
+        24.973,
+        6.081
+      ],
+      "ground_z_m": 5.121,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -65.098,
+        24.969,
+        5.101
+      ],
+      "slope_deg": 5.07
+    },
+    {
+      "t": 71.78,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -67.45,
+        24.775,
+        6.292
+      ],
+      "ground_z_m": 5.332,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -67.479,
+        24.773,
+        5.312
+      ],
+      "slope_deg": 5.03
+    },
+    {
+      "t": 72.19,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -69.916,
+        24.552,
+        6.497
+      ],
+      "ground_z_m": 5.537,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        -69.944,
+        24.552,
+        5.517
+      ],
+      "slope_deg": 4.68
+    },
+    {
+      "t": 72.61,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -72.439,
+        24.323,
+        6.695
+      ],
+      "ground_z_m": 5.735,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        -72.464,
+        24.321,
+        5.715
+      ],
+      "slope_deg": 4.38
+    },
+    {
+      "t": 73.03,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -74.97,
+        24.093,
+        6.892
+      ],
+      "ground_z_m": 5.932,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.97,
+      "impact_m": [
+        -74.998,
+        24.093,
+        5.913
+      ],
+      "slope_deg": 4.69
+    },
+    {
+      "t": 73.45,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -76.772,
+        23.086,
+        6.978
+      ],
+      "ground_z_m": 6.018,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.34,
+      "impact_m": [
+        -76.772,
+        23.086,
+        5.995
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 73.88,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -78.258,
+        21.059,
+        6.984
+      ],
+      "ground_z_m": 6.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.03,
+      "impact_m": [
+        -78.26,
+        21.059,
+        6.004
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 74.3,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -79.71,
+        19.052,
+        6.984
+      ],
+      "ground_z_m": 6.024,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.33,
+      "impact_m": [
+        -79.708,
+        19.054,
+        6.001
+      ],
+      "slope_deg": 0.48
+    },
+    {
+      "t": 74.73,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -81.237,
+        16.942,
+        6.963
+      ],
+      "ground_z_m": 6.003,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.38,
+      "impact_m": [
+        -81.235,
+        16.944,
+        5.979
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 75.14,
+      "section": "Return to jungle PlayerStart",
+      "position_m": [
+        -82.672,
+        14.959,
+        6.956
+      ],
+      "ground_z_m": 5.996,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.02,
+      "impact_m": [
+        -82.67,
+        14.957,
+        5.976
+      ],
+      "slope_deg": 0.48
+    }
+  ],
+  "failure": null,
+  "detours": [],
+  "airborne_samples": 0,
+  "max_continuous_air_seconds": 0.0,
+  "wall_time_cadence": {
+    "scope": "Offscreen PIE engine ticker wall clock while walking. Includes editor and driver overhead. This measures main-loop cadence, not presentation or GPU completion.",
+    "frames": 2753,
+    "mean_fps": 38.34,
+    "median_ms": 31.0,
+    "p95_ms": 32.0,
+    "p99_ms": 47.0,
+    "max_ms": 234.0
+  },
+  "native_csv_basename": "Astra_main_20261119_020018"
+}

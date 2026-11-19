@@ -1,0 +1,2917 @@
+{
+  "final_summary": {
+    "directional_routes": 28,
+    "passed_routes": 28,
+    "legs_reached": 70,
+    "walked_metres": 1282.41,
+    "movement_frames": 15119,
+    "walkable_floor_frames": 15100,
+    "falling_frames": 19,
+    "airborne_segments": [
+      {
+        "route": "Cloister_Out",
+        "leg": 4,
+        "frames": 19,
+        "seconds_at_60_hz": 0.317,
+        "floor_actor_at_arrival": "Landscape_0",
+        "arrived": true
+      }
+    ],
+    "airborne_observation": "The outward Cloister Court to Cloister Terrace leg includes a short unsupported movement over the natural ground. The Ranger landed on the Landscape and reached the next point. The driver issued no jump commands.",
+    "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+    "module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d"
+  },
+  "map": "/Game/AstraTemple/Maps/L_CanopyDeathmatch",
+  "pawn": "/Game/TempleTDM/Rules/BP_CanopyRanger",
+  "capsule_cm": {
+    "radius": 34,
+    "half_height": 96
+  },
+  "mode": "Dedicated standalone Unreal world, fixed 60 Hz, frozen project Content. Each direction starts on a physical capsule sweep, then receives uninterrupted navigation or CharacterMovement input on the named route. Runs use no teleport after spawning and no jump commands.",
+  "arrival_requires_walkable_ground": true,
+  "end_tolerance_cm": {
+    "ford_horizontal": 29,
+    "ford_vertical": 41,
+    "other_horizontal": 39,
+    "other_vertical": 73
+  },
+  "cases": {
+    "original": {
+      "arena_sha256": "75f33b05950a06098037b4be0573f1841381d66b019297ce8d725584cbc833d3",
+      "runtime_module_sha256": "c716d8b335594e456a9d0692281a67060adc10e7edd4f5c76af3d0a419f1efa9",
+      "routes": {
+        "HeronEdge_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.79,
+          "seconds": 3.42,
+          "movement_frames": 205,
+          "walkable_floor_frames": 205,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=463.18, Y=3965.75, Z=312.47)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "Valley of the Two Springs",
+          "blocking_normal": "V(X=-0.75, Y=0.03, Z=0.67)"
+        },
+        "HeronEdge_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.29,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.07, Y=3953.44, Z=296.57)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=177.76)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 1.73,
+          "seconds": 3.62,
+          "movement_frames": 217,
+          "walkable_floor_frames": 217,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=459.88, Y=3966.35, Z=308.74)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3995.00, Z=461.17)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "Valley of the Two Springs",
+          "blocking_normal": "V(X=-0.75, Y=0.03, Z=0.67)"
+        },
+        "FordNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.78,
+          "seconds": 1.48,
+          "movement_frames": 89,
+          "walkable_floor_frames": 89,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=370.81, Y=4008.40, Z=284.91)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=4025.00, Z=183.85)",
+          "terminal_floor": "InstancedFoliageActor_0"
+        },
+        "FordSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.18,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=965.03, Y=3904.22, Z=554.66)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3905.00, Z=455.90)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.09,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=374.97, Y=3885.78, Z=243.95)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=3885.00, Z=111.63)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordOuterNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 2.94,
+          "seconds": 3.83,
+          "movement_frames": 230,
+          "walkable_floor_frames": 230,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=463.17, Y=3965.19, Z=312.48)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=4105.00, Z=466.99)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "Valley of the Two Springs",
+          "blocking_normal": "V(X=-0.75, Y=0.03, Z=0.67)"
+        },
+        "FordOuterNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 9.76,
+          "seconds": 2.13,
+          "movement_frames": 128,
+          "walkable_floor_frames": 112,
+          "falling_frames": 16,
+          "terminal_capsule_centre_cm": "V(X=338.91, Y=4080.72, Z=287.79)",
+          "terminal_physical_goal_cm": "V(X=324.94, Y=4098.58, Z=161.43)",
+          "terminal_floor": "InstancedFoliageActor_0"
+        },
+        "FordOuterSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.07,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=963.33, Y=3820.00, Z=549.76)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3820.00, Z=450.92)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordOuterSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "move_ended",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 7.85,
+          "seconds": 1.42,
+          "movement_frames": 85,
+          "walkable_floor_frames": 85,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=315.40, Y=3837.70, Z=192.05)",
+          "terminal_physical_goal_cm": "V(X=304.00, Y=3838.00, Z=47.55)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "none",
+          "blocking_normal": "V(0)"
+        },
+        "FordMargin_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 2.01,
+          "seconds": 3.68,
+          "movement_frames": 221,
+          "walkable_floor_frames": 221,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=463.66, Y=3969.24, Z=312.84)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "Valley of the Two Springs",
+          "blocking_normal": "V(X=-0.75, Y=0.03, Z=0.67)"
+        },
+        "FordMargin_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.78,
+          "seconds": 1.73,
+          "movement_frames": 104,
+          "walkable_floor_frames": 88,
+          "falling_frames": 16,
+          "terminal_capsule_centre_cm": "V(X=333.65, Y=3961.91, Z=272.60)",
+          "terminal_physical_goal_cm": "V(X=305.74, Y=3964.18, Z=151.09)",
+          "terminal_floor": "InstancedFoliageActor_0"
+        },
+        "FordCentre_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=100.00, Y=3965.00, Z=-73.64)",
+              "goal=V(X=990.00, Y=3965.00, Z=459.42)",
+              "navGoal=V(X=990.00, Y=3965.00, Z=470.62)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordCentre_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "goal_nav_projection_failed",
+              "V(X=100.00, Y=3965.00, Z=-81.32)"
+            ]
+          ]
+        },
+        "FootProbe_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.64,
+          "seconds": 1.88,
+          "movement_frames": 113,
+          "walkable_floor_frames": 113,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.92, Y=3961.65, Z=558.01)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbe_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 11.57,
+          "seconds": 2.07,
+          "movement_frames": 124,
+          "walkable_floor_frames": 73,
+          "falling_frames": 51,
+          "terminal_capsule_centre_cm": "V(X=71.76, Y=3965.00, Z=6.14)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-81.32)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeHeron_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.53,
+          "seconds": 3.43,
+          "movement_frames": 206,
+          "walkable_floor_frames": 206,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=460.54, Y=3971.91, Z=309.23)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "Valley of the Two Springs",
+          "blocking_normal": "V(X=-0.75, Y=0.03, Z=0.67)"
+        },
+        "FootProbeHeron_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.3,
+          "seconds": 1.73,
+          "movement_frames": 104,
+          "walkable_floor_frames": 79,
+          "falling_frames": 25,
+          "terminal_capsule_centre_cm": "V(X=398.98, Y=3970.81, Z=281.03)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=177.76)",
+          "terminal_floor": "InstancedFoliageActor_0"
+        },
+        "FootProbeMidbank_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.53,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.33, Y=3965.00, Z=558.36)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeMidbank_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.47,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=578.67, Y=3965.00, Z=418.00)",
+          "terminal_physical_goal_cm": "V(X=550.00, Y=3965.00, Z=291.24)",
+          "terminal_floor": "Landscape_0"
+        },
+        "TempleFlights_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.41,
+          "seconds": 11.12,
+          "movement_frames": 667,
+          "walkable_floor_frames": 667,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=6643.92, Y=7.50, Z=2898.14)",
+          "terminal_physical_goal_cm": "V(X=6680.00, Z=2796.43)",
+          "terminal_floor": "StaticMeshActor_361"
+        },
+        "TempleFlights_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.38,
+          "seconds": 11.13,
+          "movement_frames": 668,
+          "walkable_floor_frames": 668,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1224.93, Y=372.93, Z=496.99)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Causeway_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.73,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1138.00, Y=2649.92, Z=498.46)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Causeway_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.76,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8271.13, Y=1223.47, Z=697.79)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Gallery_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.77,
+          "seconds": 26.73,
+          "movement_frames": 1604,
+          "walkable_floor_frames": 1604,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1158.08, Y=2717.61, Z=497.16)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Gallery_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.63,
+          "seconds": 26.71,
+          "movement_frames": 1602,
+          "walkable_floor_frames": 1602,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8280.70, Y=1228.38, Z=697.65)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Cloister_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.46,
+          "seconds": 39.68,
+          "movement_frames": 2381,
+          "walkable_floor_frames": 2381,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1200.02, Y=367.19, Z=497.35)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Cloister_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.26,
+          "seconds": 39.87,
+          "movement_frames": 2392,
+          "walkable_floor_frames": 2392,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8298.70, Y=1165.98, Z=700.83)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        }
+      }
+    },
+    "first_steps": {
+      "arena_sha256": "7acb558cea300942ae2c22f0614fb730f1bc49fd024ae842fae586a46ca282d9",
+      "runtime_module_sha256": "c716d8b335594e456a9d0692281a67060adc10e7edd4f5c76af3d0a419f1efa9",
+      "routes": {
+        "HeronEdge_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=422.00, Y=3970.00, Z=230.68)",
+              "goal=V(X=990.00, Y=3950.00, Z=458.54)",
+              "navGoal=V(X=990.00, Y=3950.00, Z=459.84)",
+              "partial=0"
+            ]
+          ]
+        },
+        "HeronEdge_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3950.00, Z=460.76)",
+              "goal=V(X=422.00, Y=3970.00, Z=208.22)",
+              "navGoal=V(X=422.00, Y=3970.00, Z=201.32)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=350.00, Y=4025.00, Z=186.95)",
+              "goal=V(X=990.00, Y=3995.00, Z=461.17)",
+              "navGoal=V(X=990.00, Y=3995.00, Z=472.44)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3995.00, Z=463.39)",
+              "goal=V(X=350.00, Y=4025.00, Z=183.85)",
+              "navGoal=V(X=350.00, Y=4025.00, Z=159.63)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=350.00, Y=3885.00, Z=168.59)",
+              "goal=V(X=990.00, Y=3905.00, Z=455.90)",
+              "navGoal=V(X=990.00, Y=3905.00, Z=457.20)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3905.00, Z=458.12)",
+              "goal=V(X=350.00, Y=3885.00, Z=151.41)",
+              "navGoal=V(X=350.00, Y=3885.00, Z=155.60)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordOuterNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=280.00, Y=4105.00, Z=165.81)",
+              "goal=V(X=990.00, Y=4105.00, Z=466.99)",
+              "navGoal=V(X=990.00, Y=4105.00, Z=479.12)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordOuterNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=4105.00, Z=469.20)",
+              "goal=V(X=280.00, Y=4105.00, Z=161.43)",
+              "navGoal=V(X=280.00, Y=4104.00, Z=119.11)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordOuterSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=280.00, Y=3820.00, Z=115.01)",
+              "goal=V(X=990.00, Y=3820.00, Z=450.92)",
+              "navGoal=V(X=990.00, Y=3820.00, Z=452.23)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordOuterSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3820.00, Z=453.14)",
+              "goal=V(X=280.00, Y=3820.00, Z=99.03)",
+              "navGoal=V(X=280.00, Y=3820.00, Z=117.37)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordMargin_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=300.00, Y=3965.00, Z=160.27)",
+              "goal=V(X=990.00, Y=3965.00, Z=459.42)",
+              "navGoal=V(X=990.00, Y=3965.00, Z=470.62)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordMargin_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3965.00, Z=461.63)",
+              "goal=V(X=300.00, Y=3965.00, Z=151.09)",
+              "navGoal=V(X=300.00, Y=3965.00, Z=130.68)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordCentre_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=100.00, Y=3965.00, Z=-73.64)",
+              "goal=V(X=990.00, Y=3965.00, Z=459.42)",
+              "navGoal=V(X=990.00, Y=3965.00, Z=470.62)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordCentre_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "goal_nav_projection_failed",
+              "V(X=100.00, Y=3965.00, Z=-81.32)"
+            ]
+          ]
+        },
+        "FootProbe_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.17,
+          "seconds": 3.27,
+          "movement_frames": 196,
+          "walkable_floor_frames": 196,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=114.83, Y=3965.00, Z=31.17)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "Ford Path Steps 1",
+          "blocking_normal": "V(X=-1.00, Y=0.00, Z=-0.02)"
+        },
+        "FootProbe_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 13.91,
+          "seconds": 2.53,
+          "movement_frames": 152,
+          "walkable_floor_frames": 107,
+          "falling_frames": 45,
+          "terminal_capsule_centre_cm": "V(X=79.36, Y=3965.00, Z=10.51)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-81.32)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeHeron_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.48,
+          "seconds": 6.15,
+          "movement_frames": 369,
+          "walkable_floor_frames": 359,
+          "falling_frames": 10,
+          "terminal_capsule_centre_cm": "V(X=444.26, Y=3950.17, Z=334.75)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "StaticMeshActor_47",
+          "blocking_object": "Ford Path Steps 2",
+          "blocking_normal": "V(X=-0.88, Y=0.00, Z=0.47)"
+        },
+        "FootProbeHeron_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.4,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=334.74)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=208.22)",
+          "terminal_floor": "StaticMeshActor_47"
+        },
+        "FootProbeMidbank_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.01,
+          "seconds": 3.27,
+          "movement_frames": 196,
+          "walkable_floor_frames": 196,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=550.30, Y=3964.14, Z=420.20)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "StaticMeshActor_49",
+          "blocking_object": "Ford Path Steps 3",
+          "blocking_normal": "V(X=-0.86, Y=-0.00, Z=0.51)"
+        },
+        "FootProbeMidbank_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.58,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=578.67, Y=3965.00, Z=441.67)",
+          "terminal_physical_goal_cm": "V(X=550.00, Y=3965.00, Z=317.41)",
+          "terminal_floor": "StaticMeshActor_49"
+        },
+        "TempleFlights_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.41,
+          "seconds": 11.12,
+          "movement_frames": 667,
+          "walkable_floor_frames": 667,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=6643.92, Y=7.50, Z=2898.14)",
+          "terminal_physical_goal_cm": "V(X=6680.00, Z=2796.43)",
+          "terminal_floor": "StaticMeshActor_361"
+        },
+        "TempleFlights_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.38,
+          "seconds": 11.13,
+          "movement_frames": 668,
+          "walkable_floor_frames": 668,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1224.93, Y=372.93, Z=496.99)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Causeway_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.73,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1138.00, Y=2649.92, Z=498.46)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Causeway_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.76,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8271.13, Y=1223.47, Z=697.79)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Gallery_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.77,
+          "seconds": 26.73,
+          "movement_frames": 1604,
+          "walkable_floor_frames": 1604,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1158.08, Y=2717.61, Z=497.16)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Gallery_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.63,
+          "seconds": 26.71,
+          "movement_frames": 1602,
+          "walkable_floor_frames": 1602,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8280.70, Y=1228.38, Z=697.65)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Cloister_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.46,
+          "seconds": 39.68,
+          "movement_frames": 2381,
+          "walkable_floor_frames": 2381,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1200.02, Y=367.19, Z=497.35)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Cloister_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.26,
+          "seconds": 39.87,
+          "movement_frames": 2392,
+          "walkable_floor_frames": 2392,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8298.70, Y=1165.98, Z=700.83)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        }
+      }
+    },
+    "clear_treads": {
+      "arena_sha256": "a3baaca43e057b8148417859fdf556630fbfab11cfb4470c271fd353785191c9",
+      "runtime_module_sha256": "7fa14e3701babe197c052fdb69fb41ab67ebebab58f5277795168a82b5b17d07",
+      "routes": {
+        "HeronEdge_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=422.00, Y=3970.00, Z=230.68)",
+              "goal=V(X=990.00, Y=3950.00, Z=458.54)",
+              "navGoal=V(X=990.00, Y=3950.00, Z=459.84)",
+              "partial=0"
+            ]
+          ]
+        },
+        "HeronEdge_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3950.00, Z=460.76)",
+              "goal=V(X=422.00, Y=3970.00, Z=208.22)",
+              "navGoal=V(X=422.00, Y=3970.00, Z=201.32)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=350.00, Y=4025.00, Z=169.59)",
+              "goal=V(X=990.00, Y=3995.00, Z=461.17)",
+              "navGoal=V(X=990.00, Y=3995.00, Z=472.44)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3995.00, Z=463.39)",
+              "goal=V(X=350.00, Y=4025.00, Z=151.41)",
+              "navGoal=V(X=350.00, Y=4025.00, Z=159.63)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=350.00, Y=3885.00, Z=168.59)",
+              "goal=V(X=990.00, Y=3905.00, Z=455.90)",
+              "navGoal=V(X=990.00, Y=3905.00, Z=457.20)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3905.00, Z=458.12)",
+              "goal=V(X=350.00, Y=3885.00, Z=151.41)",
+              "navGoal=V(X=350.00, Y=3885.00, Z=155.60)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordMargin_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=300.00, Y=3965.00, Z=124.81)",
+              "goal=V(X=990.00, Y=3965.00, Z=459.42)",
+              "navGoal=V(X=990.00, Y=3965.00, Z=470.62)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordMargin_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=990.00, Y=3965.00, Z=461.63)",
+              "goal=V(X=300.00, Y=3965.00, Z=96.83)",
+              "navGoal=V(X=300.00, Y=3965.00, Z=130.68)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordCentre_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "move_to_failed",
+              "fromFeet=V(X=100.00, Y=3965.00, Z=-73.64)",
+              "goal=V(X=990.00, Y=3965.00, Z=459.42)",
+              "navGoal=V(X=990.00, Y=3965.00, Z=470.62)",
+              "partial=0"
+            ]
+          ]
+        },
+        "FordCentre_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "path_failed",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0,
+          "seconds": 0,
+          "movement_frames": 0,
+          "walkable_floor_frames": 0,
+          "falling_frames": 0,
+          "diagnostics": [
+            [
+              "goal_nav_projection_failed",
+              "V(X=100.00, Y=3965.00, Z=-81.32)"
+            ]
+          ]
+        },
+        "FootProbe_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.17,
+          "seconds": 3.25,
+          "movement_frames": 195,
+          "walkable_floor_frames": 195,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=114.83, Y=3965.00, Z=31.17)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0",
+          "blocking_object": "Ford Path Steps 1",
+          "blocking_normal": "V(X=-1.00, Y=0.00, Z=-0.02)"
+        },
+        "FootProbe_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 13.72,
+          "seconds": 2.55,
+          "movement_frames": 153,
+          "walkable_floor_frames": 120,
+          "falling_frames": 33,
+          "terminal_capsule_centre_cm": "V(X=73.29, Y=3965.00, Z=6.94)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-81.32)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeHeron_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.48,
+          "seconds": 6.15,
+          "movement_frames": 369,
+          "walkable_floor_frames": 359,
+          "falling_frames": 10,
+          "terminal_capsule_centre_cm": "V(X=444.26, Y=3950.17, Z=334.75)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "StaticMeshActor_47",
+          "blocking_object": "Ford Path Steps 2",
+          "blocking_normal": "V(X=-0.88, Y=0.00, Z=0.47)"
+        },
+        "FootProbeHeron_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.4,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=334.74)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=208.22)",
+          "terminal_floor": "StaticMeshActor_47"
+        },
+        "FootProbeMidbank_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.01,
+          "seconds": 3.27,
+          "movement_frames": 196,
+          "walkable_floor_frames": 196,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=550.30, Y=3964.14, Z=420.20)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "StaticMeshActor_49",
+          "blocking_object": "Ford Path Steps 3",
+          "blocking_normal": "V(X=-0.86, Y=-0.00, Z=0.51)"
+        },
+        "FootProbeMidbank_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.58,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=578.67, Y=3965.00, Z=441.67)",
+          "terminal_physical_goal_cm": "V(X=550.00, Y=3965.00, Z=317.41)",
+          "terminal_floor": "StaticMeshActor_49"
+        },
+        "TempleFlights_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.41,
+          "seconds": 11.12,
+          "movement_frames": 667,
+          "walkable_floor_frames": 667,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=6643.92, Y=7.50, Z=2898.14)",
+          "terminal_physical_goal_cm": "V(X=6680.00, Z=2796.43)",
+          "terminal_floor": "StaticMeshActor_361"
+        },
+        "TempleFlights_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.38,
+          "seconds": 11.13,
+          "movement_frames": 668,
+          "walkable_floor_frames": 668,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1224.93, Y=372.93, Z=496.99)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Causeway_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.73,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1138.00, Y=2649.92, Z=498.46)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Causeway_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.76,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8271.13, Y=1223.47, Z=697.79)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Gallery_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.77,
+          "seconds": 26.73,
+          "movement_frames": 1604,
+          "walkable_floor_frames": 1604,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1158.08, Y=2717.61, Z=497.16)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Gallery_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.63,
+          "seconds": 26.71,
+          "movement_frames": 1602,
+          "walkable_floor_frames": 1602,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8280.70, Y=1228.38, Z=697.65)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Cloister_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.46,
+          "seconds": 39.68,
+          "movement_frames": 2381,
+          "walkable_floor_frames": 2381,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1200.02, Y=367.19, Z=497.35)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Cloister_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.26,
+          "seconds": 39.87,
+          "movement_frames": 2392,
+          "walkable_floor_frames": 2392,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8298.70, Y=1165.98, Z=700.83)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        }
+      }
+    },
+    "continuous_surface_before_collision_profile_reload": {
+      "arena_sha256": "8816cc8e496e97dc942b3d8b15c73eb65c6842ac008c846da5fa7b08f9c253b5",
+      "runtime_module_sha256": "7fa14e3701babe197c052fdb69fb41ab67ebebab58f5277795168a82b5b17d07",
+      "routes": {
+        "HeronEdge_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "move_ended",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.78,
+          "seconds": 5.02,
+          "movement_frames": 301,
+          "walkable_floor_frames": 301,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=472.19, Y=3951.89, Z=348.55)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "StaticMeshActor_47",
+          "blocking_object": "Ford Path Steps 2",
+          "blocking_normal": "V(X=-0.84, Y=0.00, Z=0.54)"
+        },
+        "HeronEdge_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.43,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=337.41)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=202.36)",
+          "terminal_floor": "StaticMeshActor_47"
+        },
+        "FordNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.24,
+          "seconds": 3.27,
+          "movement_frames": 196,
+          "walkable_floor_frames": 196,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=361.12, Y=4012.98, Z=271.64)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3995.00, Z=461.17)",
+          "terminal_floor": "StaticMeshActor_47",
+          "blocking_object": "Ford Path Steps 2",
+          "blocking_normal": "V(X=-0.84, Y=0.00, Z=0.54)"
+        },
+        "FordNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.78,
+          "seconds": 1.45,
+          "movement_frames": 87,
+          "walkable_floor_frames": 46,
+          "falling_frames": 41,
+          "terminal_capsule_centre_cm": "V(X=349.87, Y=4025.01, Z=270.82)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=4025.00, Z=152.54)",
+          "terminal_floor": "StaticMeshActor_47"
+        },
+        "FordSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "move_ended",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.28,
+          "seconds": 5.02,
+          "movement_frames": 301,
+          "walkable_floor_frames": 301,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=361.68, Y=3901.78, Z=271.68)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3905.00, Z=455.90)",
+          "terminal_floor": "StaticMeshActor_47",
+          "blocking_object": "Ford Path Steps 2",
+          "blocking_normal": "V(X=-0.84, Y=-0.00, Z=0.54)"
+        },
+        "FordSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.44,
+          "seconds": 1.32,
+          "movement_frames": 79,
+          "walkable_floor_frames": 79,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=366.47, Y=3885.51, Z=281.39)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=3885.00, Z=152.54)",
+          "terminal_floor": "StaticMeshActor_47"
+        },
+        "FordMargin_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.0,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=965.34, Y=3965.00, Z=558.21)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordMargin_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.01,
+          "seconds": 1.4,
+          "movement_frames": 84,
+          "walkable_floor_frames": 84,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=323.67, Y=3965.00, Z=246.16)",
+          "terminal_physical_goal_cm": "V(X=300.00, Y=3965.00, Z=119.01)",
+          "terminal_floor": "StaticMeshActor_45"
+        },
+        "FordCentre_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.18,
+          "seconds": 3.27,
+          "movement_frames": 196,
+          "walkable_floor_frames": 196,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=117.37, Y=3965.00, Z=100.95)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "StaticMeshActor_53",
+          "blocking_object": "Ford Path Steps 1",
+          "blocking_normal": "V(X=-0.85, Y=0.00, Z=0.53)"
+        },
+        "FordCentre_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.64,
+          "seconds": 1.8,
+          "movement_frames": 108,
+          "walkable_floor_frames": 108,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=119.67, Y=3965.00, Z=106.31)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-21.20)",
+          "terminal_floor": "StaticMeshActor_53"
+        },
+        "FootProbe_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.18,
+          "seconds": 3.27,
+          "movement_frames": 196,
+          "walkable_floor_frames": 196,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=117.37, Y=3965.00, Z=100.95)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "StaticMeshActor_53",
+          "blocking_object": "Ford Path Steps 1",
+          "blocking_normal": "V(X=-0.85, Y=0.00, Z=0.53)"
+        },
+        "FootProbe_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.64,
+          "seconds": 1.8,
+          "movement_frames": 108,
+          "walkable_floor_frames": 108,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=119.67, Y=3965.00, Z=106.31)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-21.20)",
+          "terminal_floor": "StaticMeshActor_53"
+        },
+        "FootProbeHeron_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 0.79,
+          "seconds": 4.78,
+          "movement_frames": 287,
+          "walkable_floor_frames": 287,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=472.19, Y=3950.43, Z=348.55)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "StaticMeshActor_47",
+          "blocking_object": "Ford Path Steps 2",
+          "blocking_normal": "V(X=-0.84, Y=0.00, Z=0.54)"
+        },
+        "FootProbeHeron_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.43,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=337.41)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=202.36)",
+          "terminal_floor": "StaticMeshActor_47"
+        },
+        "FootProbeMidbank_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.78,
+          "seconds": 0.93,
+          "movement_frames": 56,
+          "walkable_floor_frames": 56,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.03, Y=3965.00, Z=558.31)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeMidbank_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.75,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=578.67, Y=3965.00, Z=424.16)",
+          "terminal_physical_goal_cm": "V(X=550.00, Y=3965.00, Z=301.02)",
+          "terminal_floor": "StaticMeshActor_49"
+        },
+        "TempleFlights_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.41,
+          "seconds": 11.12,
+          "movement_frames": 667,
+          "walkable_floor_frames": 667,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=6643.92, Y=7.50, Z=2898.14)",
+          "terminal_physical_goal_cm": "V(X=6680.00, Z=2796.43)",
+          "terminal_floor": "StaticMeshActor_361"
+        },
+        "TempleFlights_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.38,
+          "seconds": 11.13,
+          "movement_frames": 668,
+          "walkable_floor_frames": 668,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1224.93, Y=372.93, Z=496.99)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Causeway_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.73,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1138.00, Y=2649.92, Z=498.46)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Causeway_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.76,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8271.13, Y=1223.47, Z=697.79)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Gallery_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 136.11,
+          "seconds": 26.8,
+          "movement_frames": 1608,
+          "walkable_floor_frames": 1608,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1158.13, Y=2716.59, Z=497.16)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Gallery_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.69,
+          "seconds": 26.71,
+          "movement_frames": 1602,
+          "walkable_floor_frames": 1602,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8280.69, Y=1228.40, Z=697.65)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Cloister_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.46,
+          "seconds": 39.68,
+          "movement_frames": 2381,
+          "walkable_floor_frames": 2381,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1200.02, Y=367.19, Z=497.35)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Cloister_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.26,
+          "seconds": 39.87,
+          "movement_frames": 2392,
+          "walkable_floor_frames": 2392,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8298.70, Y=1165.98, Z=700.83)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        }
+      }
+    },
+    "persisted_collision_profiles": {
+      "arena_sha256": "84a6b001c522046a7c7c89c9d72b0b47117b75a2899cdc5c53b40dc4b324221d",
+      "runtime_module_sha256": "c716d8b335594e456a9d0692281a67060adc10e7edd4f5c76af3d0a419f1efa9",
+      "routes": {
+        "HeronEdge_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.34,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=968.99, Y=3950.74, Z=557.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "Landscape_0"
+        },
+        "HeronEdge_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.3,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=322.39)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=202.36)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FordNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 2.26,
+          "seconds": 3.9,
+          "movement_frames": 234,
+          "walkable_floor_frames": 234,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=520.29, Y=3998.93, Z=374.72)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3995.00, Z=461.17)",
+          "terminal_floor": "BlockingVolume_2",
+          "blocking_object": "Valley of the Two Springs",
+          "blocking_normal": "V(X=-0.75, Y=0.03, Z=0.67)"
+        },
+        "FordNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.16,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=375.34, Y=4023.81, Z=275.57)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=4025.00, Z=152.54)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FordSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.21,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=965.03, Y=3904.22, Z=554.66)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3905.00, Z=455.90)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.15,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=374.97, Y=3885.78, Z=275.28)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=3885.00, Z=152.54)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FordOuterNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "stalled",
+          "legs_reached": 0,
+          "legs_requested": 1,
+          "walked_metres": 2.91,
+          "seconds": 3.8,
+          "movement_frames": 228,
+          "walkable_floor_frames": 228,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=508.45, Y=4039.26, Z=367.25)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=4105.00, Z=466.99)",
+          "terminal_floor": "BlockingVolume_2",
+          "blocking_object": "Valley of the Two Springs",
+          "blocking_normal": "V(X=-0.74, Y=-0.09, Z=0.66)"
+        },
+        "FordOuterNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.4,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 86,
+          "falling_frames": 21,
+          "terminal_capsule_centre_cm": "V(X=300.32, Y=4098.97, Z=223.16)",
+          "terminal_physical_goal_cm": "V(X=280.00, Y=4105.00, Z=102.95)",
+          "terminal_floor": "BlockingVolume_1"
+        },
+        "FordOuterSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.08,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=963.33, Y=3820.00, Z=549.76)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3820.00, Z=450.92)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordOuterSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.01,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=306.67, Y=3820.00, Z=227.62)",
+          "terminal_physical_goal_cm": "V(X=280.00, Y=3820.00, Z=102.95)",
+          "terminal_floor": "BlockingVolume_1"
+        },
+        "FordMargin_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.8,
+          "seconds": 1.4,
+          "movement_frames": 84,
+          "walkable_floor_frames": 84,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=966.33, Y=3965.00, Z=558.19)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordMargin_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.75,
+          "seconds": 1.4,
+          "movement_frames": 84,
+          "walkable_floor_frames": 84,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=323.67, Y=3965.00, Z=239.68)",
+          "terminal_physical_goal_cm": "V(X=300.00, Y=3965.00, Z=117.10)",
+          "terminal_floor": "BlockingVolume_1"
+        },
+        "FordCentre_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.21,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.83, Y=3965.00, Z=558.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordCentre_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.15,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=128.17, Y=3965.00, Z=101.40)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-21.20)",
+          "terminal_floor": "BlockingVolume_0"
+        },
+        "FootProbe_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.21,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.83, Y=3965.00, Z=558.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbe_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.15,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=128.17, Y=3965.00, Z=101.40)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-21.20)",
+          "terminal_floor": "BlockingVolume_0"
+        },
+        "FootProbeHeron_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.34,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=968.99, Y=3950.74, Z=557.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeHeron_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.3,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=322.39)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=202.36)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FootProbeMidbank_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.7,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.33, Y=3965.00, Z=558.31)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeMidbank_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.64,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=578.67, Y=3965.00, Z=418.28)",
+          "terminal_physical_goal_cm": "V(X=550.00, Y=3965.00, Z=291.27)",
+          "terminal_floor": "BlockingVolume_3"
+        },
+        "TempleFlights_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.41,
+          "seconds": 11.12,
+          "movement_frames": 667,
+          "walkable_floor_frames": 667,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=6643.92, Y=7.50, Z=2898.14)",
+          "terminal_physical_goal_cm": "V(X=6680.00, Z=2796.43)",
+          "terminal_floor": "StaticMeshActor_361"
+        },
+        "TempleFlights_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.38,
+          "seconds": 11.13,
+          "movement_frames": 668,
+          "walkable_floor_frames": 668,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1224.93, Y=372.93, Z=496.99)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Causeway_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.73,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1138.00, Y=2649.92, Z=498.46)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Causeway_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.76,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8271.13, Y=1223.47, Z=697.79)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Gallery_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 136.11,
+          "seconds": 26.8,
+          "movement_frames": 1608,
+          "walkable_floor_frames": 1608,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1158.13, Y=2716.59, Z=497.16)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Gallery_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.69,
+          "seconds": 26.71,
+          "movement_frames": 1602,
+          "walkable_floor_frames": 1602,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8280.69, Y=1228.40, Z=697.65)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Cloister_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.46,
+          "seconds": 39.68,
+          "movement_frames": 2381,
+          "walkable_floor_frames": 2381,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1200.02, Y=367.19, Z=497.35)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Cloister_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.26,
+          "seconds": 39.87,
+          "movement_frames": 2392,
+          "walkable_floor_frames": 2392,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8298.70, Y=1165.98, Z=700.83)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        }
+      }
+    },
+    "final": {
+      "arena_sha256": "fcc03a2a4d17260b44352e2a5cdf74fb2a95d403781ac0fafb40d4f6801c692e",
+      "runtime_module_sha256": "c716d8b335594e456a9d0692281a67060adc10e7edd4f5c76af3d0a419f1efa9",
+      "routes": {
+        "HeronEdge_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.35,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=968.99, Y=3950.74, Z=557.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "Landscape_0"
+        },
+        "HeronEdge_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.29,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=363.73)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=240.15)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FordNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.21,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=964.66, Y=3996.19, Z=560.09)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3995.00, Z=461.17)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.14,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=375.34, Y=4023.81, Z=311.06)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=4025.00, Z=184.11)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FordSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.27,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=965.03, Y=3904.22, Z=554.66)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3905.00, Z=455.90)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.18,
+          "seconds": 1.3,
+          "movement_frames": 78,
+          "walkable_floor_frames": 78,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=374.97, Y=3885.78, Z=310.78)",
+          "terminal_physical_goal_cm": "V(X=350.00, Y=3885.00, Z=184.11)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FordOuterNorth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.04,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=963.33, Y=4105.00, Z=565.83)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=4105.00, Z=466.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordOuterNorth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.98,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=306.67, Y=4105.00, Z=257.65)",
+          "terminal_physical_goal_cm": "V(X=280.00, Y=4105.00, Z=129.46)",
+          "terminal_floor": "BlockingVolume_1"
+        },
+        "FordOuterSouth_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.15,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=963.33, Y=3820.00, Z=549.76)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3820.00, Z=450.92)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordOuterSouth_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 8.09,
+          "seconds": 1.43,
+          "movement_frames": 86,
+          "walkable_floor_frames": 86,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=306.67, Y=3820.00, Z=257.65)",
+          "terminal_physical_goal_cm": "V(X=280.00, Y=3820.00, Z=129.46)",
+          "terminal_floor": "BlockingVolume_1"
+        },
+        "FordMargin_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.86,
+          "seconds": 1.4,
+          "movement_frames": 84,
+          "walkable_floor_frames": 84,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=966.33, Y=3965.00, Z=558.19)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordMargin_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 7.8,
+          "seconds": 1.4,
+          "movement_frames": 84,
+          "walkable_floor_frames": 84,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=323.67, Y=3965.00, Z=270.92)",
+          "terminal_physical_goal_cm": "V(X=300.00, Y=3965.00, Z=145.07)",
+          "terminal_floor": "BlockingVolume_1"
+        },
+        "FordCentre_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.35,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.83, Y=3965.00, Z=558.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FordCentre_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.28,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=128.17, Y=3965.00, Z=118.34)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-8.34)",
+          "terminal_floor": "BlockingVolume_0"
+        },
+        "FootProbe_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.35,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.83, Y=3965.00, Z=558.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbe_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 10.28,
+          "seconds": 1.78,
+          "movement_frames": 107,
+          "walkable_floor_frames": 107,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=128.17, Y=3965.00, Z=118.34)",
+          "terminal_physical_goal_cm": "V(X=100.00, Y=3965.00, Z=-8.34)",
+          "terminal_floor": "BlockingVolume_0"
+        },
+        "FootProbeHeron_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.35,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=968.99, Y=3950.74, Z=557.29)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3950.00, Z=458.54)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeHeron_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 6.29,
+          "seconds": 1.17,
+          "movement_frames": 70,
+          "walkable_floor_frames": 70,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=443.01, Y=3969.26, Z=363.73)",
+          "terminal_physical_goal_cm": "V(X=422.00, Y=3970.00, Z=240.15)",
+          "terminal_floor": "BlockingVolume_2"
+        },
+        "FootProbeMidbank_Out": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.64,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=961.33, Y=3965.00, Z=558.31)",
+          "terminal_physical_goal_cm": "V(X=990.00, Y=3965.00, Z=459.42)",
+          "terminal_floor": "Landscape_0"
+        },
+        "FootProbeMidbank_Back": {
+          "control": "CharacterMovement AddMovementInput",
+          "status": "passed",
+          "legs_reached": 1,
+          "legs_requested": 1,
+          "walked_metres": 4.57,
+          "seconds": 0.9,
+          "movement_frames": 54,
+          "walkable_floor_frames": 54,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=578.67, Y=3965.00, Z=468.68)",
+          "terminal_physical_goal_cm": "V(X=550.00, Y=3965.00, Z=339.67)",
+          "terminal_floor": "BlockingVolume_3"
+        },
+        "TempleFlights_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.41,
+          "seconds": 11.12,
+          "movement_frames": 667,
+          "walkable_floor_frames": 667,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=6643.92, Y=7.50, Z=2898.14)",
+          "terminal_physical_goal_cm": "V(X=6680.00, Z=2796.43)",
+          "terminal_floor": "StaticMeshActor_361"
+        },
+        "TempleFlights_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 4,
+          "legs_requested": 4,
+          "walked_metres": 64.38,
+          "seconds": 11.13,
+          "movement_frames": 668,
+          "walkable_floor_frames": 668,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1224.93, Y=372.93, Z=496.99)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Causeway_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.73,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1138.00, Y=2649.92, Z=498.46)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Causeway_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 5,
+          "legs_requested": 5,
+          "walked_metres": 99.76,
+          "seconds": 19.63,
+          "movement_frames": 1178,
+          "walkable_floor_frames": 1178,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8271.13, Y=1223.47, Z=697.79)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Gallery_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 136.11,
+          "seconds": 26.8,
+          "movement_frames": 1608,
+          "walkable_floor_frames": 1608,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1158.13, Y=2716.59, Z=497.16)",
+          "terminal_physical_goal_cm": "V(X=1160.00, Y=2680.00, Z=399.01)",
+          "terminal_floor": "StaticMeshActor_558"
+        },
+        "Gallery_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 7,
+          "legs_requested": 7,
+          "walked_metres": 135.71,
+          "seconds": 26.71,
+          "movement_frames": 1602,
+          "walkable_floor_frames": 1602,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8280.69, Y=1228.40, Z=697.65)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        },
+        "Cloister_Out": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.46,
+          "seconds": 39.68,
+          "movement_frames": 2381,
+          "walkable_floor_frames": 2381,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=1200.02, Y=367.19, Z=497.35)",
+          "terminal_physical_goal_cm": "V(X=1200.00, Y=400.00, Z=399.33)",
+          "terminal_floor": "StaticMeshActor_563"
+        },
+        "Cloister_Back": {
+          "control": "AAIController::MoveTo",
+          "status": "passed",
+          "legs_reached": 8,
+          "legs_requested": 8,
+          "walked_metres": 203.26,
+          "seconds": 39.87,
+          "movement_frames": 2392,
+          "walkable_floor_frames": 2392,
+          "falling_frames": 0,
+          "terminal_capsule_centre_cm": "V(X=-8298.70, Y=1165.98, Z=700.83)",
+          "terminal_physical_goal_cm": "V(X=-8300.00, Y=1200.00, Z=599.99)",
+          "terminal_floor": "Landscape_0"
+        }
+      }
+    },
+    "delivered_quay": {
+      "source": "Saved/Deathmatch/ReleaseRanger/ActualTraversal.json",
+      "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+      "module_sha256": "9ef5c726f2f04b4fa9946879f989ee8645ec75f4f14d58cdb4c9365a4711ed1d",
+      "controller": "/Game/TempleTDM/Rules/BP_CanopyBot",
+      "directional_routes": 28,
+      "passed_routes": 28,
+      "legs_reached": 70,
+      "walked_metres": 1282.41,
+      "movement_frames": 15119,
+      "walkable_floor_frames": 15100,
+      "falling_frames": 19,
+      "routes": {
+        "HeronEdge_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "HeronEdge_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordNorth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordNorth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordSouth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordSouth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterNorth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterNorth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterSouth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterSouth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordMargin_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordMargin_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordCentre_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordCentre_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbe_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbe_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeHeron_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeHeron_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeMidbank_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeMidbank_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "TempleFlights_Out": {
+          "status": "passed",
+          "legs": 4
+        },
+        "TempleFlights_Back": {
+          "status": "passed",
+          "legs": 4
+        },
+        "Causeway_Out": {
+          "status": "passed",
+          "legs": 5
+        },
+        "Causeway_Back": {
+          "status": "passed",
+          "legs": 5
+        },
+        "Gallery_Out": {
+          "status": "passed",
+          "legs": 7
+        },
+        "Gallery_Back": {
+          "status": "passed",
+          "legs": 7
+        },
+        "Cloister_Out": {
+          "status": "passed",
+          "legs": 9
+        },
+        "Cloister_Back": {
+          "status": "passed",
+          "legs": 9
+        }
+      },
+      "airborne_segments": [
+        {
+          "route": "Cloister_Out",
+          "leg": 4,
+          "frames": 19,
+          "seconds_at_60_hz": 0.317,
+          "floor_actor_at_arrival": "Landscape_0",
+          "arrived": true
+        }
+      ]
+    },
+    "previous_full_terrace_route": {
+      "source": "Saved/Deathmatch/IntegratedRanger/ActualTraversal.json",
+      "map_sha256": "1d35f4c18d0899b12cd3e1a6ad1e9be37ca968b566234a2564e2a4316512d573",
+      "module_sha256": "c081dc99bec182f3a7d9fbe33ab700c656b93d6277748f4d20bbd0eae1a1730f",
+      "controller": "/Game/TempleTDM/Rules/BP_CanopyBot",
+      "directional_routes": 28,
+      "passed_routes": 28,
+      "legs_reached": 70,
+      "walked_metres": 1249.01,
+      "movement_frames": 14772,
+      "walkable_floor_frames": 14753,
+      "falling_frames": 19,
+      "routes": {
+        "HeronEdge_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "HeronEdge_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordNorth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordNorth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordSouth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordSouth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterNorth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterNorth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterSouth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterSouth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordMargin_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordMargin_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordCentre_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordCentre_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbe_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbe_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeHeron_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeHeron_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeMidbank_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeMidbank_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "TempleFlights_Out": {
+          "status": "passed",
+          "legs": 4
+        },
+        "TempleFlights_Back": {
+          "status": "passed",
+          "legs": 4
+        },
+        "Causeway_Out": {
+          "status": "passed",
+          "legs": 5
+        },
+        "Causeway_Back": {
+          "status": "passed",
+          "legs": 5
+        },
+        "Gallery_Out": {
+          "status": "passed",
+          "legs": 7
+        },
+        "Gallery_Back": {
+          "status": "passed",
+          "legs": 7
+        },
+        "Cloister_Out": {
+          "status": "passed",
+          "legs": 9
+        },
+        "Cloister_Back": {
+          "status": "passed",
+          "legs": 9
+        }
+      },
+      "airborne_segments": [
+        {
+          "route": "Cloister_Out",
+          "leg": 4,
+          "seconds_at_60_hz": 0.317,
+          "floor_actor_at_arrival": "Landscape_0",
+          "destination_m": [
+            -14,
+            -55,
+            6.97
+          ]
+        }
+      ]
+    },
+    "before_west_spring_navigation_fix": {
+      "source": "Saved/Deathmatch/ProductionRanger/ActualTraversal.json",
+      "map_sha256": "d7ca86df245cef021100a3f02cc8707ce0d4dd8cf41a13f7ae3eed97d834adf4",
+      "module_sha256": "64c46ced98f933f76301dbfd9d35e5f0d4502b236db00969071cf7df287c5d7d",
+      "controller": "/Game/TempleTDM/Rules/BP_CanopyBot",
+      "directional_routes": 28,
+      "passed_routes": 28,
+      "legs_reached": 70,
+      "walked_metres": 1282.39,
+      "movement_frames": 15116,
+      "walkable_floor_frames": 15097,
+      "falling_frames": 19,
+      "routes": {
+        "HeronEdge_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "HeronEdge_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordNorth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordNorth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordSouth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordSouth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterNorth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterNorth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterSouth_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordOuterSouth_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordMargin_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordMargin_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordCentre_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FordCentre_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbe_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbe_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeHeron_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeHeron_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeMidbank_Out": {
+          "status": "passed",
+          "legs": 1
+        },
+        "FootProbeMidbank_Back": {
+          "status": "passed",
+          "legs": 1
+        },
+        "TempleFlights_Out": {
+          "status": "passed",
+          "legs": 4
+        },
+        "TempleFlights_Back": {
+          "status": "passed",
+          "legs": 4
+        },
+        "Causeway_Out": {
+          "status": "passed",
+          "legs": 5
+        },
+        "Causeway_Back": {
+          "status": "passed",
+          "legs": 5
+        },
+        "Gallery_Out": {
+          "status": "passed",
+          "legs": 7
+        },
+        "Gallery_Back": {
+          "status": "passed",
+          "legs": 7
+        },
+        "Cloister_Out": {
+          "status": "passed",
+          "legs": 9
+        },
+        "Cloister_Back": {
+          "status": "passed",
+          "legs": 9
+        }
+      },
+      "airborne_segments": [
+        {
+          "route": "Cloister_Out",
+          "leg": 4,
+          "frames": 19,
+          "seconds_at_60_hz": 0.317,
+          "floor_actor_at_arrival": "Landscape_0",
+          "arrived": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,341 @@
+{
+  "map": "/Game/Variant_Shooter/Lvl_ArenaShooter.Lvl_ArenaShooter",
+  "game_mode": "BP_ShooterGameMode_C",
+  "actors": {
+    "WorldDataLayers": 1,
+    "StaticMeshActor": 98,
+    "PlayerStart": 6,
+    "VolumetricCloud": 1,
+    "BP_WobbleTarget_C": 5,
+    "SkyLight": 1,
+    "PostProcessVolume": 1,
+    "BP_ShooterPickup_C": 5,
+    "BP_JumpPad_C": 5,
+    "WorldPartitionMiniMap": 1,
+    "SkyAtmosphere": 1,
+    "ExponentialHeightFog": 1,
+    "RecastNavMesh": 1,
+    "BP_DoorFrame_C": 1,
+    "BP_ShooterNPCSpawner_C": 2,
+    "DirectionalLight": 1,
+    "NavMeshBoundsVolume": 1
+  },
+  "notable": [
+    {
+      "name": "PlayerStart",
+      "cls": "PlayerStart",
+      "location_m": [
+        -8.0,
+        -10.5,
+        0.92
+      ],
+      "extent_m": [
+        1.76,
+        1.78,
+        1.28
+      ]
+    },
+    {
+      "name": "BP_Pickup_Rifle",
+      "cls": "BP_ShooterPickup_C",
+      "location_m": [
+        -7.9,
+        -4.5,
+        0.0
+      ],
+      "extent_m": [
+        0.5,
+        0.5,
+        0.67
+      ]
+    },
+    {
+      "name": "BP_Pickup_Rifle3",
+      "cls": "BP_ShooterPickup_C",
+      "location_m": [
+        12.1,
+        -12.0,
+        0.0
+      ],
+      "extent_m": [
+        0.5,
+        0.5,
+        0.67
+      ]
+    },
+    {
+      "name": "PlayerStart3",
+      "cls": "PlayerStart",
+      "location_m": [
+        -3.0,
+        -13.5,
+        2.92
+      ],
+      "extent_m": [
+        1.28,
+        1.84,
+        1.28
+      ]
+    },
+    {
+      "name": "BP_JumpPad8",
+      "cls": "BP_JumpPad_C",
+      "location_m": [
+        -13.0,
+        -2.5,
+        2.0
+      ],
+      "extent_m": [
+        1.28,
+        1.28,
+        1.5
+      ]
+    },
+    {
+      "name": "BP_JumpPad2",
+      "cls": "BP_JumpPad_C",
+      "location_m": [
+        0.0,
+        11.5,
+        2.0
+      ],
+      "extent_m": [
+        1.28,
+        1.28,
+        1.5
+      ]
+    },
+    {
+      "name": "BP_Pickup_Rifle4",
+      "cls": "BP_ShooterPickup_C",
+      "location_m": [
+        9.1,
+        6.5,
+        0.0
+      ],
+      "extent_m": [
+        0.5,
+        0.5,
+        0.67
+      ]
+    },
+    {
+      "name": "PlayerStart4",
+      "cls": "PlayerStart",
+      "location_m": [
+        -0.52,
+        13.48,
+        0.92
+      ],
+      "extent_m": [
+        1.28,
+        1.84,
+        1.28
+      ]
+    },
+    {
+      "name": "PlayerStart2",
+      "cls": "PlayerStart",
+      "location_m": [
+        11.5,
+        -14.5,
+        0.92
+      ],
+      "extent_m": [
+        1.54,
+        1.89,
+        1.28
+      ]
+    },
+    {
+      "name": "PlayerStart6",
+      "cls": "PlayerStart",
+      "location_m": [
+        3.96,
+        15.03,
+        0.92
+      ],
+      "extent_m": [
+        1.28,
+        1.84,
+        1.28
+      ]
+    },
+    {
+      "name": "RecastNavMesh-Default",
+      "cls": "RecastNavMesh",
+      "location_m": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extent_m": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "BP_Pickup_Rifle5",
+      "cls": "BP_ShooterPickup_C",
+      "location_m": [
+        -8.0,
+        6.5,
+        0.0
+      ],
+      "extent_m": [
+        0.5,
+        0.5,
+        0.67
+      ]
+    },
+    {
+      "name": "PlayerStart5",
+      "cls": "PlayerStart",
+      "location_m": [
+        -5.34,
+        15.06,
+        0.92
+      ],
+      "extent_m": [
+        1.28,
+        1.84,
+        1.28
+      ]
+    },
+    {
+      "name": "BP_JumpPad3",
+      "cls": "BP_JumpPad_C",
+      "location_m": [
+        0.0,
+        -11.5,
+        2.0
+      ],
+      "extent_m": [
+        1.28,
+        1.28,
+        1.5
+      ]
+    },
+    {
+      "name": "BP_ShooterNPCSpawner",
+      "cls": "BP_ShooterNPCSpawner_C",
+      "location_m": [
+        -9.7,
+        -6.8,
+        0.0
+      ],
+      "extent_m": [
+        1.28,
+        1.84,
+        1.54
+      ]
+    },
+    {
+      "name": "BP_JumpPad4",
+      "cls": "BP_JumpPad_C",
+      "location_m": [
+        5.0,
+        -2.5,
+        2.0
+      ],
+      "extent_m": [
+        1.28,
+        1.28,
+        1.5
+      ]
+    },
+    {
+      "name": "BP_Pickup_Rifle2",
+      "cls": "BP_ShooterPickup_C",
+      "location_m": [
+        0.0,
+        0.0,
+        4.0
+      ],
+      "extent_m": [
+        0.5,
+        0.5,
+        0.67
+      ]
+    },
+    {
+      "name": "BP_JumpPad",
+      "cls": "BP_JumpPad_C",
+      "location_m": [
+        13.0,
+        2.5,
+        2.0
+      ],
+      "extent_m": [
+        1.28,
+        1.28,
+        1.5
+      ]
+    },
+    {
+      "name": "BP_ShooterNPCSpawner2",
+      "cls": "BP_ShooterNPCSpawner_C",
+      "location_m": [
+        8.3,
+        -5.4,
+        0.0
+      ],
+      "extent_m": [
+        1.28,
+        1.84,
+        1.54
+      ]
+    },
+    {
+      "name": "NavMeshBoundsVolume",
+      "cls": "NavMeshBoundsVolume",
+      "location_m": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "extent_m": [
+        14.68,
+        16.75,
+        3.41
+      ]
+    }
+  ],
+  "native_systems": [
+    "/Game/Variant_Shooter/Blueprints/AI/BP_ShooterAIController",
+    "/Game/Variant_Shooter/Blueprints/AI/BP_ShooterNPC",
+    "/Game/Variant_Shooter/Blueprints/AI/BP_ShooterNPCSpawner",
+    "/Game/Variant_Shooter/Blueprints/AI/EQS/EQS_FindRoamLocation",
+    "/Game/Variant_Shooter/Blueprints/AI/EQS/EQS_FindSnipingLocation",
+    "/Game/Variant_Shooter/Blueprints/AI/EQS/EnvQueryContext_Target",
+    "/Game/Variant_Shooter/Blueprints/AI/ST_Shooter",
+    "/Game/Variant_Shooter/Blueprints/AI/ST_Shooter_ShootAtTarget",
+    "/Game/Variant_Shooter/Blueprints/AI/StateTree/StateTreeCondition_HasLineOfSightToTarget",
+    "/Game/Variant_Shooter/Blueprints/AI/StateTree/StateTreeTask_FaceActor",
+    "/Game/Variant_Shooter/Blueprints/AI/StateTree/StateTreeTask_FaceLocation",
+    "/Game/Variant_Shooter/Blueprints/AI/StateTree/StateTreeTask_SenseEnemies",
+    "/Game/Variant_Shooter/Blueprints/AI/StateTree/StateTreeTask_SetRandomFloat",
+    "/Game/Variant_Shooter/Blueprints/AI/StateTree/StateTreeTask_ShootAtTarget",
+    "/Game/Variant_Shooter/Blueprints/BPI_Shooter",
+    "/Game/Variant_Shooter/Blueprints/BPI_Teammate",
+    "/Game/Variant_Shooter/Blueprints/BP_ShooterCharacter",
+    "/Game/Variant_Shooter/Blueprints/BP_ShooterGameMode",
+    "/Game/Variant_Shooter/Blueprints/BP_ShooterPlayerController",
+    "/Game/Variant_Shooter/Blueprints/Pickups/BPI_Pickups",
+    "/Game/Variant_Shooter/Blueprints/Pickups/BPI_WeaponHolder",
+    "/Game/Variant_Shooter/Blueprints/Pickups/BP_ShooterPickup",
+    "/Game/Variant_Shooter/Blueprints/Pickups/BP_ShooterWeaponBase",
+    "/Game/Variant_Shooter/Blueprints/Pickups/Projectiles/BP_ShooterProjectileBase",
+    "/Game/Variant_Shooter/Blueprints/Pickups/Projectiles/BP_ShooterProjectile_Bullet",
+    "/Game/Variant_Shooter/Blueprints/Pickups/Projectiles/BP_ShooterProjectile_Grenade",
+    "/Game/Variant_Shooter/Blueprints/Pickups/Projectiles/BP_Shooter_GrenadeExplosion",
+    "/Game/Variant_Shooter/Blueprints/Pickups/Weapons/BP_ShooterWeapon_GrenadeLauncher",
+    "/Game/Variant_Shooter/Blueprints/Pickups/Weapons/BP_ShooterWeapon_Pistol",
+    "/Game/Variant_Shooter/Blueprints/Pickups/Weapons/BP_ShooterWeapon_Rifle",
+    "/Game/Variant_Shooter/Input/BPI_Touch_Shooter",
+    "/Game/Variant_Shooter/Input/UI_TouchInterface_Shooter",
+    "/Game/Variant_Shooter/UI/UI_Shooter",
+    "/Game/Variant_Shooter/UI/UI_ShooterBulletCounter"
+  ]
+}

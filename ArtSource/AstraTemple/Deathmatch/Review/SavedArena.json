@@ -1,0 +1,229 @@
+{
+  "map": "/Game/AstraTemple/Maps/L_CanopyDeathmatch.L_CanopyDeathmatch",
+  "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+  "classes": {
+    "game_mode": "/Game/TempleTDM/Rules/BP_CanopyDeathmatch.BP_CanopyDeathmatch_C",
+    "default_pawn_class": "/Game/TempleTDM/Rules/BP_CanopyRanger.BP_CanopyRanger_C",
+    "bot_controller_class": "/Game/TempleTDM/Rules/BP_CanopyBot.BP_CanopyBot_C"
+  },
+  "actors": {
+    "patrol_nodes": 21,
+    "player_starts": 12,
+    "review_cameras": 0,
+    "total": 526,
+    "team_navigation_areas": 2,
+    "quay_threshold_pieces": 3
+  },
+  "navigation": {
+    "Causeway": [
+      [
+        true,
+        22.58
+      ],
+      [
+        true,
+        10.24
+      ],
+      [
+        true,
+        20.1
+      ],
+      [
+        true,
+        27.27
+      ],
+      [
+        true,
+        40.55
+      ]
+    ],
+    "Eastern Gallery": [
+      [
+        true,
+        33.85
+      ],
+      [
+        true,
+        20.81
+      ],
+      [
+        true,
+        16.82
+      ],
+      [
+        true,
+        24.0
+      ],
+      [
+        true,
+        15.4
+      ],
+      [
+        true,
+        13.57
+      ],
+      [
+        true,
+        43.79
+      ]
+    ],
+    "Cloister": [
+      [
+        true,
+        24.94
+      ],
+      [
+        true,
+        28.04
+      ],
+      [
+        true,
+        26.52
+      ],
+      [
+        true,
+        43.26
+      ],
+      [
+        true,
+        24.35
+      ],
+      [
+        true,
+        16.17
+      ],
+      [
+        true,
+        13.04
+      ],
+      [
+        true,
+        27.0
+      ],
+      [
+        true,
+        9.05
+      ]
+    ],
+    "Terraces": [
+      [
+        true,
+        21.76
+      ],
+      [
+        true,
+        19.99
+      ],
+      [
+        true,
+        19.83
+      ]
+    ],
+    "visible_spawn_pairs": []
+  },
+  "ordered_team_starts_m": {
+    "Red": [
+      [
+        -83.0,
+        12.0,
+        7.04
+      ],
+      [
+        -82.0,
+        9.4,
+        7.04
+      ],
+      [
+        -85.6,
+        9.6,
+        7.27
+      ],
+      [
+        -86.8,
+        12.8,
+        7.09
+      ],
+      [
+        -86.1,
+        15.0,
+        7.41
+      ],
+      [
+        -82.6,
+        15.7,
+        7.01
+      ]
+    ],
+    "Blue": [
+      [
+        9.5,
+        -4.75,
+        5.06
+      ],
+      [
+        9.75,
+        -0.75,
+        5.05
+      ],
+      [
+        9.75,
+        1.25,
+        5.05
+      ],
+      [
+        10.5,
+        3.0,
+        5.05
+      ],
+      [
+        9.75,
+        5.25,
+        5.05
+      ],
+      [
+        11.0,
+        -5.5,
+        5.06
+      ]
+    ]
+  },
+  "spawn_pairs_checked": 36,
+  "occluded_spawn_pairs": 36,
+  "clear_starting_capsules": 12,
+  "tagged_patrol_routes": {
+    "0": [
+      "Roots Gate",
+      "Gate Steps",
+      "Causeway",
+      "East Quay",
+      "Basin Plaza"
+    ],
+    "1": [
+      "Garden Fork",
+      "Litter Walk",
+      "Ford Chapel",
+      "Forest Gallery",
+      "Orchid Bend",
+      "Ford Landing"
+    ],
+    "2": [
+      "Cloister Threshold",
+      "West Court Bend",
+      "Cloister Court",
+      "Cloister Terrace",
+      "West Chapel Path",
+      "West Spring Bridge",
+      "West Plaza"
+    ],
+    "3": [
+      "Cloister Threshold",
+      "West Court Bend",
+      "Cloister Court",
+      "Cloister Terrace",
+      "West Chapel Path",
+      "West Spring Bridge",
+      "West Plaza",
+      "First Landing"
+    ]
+  }
+}

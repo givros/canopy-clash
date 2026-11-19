@@ -1,0 +1,123 @@
+{
+  "slow_frame_diagnostics": {
+    "frames_over_33ms": {
+      "frame_count": 2,
+      "top_gpu_pass_mean_ms": {
+        "GPU/Basepass": 1.443,
+        "GPU/RenderVelocities": 1.106,
+        "GPU/ShadowDepths": 1.093,
+        "GPU/Unaccounted": 0.688,
+        "GPU/SlateUI": 0.467,
+        "GPU/NaniteVisBuffer": 0.41
+      }
+    },
+    "frames_under_33ms": {
+      "frame_count": 3037,
+      "top_gpu_pass_mean_ms": {
+        "GPU/Basepass": 1.519,
+        "GPU/RenderVelocities": 1.265,
+        "GPU/ShadowDepths": 1.174,
+        "GPU/Unaccounted": 0.675,
+        "GPU/NaniteVisBuffer": 0.413,
+        "GPU/TemporalSuperResolution": 0.346
+      }
+    }
+  },
+  "sections": {
+    "Jungle approach to gallery": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/Basepass": 1.636,
+        "GPU/ShadowDepths": 1.376,
+        "GPU/RenderVelocities": 1.322,
+        "GPU/Unaccounted": 0.683,
+        "GPU/NaniteVisBuffer": 0.455,
+        "GPU/TemporalSuperResolution": 0.348
+      },
+      "native_frames": 343,
+      "mean_fps": 103.76,
+      "frame_p95_ms": 11.445,
+      "gpu_p95_ms": 9.418
+    },
+    "East jungle gallery": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/Basepass": 1.504,
+        "GPU/RenderVelocities": 1.258,
+        "GPU/ShadowDepths": 1.148,
+        "GPU/Unaccounted": 0.673,
+        "GPU/NaniteVisBuffer": 0.408,
+        "GPU/TemporalSuperResolution": 0.346
+      },
+      "native_frames": 2696,
+      "mean_fps": 102.35,
+      "frame_p95_ms": 11.783,
+      "gpu_p95_ms": 9.358
+    }
+  },
+  "source": "Saved\\Profiling\\CSV\\Astra_east_20261119_022704.csv",
+  "scope": "Native engine counters during offscreen Play In Editor; editor overhead and concurrent GPU processes remain included. GPU timing is reported only for a populated native GPU channel.",
+  "channels": {
+    "FrameTime": {
+      "samples": 3039,
+      "mean_ms": 9.756,
+      "median_ms": 9.461,
+      "p95_ms": 11.74,
+      "p99_ms": 12.747,
+      "max_ms": 103.557,
+      "mean_fps": 102.5
+    },
+    "RenderThreadTime": {
+      "samples": 3039,
+      "mean_ms": 8.773,
+      "median_ms": 9.152,
+      "p95_ms": 10.888,
+      "p99_ms": 11.994,
+      "max_ms": 17.553
+    },
+    "GameThreadTime": {
+      "samples": 3039,
+      "mean_ms": 9.443,
+      "median_ms": 9.182,
+      "p95_ms": 11.246,
+      "p99_ms": 12.314,
+      "max_ms": 81.16
+    },
+    "GPUTime": {
+      "samples": 3039,
+      "mean_ms": 7.998,
+      "median_ms": 8.125,
+      "p95_ms": 9.37,
+      "p99_ms": 9.863,
+      "max_ms": 11.86
+    },
+    "RHIThreadTime": {
+      "samples": 3039,
+      "mean_ms": 4.497,
+      "median_ms": 4.397,
+      "p95_ms": 5.355,
+      "p99_ms": 5.766,
+      "max_ms": 6.662
+    }
+  },
+  "skipped_non_frame_rows": 2,
+  "runtime": {
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 0,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8,
+      "r.Water.SingleLayer.Reflection": 3,
+      "r.Shadow.Virtual.ResolutionLodBiasDirectional": -0.5,
+      "r.TSR.History.ScreenPercentage": 200.0
+    },
+    "route_completed": true,
+    "walk_distance_m": 159.32
+  }
+}

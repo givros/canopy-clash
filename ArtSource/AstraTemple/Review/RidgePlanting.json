@@ -1,0 +1,42 @@
+{
+  "ArecaPalm": {
+    "adjusted": 0,
+    "removed_from_tread": 1
+  },
+  "JungleCanopy": {
+    "adjusted": 2,
+    "removed_from_tread": 2
+  },
+  "CecropiaSapling": {
+    "adjusted": 3,
+    "removed_from_tread": 0
+  },
+  "SandstoneCliff": {
+    "adjusted": 2,
+    "removed_from_tread": 0
+  },
+  "Monstera": {
+    "adjusted": 10,
+    "removed_from_tread": 1
+  },
+  "Fern": {
+    "adjusted": 17,
+    "removed_from_tread": 0
+  },
+  "MossBoulder02": {
+    "adjusted": 1,
+    "removed_from_tread": 0
+  },
+  "MossBoulder04": {
+    "adjusted": 0,
+    "removed_from_tread": 1
+  },
+  "Heliconia": {
+    "adjusted": 1,
+    "removed_from_tread": 0
+  },
+  "MossBoulder03": {
+    "adjusted": 2,
+    "removed_from_tread": 0
+  }
+}

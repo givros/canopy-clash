@@ -1,0 +1,85 @@
+{
+  "source": "Saved\\Deathmatch\\QuayImpactBefore\\Review.log",
+  "mode": "impact",
+  "method": "Exact authoritative point-damage trace start and hit point",
+  "before_geometry": "Original screen and banner transforms, three added architectural pieces ignored. After uses the installed map transforms and includes all three pieces.",
+  "events": {
+    "all": {
+      "samples": 2599,
+      "open_before": 2599,
+      "open_after": 1630,
+      "newly_intercepted": 969,
+      "Causeway Scupper Pier": 428,
+      "fatal_segments_intercepted": 229,
+      "Quay North Recessed Wall": 277,
+      "Quay South Processional Wall": 175,
+      "Blue Quay Screen": 78,
+      "Blue Woven Standard": 11
+    },
+    "red_victims": {
+      "samples": 1282,
+      "open_before": 1282,
+      "open_after": 836,
+      "newly_intercepted": 446,
+      "Quay North Recessed Wall": 101,
+      "fatal_segments_intercepted": 115,
+      "Quay South Processional Wall": 137,
+      "Causeway Scupper Pier": 160,
+      "Blue Quay Screen": 37,
+      "Blue Woven Standard": 11
+    },
+    "red_home_20m": {
+      "samples": 183,
+      "open_before": 183,
+      "open_after": 138,
+      "newly_intercepted": 45,
+      "Quay North Recessed Wall": 18,
+      "Quay South Processional Wall": 2,
+      "Causeway Scupper Pier": 25,
+      "fatal_segments_intercepted": 6
+    },
+    "red_home_20m_over_60m": {
+      "samples": 161,
+      "open_before": 161,
+      "open_after": 120,
+      "newly_intercepted": 41,
+      "Quay North Recessed Wall": 18,
+      "Quay South Processional Wall": 2,
+      "Causeway Scupper Pier": 21,
+      "fatal_segments_intercepted": 5
+    },
+    "blue_victims": {
+      "samples": 1317,
+      "open_before": 1317,
+      "open_after": 794,
+      "newly_intercepted": 523,
+      "Causeway Scupper Pier": 268,
+      "fatal_segments_intercepted": 114,
+      "Quay North Recessed Wall": 176,
+      "Quay South Processional Wall": 38,
+      "Blue Quay Screen": 41
+    },
+    "blue_home_20m": {
+      "samples": 825,
+      "open_before": 825,
+      "open_after": 379,
+      "newly_intercepted": 446,
+      "Causeway Scupper Pier": 230,
+      "fatal_segments_intercepted": 95,
+      "Quay North Recessed Wall": 171,
+      "Quay South Processional Wall": 38,
+      "Blue Quay Screen": 7
+    },
+    "blue_home_20m_over_60m": {
+      "samples": 621,
+      "open_before": 621,
+      "open_after": 301,
+      "newly_intercepted": 320,
+      "Causeway Scupper Pier": 142,
+      "fatal_segments_intercepted": 57,
+      "Quay North Recessed Wall": 141,
+      "Quay South Processional Wall": 30,
+      "Blue Quay Screen": 7
+    }
+  }
+}

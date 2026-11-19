@@ -1,0 +1,184 @@
+{
+  "map": "/Game/AstraTemple/Maps/L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+  "runtime_default": "Config/DefaultEngine.ini",
+  "native_assets_by_class": {
+    "FoliageType_InstancedStaticMesh": 22,
+    "InputMappingContext": 1,
+    "Material": 44,
+    "StaticMesh": 89,
+    "Texture2D": 68,
+    "TextureCube": 4,
+    "World": 1
+  },
+  "cameras": [
+    "View_Reference",
+    "View_PilgrimsApproach",
+    "View_Bridge",
+    "View_Stairs",
+    "View_Sanctuary",
+    "View_SpringCourt",
+    "View_WestCloister",
+    "View_Basin",
+    "View_Aerial",
+    "View_PortalDetail",
+    "View_CrownShrine",
+    "View_Grotto",
+    "View_HighBank"
+  ],
+  "walks": {
+    "cloister": {
+      "status": "passed",
+      "at_goal": 12,
+      "total_goals": 12,
+      "walked_m": 167.01,
+      "max_continuous_air_seconds": 0.36
+    },
+    "east": {
+      "status": "passed",
+      "at_goal": 16,
+      "total_goals": 16,
+      "walked_m": 159.32,
+      "max_continuous_air_seconds": 0.0
+    },
+    "main": {
+      "status": "passed",
+      "at_goal": 73,
+      "total_goals": 73,
+      "walked_m": 409.94,
+      "max_continuous_air_seconds": 0.0
+    },
+    "ridge": {
+      "status": "passed",
+      "at_goal": 94,
+      "total_goals": 94,
+      "walked_m": 494.89,
+      "max_continuous_air_seconds": 0.0
+    },
+    "spring": {
+      "status": "passed",
+      "at_goal": 47,
+      "total_goals": 47,
+      "walked_m": 320.81,
+      "max_continuous_air_seconds": 0.0
+    }
+  },
+  "grotto_clearance": {
+    "tested_width_m": 2.2,
+    "min_roof_clearance_m": 2.564166793751326,
+    "min_wall_center_distance_m": 1.258168349525923
+  },
+  "native_shader_check": "Review/SavedWorldCheck.json",
+  "court_bearing_check": "Review/CourtBearing.json",
+  "controls": {
+    "map_instance": "/Game/AstraTemple/Maps/UEDPIE_0_L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+    "pawn": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C",
+    "player_controller": "/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController_C",
+    "position_m": [
+      -83.8,
+      13.4,
+      6.967
+    ],
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "capsule_radius_cm": 33.99907684326172,
+    "capsule_half_height_cm": 96.0,
+    "max_step_cm": 45.0,
+    "max_walk_cm_s": 600.0,
+    "walkable_slope_deg": 44.76508331298828,
+    "default_input_context_priority": 0,
+    "action_keys": [
+      [
+        "SpaceBar",
+        "IA_Jump"
+      ],
+      [
+        "Gamepad_FaceButton_Bottom",
+        "IA_Jump"
+      ],
+      [
+        "W",
+        "IA_Move"
+      ],
+      [
+        "S",
+        "IA_Move"
+      ],
+      [
+        "A",
+        "IA_Move"
+      ],
+      [
+        "D",
+        "IA_Move"
+      ],
+      [
+        "Up",
+        "IA_Move"
+      ],
+      [
+        "Down",
+        "IA_Move"
+      ],
+      [
+        "Right",
+        "IA_Move"
+      ],
+      [
+        "Left",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Left2D",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Right2D",
+        "IA_Look"
+      ]
+    ],
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 0,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8,
+      "r.Water.SingleLayer.Reflection": 3,
+      "r.Shadow.Virtual.ResolutionLodBiasDirectional": -0.5,
+      "r.TSR.History.ScreenPercentage": 200.0
+    },
+    "initial_camera_yaw": 48.00000000000001,
+    "look_action_yaw_delta_deg": 75.0,
+    "verified_key_deltas_m": {
+      "W": [
+        0.997,
+        1.21,
+        -0.008
+      ],
+      "Z": [
+        0.967,
+        1.173,
+        0.0
+      ],
+      "Q": [
+        1.184,
+        -0.976,
+        -0.009
+      ]
+    },
+    "azerty_context_priority": 1,
+    "visible_user_widgets": [],
+    "camera_component_names": [
+      "FirstPersonCamera"
+    ]
+  },
+  "standalone": [
+    "1280x720",
+    "1920x1080"
+  ],
+  "details": "Review/Traversal_*.json contains world positions, real character floor checks and native input results."
+}

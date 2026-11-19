@@ -1,0 +1,107 @@
+{
+  "slow_frame_diagnostics": {
+    "frames_over_33ms": {
+      "frame_count": 213,
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 5.169,
+        "GPU/Basepass": 4.908,
+        "GPU/RenderVelocities": 4.167,
+        "GPU/Unaccounted": 3.03,
+        "GPU/NaniteVisBuffer": 1.644,
+        "GPU/TemporalSuperResolution": 0.927
+      }
+    },
+    "frames_under_33ms": {
+      "frame_count": 758,
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 5.014,
+        "GPU/Basepass": 4.923,
+        "GPU/RenderVelocities": 3.882,
+        "GPU/Unaccounted": 2.991,
+        "GPU/NaniteVisBuffer": 1.349,
+        "GPU/TemporalSuperResolution": 1.099
+      }
+    }
+  },
+  "sections": {
+    "Broken cloister walk": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 5.048,
+        "GPU/Basepass": 4.92,
+        "GPU/RenderVelocities": 3.944,
+        "GPU/Unaccounted": 2.999,
+        "GPU/NaniteVisBuffer": 1.414,
+        "GPU/TemporalSuperResolution": 1.061
+      },
+      "native_frames": 971,
+      "mean_fps": 33.91,
+      "frame_p95_ms": 36.336,
+      "gpu_p95_ms": 31.888
+    }
+  },
+  "source": "Saved\\Profiling\\CSV\\Astra_cloister_20261119_020136.csv",
+  "scope": "Native engine counters during offscreen Play In Editor; editor overhead and concurrent GPU processes remain included. GPU timing is reported only for a populated native GPU channel.",
+  "channels": {
+    "FrameTime": {
+      "samples": 971,
+      "mean_ms": 29.494,
+      "median_ms": 28.74,
+      "p95_ms": 36.336,
+      "p99_ms": 40.785,
+      "max_ms": 98.365,
+      "mean_fps": 33.91
+    },
+    "RenderThreadTime": {
+      "samples": 971,
+      "mean_ms": 29.436,
+      "median_ms": 28.569,
+      "p95_ms": 35.88,
+      "p99_ms": 40.822,
+      "max_ms": 67.371
+    },
+    "GameThreadTime": {
+      "samples": 971,
+      "mean_ms": 11.498,
+      "median_ms": 11.051,
+      "p95_ms": 14.103,
+      "p99_ms": 17.615,
+      "max_ms": 77.813
+    },
+    "GPUTime": {
+      "samples": 971,
+      "mean_ms": 24.585,
+      "median_ms": 25.358,
+      "p95_ms": 31.888,
+      "p99_ms": 33.591,
+      "max_ms": 63.813
+    },
+    "RHIThreadTime": {
+      "samples": 971,
+      "mean_ms": 5.847,
+      "median_ms": 5.757,
+      "p95_ms": 7.061,
+      "p99_ms": 8.36,
+      "max_ms": 10.414
+    }
+  },
+  "skipped_non_frame_rows": 2,
+  "runtime": {
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 1,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8,
+      "r.Water.SingleLayer.Reflection": 3
+    },
+    "route_completed": true,
+    "walk_distance_m": 167.01
+  }
+}

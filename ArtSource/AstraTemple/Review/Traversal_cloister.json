@@ -1,0 +1,1884 @@
+{
+  "renderer_warnings": [],
+  "route": "cloister",
+  "status": "passed",
+  "phase": "finished",
+  "startup": {
+    "map_instance": "/Game/AstraTemple/Maps/UEDPIE_0_L_TempleOfTheCanopy.L_TempleOfTheCanopy",
+    "pawn": "/Game/FirstPerson/Blueprints/BP_FirstPersonCharacter.BP_FirstPersonCharacter_C",
+    "player_controller": "/Game/FirstPerson/Blueprints/BP_FirstPersonPlayerController.BP_FirstPersonPlayerController_C",
+    "position_m": [
+      -83.8,
+      13.4,
+      6.967
+    ],
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "capsule_radius_cm": 33.99907684326172,
+    "capsule_half_height_cm": 96.0,
+    "max_step_cm": 45.0,
+    "max_walk_cm_s": 600.0,
+    "walkable_slope_deg": 44.76508331298828,
+    "default_input_context_priority": 0,
+    "action_keys": [
+      [
+        "SpaceBar",
+        "IA_Jump"
+      ],
+      [
+        "Gamepad_FaceButton_Bottom",
+        "IA_Jump"
+      ],
+      [
+        "W",
+        "IA_Move"
+      ],
+      [
+        "S",
+        "IA_Move"
+      ],
+      [
+        "A",
+        "IA_Move"
+      ],
+      [
+        "D",
+        "IA_Move"
+      ],
+      [
+        "Up",
+        "IA_Move"
+      ],
+      [
+        "Down",
+        "IA_Move"
+      ],
+      [
+        "Right",
+        "IA_Move"
+      ],
+      [
+        "Left",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Left2D",
+        "IA_Move"
+      ],
+      [
+        "Gamepad_Right2D",
+        "IA_Look"
+      ]
+    ],
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 1,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8,
+      "r.Water.SingleLayer.Reflection": 3
+    },
+    "initial_camera_yaw": 48.00000000000001,
+    "look_action_yaw_delta_deg": 25.0,
+    "verified_key_deltas_m": {
+      "W": [
+        0.959,
+        1.164,
+        -0.009
+      ]
+    },
+    "azerty_context_priority": 1
+  },
+  "at_goal": 12,
+  "total_goals": 12,
+  "walked_m": 167.01,
+  "checkpoints": [
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 1,
+      "goal_m": [
+        -88,
+        12,
+        6
+      ],
+      "position_m": [
+        -87.688,
+        12.179,
+        6.952
+      ],
+      "foot_z_m": 5.992,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -87.687,
+        12.181,
+        5.97
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 2,
+      "goal_m": [
+        -91,
+        -7,
+        7
+      ],
+      "position_m": [
+        -90.947,
+        -6.655,
+        7.948
+      ],
+      "foot_z_m": 6.988,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        -90.949,
+        -6.669,
+        6.966
+      ],
+      "slope_deg": 2.36
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 3,
+      "goal_m": [
+        -85,
+        -23,
+        7
+      ],
+      "position_m": [
+        -85.14,
+        -22.63,
+        7.68
+      ],
+      "foot_z_m": 6.72,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.94,
+      "impact_m": [
+        -85.146,
+        -22.624,
+        6.7
+      ],
+      "slope_deg": 1.43
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 4,
+      "goal_m": [
+        -71,
+        -38,
+        6
+      ],
+      "position_m": [
+        -71.27,
+        -37.713,
+        7.044
+      ],
+      "foot_z_m": 6.084,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.91,
+      "impact_m": [
+        -71.28,
+        -37.703,
+        6.065
+      ],
+      "slope_deg": 2.38
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 5,
+      "goal_m": [
+        -54,
+        -48,
+        5
+      ],
+      "position_m": [
+        -54.329,
+        -47.84,
+        7.157
+      ],
+      "foot_z_m": 6.197,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Collapsed Cloister CollapsedCloister 250",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -54.449,
+        -47.749,
+        6.211
+      ],
+      "slope_deg": 11.69
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 6,
+      "goal_m": [
+        -31,
+        -53,
+        6
+      ],
+      "position_m": [
+        -31.335,
+        -52.929,
+        6.958
+      ],
+      "foot_z_m": 5.998,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        -31.32,
+        -52.933,
+        5.977
+      ],
+      "slope_deg": 2.76
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 7,
+      "goal_m": [
+        -14,
+        -56,
+        7
+      ],
+      "position_m": [
+        -14.428,
+        -55.925,
+        7.962
+      ],
+      "foot_z_m": 7.002,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Collapsed Cloister CollapsedCloister 252",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -14.497,
+        -55.985,
+        6.993
+      ],
+      "slope_deg": 6.31
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 8,
+      "goal_m": [
+        0,
+        -54,
+        7.5
+      ],
+      "position_m": [
+        -0.38,
+        -54.054,
+        8.516
+      ],
+      "foot_z_m": 7.556,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.03,
+      "impact_m": [
+        -0.368,
+        -54.052,
+        7.536
+      ],
+      "slope_deg": 2.04
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 9,
+      "goal_m": [
+        13,
+        -53,
+        8
+      ],
+      "position_m": [
+        12.696,
+        -53.023,
+        8.951
+      ],
+      "foot_z_m": 7.991,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        12.706,
+        -53.023,
+        7.97
+      ],
+      "slope_deg": 1.69
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 10,
+      "goal_m": [
+        24.9,
+        -54.4,
+        9.926135163385071
+      ],
+      "position_m": [
+        24.531,
+        -54.355,
+        10.869
+      ],
+      "foot_z_m": 9.909,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.95,
+      "impact_m": [
+        24.559,
+        -54.4,
+        9.894
+      ],
+      "slope_deg": 4.81
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 11,
+      "goal_m": [
+        24,
+        -57,
+        10
+      ],
+      "position_m": [
+        24.144,
+        -56.696,
+        10.975
+      ],
+      "foot_z_m": 10.015,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The West Chapel",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        24.144,
+        -56.697,
+        9.994
+      ],
+      "slope_deg": 0.05
+    },
+    {
+      "section": "Broken cloister walk",
+      "waypoint": 12,
+      "goal_m": [
+        23.2,
+        -58.4,
+        10
+      ],
+      "position_m": [
+        23.383,
+        -58.113,
+        10.983
+      ],
+      "foot_z_m": 10.023,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The West Chapel",
+      "floor_dist_cm": 2.05,
+      "impact_m": [
+        23.383,
+        -58.113,
+        10.003
+      ],
+      "slope_deg": 0.06
+    }
+  ],
+  "samples": [
+    {
+      "t": 1.5,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -82.745,
+        14.68,
+        6.959
+      ],
+      "ground_z_m": 5.999,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.21,
+      "impact_m": [
+        -82.745,
+        14.68,
+        5.976
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 1.91,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -83.61,
+        14.514,
+        6.956
+      ],
+      "ground_z_m": 5.996,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.03,
+      "impact_m": [
+        -83.61,
+        14.512,
+        5.976
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 2.33,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -85.754,
+        13.292,
+        7.049
+      ],
+      "ground_z_m": 6.089,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.01,
+      "impact_m": [
+        -85.774,
+        13.278,
+        6.07
+      ],
+      "slope_deg": 4.09
+    },
+    {
+      "t": 2.73,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -87.826,
+        12.1,
+        6.952
+      ],
+      "ground_z_m": 5.992,
+      "speed_mps": 3.54,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.28,
+      "impact_m": [
+        -87.825,
+        12.102,
+        5.969
+      ],
+      "slope_deg": 0.47
+    },
+    {
+      "t": 3.14,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -88.396,
+        10.066,
+        7.06
+      ],
+      "ground_z_m": 6.1,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -88.295,
+        9.95,
+        6.115
+      ],
+      "slope_deg": 26.87
+    },
+    {
+      "t": 3.55,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -88.773,
+        7.61,
+        7.183
+      ],
+      "ground_z_m": 6.223,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -88.907,
+        7.592,
+        6.229
+      ],
+      "slope_deg": 23.35
+    },
+    {
+      "t": 3.97,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -89.149,
+        5.144,
+        7.309
+      ],
+      "ground_z_m": 6.349,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.14,
+      "impact_m": [
+        -89.149,
+        5.124,
+        6.328
+      ],
+      "slope_deg": 3.36
+    },
+    {
+      "t": 4.39,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -89.53,
+        2.643,
+        7.447
+      ],
+      "ground_z_m": 6.487,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        -89.528,
+        2.625,
+        6.467
+      ],
+      "slope_deg": 3.04
+    },
+    {
+      "t": 4.81,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -89.919,
+        0.091,
+        7.576
+      ],
+      "ground_z_m": 6.616,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -89.917,
+        0.076,
+        6.594
+      ],
+      "slope_deg": 2.7
+    },
+    {
+      "t": 5.22,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -90.286,
+        -2.318,
+        7.698
+      ],
+      "ground_z_m": 6.738,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.05,
+      "impact_m": [
+        -90.286,
+        -2.336,
+        6.718
+      ],
+      "slope_deg": 3.01
+    },
+    {
+      "t": 5.64,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -90.667,
+        -4.814,
+        7.841
+      ],
+      "ground_z_m": 6.881,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        -90.669,
+        -4.834,
+        6.861
+      ],
+      "slope_deg": 3.37
+    },
+    {
+      "t": 6.05,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -90.969,
+        -6.935,
+        7.959
+      ],
+      "ground_z_m": 6.999,
+      "speed_mps": 3.47,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.22,
+      "impact_m": [
+        -90.971,
+        -6.949,
+        6.977
+      ],
+      "slope_deg": 2.36
+    },
+    {
+      "t": 6.45,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -90.253,
+        -9.099,
+        7.976
+      ],
+      "ground_z_m": 7.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -90.251,
+        -9.099,
+        6.995
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 6.86,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -89.407,
+        -11.339,
+        7.976
+      ],
+      "ground_z_m": 7.016,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.2,
+      "impact_m": [
+        -89.405,
+        -11.337,
+        6.994
+      ],
+      "slope_deg": 0.48
+    },
+    {
+      "t": 7.28,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -88.483,
+        -13.784,
+        7.961
+      ],
+      "ground_z_m": 7.001,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.26,
+      "impact_m": [
+        -88.483,
+        -13.782,
+        6.978
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 7.69,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -87.626,
+        -16.053,
+        7.952
+      ],
+      "ground_z_m": 6.992,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.37,
+      "impact_m": [
+        -87.628,
+        -16.053,
+        6.968
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 8.11,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -86.752,
+        -18.365,
+        7.946
+      ],
+      "ground_z_m": 6.986,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.35,
+      "impact_m": [
+        -86.754,
+        -18.365,
+        6.963
+      ],
+      "slope_deg": 0.34
+    },
+    {
+      "t": 8.53,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -85.858,
+        -20.731,
+        7.888
+      ],
+      "ground_z_m": 6.928,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -85.889,
+        -20.697,
+        6.909
+      ],
+      "slope_deg": 7.79
+    },
+    {
+      "t": 8.95,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -84.994,
+        -22.946,
+        7.68
+      ],
+      "ground_z_m": 6.72,
+      "speed_mps": 4.56,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -84.994,
+        -22.946,
+        6.698
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 9.38,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -83.297,
+        -24.88,
+        7.817
+      ],
+      "ground_z_m": 6.857,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The Root Passage",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -83.298,
+        -24.88,
+        6.835
+      ],
+      "slope_deg": 0.12
+    },
+    {
+      "t": 9.8,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -81.566,
+        -26.727,
+        7.812
+      ],
+      "ground_z_m": 6.852,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The Root Passage",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -81.565,
+        -26.726,
+        6.831
+      ],
+      "slope_deg": 0.27
+    },
+    {
+      "t": 10.22,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -79.85,
+        -28.558,
+        7.814
+      ],
+      "ground_z_m": 6.854,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The Root Passage",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -79.85,
+        -28.559,
+        6.833
+      ],
+      "slope_deg": 0.13
+    },
+    {
+      "t": 10.62,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -78.168,
+        -30.352,
+        7.814
+      ],
+      "ground_z_m": 6.854,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The Root Passage",
+      "floor_dist_cm": 1.96,
+      "impact_m": [
+        -78.169,
+        -30.352,
+        6.834
+      ],
+      "slope_deg": 0.09
+    },
+    {
+      "t": 11.05,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -76.44,
+        -32.196,
+        7.814
+      ],
+      "ground_z_m": 6.854,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The Root Passage",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -76.441,
+        -32.195,
+        6.832
+      ],
+      "slope_deg": 0.15
+    },
+    {
+      "t": 11.45,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -74.792,
+        -33.954,
+        7.68
+      ],
+      "ground_z_m": 6.72,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -74.792,
+        -33.954,
+        6.698
+      ],
+      "slope_deg": 0.0
+    },
+    {
+      "t": 11.88,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -73.064,
+        -35.798,
+        7.637
+      ],
+      "ground_z_m": 6.677,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -73.09,
+        -35.76,
+        6.658
+      ],
+      "slope_deg": 7.67
+    },
+    {
+      "t": 12.28,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -71.457,
+        -37.512,
+        7.064
+      ],
+      "ground_z_m": 6.104,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -71.471,
+        -37.49,
+        6.084
+      ],
+      "slope_deg": 4.36
+    },
+    {
+      "t": 12.7,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -69.625,
+        -38.83,
+        6.931
+      ],
+      "ground_z_m": 5.971,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.98,
+      "impact_m": [
+        -69.641,
+        -38.82,
+        5.952
+      ],
+      "slope_deg": 3.17
+    },
+    {
+      "t": 13.14,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -67.409,
+        -40.133,
+        6.792
+      ],
+      "ground_z_m": 5.832,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.92,
+      "impact_m": [
+        -67.423,
+        -40.123,
+        5.813
+      ],
+      "slope_deg": 2.9
+    },
+    {
+      "t": 13.56,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -65.182,
+        -41.439,
+        6.658
+      ],
+      "ground_z_m": 5.698,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.0,
+      "impact_m": [
+        -65.196,
+        -41.429,
+        5.679
+      ],
+      "slope_deg": 2.87
+    },
+    {
+      "t": 13.98,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -62.961,
+        -42.742,
+        6.539
+      ],
+      "ground_z_m": 5.579,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        -62.975,
+        -42.732,
+        5.559
+      ],
+      "slope_deg": 2.9
+    },
+    {
+      "t": 14.39,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -60.915,
+        -43.943,
+        6.431
+      ],
+      "ground_z_m": 5.471,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -60.929,
+        -43.933,
+        5.449
+      ],
+      "slope_deg": 2.87
+    },
+    {
+      "t": 14.8,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -59.074,
+        -45.384,
+        6.322
+      ],
+      "ground_z_m": 5.362,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -59.088,
+        -45.374,
+        5.341
+      ],
+      "slope_deg": 2.9
+    },
+    {
+      "t": 15.22,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -56.818,
+        -46.625,
+        6.197
+      ],
+      "ground_z_m": 5.237,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        -56.832,
+        -46.615,
+        5.217
+      ],
+      "slope_deg": 2.9
+    },
+    {
+      "t": 15.62,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -54.659,
+        -47.679,
+        7.158
+      ],
+      "ground_z_m": 6.198,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Collapsed Cloister CollapsedCloister 250",
+      "floor_dist_cm": 1.93,
+      "impact_m": [
+        -54.755,
+        -47.603,
+        6.202
+      ],
+      "slope_deg": 21.14
+    },
+    {
+      "t": 16.03,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -52.624,
+        -48.353,
+        6.615
+      ],
+      "ground_z_m": 5.655,
+      "speed_mps": 6.28,
+      "walkable": false,
+      "on_ground": false,
+      "floor": null,
+      "floor_dist_cm": 42.6,
+      "impact_m": null,
+      "slope_deg": null
+    },
+    {
+      "t": 16.45,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -50.176,
+        -48.927,
+        6.158
+      ],
+      "ground_z_m": 5.198,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -50.166,
+        -48.927,
+        5.177
+      ],
+      "slope_deg": 1.68
+    },
+    {
+      "t": 16.88,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -47.71,
+        -49.451,
+        6.239
+      ],
+      "ground_z_m": 5.279,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.18,
+      "impact_m": [
+        -47.7,
+        -49.455,
+        5.257
+      ],
+      "slope_deg": 1.81
+    },
+    {
+      "t": 17.3,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -45.162,
+        -49.993,
+        6.319
+      ],
+      "ground_z_m": 5.359,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        -45.15,
+        -49.999,
+        5.338
+      ],
+      "slope_deg": 2.26
+    },
+    {
+      "t": 17.73,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -42.665,
+        -50.523,
+        6.411
+      ],
+      "ground_z_m": 5.451,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.07,
+      "impact_m": [
+        -42.654,
+        -50.529,
+        5.43
+      ],
+      "slope_deg": 2.24
+    },
+    {
+      "t": 18.14,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -40.227,
+        -51.041,
+        6.513
+      ],
+      "ground_z_m": 5.553,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.95,
+      "impact_m": [
+        -40.213,
+        -51.047,
+        5.534
+      ],
+      "slope_deg": 2.55
+    },
+    {
+      "t": 18.56,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -37.798,
+        -51.556,
+        6.632
+      ],
+      "ground_z_m": 5.672,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.13,
+      "impact_m": [
+        -37.782,
+        -51.562,
+        5.651
+      ],
+      "slope_deg": 2.85
+    },
+    {
+      "t": 18.97,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -35.345,
+        -52.077,
+        6.755
+      ],
+      "ground_z_m": 5.795,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -35.33,
+        -52.081,
+        5.774
+      ],
+      "slope_deg": 2.75
+    },
+    {
+      "t": 19.38,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -32.959,
+        -52.584,
+        6.878
+      ],
+      "ground_z_m": 5.918,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -32.944,
+        -52.588,
+        5.897
+      ],
+      "slope_deg": 2.76
+    },
+    {
+      "t": 19.78,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -30.896,
+        -53.018,
+        6.983
+      ],
+      "ground_z_m": 6.023,
+      "speed_mps": 4.5,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.09,
+      "impact_m": [
+        -30.876,
+        -53.022,
+        6.002
+      ],
+      "slope_deg": 3.42
+    },
+    {
+      "t": 20.2,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -28.444,
+        -53.456,
+        7.295
+      ],
+      "ground_z_m": 6.335,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Collapsed Cloister CollapsedCloister 251",
+      "floor_dist_cm": 2.33,
+      "impact_m": [
+        -28.332,
+        -53.483,
+        6.331
+      ],
+      "slope_deg": 6.12
+    },
+    {
+      "t": 20.62,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -25.909,
+        -53.902,
+        7.278
+      ],
+      "ground_z_m": 6.318,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -25.891,
+        -53.906,
+        6.297
+      ],
+      "slope_deg": 3.09
+    },
+    {
+      "t": 21.03,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -23.526,
+        -54.322,
+        7.408
+      ],
+      "ground_z_m": 6.448,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.08,
+      "impact_m": [
+        -23.509,
+        -54.328,
+        6.427
+      ],
+      "slope_deg": 3.18
+    },
+    {
+      "t": 21.44,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -21.175,
+        -54.736,
+        7.532
+      ],
+      "ground_z_m": 6.572,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.04,
+      "impact_m": [
+        -21.157,
+        -54.74,
+        6.552
+      ],
+      "slope_deg": 3.09
+    },
+    {
+      "t": 21.88,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -18.617,
+        -55.187,
+        7.672
+      ],
+      "ground_z_m": 6.712,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.1,
+      "impact_m": [
+        -18.599,
+        -55.19,
+        6.692
+      ],
+      "slope_deg": 3.08
+    },
+    {
+      "t": 22.3,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -16.077,
+        -55.634,
+        7.85
+      ],
+      "ground_z_m": 6.89,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Collapsed Cloister CollapsedCloister 252",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -15.883,
+        -55.732,
+        6.948
+      ],
+      "slope_deg": 39.87
+    },
+    {
+      "t": 22.7,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -14.019,
+        -55.954,
+        7.949
+      ],
+      "ground_z_m": 6.989,
+      "speed_mps": 4.32,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        -14.001,
+        -55.95,
+        6.968
+      ],
+      "slope_deg": 3.09
+    },
+    {
+      "t": 23.11,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -11.586,
+        -55.651,
+        8.067
+      ],
+      "ground_z_m": 7.107,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -11.57,
+        -55.649,
+        7.086
+      ],
+      "slope_deg": 2.74
+    },
+    {
+      "t": 23.51,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -9.226,
+        -55.315,
+        8.18
+      ],
+      "ground_z_m": 7.22,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.16,
+      "impact_m": [
+        -9.21,
+        -55.313,
+        7.199
+      ],
+      "slope_deg": 2.7
+    },
+    {
+      "t": 23.94,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -6.715,
+        -54.957,
+        8.29
+      ],
+      "ground_z_m": 7.33,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.24,
+      "impact_m": [
+        -6.703,
+        -54.955,
+        7.308
+      ],
+      "slope_deg": 2.07
+    },
+    {
+      "t": 24.34,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -4.243,
+        -54.605,
+        8.383
+      ],
+      "ground_z_m": 7.423,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.19,
+      "impact_m": [
+        -4.231,
+        -54.603,
+        7.401
+      ],
+      "slope_deg": 2.07
+    },
+    {
+      "t": 24.76,
+      "section": "Broken cloister walk",
+      "position_m": [
+        -1.792,
+        -54.255,
+        8.467
+      ],
+      "ground_z_m": 7.507,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.12,
+      "impact_m": [
+        -1.782,
+        -54.253,
+        7.486
+      ],
+      "slope_deg": 1.72
+    },
+    {
+      "t": 25.17,
+      "section": "Broken cloister walk",
+      "position_m": [
+        0.318,
+        -53.976,
+        8.542
+      ],
+      "ground_z_m": 7.582,
+      "speed_mps": 5.53,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.99,
+      "impact_m": [
+        0.332,
+        -53.974,
+        7.563
+      ],
+      "slope_deg": 2.4
+    },
+    {
+      "t": 25.58,
+      "section": "Broken cloister walk",
+      "position_m": [
+        2.771,
+        -53.782,
+        8.634
+      ],
+      "ground_z_m": 7.674,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.94,
+      "impact_m": [
+        2.783,
+        -53.776,
+        7.655
+      ],
+      "slope_deg": 2.25
+    },
+    {
+      "t": 25.98,
+      "section": "Broken cloister walk",
+      "position_m": [
+        5.186,
+        -53.597,
+        8.728
+      ],
+      "ground_z_m": 7.768,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.21,
+      "impact_m": [
+        5.197,
+        -53.591,
+        7.746
+      ],
+      "slope_deg": 1.97
+    },
+    {
+      "t": 26.41,
+      "section": "Broken cloister walk",
+      "position_m": [
+        7.682,
+        -53.407,
+        8.808
+      ],
+      "ground_z_m": 7.848,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.19,
+      "impact_m": [
+        7.692,
+        -53.403,
+        7.826
+      ],
+      "slope_deg": 1.79
+    },
+    {
+      "t": 26.81,
+      "section": "Broken cloister walk",
+      "position_m": [
+        10.174,
+        -53.216,
+        8.877
+      ],
+      "ground_z_m": 7.917,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        10.184,
+        -53.216,
+        7.896
+      ],
+      "slope_deg": 1.69
+    },
+    {
+      "t": 27.22,
+      "section": "Broken cloister walk",
+      "position_m": [
+        12.498,
+        -53.038,
+        8.945
+      ],
+      "ground_z_m": 7.985,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.11,
+      "impact_m": [
+        12.508,
+        -53.038,
+        7.964
+      ],
+      "slope_deg": 1.69
+    },
+    {
+      "t": 27.64,
+      "section": "Broken cloister walk",
+      "position_m": [
+        14.846,
+        -53.186,
+        9.264
+      ],
+      "ground_z_m": 8.304,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.17,
+      "impact_m": [
+        14.899,
+        -53.205,
+        8.287
+      ],
+      "slope_deg": 9.57
+    },
+    {
+      "t": 28.05,
+      "section": "Broken cloister walk",
+      "position_m": [
+        17.231,
+        -53.473,
+        9.659
+      ],
+      "ground_z_m": 8.699,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        17.285,
+        -53.498,
+        8.682
+      ],
+      "slope_deg": 10.24
+    },
+    {
+      "t": 28.45,
+      "section": "Broken cloister walk",
+      "position_m": [
+        19.668,
+        -53.768,
+        10.308
+      ],
+      "ground_z_m": 9.348,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        19.821,
+        -53.848,
+        9.373
+      ],
+      "slope_deg": 30.51
+    },
+    {
+      "t": 28.86,
+      "section": "Broken cloister walk",
+      "position_m": [
+        22.066,
+        -54.057,
+        10.786
+      ],
+      "ground_z_m": 9.826,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 2.15,
+      "impact_m": [
+        22.066,
+        -54.114,
+        9.809
+      ],
+      "slope_deg": 9.66
+    },
+    {
+      "t": 29.28,
+      "section": "Broken cloister walk",
+      "position_m": [
+        24.531,
+        -54.355,
+        10.869
+      ],
+      "ground_z_m": 9.909,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "Valley of the Two Springs",
+      "floor_dist_cm": 1.95,
+      "impact_m": [
+        24.559,
+        -54.4,
+        9.894
+      ],
+      "slope_deg": 4.81
+    },
+    {
+      "t": 29.7,
+      "section": "Broken cloister walk",
+      "position_m": [
+        24.396,
+        -56.084,
+        10.98
+      ],
+      "ground_z_m": 10.02,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The West Chapel",
+      "floor_dist_cm": 2.06,
+      "impact_m": [
+        24.395,
+        -56.085,
+        9.999
+      ],
+      "slope_deg": 0.12
+    },
+    {
+      "t": 30.12,
+      "section": "Broken cloister walk",
+      "position_m": [
+        23.383,
+        -58.113,
+        10.983
+      ],
+      "ground_z_m": 10.023,
+      "speed_mps": 6.0,
+      "walkable": true,
+      "on_ground": true,
+      "floor": "The West Chapel",
+      "floor_dist_cm": 2.05,
+      "impact_m": [
+        23.383,
+        -58.113,
+        10.003
+      ],
+      "slope_deg": 0.06
+    }
+  ],
+  "failure": null,
+  "detours": [],
+  "airborne_samples": 13,
+  "max_continuous_air_seconds": 0.36,
+  "wall_time_cadence": {
+    "scope": "Offscreen PIE engine ticker wall clock while walking. Includes editor and driver overhead. This measures main-loop cadence, not presentation or GPU completion.",
+    "frames": 970,
+    "mean_fps": 33.87,
+    "median_ms": 31.0,
+    "p95_ms": 47.0,
+    "p99_ms": 47.0,
+    "max_ms": 78.0
+  },
+  "native_csv_basename": "Astra_cloister_20261119_020136"
+}

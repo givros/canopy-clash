@@ -1,0 +1,29 @@
+{
+  "Scupper": [
+    {
+      "centres_m": [
+        21.2,
+        22.15
+      ],
+      "physical_width_m": 1.63
+    }
+  ],
+  "North": [
+    {
+      "centres_m": [
+        19.95,
+        21.05
+      ],
+      "physical_width_m": 1.78
+    }
+  ],
+  "South": [
+    {
+      "centres_m": [
+        22.1,
+        23.45
+      ],
+      "physical_width_m": 2.03
+    }
+  ]
+}

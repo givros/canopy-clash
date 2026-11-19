@@ -1,0 +1,772 @@
+{
+  "Shrine of the Split Leaf": [
+    {
+      "point": [
+        96.076,
+        -90.506,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        91.168,
+        -91.196,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        86.26,
+        -91.885,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        95.732,
+        -88.063,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        90.825,
+        -88.752,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        85.917,
+        -89.442,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        95.309,
+        -85.047,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        90.401,
+        -85.737,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        85.493,
+        -86.427,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        94.775,
+        -81.252,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        89.867,
+        -81.942,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        84.96,
+        -82.631,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    }
+  ],
+  "Shrine Above the Mist": [
+    {
+      "point": [
+        132.304,
+        -65.583,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        137.039,
+        -69.846,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        141.774,
+        -74.11,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        130.181,
+        -67.94,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        134.916,
+        -72.204,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        139.651,
+        -76.468,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        127.561,
+        -70.85,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        132.296,
+        -75.113,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        137.032,
+        -79.377,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        124.264,
+        -74.511,
+        75.0
+      ],
+      "soil_m": 74.14,
+      "paving_to_ground_m": 0.86
+    },
+    {
+      "point": [
+        128.999,
+        -78.775,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        133.735,
+        -83.039,
+        75.0
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 0.14
+    }
+  ],
+  "Court of the Eastern Spring": [
+    {
+      "point": [
+        122.235,
+        21.206,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        123.925,
+        17.412,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        125.614,
+        13.617,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        120.346,
+        20.365,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        122.035,
+        16.57,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        123.725,
+        12.776,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        118.015,
+        19.327,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        119.704,
+        15.532,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        121.393,
+        11.738,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        115.08,
+        18.021,
+        31.0
+      ],
+      "soil_m": 30.85,
+      "paving_to_ground_m": 0.15
+    },
+    {
+      "point": [
+        116.77,
+        14.226,
+        31.0
+      ],
+      "soil_m": 30.85,
+      "paving_to_ground_m": 0.15
+    },
+    {
+      "point": [
+        118.459,
+        10.432,
+        31.0
+      ],
+      "soil_m": 30.86,
+      "paving_to_ground_m": 0.14
+    }
+  ],
+  "The West Chapel": [
+    {
+      "point": [
+        21.393,
+        -54.595,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        24.407,
+        -56.266,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        27.421,
+        -57.936,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        20.562,
+        -56.096,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        23.575,
+        -57.766,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        26.589,
+        -59.437,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        19.535,
+        -57.947,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        22.549,
+        -59.618,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        25.563,
+        -61.288,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        18.244,
+        -60.278,
+        10.0
+      ],
+      "soil_m": 9.88,
+      "paving_to_ground_m": 0.12
+    },
+    {
+      "point": [
+        21.257,
+        -61.948,
+        10.0
+      ],
+      "soil_m": 9.89,
+      "paving_to_ground_m": 0.11
+    },
+    {
+      "point": [
+        24.271,
+        -63.619,
+        10.0
+      ],
+      "soil_m": 9.86,
+      "paving_to_ground_m": 0.14
+    }
+  ],
+  "Shrine of the Lower Ford": [
+    {
+      "point": [
+        -30.274,
+        54.442,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -27.082,
+        54.778,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -23.89,
+        55.113,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -30.107,
+        52.853,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -26.915,
+        53.188,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -23.723,
+        53.524,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -29.901,
+        50.892,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -26.709,
+        51.227,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -23.517,
+        51.563,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        -29.641,
+        48.423,
+        5.46
+      ],
+      "soil_m": 5.31,
+      "paving_to_ground_m": 0.15
+    },
+    {
+      "point": [
+        -26.449,
+        48.759,
+        5.46
+      ],
+      "soil_m": 5.31,
+      "paving_to_ground_m": 0.15
+    },
+    {
+      "point": [
+        -23.257,
+        49.094,
+        5.46
+      ],
+      "soil_m": 5.32,
+      "paving_to_ground_m": 0.14
+    }
+  ],
+  "Temple of the Hidden Spring": [
+    {
+      "point": [
+        110.125,
+        -74.488,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        108.745,
+        -69.336,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        107.364,
+        -64.184,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        112.69,
+        -73.801,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        111.31,
+        -68.649,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        109.929,
+        -63.497,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        115.856,
+        -72.953,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        114.475,
+        -67.801,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        113.095,
+        -62.649,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        119.84,
+        -71.885,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        118.459,
+        -66.733,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    },
+    {
+      "point": [
+        117.079,
+        -61.582,
+        55.0
+      ],
+      "soil_m": 54.86,
+      "paving_to_ground_m": 0.14
+    }
+  ],
+  "Upper Watchtower of the Mist": [
+    {
+      "point": [
+        128.464,
+        -69.846,
+        85.017
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 10.16
+    },
+    {
+      "point": [
+        133.2,
+        -74.11,
+        85.017
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 10.16
+    },
+    {
+      "point": [
+        137.935,
+        -78.374,
+        85.017
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 10.16
+    },
+    {
+      "point": [
+        126.342,
+        -72.204,
+        85.017
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 10.16
+    },
+    {
+      "point": [
+        131.077,
+        -76.468,
+        85.017
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 10.16
+    },
+    {
+      "point": [
+        135.812,
+        -80.731,
+        85.017
+      ],
+      "soil_m": 74.86,
+      "paving_to_ground_m": 10.16
+    },
+    {
+      "point": [
+        123.722,
+        -75.113,
+        85.017
+      ],
+      "soil_m": 74.58,
+      "paving_to_ground_m": 10.44
+    },
+    {
+      "point": [
+        128.457,
+        -79.377,
+        85.017
+      ],
+      "soil_m": 74.67,
+      "paving_to_ground_m": 10.35
+    },
+    {
+      "point": [
+        133.193,
+        -83.641,
+        85.017
+      ],
+      "soil_m": 74.78,
+      "paving_to_ground_m": 10.24
+    },
+    {
+      "point": [
+        120.425,
+        -78.775,
+        85.017
+      ],
+      "soil_m": 59.32,
+      "paving_to_ground_m": 25.7
+    },
+    {
+      "point": [
+        125.16,
+        -83.039,
+        85.017
+      ],
+      "soil_m": 63.66,
+      "paving_to_ground_m": 21.35
+    },
+    {
+      "point": [
+        129.895,
+        -87.303,
+        85.017
+      ],
+      "soil_m": 68.73,
+      "paving_to_ground_m": 16.29
+    }
+  ]
+}

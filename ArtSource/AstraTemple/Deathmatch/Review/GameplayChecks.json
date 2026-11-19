@@ -1,0 +1,1256 @@
+{
+  "map": "L_CanopyDeathmatch",
+  "purpose": "Native first-person, authoritative gameplay, timing and presentation checks. Balance and rendering runs are reported separately.",
+  "physical_inputs": {
+    "source": "HandlingCloseVisual/Review.log",
+    "checks": [
+      {
+        "case": "countdown_ignores_fire",
+        "pass": true,
+        "first_value": 30.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "W",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Z",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Q",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "A",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "S",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "D",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Up",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Down",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Left",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Right",
+        "pass": true,
+        "first_value": 207.333,
+        "second_value": 510.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Sprint",
+        "pass": true,
+        "first_value": 259.833,
+        "second_value": 690.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "Crouch",
+        "pass": true,
+        "first_value": 106.25,
+        "second_value": 235.0
+      },
+      {
+        "case": "crouched_eye_and_capsule",
+        "pass": true,
+        "first_value": 162.0,
+        "second_value": 80.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "ADS",
+        "pass": true,
+        "first_value": 142.083,
+        "second_value": 325.0
+      },
+      {
+        "case": "movement_released",
+        "pass": true,
+        "first_value": 0.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "jump_lands",
+        "pass": true,
+        "first_value": 112.697,
+        "second_value": 0.0
+      },
+      {
+        "case": "mouse_yaw_and_pitch",
+        "pass": true,
+        "first_value": 3.15,
+        "second_value": 1.05
+      },
+      {
+        "case": "smooth_ads",
+        "pass": true,
+        "first_value": 72.983,
+        "second_value": 64.012
+      },
+      {
+        "case": "ads_release",
+        "pass": true,
+        "first_value": 89.988,
+        "second_value": 0.0
+      },
+      {
+        "case": "automatic_fire_interval",
+        "pass": true,
+        "first_value": 6.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "visible_controllable_recoil",
+        "pass": true,
+        "first_value": 3.465,
+        "second_value": 0.0
+      },
+      {
+        "case": "trigger_release",
+        "pass": true,
+        "first_value": 24.0,
+        "second_value": 0.0
+      },
+      {
+        "case": "reload_in_progress",
+        "pass": true,
+        "first_value": 0.239,
+        "second_value": 0.0
+      },
+      {
+        "case": "reload_transfers_exact_reserve",
+        "pass": true,
+        "first_value": 30.0,
+        "second_value": 114.0
+      },
+      {
+        "case": "camera_stops_outside_solid_cover",
+        "pass": true,
+        "first_value": 65.489,
+        "second_value": 202.987
+      },
+      {
+        "case": "solid_cover_intercepts_automatic_fire",
+        "pass": true,
+        "first_value": 100.0,
+        "second_value": 27.0
+      }
+    ]
+  },
+  "network_matches": {
+    "source": "NetworkAudit/20261119_024654/MatchAudit.json",
+    "checks": {
+      "server_completed": true,
+      "server_two_rounds": true,
+      "server_full_rosters": true,
+      "server_correct_winners": true,
+      "red_completed": true,
+      "red_two_rounds": true,
+      "red_full_rosters": true,
+      "red_correct_winners": true,
+      "red_team_rpc": true,
+      "red_replicated_controls": true,
+      "blue_completed": true,
+      "blue_two_rounds": true,
+      "blue_full_rosters": true,
+      "blue_correct_winners": true,
+      "blue_team_rpc": true,
+      "blue_replicated_controls": true,
+      "matched_remote_results": true,
+      "loopback_only": true,
+      "real_enemy_eliminations": true,
+      "friendly_fire_blocked": true,
+      "respawn_after_delay": true,
+      "agents_moved": true,
+      "both_round_end_conditions": true,
+      "client_requested_replay": true
+    },
+    "respawns": 110,
+    "result_modes": [
+      "score",
+      "timer"
+    ]
+  },
+  "controlled_remote_duel": {
+    "source": "DuelAudit/20261119_025447/DuelAudit.json",
+    "checks": {
+      "loopback_only": true,
+      "both_remote_clients_completed": true,
+      "real_carbine_damage": true,
+      "body_and_head_damage": true,
+      "victim_received_replicated_damage": true,
+      "server_respawned_safely": true,
+      "attacker_received_credit": true
+    },
+    "events": {
+      "server": [
+        [
+          "setup",
+          "server",
+          "144.49",
+          "0",
+          "1",
+          "707.3",
+          "13"
+        ],
+        [
+          "hit",
+          "server",
+          "1",
+          "100.0",
+          "76.0",
+          "145.87"
+        ],
+        [
+          "hit",
+          "server",
+          "1",
+          "76.0",
+          "52.0",
+          "146.04"
+        ],
+        [
+          "hit",
+          "server",
+          "1",
+          "52.0",
+          "4.0",
+          "146.82"
+        ],
+        [
+          "hit",
+          "server",
+          "1",
+          "4.0",
+          "0.0",
+          "146.99"
+        ],
+        [
+          "death",
+          "server",
+          "1",
+          "146.99",
+          "149.99"
+        ],
+        [
+          "respawn",
+          "server",
+          "100.0",
+          "1",
+          "1",
+          "1",
+          "150.05"
+        ],
+        [
+          "done",
+          "server"
+        ]
+      ],
+      "shooter": [
+        [
+          "setup",
+          "shooter",
+          "144.54",
+          "0",
+          "30"
+        ],
+        [
+          "frag",
+          "shooter",
+          "1",
+          "26",
+          "1",
+          "0",
+          "147.00"
+        ],
+        [
+          "done",
+          "shooter"
+        ]
+      ],
+      "target": [
+        [
+          "setup",
+          "target",
+          "144.54",
+          "1",
+          "30"
+        ],
+        [
+          "hit",
+          "target",
+          "100.0",
+          "76.0",
+          "145.88"
+        ],
+        [
+          "hit",
+          "target",
+          "76.0",
+          "52.0",
+          "146.05"
+        ],
+        [
+          "hit",
+          "target",
+          "52.0",
+          "4.0",
+          "146.83"
+        ],
+        [
+          "hit",
+          "target",
+          "4.0",
+          "0.0",
+          "147.00"
+        ],
+        [
+          "respawn",
+          "target",
+          "0.0",
+          "100.0",
+          "1",
+          "150.05"
+        ],
+        [
+          "done",
+          "target"
+        ]
+      ]
+    }
+  },
+  "session_and_standings": {
+    "source": "Session_20261119_040805/Session.json",
+    "passed": true,
+    "results": {
+      "match_running_before_players": {
+        "seconds": 3.04,
+        "players": [
+          1,
+          1
+        ],
+        "humans": 0,
+        "connections": 0,
+        "score": [
+          0,
+          0
+        ]
+      },
+      "late_player_replaces_one_bot": {
+        "seconds": 15.1,
+        "players": [
+          1,
+          1
+        ],
+        "humans": 1,
+        "connections": 1,
+        "score": [
+          0,
+          1
+        ]
+      },
+      "two_players_replace_both_bots": {
+        "seconds": 30.16,
+        "players": [
+          1,
+          1
+        ],
+        "humans": 2,
+        "connections": 2,
+        "score": [
+          0,
+          1
+        ]
+      },
+      "full_session_rejects_third_player": true,
+      "departure_replaced_by_bot": {
+        "seconds": 55.22,
+        "players": [
+          1,
+          1
+        ],
+        "humans": 1,
+        "connections": 1,
+        "score": [
+          0,
+          1
+        ]
+      },
+      "replacement_joins_existing_match": {
+        "seconds": 70.26,
+        "players": [
+          1,
+          1
+        ],
+        "humans": 2,
+        "connections": 2,
+        "score": [
+          0,
+          1
+        ]
+      },
+      "enabled_friendly_elimination": {
+        "before": 100.0,
+        "damage": 100.0,
+        "after": 0.0,
+        "red_points": 0,
+        "blue_points": 0,
+        "attacker_kills": 0,
+        "victim_deaths": 1
+      },
+      "botted_match_has_final_table": [
+        [
+          "10001",
+          "0",
+          "1",
+          "1",
+          "Cinder"
+        ],
+        [
+          "10002",
+          "0",
+          "1",
+          "0",
+          "Ocelot"
+        ],
+        [
+          "10003",
+          "1",
+          "0",
+          "0",
+          "Reed"
+        ],
+        [
+          "10004",
+          "1",
+          "1",
+          "2",
+          "Heron"
+        ]
+      ],
+      "postmatch_guest_receives_original_table": {
+        "identical_to_original": true,
+        "players": 4,
+        "late_viewer_id": "256"
+      },
+      "replay_publishes_new_participants_and_scores": {
+        "scores": [
+          [
+            "10001",
+            "0",
+            "2",
+            "1",
+            "Cinder"
+          ],
+          [
+            "10003",
+            "1",
+            "0",
+            "0",
+            "Reed"
+          ],
+          [
+            "10004",
+            "1",
+            "1",
+            "2",
+            "Heron"
+          ],
+          [
+            "256",
+            "0",
+            "0",
+            "0",
+            "LateRanger"
+          ]
+        ],
+        "guest_id_in_replayed_match": "256"
+      }
+    }
+  },
+  "shot_and_ads_latency": {
+    "source": "WeaponLatencyVerified/Metrics.json",
+    "input_to_first_local_flash_ms": 14.2,
+    "input_to_first_report_ms_equivalent": 12.2,
+    "output_mixer_sample_rate": 48000,
+    "output_channels": 2,
+    "frame_time_ms": 12.9,
+    "native_ping_at_tap_ms": 112.5,
+    "input_to_first_ads_change_ms": 13.1,
+    "first_ads_fov": 85.433,
+    "tap_to_authority_ms": 77.5,
+    "tap_to_client_ammo_replication_ms": 139.3,
+    "cosmetic_events": 36,
+    "authoritative_shots": 36,
+    "server_burst_cadence_ms": [
+      152.5,
+      149.4,
+      151.0,
+      150.8
+    ],
+    "master_report_onsets": {
+      "tap": 1,
+      "burst": 5,
+      "drain": 30
+    },
+    "local_ammo_at_flash": 30.0,
+    "blocked_manual_reload_effects": 0,
+    "final_ammo": 30,
+    "final_reserve": 84,
+    "hit_confirm_on_empty_space": false,
+    "empty_attempt_ammo": 0,
+    "empty_attempt_reloading": true,
+    "guards": {
+      "reload_request_replicated_yet": false,
+      "new_effects_pre_ack_reload_to_reload_finish": 0,
+      "empty_before_auto_reload": {
+        "ammo": 0.0,
+        "reload": false,
+        "later_cosmetic_events": 0
+      },
+      "dead": {
+        "same_effect_state": true,
+        "same_ammo": true
+      },
+      "countdown": {
+        "same_effect_state": true,
+        "same_ammo": true
+      }
+    },
+    "confirmed_contact": {
+      "local_effect_same_frame": true,
+      "local_ammo_unchanged_until_receipt": true,
+      "local_hit_marker_at_prediction": false,
+      "hit_marker_after_prediction_ms": 67.1
+    }
+  },
+  "bot_visibility": {
+    "sources": [
+      "Perception03",
+      "Perception04",
+      "Perception05"
+    ],
+    "first_shot_after_sensing_seconds": [
+      0.667,
+      0.567,
+      0.7
+    ],
+    "after_corner": [
+      [
+        0,
+        0.0
+      ],
+      [
+        0,
+        0.0
+      ],
+      [
+        0,
+        0.0
+      ]
+    ]
+  },
+  "steps": {
+    "source": "AudioPass01/Metrics.json",
+    "stone_seconds": 0.367,
+    "crouch_seconds": 0.5,
+    "rendered_sound_at_rest": false,
+    "remote": {
+      "sample_rate": 48000,
+      "duration": 32.53333333333333,
+      "events": 21,
+      "subjects": [
+        "BP_CanopyRanger_C_1"
+      ],
+      "role": "<NetRole.ROLE_SIMULATED_PROXY: 1>",
+      "median_step_interval_s": 0.397,
+      "remote_max_speed_cm_s": 510.25,
+      "listener_max_speed_after_seating_cm_s": 0.0,
+      "channels": {
+        "A": {
+          "peak_dbfs": -26.51,
+          "L_R_dB": 47.22
+        },
+        "B": {
+          "peak_dbfs": -25.9,
+          "L_R_dB": -46.09
+        }
+      },
+      "peak_dbfs": -25.9
+    }
+  },
+  "reload": {
+    "source": {
+      "original_triangles": 16033,
+      "receiver_triangles": 15175,
+      "magazine_triangles": 858,
+      "bounds_cm": [
+        [
+          -1.1841771602630615,
+          10.646346092224121,
+          -10.834014892578125
+        ],
+        [
+          1.1841771602630615,
+          18.74362564086914,
+          1.0545172691345215
+        ]
+      ],
+      "receiver_lods": 1,
+      "magazine_lods": 1,
+      "assets": [
+        "/Game/TempleTDM/Presentation/SKM_CanopyReceiver.SKM_CanopyReceiver",
+        "/Game/TempleTDM/Presentation/SM_CanopyMagazine.SM_CanopyMagazine"
+      ]
+    },
+    "runtime_interruption_checks": {
+      "initial_view_weapon": "SKM_CanopyReceiver",
+      "initial_world_weapon": "SKM_CanopyReceiver",
+      "death_in_hand_offset_cm": 77.16,
+      "death_hides_view_and_world": true,
+      "respawn_docked": true,
+      "switch_in_hand_offset_cm": 77.16,
+      "new_team_actor_docked": true,
+      "old_actor_removed": true
+    },
+    "staged_visual_samples": {
+      "first_person": {
+        "frames": 88,
+        "frames_in_grip": 40,
+        "max_grip_center_error_cm_at_0.001cm_precision": 0.0,
+        "frames_after_seat": 28,
+        "max_seated_translation_offset_cm": 0.0,
+        "runtime_mesh": "SKM_CanopyReceiver"
+      },
+      "third_person": {
+        "frames": 88,
+        "frames_in_grip": 40,
+        "max_grip_center_error_cm_at_0.001cm_precision": 0.0,
+        "frames_after_seat": 28,
+        "max_seated_translation_offset_cm": 0.0,
+        "runtime_mesh": "SKM_CanopyReceiver"
+      }
+    }
+  },
+  "timer": {
+    "ten_minute_match_log": "MatchClockNative/Review.log",
+    "score_limit": 500,
+    "red": 240,
+    "blue": 217,
+    "active_duration_seconds": 600.0,
+    "draws": {
+      "source": "TieBreakerNative/Review.log",
+      "duration_setting_seconds": 5,
+      "zero_zero_draws": 5,
+      "rendered_result": "DrawScreen/Result.png"
+    }
+  },
+  "remote_turn_and_tap": {
+    "source": "DuelAudit/20261119_041611/DuelAudit.json",
+    "before_source": "DuelAudit/20261119_041246/DuelAudit.json",
+    "turn_degrees": 85,
+    "input_interval_frames": 0,
+    "before": {
+      "remaining_health": 100.0,
+      "remaining_ammo": 29,
+      "ping_ms": 188.3
+    },
+    "after": {
+      "remaining_health": 76.0,
+      "remaining_ammo": 29,
+      "ping_ms": 181.6
+    },
+    "checks": {
+      "loopback_only": true,
+      "both_remote_clients_completed": true,
+      "real_carbine_damage": true,
+      "body_and_head_damage": true,
+      "victim_received_replicated_damage": true,
+      "server_respawned_safely": true,
+      "attacker_received_credit": true,
+      "same_frame_turn_and_tap_connects": true
+    },
+    "release_retest": {
+      "source": "DuelAudit/20261119_043440/DuelAudit.json",
+      "checks": {
+        "loopback_only": true,
+        "both_remote_clients_completed": true,
+        "real_carbine_damage": true,
+        "body_and_head_damage": true,
+        "victim_received_replicated_damage": true,
+        "server_respawned_safely": true,
+        "attacker_received_credit": true,
+        "same_frame_turn_and_tap_connects": true
+      },
+      "health_after": 76.0,
+      "remaining_ammunition": 29,
+      "reported_ping_ms": 165.7
+    }
+  },
+  "lateral_cover": {
+    "source": "CornerScreenFinalBlue/Corner.json",
+    "team": "Blue",
+    "lateral_displacement_cm": 19,
+    "blocked": {
+      "before": {
+        "eye": [
+          985.0,
+          583.0,
+          564.67
+        ],
+        "muzzle": [
+          906.73,
+          563.03,
+          537.1
+        ],
+        "view_unprojected": [
+          915.87,
+          583.81,
+          543.54
+        ],
+        "target": [
+          475.0,
+          589.0,
+          459.65
+        ],
+        "from_eye": "BP_CanopyRanger4",
+        "from_muzzle": "Blue Quay Screen",
+        "first_hit": 486.0,
+        "muzzle_hit": 126.0
+      },
+      "hp_start": 100.0,
+      "ammo_start": 30,
+      "target_protected": false,
+      "target_actor": "BP_CanopyRanger4",
+      "shooter_pos": [
+        985.0,
+        583.0,
+        498.67
+      ],
+      "target_pos": [
+        475.0,
+        589.0,
+        443.65
+      ],
+      "hp_end": 100.0,
+      "ammo_end": 29
+    },
+    "open": {
+      "before": {
+        "eye": [
+          985.0,
+          602.0,
+          564.67
+        ],
+        "muzzle": [
+          907.95,
+          581.86,
+          538.92
+        ],
+        "view_unprojected": [
+          915.85,
+          602.0,
+          543.47
+        ],
+        "target": [
+          475.0,
+          602.0,
+          459.65
+        ],
+        "from_eye": "BP_CanopyRanger4",
+        "from_muzzle": "BP_CanopyRanger4",
+        "first_hit": 486.0,
+        "muzzle_hit": 405.9
+      },
+      "hp_start": 100.0,
+      "ammo_start": 29,
+      "target_protected": false,
+      "target_actor": "BP_CanopyRanger4",
+      "shooter_pos": [
+        985.0,
+        602.0,
+        498.67
+      ],
+      "target_pos": [
+        475.0,
+        602.0,
+        443.65
+      ],
+      "hp_end": 76.0,
+      "ammo_end": 28
+    }
+  },
+  "desktop_menus": {
+    "source": "NativeMenus720/UIInput.json",
+    "resolution": [
+      1280,
+      720
+    ],
+    "passing": 65,
+    "total": 65
+  },
+  "private_loopback": {
+    "source": "PrivateMenu/20261119_041728/PrivateMenu.json",
+    "same_physical_pc": true,
+    "passed": true,
+    "checks": [
+      "private_page_starts_from_paused_solo",
+      "host_button_creates_unpaused_listen_game",
+      "os_socket_binds_only_to_selected_local_interface",
+      "typed_address_and_click_join_remote_world",
+      "host_sees_guest_replacing_bot",
+      "guest_returns_to_solo_through_button",
+      "host_backfills_departed_guest",
+      "guest_rejoins_after_intentional_leave",
+      "host_returns_to_solo_and_removes_listener",
+      "socket_released",
+      "guest_recovers_and_sees_connection_notice",
+      "closed_port_attempt_shows_connecting",
+      "closed_port_failure_reenables_form",
+      "host_reopens_identical_local_endpoint",
+      "guest_reconnects_from_failure_screen"
+    ]
+  },
+  "private_ethernet": {
+    "source": "PrivateMenu/20261119_041907/PrivateMenu.json",
+    "same_physical_pc": true,
+    "passed": true,
+    "checks": [
+      "private_page_starts_from_paused_solo",
+      "host_button_creates_unpaused_listen_game",
+      "os_socket_binds_only_to_selected_local_interface",
+      "typed_address_and_click_join_remote_world",
+      "host_sees_guest_replacing_bot",
+      "guest_returns_to_solo_through_button",
+      "host_backfills_departed_guest",
+      "host_returns_to_solo_and_removes_listener",
+      "socket_released"
+    ]
+  },
+  "base_defender": {
+    "source": "SpawnReturnFireFinal/Retaliation.json",
+    "map_sha256": "f8d1ef7001b1ac117de049dafbaafc09f7a24858abd7844835ddf0a29244139e",
+    "defender_team": "Blue",
+    "protected_target_health": 100.0,
+    "protected_target_trace_distance_cm": 543.9,
+    "shield_before_and_after_returning_fire": [
+      true,
+      false
+    ],
+    "defender_ammo": [
+      30,
+      29
+    ],
+    "outside_bot_radius_m": 8.5,
+    "safe_radius_m": 6.5,
+    "health_after_opponent_acquired_firing_defender": 76.0,
+    "seconds_from_defender_shot_to_return_hit": 0.6,
+    "cover": "Steps of the Basin",
+    "health_after_concealment_and_expiration": 76.0,
+    "seconds_until_silent_reappearance": 6.467,
+    "verified_cases": {
+      "passive_unacquired": true,
+      "shield_real_projectile_hit_pawn": true,
+      "shield_kept_health": true,
+      "effective_shot_canceled_shield": true,
+      "acquired_after_effective_shot": true,
+      "outside_bot_damaged_player": true,
+      "cover_ended_burst_and_search": true,
+      "window_expired_no_acquisition": true,
+      "observer_never_entered_zone": true
+    },
+    "frames": 265,
+    "native_verification": "SpawnReturnFireFinal/Verification.json"
+  },
+  "ten_human_capacity": {
+    "runtime": "Cooked Windows Development, Unreal host plus nine remote native game clients on one PC",
+    "source": "FullCapacity/20261119_044845/FullCapacity.json",
+    "checks": {
+      "port_free_before_test": true,
+      "bound_only_to_loopback_host_pid": true,
+      "ten_actual_humans_five_per_side_zero_bots": true,
+      "nine_guests_connected_and_host_present": true,
+      "eleventh_received_native_capacity_refusal": true,
+      "round_continues_full_after_refusal": true,
+      "departing_player_replaced_with_one_bot": true,
+      "returning_player_replaced_backfill_bot": true,
+      "nine_continuing_players_preserved": true,
+      "all_owned_process_handles_exited": true,
+      "socket_released": true
+    },
+    "eleventh_player_response": "Server full.",
+    "backfill": "9 humans and one bot, followed by 10 humans and zero bots on reconnection."
+  },
+  "cooked_desktop_ui": {
+    "source": "Saved/Deathmatch/Packaging/Cooked_menu_20261119_055904/Check.json",
+    "resolution": [
+      1280,
+      720
+    ],
+    "passed": true,
+    "total": 70,
+    "exit_code": 0,
+    "controls": [
+      "completed_team_result_is_immutable",
+      "finished_match_owns_cursor_and_focus",
+      "match_clock_respects_start_and_expiry",
+      "pointer_restarts_match",
+      "quit_requests_native_process_exit",
+      "replay_clock_limited_to_countdown",
+      "replay_returns_focus_to_game"
+    ]
+  },
+  "cooked_eight_replays": {
+    "source": "Saved/Deathmatch/Packaging/Cooked_lifetime_20261119_055804/Check.json",
+    "runtime": "Cooked Windows Development using the release IoStore containers",
+    "passed": true,
+    "checks": {
+      "eight_matches_and_full_purges": true,
+      "natural_combat": true,
+      "scores_and_countdowns_reset": true,
+      "previous_fighters_freed_after_each_purge": true,
+      "fixed_5v5_roster": true,
+      "one_hud_tree_per_round": true,
+      "menus_and_scoreboards_exercised": true,
+      "combat_effects_exercised": true,
+      "result_snapshots_cleared": true,
+      "one_muzzle_per_fighter_after_each_purge": true,
+      "no_retired_muzzle_or_active_flash_after_each_purge": true,
+      "muzzle_fired_without_duplicate_components": true,
+      "displayed_clock_bound_in_all_rounds": true
+    },
+    "scores": [
+      [
+        2,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        3,
+        1
+      ]
+    ],
+    "retired_pawns_after_gc": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "peak_active_muzzles_per_round": [
+      3,
+      3,
+      3,
+      2,
+      3,
+      3,
+      3,
+      3
+    ],
+    "other_niagara_after_gc": [
+      3,
+      4,
+      5,
+      5,
+      5,
+      5,
+      5,
+      5
+    ]
+  },
+  "hud_clock": {
+    "reason": "The first rendered frame of a replay could briefly display 10:01 for a 600-second round. The HUD now clamps its countdown to the authoritative duration, including late or early clock estimates on clients.",
+    "run": "Saved/Deathmatch/BoundedClockAudit/UIInput.json",
+    "passed": true,
+    "boundary_checks": [
+      {
+        "name": "match_clock_respects_start_and_expiry",
+        "passed": true,
+        "detail": "configured=30"
+      },
+      {
+        "name": "replay_clock_limited_to_countdown",
+        "passed": true,
+        "detail": ""
+      }
+    ],
+    "default_replay_frame": "Saved/Deathmatch/CanopyClashFinalVisual/BlueSpawn.png",
+    "observed_default_replay_display": "10:00"
+  },
+  "muzzle_attachment": {
+    "scope": "Local rendered Unreal Development, 1280 x 720 at 60 fixed gameplay frames per second. The first-person socket was transformed using the active weapon FOV and camera scale.",
+    "emitter": "/Game/TempleTDM/Feedback/NS_CarbineMuzzle.NS_CarbineMuzzle",
+    "direct_shot_origin_max_error_cm": 0.0,
+    "previous_world_origin_drift_px_at_33ms": {
+      "HipStill": 24.52,
+      "AdsStill": 37.14,
+      "HipYaw": 72.88,
+      "HipStrafe": 276.67,
+      "AdsTurnBurst": 373.12
+    },
+    "after": {
+      "samples": 28,
+      "maximum_error_cm": 0.0,
+      "maximum_projected_error_px": 0.0,
+      "remote_test": {
+        "pawn": "BP_CanopyRanger_C_2",
+        "first_origin_error_cm": 0.0,
+        "after_character_moves_error_cm": 0.0,
+        "attached": "WorldCarbine",
+        "socket": "Muzzle",
+        "emitter_count": 1,
+        "light_active": true
+      }
+    },
+    "owner_burst": {
+      "shots": 3,
+      "simultaneously_active_owner_emitters_max": 1,
+      "owned_emitter_components_max": 1
+    },
+    "pixel_inspection": "Hip fire remained at the barrel during lateral movement. The front sight and receiver occluded the center of the flash in ADS, with warm edges visible alongside the weapon during recoil.",
+    "runtime_evidence": "Saved/Deathmatch/MuzzleParallax/RenderedAfter.json",
+    "reference_evidence": "Saved/Deathmatch/MuzzleParallax/RenderedBefore.json",
+    "paired_view": "Saved/Deathmatch/MuzzleParallax/AfterContact.jpg"
+  },
+  "native_visual_match": {
+    "source": "Saved/Deathmatch/CanopyClashFinalVisual",
+    "red": 50,
+    "blue": 35,
+    "player_kills": 20,
+    "player_deaths": 9,
+    "kd": 2.22,
+    "screens": [
+      "Damage.png",
+      "Result.png",
+      "ReplayCountdown.png",
+      "BlueSpawn.png"
+    ],
+    "resolution": [
+      1920,
+      1080
+    ]
+  },
+  "native_team_deployment": {
+    "source": "Saved/Deathmatch/ReleaseDeploymentImage/UIInput.json",
+    "all_checks_passed": true,
+    "checks_total": 68,
+    "observations": [
+      {
+        "name": "match_clock_respects_start_and_expiry",
+        "passed": true,
+        "detail": "configured=22"
+      },
+      {
+        "name": "team_change_starts_respawn",
+        "passed": true,
+        "detail": ""
+      },
+      {
+        "name": "team_respawn_camera",
+        "passed": true,
+        "detail": "eye error 0.000 cm"
+      },
+      {
+        "name": "replay_immediate_camera",
+        "passed": true,
+        "detail": "eye error 0.000 cm"
+      },
+      {
+        "name": "replay_clock_limited_to_countdown",
+        "passed": true,
+        "detail": ""
+      }
+    ],
+    "capture": "Saved/Deathmatch/ReleaseDeploymentImage/Deployment.png"
+  },
+  "packaged_windows": {
+    "source": "Saved/Deathmatch/Packaging/ArchiveContents_20261119_055829/Contents.json",
+    "boot_observations": "Saved/Deathmatch/Packaging/PackagedBoot_20261119_055942/Result.json",
+    "archive_passed": true,
+    "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+    "archive_bytes": 1070039230,
+    "archive_files": 28,
+    "gameplay_assets_checked": 23,
+    "container_entries": 2800,
+    "boot_passed": true,
+    "cooked_d3d12_errors": [],
+    "players_by_team": [
+      5,
+      5
+    ]
+  },
+  "shipping_network_match": {
+    "source": "Saved/Deathmatch/Packaging/ShippingMatch_20261119_055804/ShippingMatch.json",
+    "passed": true,
+    "network_errors": [],
+    "two_humans_in_five_per_side": true,
+    "legitimate_eliminations": 97,
+    "first_round_score": [
+      50,
+      47
+    ],
+    "first_round_winner": 0,
+    "default_score_limit": 50,
+    "requested_replay": true,
+    "reset_to_zero": true,
+    "second_round_frag": true,
+    "team_change": true,
+    "shipping_guest_joined": true
+  },
+  "release_private_menu": {
+    "source": "Saved/Deathmatch/PrivateMenu/20261119_060547/PrivateMenu.json",
+    "runtime": "Cooked Windows Development using release content",
+    "passed": true,
+    "checks_total": 19,
+    "actions": [
+      "private_page_starts_from_paused_solo",
+      "host_button_creates_unpaused_listen_game",
+      "os_socket_binds_only_to_selected_local_interface",
+      "typed_address_and_click_join_remote_world",
+      "host_sees_guest_replacing_bot",
+      "guest_returns_to_solo_through_button",
+      "host_backfills_departed_guest",
+      "guest_rejoins_after_intentional_leave",
+      "host_returns_to_solo_and_removes_listener",
+      "socket_released",
+      "guest_recovers_and_sees_connection_notice",
+      "previous_host_address_retained_after_disconnect",
+      "loss_notice_stays_visible_during_pause",
+      "closed_port_attempt_shows_connecting",
+      "closed_port_failure_reenables_form",
+      "unavailable_host_address_retained_for_retry",
+      "unavailable_notice_stays_visible_during_pause",
+      "host_reopens_identical_local_endpoint",
+      "guest_reconnects_from_failure_screen"
+    ]
+  }
+}

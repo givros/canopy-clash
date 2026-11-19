@@ -1,0 +1,40 @@
+[
+  {
+    "asset": "Moss001",
+    "provider": "ambientCG",
+    "source": "https://ambientcg.com/view?id=Moss001",
+    "license": "CC0",
+    "technique": "Height field photogrammetry",
+    "width_m": 0.45,
+    "files": [
+      "Moss001_Color.jpg",
+      "Moss001_NormalDX.jpg",
+      "Moss001_Roughness.jpg"
+    ],
+    "download": "https://ambientcg.com/get?file=Moss001_2K-JPG.zip",
+    "sha256_archive": "647be620484507af3a0b09da5bdea068882a009ff51732c05231feca6a8bd103"
+  },
+  {
+    "asset": "forest_leaves_03",
+    "provider": "Poly Haven",
+    "source": "https://polyhaven.com/a/forest_leaves_03",
+    "license": "CC0",
+    "photography": "Dimitrios Savva",
+    "processing": "Rob Tuytel",
+    "width_m": 2.3,
+    "maps": {
+      "Color": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_leaves_03/forest_leaves_03_diff_2k.jpg",
+        "md5": "61ef4565d2801ab0b8bab48ae4cca022"
+      },
+      "NormalDX": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_leaves_03/forest_leaves_03_nor_dx_2k.jpg",
+        "md5": "8b30ae4612b948fc51fdb33e303c21cc"
+      },
+      "Roughness": {
+        "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/forest_leaves_03/forest_leaves_03_rough_2k.jpg",
+        "md5": "fc5833c9c3843fac846b17f7767f51f4"
+      }
+    }
+  }
+]

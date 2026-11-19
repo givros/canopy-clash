@@ -1,0 +1,50 @@
+{
+  "fresh_editor_default_map": "/Game/AstraTemple/Maps/L_CanopyDeathmatch.L_CanopyDeathmatch",
+  "engine": "5.9.0-60351404+++UE5+Release-5.9",
+  "resolved_project": true,
+  "default_mode": "/Game/TempleTDM/Rules/BP_CanopyDeathmatch.BP_CanopyDeathmatch_C",
+  "pawn": "/Game/TempleTDM/Rules/BP_CanopyRanger.BP_CanopyRanger_C",
+  "ai": "/Game/TempleTDM/Rules/BP_CanopyBot.BP_CanopyBot_C",
+  "team_size": 5,
+  "target": 50,
+  "duration": 600.0,
+  "mcp_auto_start": true,
+  "test_port_override": 18083,
+  "path": "/mcp",
+  "saved_project_port": 8000,
+  "bound_address": "127.0.0.1",
+  "codex_configured_url": "http://127.0.0.1:8000/mcp",
+  "existing_desktop_session": {
+    "endpoint_responded": true,
+    "engine_toolsets_registered": 30,
+    "umg_and_pcg_registered": true,
+    "python_editor_toolset_registered": false,
+    "listener_address": "127.0.0.1",
+    "listener_port": 8000,
+    "same_editor_process_through_final_check": true
+  },
+  "fresh_test_python_editor_toolset_executed": true,
+  "final_project_startup": {
+    "engine": "5.9.0-60351404+++UE5+Release-5.9",
+    "project": "D:\\UnrealProjects\\gameAstraForest\\gameAstraForest.uproject",
+    "default_world": "/Game/AstraTemple/Maps/L_CanopyDeathmatch.L_CanopyDeathmatch",
+    "map_sha256": "84d0a16f4c510e02e2aa1501931f4a7d846419aed235e2688b3b8ccd272258e2",
+    "world_game_mode": "/Game/TempleTDM/Rules/BP_CanopyDeathmatch.BP_CanopyDeathmatch_C",
+    "pawn": "/Game/TempleTDM/Rules/BP_CanopyRanger.BP_CanopyRanger_C",
+    "bot": "/Game/TempleTDM/Rules/BP_CanopyBot.BP_CanopyBot_C",
+    "team_size": 5,
+    "score_limit": 50,
+    "time_limit": 600.0,
+    "starts": {
+      "Red": 6,
+      "Blue": 6
+    },
+    "deployment_markers": [
+      "Blue Deployment Navigation",
+      "Red Deployment Navigation"
+    ],
+    "patrol": 21,
+    "review_cameras": 0,
+    "test_port_override": 18085
+  }
+}

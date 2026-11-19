@@ -1,0 +1,17 @@
+{
+  "endpoint": "http://127.0.0.1:8001/mcp",
+  "purpose": "Isolated authoring editor, using the saved project content",
+  "engine": "5.9.0-60351404+++UE5+Release-5.9",
+  "editor_pid": 1204,
+  "open_map": "/Game/AstraTemple/Maps/L_CanopyDeathmatch.L_CanopyDeathmatch",
+  "rules_loaded": true,
+  "ranger_loaded": true,
+  "bot_loaded": true,
+  "capture_status": "Completed isolated authoring session",
+  "clean_shutdown_verified": true,
+  "unsaved_packages_at_exit": {
+    "maps": [],
+    "assets": []
+  },
+  "primary_editor_endpoint": "http://127.0.0.1:8000/mcp"
+}

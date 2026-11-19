@@ -1,0 +1,98 @@
+[
+  {
+    "spawn": "Red Arrival 1",
+    "previous": 55.00000000000001,
+    "yaw": 55,
+    "previous_clear_m": 52.93,
+    "clear_m": 52.93,
+    "min_central_fan_m": 47.77
+  },
+  {
+    "spawn": "Red Arrival 2",
+    "previous": -37.00000000000001,
+    "yaw": -37,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 65
+  },
+  {
+    "spawn": "Red Arrival 3",
+    "previous": -33.00000000000001,
+    "yaw": -33,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 65
+  },
+  {
+    "spawn": "Red Arrival 4",
+    "previous": 31.00000000000001,
+    "yaw": 31,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 65
+  },
+  {
+    "spawn": "Red Arrival 5",
+    "previous": 23.000000000000014,
+    "yaw": 23,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 65
+  },
+  {
+    "spawn": "Red Arrival 6",
+    "previous": 19.000000000000014,
+    "yaw": 19,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 65
+  },
+  {
+    "spawn": "Blue Arrival 1",
+    "previous": 115.0,
+    "yaw": 115,
+    "previous_clear_m": 32.3,
+    "clear_m": 32.3,
+    "min_central_fan_m": 30.73
+  },
+  {
+    "spawn": "Blue Arrival 2",
+    "previous": 147.0,
+    "yaw": 147,
+    "previous_clear_m": 38.72,
+    "clear_m": 38.72,
+    "min_central_fan_m": 38.72
+  },
+  {
+    "spawn": "Blue Arrival 3",
+    "previous": -125.00000000000004,
+    "yaw": 159,
+    "previous_clear_m": 65,
+    "clear_m": 62.78,
+    "min_central_fan_m": 7.21
+  },
+  {
+    "spawn": "Blue Arrival 4",
+    "previous": -145.0,
+    "yaw": 215,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 65
+  },
+  {
+    "spawn": "Blue Arrival 5",
+    "previous": -145.0,
+    "yaw": 215,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 65
+  },
+  {
+    "spawn": "Blue Arrival 6",
+    "previous": -149.00000000000006,
+    "yaw": 211,
+    "previous_clear_m": 65,
+    "clear_m": 65,
+    "min_central_fan_m": 57.25
+  }
+]

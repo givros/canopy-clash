@@ -1,0 +1,219 @@
+{
+  "slow_frame_diagnostics": {
+    "frames_over_33ms": {
+      "frame_count": 181,
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 6.454,
+        "GPU/Basepass": 4.823,
+        "GPU/RenderVelocities": 3.401,
+        "GPU/Unaccounted": 2.823,
+        "GPU/NaniteVisBuffer": 1.832,
+        "GPU/GPUSkinCache": 1.348
+      }
+    },
+    "frames_under_33ms": {
+      "frame_count": 2576,
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 4.302,
+        "GPU/Basepass": 3.173,
+        "GPU/RenderVelocities": 2.875,
+        "GPU/Unaccounted": 2.762,
+        "GPU/NaniteVisBuffer": 1.202,
+        "GPU/LumenSceneUpdate": 1.049
+      }
+    }
+  },
+  "sections": {
+    "Jungle approach": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 6.666,
+        "GPU/Basepass": 5.26,
+        "GPU/RenderVelocities": 3.848,
+        "GPU/Unaccounted": 3.087,
+        "GPU/NaniteVisBuffer": 1.781,
+        "GPU/GPUSkinCache": 1.336
+      },
+      "native_frames": 194,
+      "mean_fps": 27.83,
+      "frame_p95_ms": 51.251,
+      "gpu_p95_ms": 47.184
+    },
+    "Causeway and quay": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 3.935,
+        "GPU/Basepass": 3.748,
+        "GPU/RenderVelocities": 3.389,
+        "GPU/Unaccounted": 2.926,
+        "GPU/NaniteVisBuffer": 1.644,
+        "GPU/TemporalSuperResolution": 1.045
+      },
+      "native_frames": 548,
+      "mean_fps": 37.19,
+      "frame_p95_ms": 33.74,
+      "gpu_p95_ms": 26.845
+    },
+    "Stair flight 1": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 3.547,
+        "GPU/RenderVelocities": 3.161,
+        "GPU/Basepass": 3.157,
+        "GPU/Unaccounted": 2.476,
+        "GPU/NaniteVisBuffer": 1.265,
+        "GPU/LumenSceneUpdate": 1.126
+      },
+      "native_frames": 108,
+      "mean_fps": 39.39,
+      "frame_p95_ms": 32.105,
+      "gpu_p95_ms": 25.224
+    },
+    "Stair flight 2": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 2.816,
+        "GPU/Basepass": 2.383,
+        "GPU/Unaccounted": 2.239,
+        "GPU/RenderVelocities": 2.23,
+        "GPU/TemporalSuperResolution": 0.785,
+        "GPU/RayTracingScene": 0.703
+      },
+      "native_frames": 158,
+      "mean_fps": 49.8,
+      "frame_p95_ms": 30.527,
+      "gpu_p95_ms": 22.945
+    },
+    "Stair flight 3": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 3.581,
+        "GPU/Basepass": 3.482,
+        "GPU/RenderVelocities": 3.45,
+        "GPU/Unaccounted": 2.713,
+        "GPU/NaniteBasePass": 1.195,
+        "GPU/LumenSceneUpdate": 1.064
+      },
+      "native_frames": 128,
+      "mean_fps": 40.21,
+      "frame_p95_ms": 30.989,
+      "gpu_p95_ms": 25.259
+    },
+    "Deity portal and ritual hall": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 4.549,
+        "GPU/RenderVelocities": 3.145,
+        "GPU/Basepass": 3.065,
+        "GPU/Unaccounted": 2.576,
+        "GPU/NaniteBasePass": 1.365,
+        "GPU/LumenSceneUpdate": 1.089
+      },
+      "native_frames": 194,
+      "mean_fps": 39.5,
+      "frame_p95_ms": 31.424,
+      "gpu_p95_ms": 25.477
+    },
+    "Return through hall down all stairs": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 4.031,
+        "GPU/Basepass": 2.833,
+        "GPU/Unaccounted": 2.596,
+        "GPU/RenderVelocities": 2.357,
+        "GPU/NaniteVisBuffer": 1.536,
+        "GPU/LumenSceneUpdate": 1.228
+      },
+      "native_frames": 608,
+      "mean_fps": 41.69,
+      "frame_p95_ms": 31.519,
+      "gpu_p95_ms": 25.189
+    },
+    "Return across causeway": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 4.674,
+        "GPU/Basepass": 3.049,
+        "GPU/Unaccounted": 2.758,
+        "GPU/RenderVelocities": 2.62,
+        "GPU/NaniteBasePass": 1.111,
+        "GPU/LumenSceneUpdate": 1.094
+      },
+      "native_frames": 548,
+      "mean_fps": 38.95,
+      "frame_p95_ms": 33.147,
+      "gpu_p95_ms": 26.004
+    },
+    "Return to jungle PlayerStart": {
+      "top_gpu_pass_mean_ms": {
+        "GPU/ShadowDepths": 5.975,
+        "GPU/Unaccounted": 3.198,
+        "GPU/Basepass": 3.028,
+        "GPU/RenderVelocities": 2.967,
+        "GPU/NaniteBasePass": 1.347,
+        "GPU/TemporalSuperResolution": 0.918
+      },
+      "native_frames": 271,
+      "mean_fps": 36.4,
+      "frame_p95_ms": 33.8,
+      "gpu_p95_ms": 27.27
+    }
+  },
+  "source": "Saved\\Profiling\\CSV\\Astra_main_20261119_020018.csv",
+  "scope": "Native engine counters during offscreen Play In Editor; editor overhead and concurrent GPU processes remain included. GPU timing is reported only for a populated native GPU channel.",
+  "channels": {
+    "FrameTime": {
+      "samples": 2757,
+      "mean_ms": 26.048,
+      "median_ms": 25.785,
+      "p95_ms": 33.765,
+      "p99_ms": 49.104,
+      "max_ms": 238.081,
+      "mean_fps": 38.39
+    },
+    "RenderThreadTime": {
+      "samples": 2757,
+      "mean_ms": 24.858,
+      "median_ms": 25.698,
+      "p95_ms": 33.19,
+      "p99_ms": 34.761,
+      "max_ms": 157.016
+    },
+    "GameThreadTime": {
+      "samples": 2757,
+      "mean_ms": 11.655,
+      "median_ms": 11.104,
+      "p95_ms": 15.171,
+      "p99_ms": 18.477,
+      "max_ms": 69.297
+    },
+    "GPUTime": {
+      "samples": 2757,
+      "mean_ms": 21.27,
+      "median_ms": 20.125,
+      "p95_ms": 26.973,
+      "p99_ms": 41.014,
+      "max_ms": 60.999
+    },
+    "RHIThreadTime": {
+      "samples": 2757,
+      "mean_ms": 5.777,
+      "median_ms": 5.799,
+      "p95_ms": 7.169,
+      "p99_ms": 8.11,
+      "max_ms": 10.137
+    }
+  },
+  "skipped_non_frame_rows": 2,
+  "runtime": {
+    "engine_version": "5.9.0-60351404+++UE5+Release-5.9",
+    "viewport_px": [
+      1239,
+      350
+    ],
+    "r_screen_percentage": 0.0,
+    "t_max_fps": 0.0,
+    "render_cvars": {
+      "r.Shadow.Virtual.NonNanite.IncludeInCoarsePages": 1,
+      "r.Shadow.Virtual.Cache": 1,
+      "r.VelocityOutputPass": 0,
+      "r.Velocity.EnableVertexDeformation": 2,
+      "r.EyeAdaptation.CachedLightingPreExposure": 8,
+      "r.Water.SingleLayer.Reflection": 3
+    },
+    "route_completed": true,
+    "walk_distance_m": 410.08
+  }
+}
