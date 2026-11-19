@@ -1,0 +1,322 @@
+{
+  "groups": [
+    {
+      "files": 2,
+      "manifest_sha256": "123a6e6759902f5655fb51fa2234f4a69580ed6347cbb4aebdb43c86edb011ec",
+      "parts": [
+        {
+          "bytes": 7669639,
+          "name": "artsource-astratemple-references-123a6e6759902f56.gpg.001.part",
+          "sha256": "edda3ddf1e422c9d1e0f0f4360c6131b6a43cec63b091528e314b396e37fb27f"
+        }
+      ],
+      "root": "ArtSource/AstraTemple/References"
+    },
+    {
+      "files": 141,
+      "manifest_sha256": "8d5582c00638106d6b2c8d6283d9f75cf7fce4864d3a3c005a06bca335326dbc",
+      "parts": [
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.001.part",
+          "sha256": "d05f98fb6d9440df6d4695a58062fa56ed768c84ce709d506f25bc338faed899"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.002.part",
+          "sha256": "a75e0de257cadf7e503285751137396247f75ea626464b34ca4827fa4130ce9b"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.003.part",
+          "sha256": "27187665d537c2ac252bd2397c4d62a91c3baa4121983cc20581476475ca02ac"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.004.part",
+          "sha256": "185ec4fe3cc3c34dfcc8f34845bfc229f98cc594da42f1e0839deaa0831a94b6"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.005.part",
+          "sha256": "c83b308ecf15532aae1e16e827a22f28997f1e378cb2e48a7496dccf3b87a0bf"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.006.part",
+          "sha256": "b8a6041d4161ddaae0f397e14a30a57f378be56cd6228dde2952c621a9d3ce46"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.007.part",
+          "sha256": "d02fb0df943ba55fc8e23453f8b0117136304122d2f4223215274c4d342e34bc"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.008.part",
+          "sha256": "24aec8ac7c3e15cdd2cec79acd1cb56fe5b446bc82f22b97c8de0f34eb14fa1d"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.009.part",
+          "sha256": "7517b0647c3589bffb95c9c03c714f5114166179b5783fdd0deb1bfe5f336f1f"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.010.part",
+          "sha256": "ad835a5085989efb32e726634ac5ad1504ace3810e511398b8522cb95b90c89e"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.011.part",
+          "sha256": "e2230fa9736df72a7004dc1e33f61918bc77ae7d05b7523819af4d4e6dfde979"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-fab-8d5582c00638106d.gpg.012.part",
+          "sha256": "386891b0e1badee098d8285f900adfdfb8ec22db7516494a7206d050dee71e6b"
+        },
+        {
+          "bytes": 75240100,
+          "name": "content-fab-8d5582c00638106d.gpg.013.part",
+          "sha256": "4b01f2fd2c72579807ccfbd8f04241639185ae56b98aabd454fd1a00666be879"
+        }
+      ],
+      "root": "Content/Fab"
+    },
+    {
+      "files": 2,
+      "manifest_sha256": "eec488d9e17410d7f2be1818214dc29c24f8aad114fcb5849fa56439253016b8",
+      "parts": [
+        {
+          "bytes": 83886080,
+          "name": "content-editablecharacters-eec488d9e17410d7.gpg.001.part",
+          "sha256": "ff08c4dc7e75ee19753a75099408dc0674e4e7b783266835a3ae99c0fbbe6797"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-editablecharacters-eec488d9e17410d7.gpg.002.part",
+          "sha256": "d3104e949a1842d8a3d21b159a255a7a1686eb92383b07101db1a35fd1c6d90f"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-editablecharacters-eec488d9e17410d7.gpg.003.part",
+          "sha256": "e6671c58ed4aa5cbf18deeec112bdffb810f34fc2db33ae445bc7222f38cd9e7"
+        },
+        {
+          "bytes": 42613348,
+          "name": "content-editablecharacters-eec488d9e17410d7.gpg.004.part",
+          "sha256": "eb601cf492428dd2faafc801eda5f9c81b50053616ba9b29750a13285dd9ddd5"
+        }
+      ],
+      "root": "Content/EditableCharacters"
+    },
+    {
+      "files": 608,
+      "manifest_sha256": "bd6aa6d24ee98798832a89d2929913a9024fd7a942b016eb8e1c8b5c920ce4d8",
+      "parts": [
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.001.part",
+          "sha256": "d9bf9f15afd911bbae9e9184de6f44251b2b270e68035134f39d644156557448"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.002.part",
+          "sha256": "aa1b1ebed926fe875e2d4237c039cc1dfc040c6445245c1f51fe5ede02205e41"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.003.part",
+          "sha256": "2ff504ee92aa61d6140eca05b5e5a3a7c4c1522c9b7d44ee2916e3c7f6b813f9"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.004.part",
+          "sha256": "aba53a2f923c98dc64a23e1b7e69e344cc30e7adba803aa6cc7bd74eec1180f1"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.005.part",
+          "sha256": "89c04890c74de0a373d14670ff1c850cffff1ada00792ca8d82d3f33212237a5"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.006.part",
+          "sha256": "41e95041ab7b001bcdbe11a6c8426d19c5cf2b92d6c896418cb587bd35dde002"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.007.part",
+          "sha256": "f9a831dc8bc743f8e8354616631cf51a1e2d50215be665542c86778065882008"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.008.part",
+          "sha256": "7587c48a2c659ce4ec1f48a309a69c52a60d958d688c7d126713bad50f0fbd73"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.009.part",
+          "sha256": "615ccfff8310d472290b880f40c58b4a3558eb5c6edc836cf8718ffd28176a55"
+        },
+        {
+          "bytes": 83886080,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.010.part",
+          "sha256": "0d295bb7d48b29276408c819c3600c9a45d7f9bb9afe9a074762baa590c7e4ac"
+        },
+        {
+          "bytes": 11553461,
+          "name": "content-templetdm-bots-bd6aa6d24ee98798.gpg.011.part",
+          "sha256": "77cf7b201c8b78b964b4a16dff866a879c0d4104c71f243a64c658111ff6d019"
+        }
+      ],
+      "root": "Content/TempleTDM/Bots"
+    },
+    {
+      "files": 4,
+      "manifest_sha256": "bbe9fa9a84424a214b5dc02f49875fc9ecb2bbf195713a8d07dbf9b5f234af0c",
+      "parts": [
+        {
+          "bytes": 3281231,
+          "name": "content-templetdm-animation-bbe9fa9a84424a21.gpg.001.part",
+          "sha256": "20d95124f357b6dc510078ad8962a66c8013f67e78371ef6d6bacf7befcfc51e"
+        }
+      ],
+      "root": "Content/TempleTDM/Animation"
+    },
+    {
+      "files": 2,
+      "manifest_sha256": "6d9fb65a1368849f4f08c8d00db41f8f2716173103b3b08ddc207e0ce71f7c34",
+      "parts": [
+        {
+          "bytes": 1262061,
+          "name": "content-templetdm-presentation-6d9fb65a1368849f.gpg.001.part",
+          "sha256": "c1a03eb82e53b3a9f18a9afe53fbde88b684af5ccffac8645181a0250cd8ca7e"
+        }
+      ],
+      "root": "Content/TempleTDM/Presentation"
+    },
+    {
+      "files": 128,
+      "manifest_sha256": "91dc15e0bfa65033466a52d17280b043babadda99d3be83d3b291faef8f888d4",
+      "parts": [
+        {
+          "bytes": 61938227,
+          "name": "content-characters-91dc15e0bfa65033.gpg.001.part",
+          "sha256": "fe50c685fce942a44d67a5c6ce089edebfe5b5fd443870d846baec2ec2ccf600"
+        }
+      ],
+      "root": "Content/Characters"
+    },
+    {
+      "files": 27,
+      "manifest_sha256": "bce4706a21b9dd4ed5597bc5fa99cc5a7185273d67f6419d90c22e266bad4473",
+      "parts": [
+        {
+          "bytes": 10818980,
+          "name": "content-weapons-bce4706a21b9dd4e.gpg.001.part",
+          "sha256": "b877443917a12b6fd436d333160795b8deac5744ce55dfab9c80e713bd1feceb"
+        }
+      ],
+      "root": "Content/Weapons"
+    },
+    {
+      "files": 9,
+      "manifest_sha256": "4ec7992d8b3c251a0663d4f54f81716bf5d86fb4787112d9a187f0752264f8eb",
+      "parts": [
+        {
+          "bytes": 147046,
+          "name": "content-firstperson-4ec7992d8b3c251a.gpg.001.part",
+          "sha256": "cb9f29ef6b6fb800e902b5797da96940e2a797517e1d35a0f07f564c3fd7621b"
+        }
+      ],
+      "root": "Content/FirstPerson"
+    },
+    {
+      "files": 51,
+      "manifest_sha256": "0534c665eebc653da1694f70f83091dcda90087ed2e49d0f84fe5db117151292",
+      "parts": [
+        {
+          "bytes": 1360844,
+          "name": "content-variant_shooter-0534c665eebc653d.gpg.001.part",
+          "sha256": "ffc7b60e0c004770cc205dca38708e2c7bcbb73c0995279d08e15d7c221dcb03"
+        }
+      ],
+      "root": "Content/Variant_Shooter"
+    },
+    {
+      "files": 29,
+      "manifest_sha256": "02a2bd37ad98e7b373c96475f45687dfc473a4dd7fdd4bfdfc79a80e62083577",
+      "parts": [
+        {
+          "bytes": 942082,
+          "name": "content-levelprototyping-02a2bd37ad98e7b3.gpg.001.part",
+          "sha256": "894d53494fc77a2faa57248926fa7782e21e4205eff5533cd3377f9a68111a04"
+        }
+      ],
+      "root": "Content/LevelPrototyping"
+    },
+    {
+      "files": 9,
+      "manifest_sha256": "488b8236a79723a6b7b9298c3fbbb139037aead1cd3ac1c6074f4512844ac640",
+      "parts": [
+        {
+          "bytes": 72446,
+          "name": "content-input-488b8236a79723a6.gpg.001.part",
+          "sha256": "edbc7ec80d7b5ff069dc8165d4cae18da1e4af6dcaad68c40a99e9a285bda195"
+        }
+      ],
+      "root": "Content/Input"
+    },
+    {
+      "files": 63,
+      "manifest_sha256": "cb7cbb09d7c947ae141574c4d55988da09b7f251842d80ffcb17e421bd0ac0b7",
+      "parts": [
+        {
+          "bytes": 57589,
+          "name": "content-__externalactors__-firstperson-cb7cbb09d7c947ae.gpg.001.part",
+          "sha256": "dc9a524f52eb5e6ff35aaba82edc2b9a3b46578dff70e5e1be9c6481c3cc0387"
+        }
+      ],
+      "root": "Content/__ExternalActors__/FirstPerson"
+    },
+    {
+      "files": 132,
+      "manifest_sha256": "7f803f7a26031219331a4cb8b7438fb4e26e70175bf4a7e9d8a79932b3bc01b3",
+      "parts": [
+        {
+          "bytes": 175661,
+          "name": "content-__externalactors__-variant_shooter-7f803f7a26031219.gpg.001.part",
+          "sha256": "da99304d567292bcc91062c31183021838ee93f7d1de60461aa3af6721d673f5"
+        }
+      ],
+      "root": "Content/__ExternalActors__/Variant_Shooter"
+    },
+    {
+      "files": 1,
+      "manifest_sha256": "a927c080781a5826f650e8b7c14fc70dbdaa0c5920c1c149682cfb1008126df1",
+      "parts": [
+        {
+          "bytes": 1382,
+          "name": "content-__externalobjects__-firstperson-a927c080781a5826.gpg.001.part",
+          "sha256": "51800c043e850cfc3cf58312f18144be12330f785ed082f64674364a409b8040"
+        }
+      ],
+      "root": "Content/__ExternalObjects__/FirstPerson"
+    },
+    {
+      "files": 9,
+      "manifest_sha256": "ea5508d008c40901192ab84a4053fecb94d5671a3c664538fa2448f2e0f3f46a",
+      "parts": [
+        {
+          "bytes": 4246,
+          "name": "content-__externalobjects__-variant_shooter-ea5508d008c40901.gpg.001.part",
+          "sha256": "e540c0195b9265623b8290b0a2f12b9b2b69f76e2426da03043cfb1ef6c3d4e8"
+        }
+      ],
+      "root": "Content/__ExternalObjects__/Variant_Shooter"
+    }
+  ],
+  "version": 1
+}
